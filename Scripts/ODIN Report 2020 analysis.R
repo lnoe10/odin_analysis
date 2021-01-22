@@ -11,4 +11,10 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
               janitor::clean_names() %>%
               # Take out missing observations at bottom of the table, it's just metadata on copyright
               filter(!is.na(year))) %>%
-  mutate(second_administrative_level = as.numeric(str_remove(second_administrative_level, "-")))
+  mutate(second_administrative_level = as.numeric(str_remove(second_administrative_level, "-")),
+         data_categories = str_remove_all(data_categories, "\\n$|\\s$"),
+         data_categories = case_when(
+           data_categories == "Energy use" ~ "Energy",
+           data_categories == "Land use" ~ "Agriculture & Land Use",
+           TRUE ~ data_categories
+         ))

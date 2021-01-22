@@ -1,5 +1,6 @@
 library(tidyverse)
 
+# Read in and clean data
 odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
   # convert all variable names to snakecase
   janitor::clean_names() %>%
@@ -20,6 +21,6 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
            TRUE ~ data_categories
          )) %>%
   # Convert to long
-  pivot_longer(indicator_coverage_and_disaggregation:overall_score, names_to = "elements", values_to = "score") %>%
+  pivot_longer(indicator_coverage_and_disaggregation:overall_score, names_to = "element", values_to = "score") %>%
   # Convert elements back to sentence case for easier reading
-  mutate(elements = str_to_sentence(str_replace_all(elements, "_", " ")))
+  mutate(element = str_to_sentence(str_replace_all(element, "_", " ")))

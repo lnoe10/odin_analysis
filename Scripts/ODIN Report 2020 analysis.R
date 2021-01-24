@@ -41,13 +41,15 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
-# Average coverage by sector
+# Coverage by category, 2018 vs 2020
 odin_scores %>%
   filter(element == "Coverage subscore") %>%
-  group_by(data_categories) %>%
+  group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  arrange(desc(mean_availability))
+  ggplot(aes(x = data_categories, y = mean_availability, fill = year)) +
+  geom_col(position = "dodge2") +
+  theme(legend.position = "none")
 
 # Average openness by sector
 odin_scores %>%

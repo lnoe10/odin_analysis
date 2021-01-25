@@ -21,6 +21,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Burundi,BDI,Energy use,100,100,100,0,0,60,0,100,0,100,0,40,50
 2016,Eastern Africa,AFE,Burundi,BDI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Burundi,BDI,Built environment,100,50,50,50,0,50,0,100,0,100,0,40,45
+2016,Eastern Africa,AFE,Burundi,BDI,Environment subscore,80,70,70,20,0,48,0,80,0,80,0,32,40
+2016,Eastern Africa,AFE,Burundi,BDI,All Categories,62.1,58.8,58.8,17.5,2.7,42.6,0,83.8,0,81.7,0,33.1,37.7
 2016,Eastern Africa,AFE,Djibouti,DJI,Population & vital statistics,50,0,0,0,0,10,0,100,0,0,0,20,15
 2016,Eastern Africa,AFE,Djibouti,DJI,Education facilities,50,50,50,50,0,40,50,100,50,0,0,40,40
 2016,Eastern Africa,AFE,Djibouti,DJI,Education outcomes,50,50,50,50,0,40,50,100,50,0,0,40,40
@@ -43,6 +45,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Djibouti,DJI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Djibouti,DJI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Djibouti,DJI,Built environment,100,50,0,0,0,30,0,100,0,0,0,20,25
+2016,Eastern Africa,AFE,Djibouti,DJI,Environment subscore,30,20,10,0,0,12,10,40,10,0,0,12,12
+2016,Eastern Africa,AFE,Djibouti,DJI,All Categories,50.8,38.5,33.1,7.6,0,27.9,18.2,71.7,18.2,14.3,0,24.5,26.1
 2016,Eastern Africa,AFE,Ethiopia,ETH,Population & vital statistics,50,50,0,0,50,30,50,100,50,50,0,50,40
 2016,Eastern Africa,AFE,Ethiopia,ETH,Education facilities,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Eastern Africa,AFE,Ethiopia,ETH,Education outcomes,50,50,50,50,0,40,0,100,0,0,0,20,30
@@ -65,6 +69,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Ethiopia,ETH,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Ethiopia,ETH,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Ethiopia,ETH,Built environment,100,0,0,100,0,40,0,100,0,100,0,40,40
+2016,Eastern Africa,AFE,Ethiopia,ETH,Environment subscore,30,10,10,20,0,14,0,40,0,40,0,16,15
+2016,Eastern Africa,AFE,Ethiopia,ETH,All Categories,46.3,28,19.4,20.3,2.7,24.5,6.8,62.7,4.5,32.1,0,21.2,22.8
 2016,Eastern Africa,AFE,Kenya,KEN,Population & vital statistics,50,50,0,50,50,40,0,100,0,50,50,40,40
 2016,Eastern Africa,AFE,Kenya,KEN,Education facilities,100,100,100,50,0,70,50,100,50,50,50,60,65
 2016,Eastern Africa,AFE,Kenya,KEN,Education outcomes,50,50,50,50,50,50,50,100,50,50,50,60,55
@@ -87,6 +93,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Kenya,KEN,Energy use,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Eastern Africa,AFE,Kenya,KEN,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Kenya,KEN,Built environment,100,50,0,50,50,50,50,100,50,50,50,60,55
+2016,Eastern Africa,AFE,Kenya,KEN,Environment subscore,60,50,40,10,10,34,20,80,20,40,40,40,37
+2016,Eastern Africa,AFE,Kenya,KEN,All Categories,71.2,59.2,45.2,23.7,18.4,45.5,33.2,91,30.8,46.7,46.7,49.6,47.6
 2016,Eastern Africa,AFE,Madagascar,MDG,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Madagascar,MDG,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Madagascar,MDG,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -109,6 +117,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Madagascar,MDG,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Madagascar,MDG,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Madagascar,MDG,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Eastern Africa,AFE,Madagascar,MDG,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Eastern Africa,AFE,Madagascar,MDG,All Categories,9.5,4.8,0,0,0,3.1,0,9.5,0,7.1,0,3.3,3.2
 2016,Eastern Africa,AFE,Malawi,MWI,Population & vital statistics,50,50,50,50,0,40,50,100,50,50,50,60,50
 2016,Eastern Africa,AFE,Malawi,MWI,Education facilities,50,50,50,50,0,40,50,100,0,0,50,40,40
 2016,Eastern Africa,AFE,Malawi,MWI,Education outcomes,50,50,50,50,0,40,50,50,50,50,50,50,45
@@ -131,6 +141,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Malawi,MWI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Malawi,MWI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Malawi,MWI,Built environment,100,100,50,50,0,60,50,100,50,50,50,60,60
+2016,Eastern Africa,AFE,Malawi,MWI,Environment subscore,40,40,30,10,0,24,20,60,20,10,30,28,26
+2016,Eastern Africa,AFE,Malawi,MWI,All Categories,58.3,47,35.3,21.3,0,34.4,28.4,80.4,19.8,25.7,41.2,39.1,36.8
 2016,Eastern Africa,AFE,Mauritius,MUS,Population & vital statistics,100,100,100,0,0,60,100,100,0,100,50,70,65
 2016,Eastern Africa,AFE,Mauritius,MUS,Education facilities,50,50,50,50,0,40,100,100,0,0,50,50,45
 2016,Eastern Africa,AFE,Mauritius,MUS,Education outcomes,50,50,50,50,0,40,100,50,0,0,50,40,40
@@ -153,6 +165,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Mauritius,MUS,Energy use,100,100,100,0,0,60,100,100,0,100,50,70,65
 2016,Eastern Africa,AFE,Mauritius,MUS,Pollution,50,50,50,0,0,30,100,100,0,0,50,50,40
 2016,Eastern Africa,AFE,Mauritius,MUS,Built environment,50,0,0,50,50,30,100,100,0,100,50,70,50
+2016,Eastern Africa,AFE,Mauritius,MUS,Environment subscore,60,50,50,10,10,36,100,90,0,50,50,58,47
+2016,Eastern Africa,AFE,Mauritius,MUS,All Categories,80.4,77.1,75,8.8,4.4,52.7,87.5,85.1,6.3,55.4,50,56.8,54.8
 2016,Eastern Africa,AFE,Mozambique,MOZ,Population & vital statistics,50,50,50,50,50,50,100,0,50,0,0,30,40
 2016,Eastern Africa,AFE,Mozambique,MOZ,Education facilities,50,50,50,0,0,30,50,50,50,0,0,30,30
 2016,Eastern Africa,AFE,Mozambique,MOZ,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -175,6 +189,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Mozambique,MOZ,Energy use,50,50,50,50,0,40,100,100,50,0,0,50,45
 2016,Eastern Africa,AFE,Mozambique,MOZ,Pollution,50,0,0,0,0,10,100,0,50,0,0,30,20
 2016,Eastern Africa,AFE,Mozambique,MOZ,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Eastern Africa,AFE,Mozambique,MOZ,Environment subscore,40,20,20,20,0,20,60,60,30,0,0,30,25
+2016,Eastern Africa,AFE,Mozambique,MOZ,All Categories,49.3,38.2,31.4,18.2,2.7,29.6,57.2,48,27.3,0,0,26.5,28
 2016,Eastern Africa,AFE,Rwanda,RWA,Population & vital statistics,50,50,50,0,0,30,100,50,50,50,100,70,50
 2016,Eastern Africa,AFE,Rwanda,RWA,Education facilities,50,50,50,0,0,30,0,100,0,100,100,60,45
 2016,Eastern Africa,AFE,Rwanda,RWA,Education outcomes,50,50,50,0,0,30,50,100,50,100,100,80,55
@@ -197,6 +213,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Rwanda,RWA,Energy use,100,100,100,0,0,60,0,100,0,100,100,60,60
 2016,Eastern Africa,AFE,Rwanda,RWA,Pollution,50,50,50,0,0,30,50,100,50,100,100,80,55
 2016,Eastern Africa,AFE,Rwanda,RWA,Built environment,100,50,50,0,0,40,50,100,50,50,100,70,55
+2016,Eastern Africa,AFE,Rwanda,RWA,Environment subscore,70,60,50,0,0,36,40,100,40,90,100,74,55
+2016,Eastern Africa,AFE,Rwanda,RWA,All Categories,72.4,64.9,54.8,0,0,41.6,26.1,97.9,26.4,90.1,100,68.1,55.4
 2016,Eastern Africa,AFE,South Sudan,SSD,Population & vital statistics,50,50,0,50,50,40,0,100,0,0,0,20,30
 2016,Eastern Africa,AFE,South Sudan,SSD,Education facilities,50,50,50,50,50,50,100,100,100,0,0,60,55
 2016,Eastern Africa,AFE,South Sudan,SSD,Education outcomes,50,50,50,50,50,50,50,100,50,0,0,40,45
@@ -219,6 +237,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,South Sudan,SSD,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,South Sudan,SSD,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,South Sudan,SSD,Built environment,100,0,50,100,0,50,100,100,100,0,0,60,55
+2016,Eastern Africa,AFE,South Sudan,SSD,Environment subscore,20,0,10,20,0,10,20,20,20,0,0,12,11
+2016,Eastern Africa,AFE,South Sudan,SSD,All Categories,35.5,11,17,27.6,10.9,20.7,33.5,54.9,23.9,6.8,0,23.8,22.3
 2016,Eastern Africa,AFE,Tanzania,TZA,Population & vital statistics,50,50,0,50,0,30,0,100,0,50,0,30,30
 2016,Eastern Africa,AFE,Tanzania,TZA,Education facilities,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Eastern Africa,AFE,Tanzania,TZA,Education outcomes,50,50,50,50,0,40,50,50,0,0,0,20,30
@@ -241,6 +261,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Tanzania,TZA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Tanzania,TZA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Tanzania,TZA,Built environment,100,50,0,100,0,50,50,50,0,50,0,30,40
+2016,Eastern Africa,AFE,Tanzania,TZA,Environment subscore,50,30,20,30,0,26,10,50,0,40,0,20,23
+2016,Eastern Africa,AFE,Tanzania,TZA,All Categories,70.2,50.5,32,23.8,2.7,37.9,14.9,74.1,0,37.7,0,25.4,31.4
 2016,Eastern Africa,AFE,Uganda,UGA,Population & vital statistics,50,50,50,50,50,50,0,100,0,50,50,40,45
 2016,Eastern Africa,AFE,Uganda,UGA,Education facilities,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Eastern Africa,AFE,Uganda,UGA,Education outcomes,50,50,50,0,0,30,0,100,0,100,50,50,40
@@ -263,6 +285,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Uganda,UGA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Uganda,UGA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Uganda,UGA,Built environment,100,50,50,50,0,50,0,100,0,50,50,40,45
+2016,Eastern Africa,AFE,Uganda,UGA,Environment subscore,60,30,30,10,0,26,0,60,0,30,30,24,25
+2016,Eastern Africa,AFE,Uganda,UGA,All Categories,71.5,55.2,50.8,6.3,2.7,40.1,23.8,77.1,0,47.5,33.8,36.5,38.2
 2016,Eastern Africa,AFE,Zambia,ZMB,Population & vital statistics,100,0,0,100,0,40,0,100,0,50,0,30,35
 2016,Eastern Africa,AFE,Zambia,ZMB,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Zambia,ZMB,Education outcomes,50,0,50,50,0,30,0,100,0,50,0,30,30
@@ -285,6 +309,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Zambia,ZMB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Zambia,ZMB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Zambia,ZMB,Built environment,100,0,0,100,0,40,0,100,0,50,0,30,35
+2016,Eastern Africa,AFE,Zambia,ZMB,Environment subscore,30,10,0,20,0,12,0,40,0,20,0,12,12
+2016,Eastern Africa,AFE,Zambia,ZMB,All Categories,49.3,21.5,11.6,32.8,0,23.9,0,61.5,0,30.8,0,18.5,21.1
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Population & vital statistics,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -307,6 +333,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Africa,AFE,Zimbabwe,ZWE,Built environment,100,50,0,50,0,40,0,100,0,50,0,30,35
+2016,Eastern Africa,AFE,Zimbabwe,ZWE,Environment subscore,30,20,0,20,0,14,0,60,0,20,0,16,15
+2016,Eastern Africa,AFE,Zimbabwe,ZWE,All Categories,54,39.7,22,25.5,0,29.8,0,77.1,0,32.9,2.4,22.5,26
 2016,Middle Africa,AFM,Angola,AGO,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Angola,AGO,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Middle Africa,AFM,Angola,AGO,Education outcomes,50,50,50,50,0,40,0,100,0,100,0,40,40
@@ -329,6 +357,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Angola,AGO,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Angola,AGO,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Angola,AGO,Built environment,100,50,0,50,0,40,50,100,50,50,0,50,45
+2016,Middle Africa,AFM,Angola,AGO,Environment subscore,30,20,10,10,0,14,10,40,10,20,0,16,15
+2016,Middle Africa,AFM,Angola,AGO,All Categories,41,28.7,25.4,8.8,0,22.2,7.8,61.5,7.8,37.6,0,23,22.6
 2016,Middle Africa,AFM,Cameroon,CMR,Population & vital statistics,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Middle Africa,AFM,Cameroon,CMR,Education facilities,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Middle Africa,AFM,Cameroon,CMR,Education outcomes,50,50,50,50,0,40,50,100,50,0,50,50,45
@@ -351,6 +381,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Cameroon,CMR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Cameroon,CMR,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Cameroon,CMR,Built environment,50,50,0,50,0,30,50,100,50,50,50,60,45
+2016,Middle Africa,AFM,Cameroon,CMR,Environment subscore,30,30,20,20,0,20,30,60,30,30,30,36,28
+2016,Middle Africa,AFM,Cameroon,CMR,All Categories,56.7,45.7,38.2,22.7,0,34.7,31.7,84.3,29.3,38.9,27.3,42.3,38.6
 2016,Middle Africa,AFM,Chad,TCD,Population & vital statistics,50,50,50,50,50,50,0,100,0,100,0,40,45
 2016,Middle Africa,AFM,Chad,TCD,Education facilities,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Middle Africa,AFM,Chad,TCD,Education outcomes,50,50,50,50,0,40,0,100,0,100,0,40,40
@@ -373,6 +405,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Chad,TCD,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Chad,TCD,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Chad,TCD,Built environment,100,50,0,50,0,40,0,100,0,100,0,40,40
+2016,Middle Africa,AFM,Chad,TCD,Environment subscore,30,20,10,20,0,16,0,40,0,30,0,14,15
+2016,Middle Africa,AFM,Chad,TCD,All Categories,52,37.6,28,30.3,5.9,32.1,0,75.2,0,58.2,0,26.7,29.3
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Population & vital statistics,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Education facilities,50,50,50,50,0,40,0,100,0,0,0,20,30
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -395,6 +429,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Built environment,50,50,0,50,0,30,0,100,0,50,0,30,30
+2016,Middle Africa,AFM,Congo Dem. Rep.,COD,Environment subscore,10,10,0,10,0,6,0,20,0,10,0,6,6
+2016,Middle Africa,AFM,Congo Dem. Rep.,COD,All Categories,42.9,34.3,26.5,28.5,0,27.7,0,63.8,0,36.1,0,20,23.7
 2016,Middle Africa,AFM,Congo Rep.,COG,Population & vital statistics,50,50,0,50,0,30,0,100,0,50,0,30,30
 2016,Middle Africa,AFM,Congo Rep.,COG,Education facilities,50,0,50,50,0,30,0,100,0,50,0,30,30
 2016,Middle Africa,AFM,Congo Rep.,COG,Education outcomes,50,0,50,0,0,20,0,100,0,50,0,30,25
@@ -417,6 +453,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Congo Rep.,COG,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Congo Rep.,COG,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Congo Rep.,COG,Built environment,100,50,0,50,0,40,0,100,0,100,0,40,40
+2016,Middle Africa,AFM,Congo Rep.,COG,Environment subscore,50,10,20,30,0,22,0,60,0,50,0,22,22
+2016,Middle Africa,AFM,Congo Rep.,COG,All Categories,58.9,12,26.9,29,3.1,27.1,0,77.7,0,52.7,0,26.1,26.6
 2016,Middle Africa,AFM,Gabon,GAB,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Gabon,GAB,Education facilities,100,0,50,50,0,40,0,100,0,50,0,30,35
 2016,Middle Africa,AFM,Gabon,GAB,Education outcomes,50,0,50,50,0,30,0,100,0,100,0,40,35
@@ -439,6 +477,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Gabon,GAB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Gabon,GAB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Gabon,GAB,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Middle Africa,AFM,Gabon,GAB,Environment subscore,40,0,10,10,0,12,0,40,0,20,0,12,12
+2016,Middle Africa,AFM,Gabon,GAB,All Categories,42.5,0,25.7,13.6,0,17.3,0,58,0,40.6,0,19.7,18.5
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Population & vital statistics,50,50,0,0,0,25,100,100,50,0,100,70,50
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Education facilities,50,50,50,0,0,37.5,100,100,50,0,100,70,55.6
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Education outcomes,50,50,50,0,0,37.5,100,100,50,0,100,70,55.6
@@ -461,6 +501,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Middle Africa,AFM,Sao Tome and Principe,STP,Built environment,100,50,0,0,0,37.5,100,100,50,0,100,70,55.6
+2016,Middle Africa,AFM,Sao Tome and Principe,STP,Environment subscore,30,20,10,0,0,15,40,40,20,0,40,28,22.2
+2016,Middle Africa,AFM,Sao Tome and Principe,STP,All Categories,36.2,28.7,18.5,0,0,21.6,55,52.6,28.7,0,50.2,37.3,30.5
 2016,Northern Africa,AFN,Algeria,DZA,Population & vital statistics,50,0,0,50,0,20,0,100,0,0,0,20,20
 2016,Northern Africa,AFN,Algeria,DZA,Education facilities,50,0,50,0,0,20,0,100,0,0,0,20,20
 2016,Northern Africa,AFN,Algeria,DZA,Education outcomes,50,0,50,0,0,20,0,100,0,0,0,20,20
@@ -483,6 +525,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Africa,AFN,Algeria,DZA,Energy use,0,0,0,0,0,0,0,100,0,0,0,20,10
 2016,Northern Africa,AFN,Algeria,DZA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Africa,AFN,Algeria,DZA,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Northern Africa,AFN,Algeria,DZA,Environment subscore,10,10,10,10,0,8,10,30,0,10,0,10,9
+2016,Northern Africa,AFN,Algeria,DZA,All Categories,44.1,31.3,31,6.3,0,24.2,5.4,70.4,0,21.8,0,19.5,21.8
 2016,Northern Africa,AFN,Egypt,EGY,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Northern Africa,AFN,Egypt,EGY,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Northern Africa,AFN,Egypt,EGY,Education outcomes,50,50,50,50,0,40,0,100,0,50,50,40,40
@@ -505,6 +549,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Africa,AFN,Egypt,EGY,Energy use,100,100,100,0,0,60,0,100,0,50,50,40,50
 2016,Northern Africa,AFN,Egypt,EGY,Pollution,100,50,50,0,0,40,0,100,0,50,50,40,40
 2016,Northern Africa,AFN,Egypt,EGY,Built environment,50,0,0,50,0,20,0,100,0,0,50,30,25
+2016,Northern Africa,AFN,Egypt,EGY,Environment subscore,80,60,60,20,0,44,0,100,0,40,50,38,41
+2016,Northern Africa,AFN,Egypt,EGY,All Categories,63.3,56.6,56.6,22.7,0,42.4,0,82.7,0,38.3,41.7,32.5,37.3
 2016,Northern Africa,AFN,Libya,LBY,Population & vital statistics,100,50,50,50,0,50,0,0,0,0,0,0,25
 2016,Northern Africa,AFN,Libya,LBY,Education facilities,50,50,0,50,0,30,0,0,0,0,0,0,15
 2016,Northern Africa,AFN,Libya,LBY,Education outcomes,50,50,0,50,0,30,0,0,0,0,0,0,15
@@ -527,6 +573,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Africa,AFN,Libya,LBY,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Africa,AFN,Libya,LBY,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Africa,AFN,Libya,LBY,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Northern Africa,AFN,Libya,LBY,Environment subscore,20,0,10,0,0,6,0,0,0,0,0,0,3
+2016,Northern Africa,AFN,Libya,LBY,All Categories,38.2,8.6,17.3,9.7,0,15.7,0,4.8,0,0,0,1,8
 2016,Northern Africa,AFN,Morocco,MAR,Population & vital statistics,50,50,50,50,50,50,50,100,0,50,0,40,45
 2016,Northern Africa,AFN,Morocco,MAR,Education facilities,50,50,0,0,0,20,0,100,0,0,0,20,20
 2016,Northern Africa,AFN,Morocco,MAR,Education outcomes,50,50,50,50,50,50,50,50,0,50,0,30,40
@@ -549,6 +597,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Africa,AFN,Morocco,MAR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Africa,AFN,Morocco,MAR,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Africa,AFN,Morocco,MAR,Built environment,100,50,50,50,50,60,50,50,0,100,0,40,50
+2016,Northern Africa,AFN,Morocco,MAR,Environment subscore,40,30,30,20,20,28,10,50,0,20,0,16,22
+2016,Northern Africa,AFN,Morocco,MAR,All Categories,58.3,43.9,30.2,20.3,20.1,35.7,9.9,72.3,0,21.5,0,20.8,28
 2016,Northern Africa,AFN,Tunisia,TUN,Population & vital statistics,100,100,100,50,0,70,100,100,50,50,0,60,65
 2016,Northern Africa,AFN,Tunisia,TUN,Education facilities,50,50,50,50,0,40,100,100,50,50,0,60,50
 2016,Northern Africa,AFN,Tunisia,TUN,Education outcomes,50,50,50,50,0,40,100,100,50,50,0,60,50
@@ -571,6 +621,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Africa,AFN,Tunisia,TUN,Energy use,50,50,50,0,0,30,100,100,50,0,0,50,40
 2016,Northern Africa,AFN,Tunisia,TUN,Pollution,100,0,50,0,0,30,100,100,50,0,0,50,40
 2016,Northern Africa,AFN,Tunisia,TUN,Built environment,100,50,50,0,0,40,100,100,50,0,0,50,45
+2016,Northern Africa,AFN,Tunisia,TUN,Environment subscore,80,40,50,0,0,34,100,100,50,10,0,52,43
+2016,Northern Africa,AFN,Tunisia,TUN,All Categories,67.1,51.7,55.1,14.6,0,40.4,89.6,89.3,45.8,18.8,0,48.7,44.7
 2016,Southern Africa,AFZ,Botswana,BWA,Population & vital statistics,100,100,50,50,0,60,0,100,0,100,50,50,55
 2016,Southern Africa,AFZ,Botswana,BWA,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Southern Africa,AFZ,Botswana,BWA,Education outcomes,50,50,50,0,0,30,0,100,0,50,50,40,35
@@ -593,6 +645,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Africa,AFZ,Botswana,BWA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Botswana,BWA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Botswana,BWA,Built environment,100,50,50,50,0,50,0,100,0,50,50,40,45
+2016,Southern Africa,AFZ,Botswana,BWA,Environment subscore,30,20,20,10,0,16,0,40,0,20,20,16,16
+2016,Southern Africa,AFZ,Botswana,BWA,All Categories,54.6,42.7,40.6,18.8,0,33.4,0,80,0,33.2,39.7,30.6,31.9
 2016,Southern Africa,AFZ,Lesotho,LSO,Population & vital statistics,100,50,0,50,50,50,0,100,0,100,0,40,45
 2016,Southern Africa,AFZ,Lesotho,LSO,Education facilities,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Southern Africa,AFZ,Lesotho,LSO,Education outcomes,50,50,50,50,0,40,0,100,0,100,0,40,40
@@ -615,6 +669,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Africa,AFZ,Lesotho,LSO,Energy use,100,50,50,0,0,40,0,100,0,100,0,40,40
 2016,Southern Africa,AFZ,Lesotho,LSO,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Lesotho,LSO,Built environment,100,50,50,0,0,40,50,50,50,50,0,40,40
+2016,Southern Africa,AFZ,Lesotho,LSO,Environment subscore,60,40,40,0,0,28,10,50,10,50,0,24,26
+2016,Southern Africa,AFZ,Lesotho,LSO,All Categories,60.5,37.7,36,12.5,2.7,31.8,14.9,75,10.2,54.5,0,30.9,31.3
 2016,Southern Africa,AFZ,Namibia,NAM,Population & vital statistics,100,50,50,50,0,50,0,100,0,100,0,40,45
 2016,Southern Africa,AFZ,Namibia,NAM,Education facilities,50,50,50,50,0,40,0,100,0,0,0,20,30
 2016,Southern Africa,AFZ,Namibia,NAM,Education outcomes,50,50,0,50,0,30,0,100,0,100,0,40,35
@@ -637,6 +693,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Africa,AFZ,Namibia,NAM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Namibia,NAM,Pollution,50,0,0,0,0,10,0,100,0,0,0,20,15
 2016,Southern Africa,AFZ,Namibia,NAM,Built environment,100,50,0,100,0,50,0,100,0,50,0,30,40
+2016,Southern Africa,AFZ,Namibia,NAM,Environment subscore,50,30,10,20,0,22,0,80,0,30,0,22,22
+2016,Southern Africa,AFZ,Namibia,NAM,All Categories,54.8,43.9,28.9,20.3,0,31.4,19,86.8,0,43.6,0,29.9,30.6
 2016,Southern Africa,AFZ,South Africa,ZAF,Population & vital statistics,100,100,100,100,50,90,0,100,0,50,100,50,70
 2016,Southern Africa,AFZ,South Africa,ZAF,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,South Africa,ZAF,Education outcomes,50,50,50,50,0,40,50,100,50,50,100,70,55
@@ -659,6 +717,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Africa,AFZ,South Africa,ZAF,Energy use,100,50,100,0,0,50,100,100,0,100,100,80,65
 2016,Southern Africa,AFZ,South Africa,ZAF,Pollution,50,0,50,0,0,20,0,100,0,0,100,40,30
 2016,Southern Africa,AFZ,South Africa,ZAF,Built environment,100,100,100,50,0,70,50,100,50,50,100,70,70
+2016,Southern Africa,AFZ,South Africa,ZAF,Environment subscore,70,50,70,20,0,42,60,100,10,60,90,64,53
+2016,Southern Africa,AFZ,South Africa,ZAF,All Categories,73,61.9,61.7,28.3,2.7,48.3,48,91.7,7.5,42.6,88.3,55.6,52.1
 2016,Southern Africa,AFZ,Eswatini,SWZ,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Eswatini,SWZ,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Eswatini,SWZ,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -681,6 +741,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Africa,AFZ,Eswatini,SWZ,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Eswatini,SWZ,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Africa,AFZ,Eswatini,SWZ,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Southern Africa,AFZ,Eswatini,SWZ,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Southern Africa,AFZ,Eswatini,SWZ,All Categories,6.8,6.8,4.8,0,0,4,0,13.7,0,13.7,2.4,6,5
 2016,Western Africa,AFW,Benin,BEN,Population & vital statistics,50,50,0,50,0,30,100,100,0,0,0,40,35
 2016,Western Africa,AFW,Benin,BEN,Education facilities,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Western Africa,AFW,Benin,BEN,Education outcomes,50,50,50,0,0,30,0,100,0,0,0,20,25
@@ -703,6 +765,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Benin,BEN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Benin,BEN,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Benin,BEN,Built environment,100,50,0,50,0,40,0,100,0,100,50,50,45
+2016,Western Africa,AFW,Benin,BEN,Environment subscore,20,10,0,10,0,8,0,20,0,20,10,10,9
+2016,Western Africa,AFW,Benin,BEN,All Categories,40.3,23.6,22.9,18.8,2.7,22.7,20.5,60.2,0,22.4,5.4,21.7,22.2
 2016,Western Africa,AFW,Burkina Faso,BFA,Population & vital statistics,50,0,50,50,50,40,0,100,0,0,0,20,30
 2016,Western Africa,AFW,Burkina Faso,BFA,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Western Africa,AFW,Burkina Faso,BFA,Education outcomes,50,50,50,50,0,40,0,50,0,50,0,20,30
@@ -725,6 +789,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Burkina Faso,BFA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Burkina Faso,BFA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Burkina Faso,BFA,Built environment,100,50,50,100,0,60,0,100,0,50,0,30,45
+2016,Western Africa,AFW,Burkina Faso,BFA,Environment subscore,40,30,30,40,0,28,0,60,0,30,0,18,23
+2016,Western Africa,AFW,Burkina Faso,BFA,All Categories,57.7,37.1,43.3,37.8,2.7,37.4,0,84.6,0,45.7,0,26.1,31.5
 2016,Western Africa,AFW,Cabo Verde,CPV,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Cabo Verde,CPV,Education facilities,100,50,100,50,0,60,50,100,50,50,0,50,55
 2016,Western Africa,AFW,Cabo Verde,CPV,Education outcomes,50,50,50,50,0,40,50,100,50,50,0,50,45
@@ -747,6 +813,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Cabo Verde,CPV,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Cabo Verde,CPV,Pollution,50,0,0,0,0,10,100,100,100,0,0,60,35
 2016,Western Africa,AFW,Cabo Verde,CPV,Built environment,100,50,50,50,0,50,50,100,0,50,0,40,45
+2016,Western Africa,AFW,Cabo Verde,CPV,Environment subscore,30,10,10,10,0,12,30,40,20,10,0,20,16
+2016,Western Africa,AFW,Cabo Verde,CPV,All Categories,45.7,26,34.9,8.8,0,24.7,58.8,59.2,48.3,12.3,0,35.7,30.4
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Education facilities,50,0,0,0,50,20,0,100,0,100,0,40,30
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Education outcomes,50,50,50,0,50,40,0,100,0,100,0,40,40
@@ -769,6 +837,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Cote d'Ivoire,CIV,Built environment,100,50,0,50,0,40,0,100,0,100,0,40,40
+2016,Western Africa,AFW,Cote d'Ivoire,CIV,Environment subscore,20,10,0,10,0,8,0,20,0,20,0,8,8
+2016,Western Africa,AFW,Cote d'Ivoire,CIV,All Categories,53.4,25.4,16.1,6.3,10.9,23.5,2.4,68.6,0,52.5,0,24.7,24.1
 2016,Western Africa,AFW,The Gambia,GMB,Population & vital statistics,50,50,0,0,50,30,0,100,0,50,0,30,30
 2016,Western Africa,AFW,The Gambia,GMB,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,The Gambia,GMB,Education outcomes,50,0,50,0,50,30,0,100,0,50,0,30,30
@@ -791,6 +861,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,The Gambia,GMB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,The Gambia,GMB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,The Gambia,GMB,Built environment,100,0,50,0,50,40,0,100,0,50,0,30,35
+2016,Western Africa,AFW,The Gambia,GMB,Environment subscore,20,0,10,0,10,8,0,20,0,10,0,6,7
+2016,Western Africa,AFW,The Gambia,GMB,All Categories,30.8,13.4,12.3,0,18,15.2,0,46,0,29.8,0,15.2,15.2
 2016,Western Africa,AFW,Ghana,GHA,Population & vital statistics,100,50,0,50,50,50,0,100,0,50,0,30,40
 2016,Western Africa,AFW,Ghana,GHA,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Ghana,GHA,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -813,6 +885,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Ghana,GHA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Ghana,GHA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Ghana,GHA,Built environment,100,50,0,50,0,40,0,100,0,50,0,30,35
+2016,Western Africa,AFW,Ghana,GHA,Environment subscore,30,20,10,20,0,16,0,40,0,10,0,10,13
+2016,Western Africa,AFW,Ghana,GHA,All Categories,59.1,38.2,32.8,27.6,5.5,34.2,4.8,75.8,0,23,0,20.7,27.2
 2016,Western Africa,AFW,Guinea,GIN,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Western Africa,AFW,Guinea,GIN,Education facilities,50,50,50,50,0,40,50,100,50,50,0,50,45
 2016,Western Africa,AFW,Guinea,GIN,Education outcomes,50,50,50,50,0,40,50,100,50,50,0,50,45
@@ -835,6 +909,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Guinea,GIN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Guinea,GIN,Pollution,100,50,0,0,0,30,0,100,0,100,0,40,35
 2016,Western Africa,AFW,Guinea,GIN,Built environment,100,50,0,50,0,40,0,100,0,50,0,30,35
+2016,Western Africa,AFW,Guinea,GIN,Environment subscore,80,40,20,20,0,32,10,80,10,60,0,32,32
+2016,Western Africa,AFW,Guinea,GIN,All Categories,71.6,53.8,38.5,25.5,0,40.2,25.1,93.3,25.1,62.9,0,41.3,40.8
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Population & vital statistics,50,50,50,50,0,40,50,100,50,100,0,60,50
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Education outcomes,50,0,0,0,0,10,50,100,50,100,50,70,40
@@ -857,6 +933,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Guinea-Bissau,GNB,Built environment,100,50,50,0,0,40,50,100,50,100,50,70,55
+2016,Western Africa,AFW,Guinea-Bissau,GNB,Environment subscore,30,10,10,0,0,10,30,40,30,20,10,26,18
+2016,Western Africa,AFW,Guinea-Bissau,GNB,All Categories,41.5,19.4,19.4,4.9,0,18.3,31.7,62.7,31.7,40,15.8,36.4,27.7
 2016,Western Africa,AFW,Liberia,LBR,Population & vital statistics,50,50,0,50,0,30,50,100,50,50,0,50,40
 2016,Western Africa,AFW,Liberia,LBR,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Liberia,LBR,Education outcomes,50,0,0,50,0,20,100,100,100,0,0,60,40
@@ -879,6 +957,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Liberia,LBR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Liberia,LBR,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Liberia,LBR,Built environment,100,50,50,50,0,50,50,100,50,50,0,50,50
+2016,Western Africa,AFW,Liberia,LBR,Environment subscore,30,20,20,20,0,18,30,40,30,10,0,22,20
+2016,Western Africa,AFW,Liberia,LBR,All Categories,57.3,40.9,41.2,20.3,0,33.9,45.1,75.8,47.2,18.5,0,37.3,35.7
 2016,Western Africa,AFW,Mali,MLI,Population & vital statistics,100,50,50,100,50,70,50,100,50,50,50,60,65
 2016,Western Africa,AFW,Mali,MLI,Education facilities,50,50,50,50,50,50,50,100,50,0,50,50,50
 2016,Western Africa,AFW,Mali,MLI,Education outcomes,50,50,50,50,0,40,50,100,50,50,50,60,50
@@ -901,6 +981,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Mali,MLI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Mali,MLI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Mali,MLI,Built environment,100,50,50,50,0,50,0,100,0,50,0,30,40
+2016,Western Africa,AFW,Mali,MLI,Environment subscore,30,20,20,20,0,18,10,40,10,10,10,16,17
+2016,Western Africa,AFW,Mali,MLI,All Categories,58.8,47.1,42.7,30,5.5,38.6,41.4,80,31.9,39.3,41.4,46.8,42.9
 2016,Western Africa,AFW,Mauritania,MRT,Population & vital statistics,50,50,0,50,0,30,0,100,0,50,0,30,30
 2016,Western Africa,AFW,Mauritania,MRT,Education facilities,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Western Africa,AFW,Mauritania,MRT,Education outcomes,50,50,50,0,0,30,0,100,0,50,0,30,30
@@ -923,6 +1005,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Mauritania,MRT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Mauritania,MRT,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Mauritania,MRT,Built environment,100,50,0,0,0,30,0,100,0,50,0,30,30
+2016,Western Africa,AFW,Mauritania,MRT,Environment subscore,40,30,20,0,0,18,0,60,0,30,0,18,18
+2016,Western Africa,AFW,Mauritania,MRT,All Categories,55.9,50.5,29.3,7.6,0,30.8,10.4,86.7,10.4,41.2,10.4,31.8,31.3
 2016,Western Africa,AFW,Niger,NER,Population & vital statistics,50,50,0,50,50,40,0,100,0,100,0,40,40
 2016,Western Africa,AFW,Niger,NER,Education facilities,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Western Africa,AFW,Niger,NER,Education outcomes,50,50,50,0,0,30,0,100,0,100,0,40,35
@@ -945,6 +1029,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Niger,NER,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Niger,NER,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Niger,NER,Built environment,100,50,0,0,0,30,0,100,0,100,0,40,35
+2016,Western Africa,AFW,Niger,NER,Environment subscore,50,40,20,10,0,24,0,60,0,40,0,20,22
+2016,Western Africa,AFW,Niger,NER,All Categories,52.1,44.6,33.7,21.6,2.7,32.7,2.1,77.7,2.1,50.8,2.1,27,29.7
 2016,Western Africa,AFW,Nigeria,NGA,Population & vital statistics,50,0,0,50,50,30,0,100,0,100,50,50,40
 2016,Western Africa,AFW,Nigeria,NGA,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Western Africa,AFW,Nigeria,NGA,Education outcomes,50,50,50,50,0,40,0,100,0,0,50,30,35
@@ -967,6 +1053,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Nigeria,NGA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Nigeria,NGA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Nigeria,NGA,Built environment,100,50,50,50,0,50,0,100,0,50,50,40,45
+2016,Western Africa,AFW,Nigeria,NGA,Environment subscore,40,20,30,20,0,22,0,60,0,10,30,20,21
+2016,Western Africa,AFW,Nigeria,NGA,All Categories,62.7,47.4,51.1,30,2.7,40.9,21.1,79.5,11.6,37.6,38.6,37.7,39.2
 2016,Western Africa,AFW,Senegal,SEN,Population & vital statistics,50,50,50,0,0,30,0,100,0,50,100,50,40
 2016,Western Africa,AFW,Senegal,SEN,Education facilities,50,50,0,50,0,30,0,100,0,50,100,50,40
 2016,Western Africa,AFW,Senegal,SEN,Education outcomes,50,50,50,50,0,40,0,100,0,0,100,40,40
@@ -989,6 +1077,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Senegal,SEN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Senegal,SEN,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Senegal,SEN,Built environment,100,50,50,50,0,50,0,100,0,50,100,50,50
+2016,Western Africa,AFW,Senegal,SEN,Environment subscore,20,10,10,10,0,10,0,20,0,10,20,10,10
+2016,Western Africa,AFW,Senegal,SEN,All Categories,53.7,48.3,39.9,14,0,33.3,9.5,73.3,4.8,45.6,54.3,37.5,35.5
 2016,Western Africa,AFW,Sierra Leone,SLE,Population & vital statistics,100,50,50,0,0,40,0,100,0,50,0,30,35
 2016,Western Africa,AFW,Sierra Leone,SLE,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Western Africa,AFW,Sierra Leone,SLE,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -1011,6 +1101,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Sierra Leone,SLE,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Sierra Leone,SLE,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Sierra Leone,SLE,Built environment,100,50,0,0,0,30,0,100,0,50,0,30,30
+2016,Western Africa,AFW,Sierra Leone,SLE,Environment subscore,40,20,10,0,0,14,0,40,0,20,0,12,13
+2016,Western Africa,AFW,Sierra Leone,SLE,All Categories,66.6,51.6,34.9,24.7,0,37.7,0,80,0,54.3,0,26.9,32.1
 2016,Western Africa,AFW,Togo,TGO,Population & vital statistics,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Western Africa,AFW,Togo,TGO,Education facilities,50,50,50,50,0,40,100,100,100,0,0,60,50
 2016,Western Africa,AFW,Togo,TGO,Education outcomes,50,50,50,50,0,40,100,100,100,0,0,60,50
@@ -1033,6 +1125,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Africa,AFW,Togo,TGO,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Togo,TGO,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Africa,AFW,Togo,TGO,Built environment,100,50,50,0,0,40,50,100,50,50,50,60,50
+2016,Western Africa,AFW,Togo,TGO,Environment subscore,40,30,30,0,0,20,30,60,30,20,30,34,27
+2016,Western Africa,AFW,Togo,TGO,All Categories,50.8,36.5,29.6,14.9,0,28.1,29.3,77.1,29.3,29,14.8,35.9,32.2
 2016,Caribbean,AMC,Anguilla,AIA,Population & vital statistics,100,50,50,0,0,50,0,100,0,50,0,30,38.9
 2016,Caribbean,AMC,Anguilla,AIA,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Anguilla,AIA,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1055,6 +1149,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Anguilla,AIA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Anguilla,AIA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Anguilla,AIA,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Anguilla,AIA,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Anguilla,AIA,All Categories,22.9,8.9,11.3,0,0,11.2,0,32.1,0,13.7,4.8,10.1,10.6
 2016,Caribbean,AMC,The Bahamas,BHS,Population & vital statistics,100,100,50,50,50,70,0,100,0,50,0,30,50
 2016,Caribbean,AMC,The Bahamas,BHS,Education facilities,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Caribbean,AMC,The Bahamas,BHS,Education outcomes,50,50,50,0,0,30,0,100,0,50,0,30,30
@@ -1077,6 +1173,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,The Bahamas,BHS,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,The Bahamas,BHS,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,The Bahamas,BHS,Built environment,50,0,0,0,0,10,0,100,0,0,0,20,15
+2016,Caribbean,AMC,The Bahamas,BHS,Environment subscore,20,10,10,0,0,8,0,40,0,0,0,8,8
+2016,Caribbean,AMC,The Bahamas,BHS,All Categories,51.6,48.3,44.1,2.4,2.7,32.1,2.4,75.8,0,40.5,4.8,24.7,28.2
 2016,Caribbean,AMC,Cuba,CUB,Population & vital statistics,100,100,100,50,50,80,50,100,0,100,50,60,70
 2016,Caribbean,AMC,Cuba,CUB,Education facilities,50,50,50,0,0,30,50,50,0,50,50,40,35
 2016,Caribbean,AMC,Cuba,CUB,Education outcomes,50,50,50,0,0,30,50,50,0,100,50,50,40
@@ -1099,6 +1197,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Cuba,CUB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Cuba,CUB,Pollution,100,50,50,0,0,40,50,50,0,100,50,50,45
 2016,Caribbean,AMC,Cuba,CUB,Built environment,50,50,50,50,0,40,50,50,0,0,50,30,35
+2016,Caribbean,AMC,Cuba,CUB,Environment subscore,70,50,50,30,10,42,40,40,0,60,40,36,39
+2016,Caribbean,AMC,Cuba,CUB,All Categories,63.2,54.5,52.1,23.8,7.1,42.3,44.6,50.8,0,80.4,42.5,43.7,43
 2016,Caribbean,AMC,Dominican Republic,DOM,Population & vital statistics,100,100,100,100,100,100,100,100,0,100,50,70,85
 2016,Caribbean,AMC,Dominican Republic,DOM,Education facilities,50,50,50,0,0,30,100,100,0,0,50,50,40
 2016,Caribbean,AMC,Dominican Republic,DOM,Education outcomes,50,50,50,0,50,40,100,100,0,0,50,50,45
@@ -1121,6 +1221,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Dominican Republic,DOM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Dominican Republic,DOM,Pollution,50,50,50,0,0,30,100,0,0,0,50,30,30
 2016,Caribbean,AMC,Dominican Republic,DOM,Built environment,100,50,50,100,100,80,100,100,0,50,50,60,70
+2016,Caribbean,AMC,Dominican Republic,DOM,Environment subscore,50,40,40,20,20,34,80,40,0,10,40,34,34
+2016,Caribbean,AMC,Dominican Republic,DOM,All Categories,65.5,58,53.8,12.6,25.2,44.9,91.2,72.9,4.8,16.7,44.3,46,45.4
 2016,Caribbean,AMC,Haiti,HTI,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Haiti,HTI,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Haiti,HTI,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1143,6 +1245,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Haiti,HTI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Haiti,HTI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Haiti,HTI,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Haiti,HTI,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Haiti,HTI,All Categories,7.1,4.8,4.8,0,0,3.6,0,14.3,0,11.9,0,5.2,4.5
 2016,Caribbean,AMC,Jamaica,JAM,Population & vital statistics,100,100,100,0,0,60,0,100,0,100,0,40,50
 2016,Caribbean,AMC,Jamaica,JAM,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Jamaica,JAM,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -1165,6 +1269,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Jamaica,JAM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Jamaica,JAM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Jamaica,JAM,Built environment,100,50,0,100,0,30,0,0,0,100,0,20,25
+2016,Caribbean,AMC,Jamaica,JAM,Environment subscore,30,10,0,30,0,10,0,20,0,20,0,8,9
+2016,Caribbean,AMC,Jamaica,JAM,All Categories,34.4,25.7,17.6,14.1,0,18,9.5,42.4,0,36.1,0,17.6,17.8
 2016,Caribbean,AMC,St. Lucia,LCA,Population & vital statistics,100,50,50,0,0,50,0,100,0,50,50,40,44.4
 2016,Caribbean,AMC,St. Lucia,LCA,Education facilities,50,50,50,0,0,37.5,0,100,0,0,50,30,33.3
 2016,Caribbean,AMC,St. Lucia,LCA,Education outcomes,50,50,50,0,0,37.5,0,100,0,0,50,30,33.3
@@ -1187,6 +1293,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,St. Lucia,LCA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,St. Lucia,LCA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,St. Lucia,LCA,Built environment,100,0,0,50,0,37.5,0,100,0,0,50,30,33.3
+2016,Caribbean,AMC,St. Lucia,LCA,Environment subscore,30,10,10,10,0,15,0,40,0,0,20,12,13.3
+2016,Caribbean,AMC,St. Lucia,LCA,All Categories,43.9,28,35.2,3.9,0,28.6,2.4,65.1,0,6.5,33.7,21.6,24.6
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Population & vital statistics,100,50,50,50,0,62.5,0,100,0,50,50,40,50
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Education facilities,50,50,50,0,0,37.5,0,100,0,50,0,30,33.3
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Education outcomes,50,50,50,50,0,50,0,100,0,50,0,30,38.9
@@ -1209,6 +1317,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Built environment,100,50,0,100,0,62.5,0,100,0,50,0,30,44.4
+2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,Environment subscore,20,10,0,20,0,12.5,0,20,0,10,0,6,8.9
+2016,Caribbean,AMC,St. Vincent & Grenadines,VCT,All Categories,44.8,32.5,22.3,20.6,0,30.4,7.1,57.3,0,18.2,4.2,17.4,23
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Population & vital statistics,100,50,50,0,0,40,0,100,0,50,50,40,40
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1231,6 +1341,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Caribbean,AMC,Trinidad and Tobago,TTO,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Trinidad and Tobago,TTO,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Caribbean,AMC,Trinidad and Tobago,TTO,All Categories,32.1,28,28,0,0,19.1,23.8,32.1,9.5,4.2,18.5,17.6,18.3
 2016,Central America,AMM,Belize,BLZ,Population & vital statistics,50,50,50,0,0,30,100,100,0,0,0,40,35
 2016,Central America,AMM,Belize,BLZ,Education facilities,50,50,50,50,0,40,100,100,0,0,0,40,40
 2016,Central America,AMM,Belize,BLZ,Education outcomes,50,50,50,50,0,40,100,100,0,0,0,40,40
@@ -1253,6 +1365,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Belize,BLZ,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Belize,BLZ,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Belize,BLZ,Built environment,50,0,0,50,0,20,100,100,0,50,0,50,35
+2016,Central America,AMM,Belize,BLZ,Environment subscore,40,0,20,20,0,16,20,60,0,30,0,22,19
+2016,Central America,AMM,Belize,BLZ,All Categories,49,31.5,38.2,17.5,0,29,46.5,73,0,25.8,0,29.1,29
 2016,Central America,AMM,Costa Rica,CRI,Population & vital statistics,100,100,100,100,50,90,100,50,0,100,0,50,70
 2016,Central America,AMM,Costa Rica,CRI,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Costa Rica,CRI,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1275,6 +1389,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Costa Rica,CRI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Costa Rica,CRI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Costa Rica,CRI,Built environment,50,50,50,50,50,50,100,0,0,100,0,40,45
+2016,Central America,AMM,Costa Rica,CRI,Environment subscore,40,30,10,40,10,26,60,0,0,60,0,24,25
+2016,Central America,AMM,Costa Rica,CRI,All Categories,28.8,25.5,18.8,22.8,7.1,21.2,42,2.1,0,37.9,0,16.4,18.7
 2016,Central America,AMM,El Salvador,SLV,Population & vital statistics,100,50,50,50,0,50,50,50,0,50,0,30,40
 2016,Central America,AMM,El Salvador,SLV,Education facilities,50,50,0,0,0,20,0,100,0,0,0,20,20
 2016,Central America,AMM,El Salvador,SLV,Education outcomes,50,50,50,0,0,30,100,0,0,100,0,40,35
@@ -1297,6 +1413,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,El Salvador,SLV,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,El Salvador,SLV,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,El Salvador,SLV,Built environment,100,100,100,0,0,60,0,100,0,100,0,40,50
+2016,Central America,AMM,El Salvador,SLV,Environment subscore,20,20,20,0,0,12,0,20,0,20,0,8,10
+2016,Central America,AMM,El Salvador,SLV,All Categories,36.7,32.6,28.4,10.4,0,23.1,17.3,41.2,0,34.9,0,18.7,20.8
 2016,Central America,AMM,Guatemala,GTM,Population & vital statistics,100,100,100,100,0,80,100,50,0,50,0,40,60
 2016,Central America,AMM,Guatemala,GTM,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Guatemala,GTM,Education outcomes,50,50,50,50,0,40,0,100,0,100,0,40,40
@@ -1319,6 +1437,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Guatemala,GTM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Guatemala,GTM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Guatemala,GTM,Built environment,50,50,0,50,0,30,100,100,0,50,0,50,40
+2016,Central America,AMM,Guatemala,GTM,Environment subscore,40,30,20,20,0,22,50,60,0,30,0,28,25
+2016,Central America,AMM,Guatemala,GTM,All Categories,39.8,32,26.3,19.9,0,24.9,40.8,48.3,4.2,38.6,0,26.4,25.7
 2016,Central America,AMM,Honduras,HND,Population & vital statistics,50,50,50,50,50,50,50,50,50,0,0,30,40
 2016,Central America,AMM,Honduras,HND,Education facilities,50,50,50,50,0,40,100,0,0,0,0,20,30
 2016,Central America,AMM,Honduras,HND,Education outcomes,50,50,0,50,0,30,100,0,0,0,0,20,25
@@ -1341,6 +1461,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Honduras,HND,Energy use,50,50,50,0,0,30,100,0,0,0,0,20,25
 2016,Central America,AMM,Honduras,HND,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Honduras,HND,Built environment,50,50,0,50,0,30,100,100,0,50,0,50,40
+2016,Central America,AMM,Honduras,HND,Environment subscore,40,30,30,20,0,24,70,30,0,10,0,22,23
+2016,Central America,AMM,Honduras,HND,All Categories,50.8,43.3,36.8,24.8,2.7,33.4,76.9,27.3,2.1,9.9,0,23.2,28.1
 2016,Central America,AMM,Mexico,MEX,Population & vital statistics,100,100,100,50,0,70,100,100,0,100,100,80,75
 2016,Central America,AMM,Mexico,MEX,Education facilities,50,50,50,50,0,40,100,100,0,100,100,80,60
 2016,Central America,AMM,Mexico,MEX,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1363,6 +1485,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Mexico,MEX,Energy use,100,100,100,0,0,60,100,100,50,100,100,90,75
 2016,Central America,AMM,Mexico,MEX,Pollution,50,50,50,0,0,30,100,100,100,100,100,100,65
 2016,Central America,AMM,Mexico,MEX,Built environment,100,50,50,50,50,60,100,50,50,100,100,80,70
+2016,Central America,AMM,Mexico,MEX,Environment subscore,80,60,60,30,10,48,100,80,50,100,100,86,67
+2016,Central America,AMM,Mexico,MEX,All Categories,78.5,69.7,65.5,31.5,4.4,52.8,95.8,80.2,34.8,91.7,95.8,79.7,66.8
 2016,Central America,AMM,Nicaragua,NIC,Population & vital statistics,100,50,100,100,100,90,0,100,0,100,50,50,70
 2016,Central America,AMM,Nicaragua,NIC,Education facilities,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Central America,AMM,Nicaragua,NIC,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1385,6 +1509,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Nicaragua,NIC,Energy use,100,50,100,0,0,50,0,100,0,50,50,40,45
 2016,Central America,AMM,Nicaragua,NIC,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Nicaragua,NIC,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Central America,AMM,Nicaragua,NIC,Environment subscore,40,30,40,20,0,26,0,60,0,30,30,24,25
+2016,Central America,AMM,Nicaragua,NIC,All Categories,56.5,44.2,52.3,15.1,5.5,36.8,28.6,74.2,0,50.8,37.1,38.1,37.5
 2016,Central America,AMM,Panama,PAN,Population & vital statistics,100,100,50,100,50,80,100,50,0,100,0,50,65
 2016,Central America,AMM,Panama,PAN,Education facilities,100,100,50,0,0,50,100,100,0,100,0,60,55
 2016,Central America,AMM,Panama,PAN,Education outcomes,50,50,50,50,0,40,100,50,0,100,0,50,45
@@ -1407,6 +1533,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central America,AMM,Panama,PAN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central America,AMM,Panama,PAN,Pollution,100,100,50,0,0,50,0,100,0,100,0,40,45
 2016,Central America,AMM,Panama,PAN,Built environment,100,0,0,100,50,50,100,100,0,100,0,60,55
+2016,Central America,AMM,Panama,PAN,Environment subscore,70,50,30,50,10,42,50,80,0,60,0,38,40
+2016,Central America,AMM,Panama,PAN,All Categories,65.3,54.5,36.8,36.5,9.8,42.3,68.2,80.2,0,52.1,0,40.1,41.2
 2016,North America,AMN,Canada,CAN,Population & vital statistics,100,100,100,100,0,80,100,100,50,100,100,90,85
 2016,North America,AMN,Canada,CAN,Education facilities,50,50,50,50,0,40,100,100,50,100,100,90,65
 2016,North America,AMN,Canada,CAN,Education outcomes,50,50,50,50,0,40,100,100,50,100,100,90,65
@@ -1429,6 +1557,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,North America,AMN,Canada,CAN,Energy use,100,100,100,0,0,60,100,100,50,100,100,90,75
 2016,North America,AMN,Canada,CAN,Pollution,50,50,50,0,0,30,100,100,50,100,100,90,60
 2016,North America,AMN,Canada,CAN,Built environment,50,50,50,50,0,40,100,100,50,100,100,90,65
+2016,North America,AMN,Canada,CAN,Environment subscore,80,60,50,40,20,50,90,100,50,90,100,86,68
+2016,North America,AMN,Canada,CAN,All Categories,84.7,73.9,68.5,61.7,17.3,63.5,88.3,100,47.9,90.4,100,85.3,74.8
 2016,North America,AMN,United States,USA,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,North America,AMN,United States,USA,Education facilities,100,100,100,50,50,80,100,100,50,100,100,90,85
 2016,North America,AMN,United States,USA,Education outcomes,100,100,100,50,50,80,100,100,50,100,100,90,85
@@ -1451,6 +1581,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,North America,AMN,United States,USA,Energy use,100,100,100,100,0,80,100,100,50,100,50,80,80
 2016,North America,AMN,United States,USA,Pollution,100,100,100,100,50,90,100,50,50,100,50,70,80
 2016,North America,AMN,United States,USA,Built environment,100,50,50,50,50,60,100,100,50,100,100,90,75
+2016,North America,AMN,United States,USA,Environment subscore,100,70,70,90,40,74,90,80,50,100,70,78,76
+2016,North America,AMN,United States,USA,All Categories,93.2,81.1,79,70.4,42.9,75,85.1,81.7,45.2,93.2,67.7,74.6,74.8
 2016,South America,AMZ,Argentina,ARG,Population & vital statistics,100,50,100,100,50,80,100,0,0,50,0,30,55
 2016,South America,AMZ,Argentina,ARG,Education facilities,50,50,0,50,0,30,100,0,0,100,0,40,35
 2016,South America,AMZ,Argentina,ARG,Education outcomes,50,0,0,50,0,20,100,0,0,100,0,40,30
@@ -1473,6 +1605,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Argentina,ARG,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Argentina,ARG,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Argentina,ARG,Built environment,100,0,0,50,0,30,100,0,0,100,0,40,35
+2016,South America,AMZ,Argentina,ARG,Environment subscore,50,20,10,20,0,20,60,0,0,30,0,18,19
+2016,South America,AMZ,Argentina,ARG,All Categories,56.8,40.3,37,27.6,2.7,34.6,77.7,0,0,56.1,0,26.8,30.5
 2016,South America,AMZ,Bolivia,BOL,Population & vital statistics,50,50,50,50,50,50,100,100,50,0,0,50,50
 2016,South America,AMZ,Bolivia,BOL,Education facilities,50,50,50,50,0,40,100,100,50,0,0,50,45
 2016,South America,AMZ,Bolivia,BOL,Education outcomes,50,50,50,50,0,40,100,100,50,0,0,50,45
@@ -1495,6 +1629,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Bolivia,BOL,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Bolivia,BOL,Pollution,100,100,100,100,100,100,100,100,50,0,0,50,75
 2016,South America,AMZ,Bolivia,BOL,Built environment,100,50,50,50,0,50,100,100,50,0,0,50,50
+2016,South America,AMZ,Bolivia,BOL,Environment subscore,60,50,40,50,20,44,50,80,30,20,0,36,40
+2016,South America,AMZ,Bolivia,BOL,All Categories,58.1,52.7,49.3,36.8,11.5,43.4,66.1,80.2,38.9,9,0,38.8,41
 2016,South America,AMZ,Brazil,BRA,Population & vital statistics,50,50,50,50,0,40,50,100,50,100,0,60,50
 2016,South America,AMZ,Brazil,BRA,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Brazil,BRA,Education outcomes,50,50,50,0,0,30,100,0,0,100,0,40,35
@@ -1517,6 +1653,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Brazil,BRA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Brazil,BRA,Pollution,100,50,100,0,0,50,100,100,50,100,0,70,60
 2016,South America,AMZ,Brazil,BRA,Built environment,100,100,100,100,0,80,100,0,0,0,0,20,50
+2016,South America,AMZ,Brazil,BRA,Environment subscore,60,40,60,40,0,40,80,60,30,50,0,44,42
+2016,South America,AMZ,Brazil,BRA,All Categories,60.8,49.9,58.4,30.5,8.2,43.6,71.3,46.5,20.7,65.8,4.8,41.8,42.7
 2016,South America,AMZ,Chile,CHL,Population & vital statistics,100,50,50,100,0,60,100,100,0,100,50,70,65
 2016,South America,AMZ,Chile,CHL,Education facilities,50,50,50,0,0,30,0,100,0,100,50,50,40
 2016,South America,AMZ,Chile,CHL,Education outcomes,50,50,50,50,0,40,0,100,0,100,50,50,45
@@ -1539,6 +1677,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Chile,CHL,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Chile,CHL,Pollution,100,50,0,100,0,50,100,100,0,50,50,60,55
 2016,South America,AMZ,Chile,CHL,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,South America,AMZ,Chile,CHL,Environment subscore,60,50,30,60,0,40,50,60,0,20,30,32,36
+2016,South America,AMZ,Chile,CHL,All Categories,67.3,57.4,50.8,38.3,0,45.1,60.4,58.7,2.1,62.6,31.7,43.1,44.1
 2016,South America,AMZ,Colombia,COL,Population & vital statistics,100,100,100,100,50,90,100,0,0,100,50,50,70
 2016,South America,AMZ,Colombia,COL,Education facilities,50,50,50,50,0,40,100,0,0,100,50,50,45
 2016,South America,AMZ,Colombia,COL,Education outcomes,50,50,50,50,0,40,100,0,0,100,50,50,45
@@ -1561,6 +1701,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Colombia,COL,Energy use,100,100,100,0,0,60,100,0,0,100,50,50,55
 2016,South America,AMZ,Colombia,COL,Pollution,100,100,100,0,0,60,100,0,0,100,50,50,55
 2016,South America,AMZ,Colombia,COL,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,South America,AMZ,Colombia,COL,Environment subscore,60,60,50,10,0,36,80,0,0,80,40,40,38
+2016,South America,AMZ,Colombia,COL,All Categories,64.9,58.7,55.4,20.9,8.2,44,80.2,4.2,0,71.9,38,38.9,41.3
 2016,South America,AMZ,Ecuador,ECU,Population & vital statistics,50,50,50,50,0,40,100,0,0,100,100,60,50
 2016,South America,AMZ,Ecuador,ECU,Education facilities,50,50,50,50,50,50,100,100,0,100,0,60,55
 2016,South America,AMZ,Ecuador,ECU,Education outcomes,50,50,50,50,50,50,50,100,50,100,50,70,60
@@ -1583,6 +1725,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Ecuador,ECU,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Ecuador,ECU,Pollution,100,100,100,0,0,60,100,100,50,50,100,80,70
 2016,South America,AMZ,Ecuador,ECU,Built environment,50,50,0,50,50,40,100,100,50,100,100,90,65
+2016,South America,AMZ,Ecuador,ECU,Environment subscore,50,50,40,30,10,36,80,70,30,70,80,66,51
+2016,South America,AMZ,Ecuador,ECU,All Categories,72.9,68.7,58.9,36.7,9.8,51.8,82.9,69.5,12.1,69.5,63.3,59.4,55.8
 2016,South America,AMZ,Guyana,GUY,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,South America,AMZ,Guyana,GUY,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Guyana,GUY,Education outcomes,50,0,50,0,0,20,50,100,50,50,50,60,40
@@ -1605,6 +1749,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Guyana,GUY,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Guyana,GUY,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Guyana,GUY,Built environment,50,0,0,50,0,20,0,100,0,100,50,50,35
+2016,South America,AMZ,Guyana,GUY,Environment subscore,20,10,10,10,0,10,0,40,0,30,20,18,14
+2016,South America,AMZ,Guyana,GUY,All Categories,43,31,33.1,13.6,0,25.7,6.3,67.5,6.3,37.1,31.4,29.7,27.8
 2016,South America,AMZ,Paraguay,PRY,Population & vital statistics,100,50,100,100,50,80,50,100,0,50,50,50,65
 2016,South America,AMZ,Paraguay,PRY,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,South America,AMZ,Paraguay,PRY,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1627,6 +1773,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Paraguay,PRY,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Paraguay,PRY,Pollution,50,50,50,0,0,30,0,100,0,0,50,30,30
 2016,South America,AMZ,Paraguay,PRY,Built environment,100,100,100,0,0,60,0,100,0,0,50,30,45
+2016,South America,AMZ,Paraguay,PRY,Environment subscore,50,50,50,10,0,32,0,80,0,0,40,24,28
+2016,South America,AMZ,Paraguay,PRY,All Categories,61.6,57.4,59.5,13.6,2.7,41.6,2.1,85,0,17.9,42.5,29.5,35.3
 2016,South America,AMZ,Peru,PER,Population & vital statistics,50,50,50,50,50,50,100,100,50,0,0,50,50
 2016,South America,AMZ,Peru,PER,Education facilities,50,50,50,0,0,30,100,0,0,0,0,20,25
 2016,South America,AMZ,Peru,PER,Education outcomes,50,50,50,0,0,30,100,0,0,0,0,20,25
@@ -1649,6 +1797,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Peru,PER,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Peru,PER,Pollution,100,50,100,0,0,50,100,100,0,0,0,40,45
 2016,South America,AMZ,Peru,PER,Built environment,100,100,100,100,0,80,100,50,0,0,0,30,55
+2016,South America,AMZ,Peru,PER,Environment subscore,60,40,60,30,0,38,60,40,0,0,0,20,29
+2016,South America,AMZ,Peru,PER,All Categories,63.2,51.7,63.2,24.2,2.7,43.5,78.3,43.1,2.1,18.5,0,28.4,35.6
 2016,South America,AMZ,Suriname,SUR,Population & vital statistics,50,50,50,0,0,30,100,100,50,50,50,70,50
 2016,South America,AMZ,Suriname,SUR,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Suriname,SUR,Education outcomes,50,50,50,0,0,30,100,100,50,0,100,70,50
@@ -1671,6 +1821,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Suriname,SUR,Energy use,0,0,0,0,0,0,0,100,0,0,0,20,10
 2016,South America,AMZ,Suriname,SUR,Pollution,50,50,50,0,0,30,50,100,50,0,50,50,40
 2016,South America,AMZ,Suriname,SUR,Built environment,100,50,50,0,0,40,0,100,0,0,0,20,30
+2016,South America,AMZ,Suriname,SUR,Environment subscore,70,40,40,0,0,30,40,100,30,0,40,42,36
+2016,South America,AMZ,Suriname,SUR,All Categories,64.1,47.3,49.3,0,0,34.8,30.3,91.7,20.7,32.1,28.2,40.6,37.8
 2016,South America,AMZ,Uruguay,URY,Population & vital statistics,50,50,50,50,0,40,100,0,0,100,0,40,40
 2016,South America,AMZ,Uruguay,URY,Education facilities,50,50,50,50,0,40,50,50,0,50,0,30,35
 2016,South America,AMZ,Uruguay,URY,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1693,6 +1845,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Uruguay,URY,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Uruguay,URY,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Uruguay,URY,Built environment,100,100,50,50,50,70,50,50,0,50,0,30,50
+2016,South America,AMZ,Uruguay,URY,Environment subscore,40,40,20,10,10,24,20,50,0,30,0,20,22
+2016,South America,AMZ,Uruguay,URY,All Categories,52.3,52.3,45.7,14,4.4,35.9,52.5,25,0,39.2,0,23.3,29.3
 2016,South America,AMZ,Venezuela,VEN,Population & vital statistics,100,50,50,50,0,50,100,0,0,100,0,40,45
 2016,South America,AMZ,Venezuela,VEN,Education facilities,50,50,50,50,0,40,100,0,0,0,0,20,30
 2016,South America,AMZ,Venezuela,VEN,Education outcomes,50,50,50,50,0,40,100,0,0,50,0,30,35
@@ -1715,6 +1869,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South America,AMZ,Venezuela,VEN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South America,AMZ,Venezuela,VEN,Pollution,100,50,50,0,0,40,0,100,0,100,0,40,40
 2016,South America,AMZ,Venezuela,VEN,Built environment,100,50,100,50,0,60,50,100,50,100,0,60,60
+2016,South America,AMZ,Venezuela,VEN,Environment subscore,50,30,40,20,0,28,10,60,10,50,0,26,27
+2016,South America,AMZ,Venezuela,VEN,All Categories,52.4,43.6,44.9,25.8,0,35.3,43.5,28.6,3.3,45.8,0,24.3,29.6
 2016,Central Asia,ASC,Kazakhstan,KAZ,Population & vital statistics,50,50,50,50,50,50,0,100,0,100,0,40,45
 2016,Central Asia,ASC,Kazakhstan,KAZ,Education facilities,50,50,50,50,0,40,50,50,0,50,0,30,35
 2016,Central Asia,ASC,Kazakhstan,KAZ,Education outcomes,50,50,50,0,0,30,100,0,0,100,0,40,35
@@ -1737,6 +1893,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central Asia,ASC,Kazakhstan,KAZ,Energy use,50,50,50,0,0,30,50,50,100,0,0,40,35
 2016,Central Asia,ASC,Kazakhstan,KAZ,Pollution,100,100,100,0,0,60,100,0,0,100,0,40,50
 2016,Central Asia,ASC,Kazakhstan,KAZ,Built environment,100,100,100,50,0,70,50,50,0,100,0,40,55
+2016,Central Asia,ASC,Kazakhstan,KAZ,Environment subscore,80,80,80,30,0,54,60,40,20,70,0,38,46
+2016,Central Asia,ASC,Kazakhstan,KAZ,All Categories,75.5,75.5,73.1,44.3,2.7,57.2,62,45.2,9,70.1,0,37.2,46.8
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Population & vital statistics,50,50,50,50,0,40,50,50,0,100,50,50,45
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Education facilities,50,50,50,50,50,50,100,50,0,100,50,60,55
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Education outcomes,50,50,50,0,0,30,50,50,0,50,50,40,35
@@ -1759,6 +1917,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Energy use,100,100,100,0,0,60,100,0,0,100,50,50,55
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Pollution,100,100,50,0,0,50,0,100,0,50,50,40,45
 2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Built environment,100,100,100,100,0,80,100,50,0,100,50,60,70
+2016,Central Asia,ASC,Kyrgyz Republic,KGZ,Environment subscore,90,90,80,40,0,60,60,60,0,80,50,50,55
+2016,Central Asia,ASC,Kyrgyz Republic,KGZ,All Categories,83.3,81.2,77.9,32.6,2.7,59,66.1,60.2,0,82.9,50,51.8,55.3
 2016,Central Asia,ASC,Tajikistan,TJK,Population & vital statistics,100,100,100,50,0,70,100,50,0,50,50,50,60
 2016,Central Asia,ASC,Tajikistan,TJK,Education facilities,50,50,50,0,0,30,50,50,0,50,50,40,35
 2016,Central Asia,ASC,Tajikistan,TJK,Education outcomes,50,50,50,0,0,30,100,0,0,50,50,40,35
@@ -1781,6 +1941,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central Asia,ASC,Tajikistan,TJK,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central Asia,ASC,Tajikistan,TJK,Pollution,100,50,50,50,0,50,50,50,0,50,50,40,45
 2016,Central Asia,ASC,Tajikistan,TJK,Built environment,100,50,0,0,0,30,0,100,0,50,50,40,35
+2016,Central Asia,ASC,Tajikistan,TJK,Environment subscore,60,40,30,10,0,28,10,70,0,40,40,32,30
+2016,Central Asia,ASC,Tajikistan,TJK,All Categories,71.2,62.4,59.1,6.3,0,42.9,59.3,38.5,0,44.6,46.7,37.8,40.3
 2016,Central Asia,ASC,Turkmenistan,TKM,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central Asia,ASC,Turkmenistan,TKM,Education facilities,50,50,50,50,50,50,0,100,0,50,0,30,40
 2016,Central Asia,ASC,Turkmenistan,TKM,Education outcomes,50,50,50,50,0,40,0,100,0,50,0,30,35
@@ -1803,6 +1965,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central Asia,ASC,Turkmenistan,TKM,Energy use,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Central Asia,ASC,Turkmenistan,TKM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central Asia,ASC,Turkmenistan,TKM,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Central Asia,ASC,Turkmenistan,TKM,Environment subscore,40,30,30,20,0,24,0,60,0,40,0,20,22
+2016,Central Asia,ASC,Turkmenistan,TKM,All Categories,40.1,30.2,27.9,15.1,5.5,25,0,64.6,0,37.7,0,20.5,22.6
 2016,Central Asia,ASC,Uzbekistan,UZB,Population & vital statistics,100,100,100,50,50,80,0,100,0,100,50,50,65
 2016,Central Asia,ASC,Uzbekistan,UZB,Education facilities,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Central Asia,ASC,Uzbekistan,UZB,Education outcomes,50,50,50,50,0,40,0,100,0,0,50,30,35
@@ -1825,6 +1989,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Central Asia,ASC,Uzbekistan,UZB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central Asia,ASC,Uzbekistan,UZB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Central Asia,ASC,Uzbekistan,UZB,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Central Asia,ASC,Uzbekistan,UZB,Environment subscore,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Central Asia,ASC,Uzbekistan,UZB,All Categories,19,17,17,4.9,2.7,12.8,0,25,0,21.4,14.9,12.3,12.5
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Population & vital statistics,50,50,50,50,0,40,100,100,0,50,0,50,45
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Education facilities,50,50,50,50,0,40,50,50,0,50,0,30,35
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Education outcomes,50,50,50,50,0,40,50,100,0,50,0,40,40
@@ -1847,6 +2013,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Cambodia,KHM,Built environment,100,0,0,100,0,40,100,100,0,50,0,50,45
+2016,South-Eastern Asia,ASE,Cambodia,KHM,Environment subscore,40,10,0,40,0,18,20,40,0,20,0,16,17
+2016,South-Eastern Asia,ASE,Cambodia,KHM,All Categories,39.5,25.1,17.3,28.1,0,22.9,25.7,52.6,2.1,21.5,0,20.4,21.6
 2016,Eastern Asia,ASF,China,CHN,Population & vital statistics,100,100,100,50,0,70,0,100,0,100,50,50,60
 2016,Eastern Asia,ASF,China,CHN,Education facilities,100,50,50,100,0,60,0,100,0,100,50,50,55
 2016,Eastern Asia,ASF,China,CHN,Education outcomes,50,50,50,0,0,30,0,100,0,100,50,50,40
@@ -1869,6 +2037,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,China,CHN,Energy use,100,50,50,0,0,40,0,100,0,100,50,50,45
 2016,Eastern Asia,ASF,China,CHN,Pollution,50,50,50,0,0,30,0,100,0,100,50,50,40
 2016,Eastern Asia,ASF,China,CHN,Built environment,50,50,50,0,0,30,0,100,0,100,50,50,40
+2016,Eastern Asia,ASF,China,CHN,Environment subscore,70,50,40,20,0,36,0,100,0,80,50,46,41
+2016,Eastern Asia,ASF,China,CHN,All Categories,68,59.2,49.6,22.7,0,42.5,0,95.8,0,84.4,47.9,45.6,44.1
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Population & vital statistics,50,50,0,0,0,25,0,100,0,50,0,30,27.8
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Education facilities,50,50,50,0,0,37.5,0,100,0,50,0,30,33.3
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Education outcomes,50,50,50,0,0,37.5,0,100,0,50,0,30,33.3
@@ -1891,6 +2061,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Energy use,100,100,100,0,0,75,0,100,0,50,0,30,50
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Pollution,100,50,50,50,0,62.5,50,100,0,0,0,30,44.4
 2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Built environment,50,50,0,50,0,37.5,0,0,0,0,50,10,22.2
+2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,Environment subscore,80,60,40,20,0,50,10,80,0,10,10,22,34.4
+2016,Eastern Asia,ASF,Hong Kong SAR China,HKG,All Categories,73.4,60.2,38,12.6,0,47.3,12.3,86.5,0,37.3,3.3,27.9,36.3
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Population & vital statistics,50,0,0,0,0,10,100,0,0,100,0,40,25
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Education facilities,50,50,50,50,0,40,100,0,0,100,0,40,40
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Education outcomes,50,50,50,50,0,40,100,0,50,50,100,60,50
@@ -1913,6 +2085,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Pollution,100,100,100,0,50,70,100,0,0,0,0,20,45
 2016,South-Eastern Asia,ASE,Indonesia,IDN,Built environment,100,100,100,100,0,80,100,0,0,0,0,20,50
+2016,South-Eastern Asia,ASE,Indonesia,IDN,Environment subscore,70,70,60,40,10,50,80,20,0,20,0,24,37
+2016,South-Eastern Asia,ASE,Indonesia,IDN,All Categories,66.5,62,56.3,33.3,4.4,46.9,84.4,11.4,6.8,46.8,4.2,30.7,38.5
 2016,Eastern Asia,ASF,Japan,JPN,Population & vital statistics,100,50,50,50,0,50,100,0,0,100,100,60,55
 2016,Eastern Asia,ASF,Japan,JPN,Education facilities,50,50,50,50,0,40,100,0,0,100,100,60,50
 2016,Eastern Asia,ASF,Japan,JPN,Education outcomes,50,50,50,50,0,40,100,0,0,100,100,60,50
@@ -1935,6 +2109,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,Japan,JPN,Energy use,50,50,0,0,0,20,100,0,0,100,100,60,40
 2016,Eastern Asia,ASF,Japan,JPN,Pollution,100,100,50,0,0,50,100,0,0,100,100,60,55
 2016,Eastern Asia,ASF,Japan,JPN,Built environment,100,50,50,50,0,50,100,0,0,50,100,50,50
+2016,Eastern Asia,ASF,Japan,JPN,Environment subscore,90,60,30,40,0,44,100,0,0,90,100,58,51
+2016,Eastern Asia,ASF,Japan,JPN,All Categories,79.1,64.9,39.2,32.9,0,45.8,92.9,7.1,2.1,90.1,95.5,57.5,51.9
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,50,80,85
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Education facilities,50,50,50,50,0,40,100,100,50,0,50,60,50
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Education outcomes,50,50,50,50,0,40,100,100,50,0,50,60,50
@@ -1957,6 +2133,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Energy use,100,100,50,0,0,50,100,100,50,0,50,60,55
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Pollution,100,50,100,50,50,70,50,100,50,0,50,50,60
 2016,Eastern Asia,ASF,Korea Rep.,KOR,Built environment,50,0,0,50,50,30,100,100,50,0,50,60,45
+2016,Eastern Asia,ASF,Korea Rep.,KOR,Environment subscore,90,60,70,50,40,62,80,100,50,0,50,56,59
+2016,Eastern Asia,ASF,Korea Rep.,KOR,All Categories,84.2,74.2,75.4,36.5,26.1,61.7,89.2,100,47.9,15.8,47.9,60.2,60.9
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Education facilities,50,50,50,50,0,40,0,100,0,0,50,30,35
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Education outcomes,50,50,50,50,0,40,0,100,0,50,50,40,40
@@ -1979,6 +2157,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Lao PDR,LAO,Built environment,50,50,0,50,0,30,0,100,50,100,50,60,45
+2016,South-Eastern Asia,ASE,Lao PDR,LAO,Environment subscore,20,20,10,20,0,14,0,40,10,30,20,20,17
+2016,South-Eastern Asia,ASE,Lao PDR,LAO,All Categories,39.7,30.8,23,25.1,0,24.9,2.1,66.3,5.4,31.7,30.8,27.3,26.1
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Population & vital statistics,50,50,50,50,0,40,100,50,50,50,50,60,50
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Education outcomes,50,0,0,50,0,20,100,100,50,50,50,70,45
@@ -2001,6 +2181,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Pollution,100,100,100,0,0,60,100,0,0,50,50,40,50
 2016,South-Eastern Asia,ASE,Malaysia,MYS,Built environment,100,50,0,100,0,50,50,100,50,50,50,60,55
+2016,South-Eastern Asia,ASE,Malaysia,MYS,Environment subscore,70,60,50,20,0,40,70,30,10,40,40,38,39
+2016,South-Eastern Asia,ASE,Malaysia,MYS,All Categories,52.5,45,41.7,20.6,0,34,61.7,43.6,14,38.3,36,38.7,36.4
 2016,Eastern Asia,ASF,Mongolia,MNG,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,0,70,80
 2016,Eastern Asia,ASF,Mongolia,MNG,Education facilities,50,50,50,50,0,40,100,100,50,50,0,60,50
 2016,Eastern Asia,ASF,Mongolia,MNG,Education outcomes,50,50,50,50,0,40,100,100,50,50,0,60,50
@@ -2023,6 +2205,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,Mongolia,MNG,Energy use,100,100,100,0,0,60,100,100,50,50,0,60,60
 2016,Eastern Asia,ASF,Mongolia,MNG,Pollution,100,50,100,50,0,60,100,100,50,50,0,60,60
 2016,Eastern Asia,ASF,Mongolia,MNG,Built environment,50,50,50,50,0,40,100,100,50,50,0,60,50
+2016,Eastern Asia,ASF,Mongolia,MNG,Environment subscore,80,70,80,40,0,54,100,100,50,60,0,62,58
+2016,Eastern Asia,ASF,Mongolia,MNG,All Categories,77.9,72.1,77.9,38.1,8.2,57.8,97.6,100,50,69.4,0,63.4,60.7
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Population & vital statistics,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Education facilities,50,50,50,50,0,40,100,100,50,50,0,60,50
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2045,6 +2229,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Myanmar,MMR,Built environment,50,0,0,50,0,20,0,100,0,100,0,40,30
+2016,South-Eastern Asia,ASE,Myanmar,MMR,Environment subscore,40,30,30,30,0,26,40,60,20,40,0,32,29
+2016,South-Eastern Asia,ASE,Myanmar,MMR,All Categories,40.1,27.9,30.2,26.6,0,26.2,45.2,64.6,24.8,44.3,0,35.8,31.2
 2016,South-Eastern Asia,ASE,Philippines,PHL,Population & vital statistics,100,50,50,50,50,60,50,100,0,50,50,50,55
 2016,South-Eastern Asia,ASE,Philippines,PHL,Education facilities,50,50,50,50,0,40,0,100,0,100,50,50,45
 2016,South-Eastern Asia,ASE,Philippines,PHL,Education outcomes,50,50,50,50,0,40,0,100,0,100,50,50,45
@@ -2067,6 +2253,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Philippines,PHL,Energy use,100,100,100,0,0,60,0,100,0,0,50,30,45
 2016,South-Eastern Asia,ASE,Philippines,PHL,Pollution,50,50,0,0,0,20,0,100,0,0,0,20,20
 2016,South-Eastern Asia,ASE,Philippines,PHL,Built environment,100,0,0,100,0,40,0,100,0,50,50,40,40
+2016,South-Eastern Asia,ASE,Philippines,PHL,Environment subscore,70,50,40,30,10,40,0,100,0,10,40,30,35
+2016,South-Eastern Asia,ASE,Philippines,PHL,All Categories,81.1,59.8,53.8,31.8,7.1,49.2,15.8,95.2,6.8,26.3,46.7,38.2,43.5
 2016,South-Eastern Asia,ASE,Singapore,SGP,Population & vital statistics,100,100,100,0,0,75,100,100,50,100,50,80,77.8
 2016,South-Eastern Asia,ASE,Singapore,SGP,Education facilities,50,50,50,0,0,37.5,100,100,50,0,50,60,50
 2016,South-Eastern Asia,ASE,Singapore,SGP,Education outcomes,50,50,50,0,0,37.5,100,100,50,0,50,60,50
@@ -2089,6 +2277,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Singapore,SGP,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Singapore,SGP,Pollution,50,50,50,0,0,37.5,100,100,50,0,50,60,50
 2016,South-Eastern Asia,ASE,Singapore,SGP,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,South-Eastern Asia,ASE,Singapore,SGP,Environment subscore,10,10,10,0,0,7.5,20,20,10,0,10,12,10
+2016,South-Eastern Asia,ASE,Singapore,SGP,All Categories,55.1,55.1,55.1,0,0,42.9,73.3,67.1,34.6,8.9,36.7,44.1,43.6
 2016,South-Eastern Asia,ASE,Thailand,THA,Population & vital statistics,100,50,50,50,0,50,0,100,0,50,50,40,45
 2016,South-Eastern Asia,ASE,Thailand,THA,Education facilities,50,50,50,50,0,40,50,50,50,0,50,40,40
 2016,South-Eastern Asia,ASE,Thailand,THA,Education outcomes,50,50,50,0,0,30,50,50,50,50,50,50,40
@@ -2111,6 +2301,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Thailand,THA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Thailand,THA,Pollution,100,50,50,50,0,50,0,100,0,50,50,40,45
 2016,South-Eastern Asia,ASE,Thailand,THA,Built environment,100,0,0,0,0,20,0,100,0,50,50,40,30
+2016,South-Eastern Asia,ASE,Thailand,THA,Environment subscore,70,30,20,20,0,28,0,80,0,40,40,32,30
+2016,South-Eastern Asia,ASE,Thailand,THA,All Categories,69.5,45.7,35.5,19.9,0,36.3,19.9,73.4,6.3,42.5,46.7,37.8,37.1
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Population & vital statistics,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Education outcomes,50,50,50,0,0,30,0,100,0,50,0,30,30
@@ -2133,6 +2325,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Built environment,100,0,0,100,0,40,0,100,0,50,0,30,35
+2016,South-Eastern Asia,ASE,Timor-Leste,TLS,Environment subscore,20,0,0,20,0,8,0,20,0,10,0,6,7
+2016,South-Eastern Asia,ASE,Timor-Leste,TLS,All Categories,57.6,42.3,37.8,30.3,0,35.4,0,68.6,0,43.8,0,22.5,28.7
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Population & vital statistics,50,50,0,0,0,20,0,100,0,100,0,40,30
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Education facilities,100,100,100,50,0,70,100,100,50,50,0,60,65
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Education outcomes,50,50,50,50,0,40,100,100,50,50,0,60,50
@@ -2155,6 +2349,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,South-Eastern Asia,ASE,Vietnam,VNM,Built environment,50,50,50,0,0,30,0,100,0,0,0,20,25
+2016,South-Eastern Asia,ASE,Vietnam,VNM,Environment subscore,30,30,30,10,0,20,10,60,10,20,0,20,20
+2016,South-Eastern Asia,ASE,Vietnam,VNM,All Categories,50.2,43,43.3,18.8,0,33.1,45.3,77.7,27.7,32.9,0,36.7,35
 2016,Southern Asia,ASZ,Bangladesh,BGD,Population & vital statistics,100,50,0,100,50,60,50,100,0,50,50,50,55
 2016,Southern Asia,ASZ,Bangladesh,BGD,Education facilities,100,100,50,50,50,70,50,100,0,0,0,30,50
 2016,Southern Asia,ASZ,Bangladesh,BGD,Education outcomes,100,50,50,50,0,50,0,100,0,50,0,30,40
@@ -2177,6 +2373,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Bangladesh,BGD,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Bangladesh,BGD,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Bangladesh,BGD,Built environment,100,50,0,0,0,30,0,100,0,50,0,30,30
+2016,Southern Asia,ASZ,Bangladesh,BGD,Environment subscore,50,40,30,10,20,30,0,60,0,50,0,22,26
+2016,Southern Asia,ASZ,Bangladesh,BGD,All Categories,74.4,49.3,35,18.5,14.2,40.1,6.3,86.7,2.1,46.1,4.5,29.1,34.4
 2016,Southern Asia,ASZ,Bhutan,BTN,Population & vital statistics,50,50,50,50,0,40,100,100,100,0,100,80,60
 2016,Southern Asia,ASZ,Bhutan,BTN,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Southern Asia,ASZ,Bhutan,BTN,Education outcomes,50,50,50,50,0,40,0,100,0,50,50,40,40
@@ -2199,6 +2397,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Bhutan,BTN,Energy use,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Southern Asia,ASZ,Bhutan,BTN,Pollution,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Southern Asia,ASZ,Bhutan,BTN,Built environment,100,50,50,50,0,50,50,100,50,50,50,60,55
+2016,Southern Asia,ASZ,Bhutan,BTN,Environment subscore,70,50,50,40,0,42,10,100,10,60,40,44,43
+2016,Southern Asia,ASZ,Bhutan,BTN,All Categories,70.7,61.9,53,38.1,0,47.2,12,100,12,56.3,41.9,44.4,45.8
 2016,Southern Asia,ASZ,India,IND,Population & vital statistics,50,50,0,50,0,30,100,0,0,50,50,40,35
 2016,Southern Asia,ASZ,India,IND,Education facilities,100,100,100,50,0,70,100,50,0,50,50,50,60
 2016,Southern Asia,ASZ,India,IND,Education outcomes,50,50,50,50,0,40,100,100,0,50,50,60,50
@@ -2221,6 +2421,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,India,IND,Energy use,50,50,50,0,0,30,100,100,0,50,50,60,45
 2016,Southern Asia,ASZ,India,IND,Pollution,100,50,100,50,50,70,100,100,0,100,50,70,70
 2016,Southern Asia,ASZ,India,IND,Built environment,100,50,0,100,50,60,100,50,0,50,50,50,55
+2016,Southern Asia,ASZ,India,IND,Environment subscore,80,50,50,60,20,52,100,80,0,60,50,58,55
+2016,Southern Asia,ASZ,India,IND,All Categories,71.3,61.3,54.8,42.8,8.7,49.9,97.9,78.2,0,62.6,47.6,57.2,53.7
 2016,Southern Asia,ASZ,Maldives,MDV,Population & vital statistics,100,50,0,100,0,62.5,0,100,0,0,0,20,38.9
 2016,Southern Asia,ASZ,Maldives,MDV,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Maldives,MDV,Education outcomes,50,50,50,0,0,37.5,100,100,0,0,0,40,38.9
@@ -2243,6 +2445,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Maldives,MDV,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Maldives,MDV,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Maldives,MDV,Built environment,100,50,0,100,0,62.5,100,100,0,50,0,50,55.6
+2016,Southern Asia,ASZ,Maldives,MDV,Environment subscore,30,20,10,30,0,22.5,40,40,0,10,0,18,20
+2016,Southern Asia,ASZ,Maldives,MDV,All Categories,50.2,35.8,28.3,31.8,0,36.7,58.6,69.6,4.2,5.4,0,27.5,31.5
 2016,Southern Asia,ASZ,Nepal,NPL,Population & vital statistics,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Southern Asia,ASZ,Nepal,NPL,Education facilities,100,100,100,0,0,60,0,100,0,0,0,20,40
 2016,Southern Asia,ASZ,Nepal,NPL,Education outcomes,100,100,100,0,0,60,0,100,0,50,0,30,45
@@ -2265,6 +2469,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Nepal,NPL,Energy use,100,100,100,0,0,60,0,100,0,100,0,40,50
 2016,Southern Asia,ASZ,Nepal,NPL,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Nepal,NPL,Built environment,100,50,50,0,50,50,0,100,0,100,0,40,45
+2016,Southern Asia,ASZ,Nepal,NPL,Environment subscore,70,50,50,10,20,40,0,60,0,80,0,28,34
+2016,Southern Asia,ASZ,Nepal,NPL,All Categories,76.9,65.8,54.8,6.3,8.7,45.4,2.4,84.3,0,54.6,0,28.3,36.5
 2016,Southern Asia,ASZ,Pakistan,PAK,Population & vital statistics,100,50,0,50,0,40,0,100,0,50,0,30,35
 2016,Southern Asia,ASZ,Pakistan,PAK,Education facilities,100,100,100,0,0,60,0,100,0,50,0,30,45
 2016,Southern Asia,ASZ,Pakistan,PAK,Education outcomes,50,50,50,50,0,40,0,100,0,100,0,40,40
@@ -2287,6 +2493,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Pakistan,PAK,Energy use,100,0,0,100,0,40,0,100,0,0,0,20,30
 2016,Southern Asia,ASZ,Pakistan,PAK,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Asia,ASZ,Pakistan,PAK,Built environment,100,50,50,100,100,80,0,100,0,50,0,30,55
+2016,Southern Asia,ASZ,Pakistan,PAK,Environment subscore,70,30,30,60,20,42,0,80,0,40,0,24,33
+2016,Southern Asia,ASZ,Pakistan,PAK,All Categories,65.9,48.1,48.4,43.8,8.7,44.7,0,85,0,61,0,29.2,36.7
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Population & vital statistics,100,100,100,50,50,80,50,100,50,50,0,50,65
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Education facilities,50,50,50,0,50,40,50,100,50,50,0,50,45
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Education outcomes,50,50,50,0,50,40,100,100,50,0,0,50,45
@@ -2309,6 +2517,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Energy use,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Pollution,50,0,50,0,0,20,0,100,0,100,0,40,30
 2016,Southern Asia,ASZ,Sri Lanka,LKA,Built environment,100,50,50,50,50,60,50,100,50,50,0,50,55
+2016,Southern Asia,ASZ,Sri Lanka,LKA,Environment subscore,80,40,50,10,30,42,30,100,30,40,0,40,41
+2016,Southern Asia,ASZ,Sri Lanka,LKA,All Categories,75.5,51.4,50,11.2,35.4,46.2,40.7,97.6,34.1,46.7,0,43.8,45
 2016,Western Asia,ASW,Armenia,ARM,Population & vital statistics,50,50,50,50,0,40,100,0,0,100,0,40,40
 2016,Western Asia,ASW,Armenia,ARM,Education facilities,50,50,50,0,0,30,100,100,50,50,0,60,45
 2016,Western Asia,ASW,Armenia,ARM,Education outcomes,50,50,50,0,0,30,100,100,50,100,0,70,50
@@ -2331,6 +2541,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Armenia,ARM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Armenia,ARM,Pollution,100,100,100,0,0,60,100,100,50,50,0,60,60
 2016,Western Asia,ASW,Armenia,ARM,Built environment,100,100,100,0,0,60,100,100,50,50,0,60,60
+2016,Western Asia,ASW,Armenia,ARM,Environment subscore,80,80,70,10,0,48,70,80,40,50,0,48,48
+2016,Western Asia,ASW,Armenia,ARM,All Categories,76.1,76.1,72.7,14.3,0,51.3,81.7,78.5,38.3,68.7,0,53.4,52.4
 2016,Western Asia,ASW,Azerbaijan,AZE,Population & vital statistics,100,100,100,0,0,60,100,0,0,100,0,40,50
 2016,Western Asia,ASW,Azerbaijan,AZE,Education facilities,50,50,50,50,50,50,100,0,0,100,0,40,45
 2016,Western Asia,ASW,Azerbaijan,AZE,Education outcomes,50,50,50,50,50,50,100,0,0,100,0,40,45
@@ -2353,6 +2565,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Azerbaijan,AZE,Energy use,100,100,100,0,0,60,100,0,0,100,0,40,50
 2016,Western Asia,ASW,Azerbaijan,AZE,Pollution,100,100,100,0,0,60,100,50,0,100,0,50,55
 2016,Western Asia,ASW,Azerbaijan,AZE,Built environment,100,50,0,50,0,40,100,50,0,50,0,40,40
+2016,Western Asia,ASW,Azerbaijan,AZE,Environment subscore,100,90,80,20,10,60,100,50,0,80,0,46,53
+2016,Western Asia,ASW,Azerbaijan,AZE,All Categories,84.5,79.1,73.4,15.1,12.6,56.2,86.9,41.4,0,77.6,0,41.2,48.4
 2016,Western Asia,ASW,Bahrain,BHR,Population & vital statistics,100,100,50,50,0,75,100,100,50,50,0,60,66.7
 2016,Western Asia,ASW,Bahrain,BHR,Education facilities,100,100,100,50,0,87.5,100,100,50,50,0,60,72.2
 2016,Western Asia,ASW,Bahrain,BHR,Education outcomes,50,50,50,0,0,37.5,100,100,50,50,0,60,50
@@ -2375,6 +2589,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Bahrain,BHR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Bahrain,BHR,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Bahrain,BHR,Built environment,50,0,0,50,0,25,0,100,0,50,0,30,27.8
+2016,Western Asia,ASW,Bahrain,BHR,Environment subscore,30,20,20,20,0,22.5,40,60,20,30,0,30,26.7
+2016,Western Asia,ASW,Bahrain,BHR,All Categories,54.9,49.5,47.4,12.6,0,42.2,60.4,78.3,31.4,43.9,0,42.8,42.5
 2016,Western Asia,ASW,Cyprus,CYP,Population & vital statistics,100,100,100,50,0,70,100,0,0,100,100,60,65
 2016,Western Asia,ASW,Cyprus,CYP,Education facilities,100,100,100,0,0,60,100,0,0,50,100,50,55
 2016,Western Asia,ASW,Cyprus,CYP,Education outcomes,50,50,50,0,0,30,100,0,0,0,100,40,35
@@ -2397,6 +2613,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Cyprus,CYP,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Cyprus,CYP,Pollution,100,50,100,0,0,50,100,0,0,100,100,60,55
 2016,Western Asia,ASW,Cyprus,CYP,Built environment,100,50,0,100,0,50,100,0,0,50,100,50,50
+2016,Western Asia,ASW,Cyprus,CYP,Environment subscore,60,40,40,20,0,32,80,0,0,60,80,44,38
+2016,Western Asia,ASW,Cyprus,CYP,All Categories,71.5,60.4,62.4,18.2,2.7,45.9,82.3,6.8,0,63.2,84.4,47.3,46.6
 2016,Western Asia,ASW,Georgia,GEO,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,0,70,80
 2016,Western Asia,ASW,Georgia,GEO,Education facilities,100,100,100,50,50,80,100,50,50,50,0,50,65
 2016,Western Asia,ASW,Georgia,GEO,Education outcomes,50,50,50,50,50,50,100,100,50,50,0,60,55
@@ -2419,6 +2637,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Georgia,GEO,Energy use,100,50,0,0,0,30,0,0,0,100,0,20,25
 2016,Western Asia,ASW,Georgia,GEO,Pollution,100,50,100,0,0,50,100,100,50,50,0,60,55
 2016,Western Asia,ASW,Georgia,GEO,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Asia,ASW,Georgia,GEO,Environment subscore,60,40,40,20,0,32,50,50,30,60,0,38,35
+2016,Western Asia,ASW,Georgia,GEO,All Categories,78.3,71.7,71.7,30.7,8.2,55,83.3,67,36.2,78.3,0,53,54
 2016,Western Asia,ASW,Iraq,IRQ,Population & vital statistics,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Western Asia,ASW,Iraq,IRQ,Education facilities,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Western Asia,ASW,Iraq,IRQ,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2441,6 +2661,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Iraq,IRQ,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Iraq,IRQ,Pollution,100,100,50,0,0,50,0,100,0,100,0,40,45
 2016,Western Asia,ASW,Iraq,IRQ,Built environment,100,50,50,50,0,50,0,100,0,100,0,40,45
+2016,Western Asia,ASW,Iraq,IRQ,Environment subscore,70,60,40,20,0,38,10,80,0,60,0,30,34
+2016,Western Asia,ASW,Iraq,IRQ,All Categories,61.1,49.2,36,23.1,0,35.9,3.3,80.2,0,42.3,7.1,26.6,31.1
 2016,Western Asia,ASW,Israel,ISR,Population & vital statistics,50,50,0,0,0,20,100,0,0,100,50,50,35
 2016,Western Asia,ASW,Israel,ISR,Education facilities,50,50,50,0,0,30,100,50,0,100,50,60,45
 2016,Western Asia,ASW,Israel,ISR,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2463,6 +2685,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Israel,ISR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Israel,ISR,Pollution,50,50,0,0,0,20,100,100,0,100,50,70,45
 2016,Western Asia,ASW,Israel,ISR,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Asia,ASW,Israel,ISR,Environment subscore,30,20,10,10,0,14,40,40,0,40,20,28,21
+2016,Western Asia,ASW,Israel,ISR,All Categories,43.3,37.9,28,3.9,0,24.4,66.9,60.7,0,66.9,33.5,45.6,35.4
 2016,Western Asia,ASW,Jordan,JOR,Population & vital statistics,100,100,100,50,50,80,100,100,50,0,0,50,65
 2016,Western Asia,ASW,Jordan,JOR,Education facilities,100,50,50,50,50,60,0,100,0,0,0,20,40
 2016,Western Asia,ASW,Jordan,JOR,Education outcomes,50,50,50,50,50,50,50,100,50,0,0,40,45
@@ -2485,6 +2709,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Jordan,JOR,Energy use,100,50,100,0,0,50,0,100,0,0,0,20,35
 2016,Western Asia,ASW,Jordan,JOR,Pollution,100,50,50,50,0,50,0,100,0,0,0,20,35
 2016,Western Asia,ASW,Jordan,JOR,Built environment,100,0,0,0,0,20,0,100,0,50,0,30,25
+2016,Western Asia,ASW,Jordan,JOR,Environment subscore,80,40,50,20,0,38,20,100,10,10,0,28,33
+2016,Western Asia,ASW,Jordan,JOR,All Categories,75.8,56.2,59.5,35.2,8.2,49.3,56.4,83.6,32.5,21.8,7.1,40.3,44.6
 2016,Western Asia,ASW,Kuwait,KWT,Population & vital statistics,100,50,50,100,50,70,100,100,0,0,0,40,55
 2016,Western Asia,ASW,Kuwait,KWT,Education facilities,100,50,50,50,0,50,100,100,0,0,0,40,45
 2016,Western Asia,ASW,Kuwait,KWT,Education outcomes,50,50,0,0,0,20,100,100,0,0,0,40,30
@@ -2507,6 +2733,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Kuwait,KWT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Kuwait,KWT,Pollution,100,100,100,0,0,60,100,100,0,50,0,50,55
 2016,Western Asia,ASW,Kuwait,KWT,Built environment,100,50,50,50,0,50,50,0,0,50,0,20,35
+2016,Western Asia,ASW,Kuwait,KWT,Environment subscore,60,50,50,10,0,34,40,60,0,20,0,24,29
+2016,Western Asia,ASW,Kuwait,KWT,All Categories,64.9,55.1,44,11.2,2.7,38,66.9,74.2,9.5,34.9,0,37.1,37.6
 2016,Western Asia,ASW,Lebanon,LBN,Population & vital statistics,100,50,50,50,0,50,50,50,0,50,0,30,40
 2016,Western Asia,ASW,Lebanon,LBN,Education facilities,50,50,50,50,0,40,100,0,0,0,0,20,30
 2016,Western Asia,ASW,Lebanon,LBN,Education outcomes,50,50,50,0,0,30,100,0,0,0,0,20,25
@@ -2529,6 +2757,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Lebanon,LBN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Lebanon,LBN,Pollution,50,0,0,0,0,10,100,0,0,0,0,20,15
 2016,Western Asia,ASW,Lebanon,LBN,Built environment,100,0,0,100,0,40,50,50,0,100,0,40,40
+2016,Western Asia,ASW,Lebanon,LBN,Environment subscore,30,0,0,20,0,10,30,10,0,20,0,12,11
+2016,Western Asia,ASW,Lebanon,LBN,All Categories,61.2,29.8,31.8,27.9,0,31.8,63.9,23.3,0,38.2,2.4,25.5,28.5
 2016,Western Asia,ASW,Oman,OMN,Population & vital statistics,100,100,100,50,0,70,100,100,50,0,100,70,70
 2016,Western Asia,ASW,Oman,OMN,Education facilities,50,50,50,50,0,40,100,100,50,0,100,70,55
 2016,Western Asia,ASW,Oman,OMN,Education outcomes,50,50,50,0,0,30,100,100,50,0,100,70,50
@@ -2551,6 +2781,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Oman,OMN,Energy use,50,50,50,50,0,40,100,100,50,0,100,70,55
 2016,Western Asia,ASW,Oman,OMN,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Oman,OMN,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Asia,ASW,Oman,OMN,Environment subscore,30,30,30,10,0,20,60,60,30,10,60,44,32
+2016,Western Asia,ASW,Oman,OMN,All Categories,45.4,45.4,45.4,13.6,0,32,66.4,70.6,34.4,17,66.4,51,41.9
 2016,Western Asia,ASW,Qatar,QAT,Population & vital statistics,50,50,50,50,0,40,0,100,0,0,0,20,30
 2016,Western Asia,ASW,Qatar,QAT,Education facilities,50,50,0,0,0,20,0,100,0,0,0,20,20
 2016,Western Asia,ASW,Qatar,QAT,Education outcomes,50,50,50,0,0,30,0,100,0,0,0,20,25
@@ -2573,6 +2805,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Qatar,QAT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Qatar,QAT,Pollution,100,50,50,0,0,40,0,100,0,0,0,20,30
 2016,Western Asia,ASW,Qatar,QAT,Built environment,50,50,0,50,0,30,0,100,0,100,0,40,35
+2016,Western Asia,ASW,Qatar,QAT,Environment subscore,50,40,30,10,0,26,0,80,0,20,0,20,23
+2016,Western Asia,ASW,Qatar,QAT,All Categories,54.5,51.1,41.5,8.8,0,33.5,0,93.3,0,46,0,27.9,30.6
 2016,Western Asia,ASW,Saudi Arabia,SAU,Population & vital statistics,100,50,50,50,0,50,50,50,50,50,0,40,45
 2016,Western Asia,ASW,Saudi Arabia,SAU,Education facilities,100,50,50,50,0,50,50,50,50,50,0,40,45
 2016,Western Asia,ASW,Saudi Arabia,SAU,Education outcomes,50,50,50,50,0,40,50,50,50,50,0,40,40
@@ -2595,6 +2829,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Saudi Arabia,SAU,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Saudi Arabia,SAU,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Saudi Arabia,SAU,Built environment,100,0,0,100,0,40,50,100,50,0,0,40,40
+2016,Western Asia,ASW,Saudi Arabia,SAU,Environment subscore,40,20,20,40,0,24,30,20,10,20,0,16,20
+2016,Western Asia,ASW,Saudi Arabia,SAU,All Categories,51.7,40.9,40.9,25.3,0,33.6,41.8,29.3,21.2,22.1,0,22.9,28
 2016,Western Asia,ASW,Turkey,TUR,Population & vital statistics,100,100,100,50,50,80,100,50,50,50,50,60,70
 2016,Western Asia,ASW,Turkey,TUR,Education facilities,50,50,50,0,0,30,100,0,0,100,50,50,40
 2016,Western Asia,ASW,Turkey,TUR,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2617,6 +2853,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Turkey,TUR,Energy use,50,50,50,0,0,30,100,0,0,0,50,30,30
 2016,Western Asia,ASW,Turkey,TUR,Pollution,50,50,50,0,0,30,100,0,0,100,50,50,40
 2016,Western Asia,ASW,Turkey,TUR,Built environment,100,50,50,100,0,60,100,50,50,100,50,70,65
+2016,Western Asia,ASW,Turkey,TUR,Environment subscore,60,50,50,30,0,38,100,10,10,70,50,48,43
+2016,Western Asia,ASW,Turkey,TUR,All Categories,61.7,56.3,56.3,21.7,5.5,42.6,81.5,12.3,7.5,69.8,43.2,42.8,42.7
 2016,Western Asia,ASW,United Arab Emirates,ARE,Population & vital statistics,50,50,50,50,0,40,100,100,0,0,50,50,45
 2016,Western Asia,ASW,United Arab Emirates,ARE,Education facilities,50,50,50,50,0,40,100,0,0,0,50,30,35
 2016,Western Asia,ASW,United Arab Emirates,ARE,Education outcomes,50,50,50,50,0,40,100,0,0,0,50,30,35
@@ -2639,6 +2877,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,United Arab Emirates,ARE,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,United Arab Emirates,ARE,Pollution,100,100,100,50,0,70,100,100,0,100,50,70,70
 2016,Western Asia,ASW,United Arab Emirates,ARE,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Asia,ASW,United Arab Emirates,ARE,Environment subscore,50,50,50,40,0,38,60,50,0,30,30,34,36
+2016,Western Asia,ASW,United Arab Emirates,ARE,All Categories,55.1,46.1,46.1,31.2,0,37.7,64.6,43.5,0,12.4,39.2,31.9,34.7
 2016,Western Asia,ASW,Yemen,YEM,Population & vital statistics,50,50,50,50,0,40,100,0,0,0,0,20,30
 2016,Western Asia,ASW,Yemen,YEM,Education facilities,50,50,50,50,0,40,100,0,0,0,0,20,30
 2016,Western Asia,ASW,Yemen,YEM,Education outcomes,50,50,50,50,0,40,100,0,0,0,0,20,30
@@ -2661,6 +2901,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Yemen,YEM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Yemen,YEM,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Asia,ASW,Yemen,YEM,Built environment,100,100,100,50,0,70,100,50,50,50,50,60,65
+2016,Western Asia,ASW,Yemen,YEM,Environment subscore,40,40,40,20,0,28,60,10,10,20,10,22,25
+2016,Western Asia,ASW,Yemen,YEM,All Categories,53.5,49,51.4,24.8,0,37.9,82.5,14,11.7,12.9,11.7,26.6,32
 2016,Eastern Europe,EUE,Belarus,BLR,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,0,70,85
 2016,Eastern Europe,EUE,Belarus,BLR,Education facilities,100,100,100,50,50,80,0,100,0,50,0,30,55
 2016,Eastern Europe,EUE,Belarus,BLR,Education outcomes,50,50,50,50,50,50,0,100,0,100,0,40,45
@@ -2683,6 +2925,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Belarus,BLR,Energy use,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Eastern Europe,EUE,Belarus,BLR,Pollution,100,100,100,50,50,80,0,100,0,100,0,40,60
 2016,Eastern Europe,EUE,Belarus,BLR,Built environment,100,100,100,0,0,60,0,100,0,50,0,30,45
+2016,Eastern Europe,EUE,Belarus,BLR,Environment subscore,90,90,80,20,20,60,0,80,0,70,0,30,45
+2016,Eastern Europe,EUE,Belarus,BLR,All Categories,88,86,80.5,19.9,19.7,62,18.2,82,4.2,79.6,0,36.8,48.9
 2016,Eastern Europe,EUE,Bulgaria,BGR,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,0,70,85
 2016,Eastern Europe,EUE,Bulgaria,BGR,Education facilities,100,100,100,50,50,80,100,100,50,100,0,70,75
 2016,Eastern Europe,EUE,Bulgaria,BGR,Education outcomes,50,50,50,50,50,50,100,100,50,100,0,70,60
@@ -2705,6 +2949,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Bulgaria,BGR,Energy use,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Eastern Europe,EUE,Bulgaria,BGR,Pollution,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Eastern Europe,EUE,Bulgaria,BGR,Built environment,100,100,100,100,0,80,100,50,50,50,0,50,65
+2016,Eastern Europe,EUE,Bulgaria,BGR,Environment subscore,90,90,90,20,0,58,70,80,40,90,20,60,59
+2016,Eastern Europe,EUE,Bulgaria,BGR,All Categories,79.7,77.3,79.7,32.8,19.1,60.5,74.8,73.1,37.7,86.2,16.2,57.6,59
 2016,Eastern Europe,EUE,Czech Republic,CZE,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,100,90,95
 2016,Eastern Europe,EUE,Czech Republic,CZE,Education facilities,100,100,50,100,0,70,100,100,50,100,50,80,75
 2016,Eastern Europe,EUE,Czech Republic,CZE,Education outcomes,50,50,50,50,0,40,100,100,50,100,100,90,65
@@ -2727,6 +2973,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Czech Republic,CZE,Energy use,100,100,100,0,0,60,100,100,0,100,100,80,70
 2016,Eastern Europe,EUE,Czech Republic,CZE,Pollution,100,100,100,50,0,70,100,100,50,100,100,90,80
 2016,Eastern Europe,EUE,Czech Republic,CZE,Built environment,100,100,100,100,50,90,100,100,50,100,100,90,90
+2016,Eastern Europe,EUE,Czech Republic,CZE,Environment subscore,100,100,100,60,20,76,100,100,40,90,100,86,81
+2016,Eastern Europe,EUE,Czech Republic,CZE,All Categories,93.7,93.7,89.6,53.9,22.4,73.7,97.9,95.8,40.4,90.4,95.5,84,79.1
 2016,Eastern Europe,EUE,Hungary,HUN,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,0,70,85
 2016,Eastern Europe,EUE,Hungary,HUN,Education facilities,100,100,100,50,0,70,100,100,50,50,0,60,65
 2016,Eastern Europe,EUE,Hungary,HUN,Education outcomes,50,50,50,50,0,40,100,100,50,50,0,60,50
@@ -2749,6 +2997,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Hungary,HUN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Europe,EUE,Hungary,HUN,Pollution,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Eastern Europe,EUE,Hungary,HUN,Built environment,100,100,100,0,0,60,100,100,50,100,0,70,65
+2016,Eastern Europe,EUE,Hungary,HUN,Environment subscore,70,70,70,30,10,50,80,80,40,70,0,54,52
+2016,Eastern Europe,EUE,Hungary,HUN,All Categories,79.6,79.6,77.5,29,12.6,58.7,89.2,84.4,35.4,72.4,2.4,56.7,57.7
 2016,Southern Europe,EUZ,Kosovo,XKX,Population & vital statistics,100,50,50,0,100,60,0,100,0,50,50,40,50
 2016,Southern Europe,EUZ,Kosovo,XKX,Education facilities,50,50,50,0,50,40,0,100,0,50,50,40,40
 2016,Southern Europe,EUZ,Kosovo,XKX,Education outcomes,50,50,50,0,50,40,0,100,0,100,50,50,45
@@ -2771,6 +3021,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Kosovo,XKX,Energy use,100,50,50,0,0,40,0,100,0,50,50,40,40
 2016,Southern Europe,EUZ,Kosovo,XKX,Pollution,100,50,0,0,50,40,0,100,0,50,50,40,40
 2016,Southern Europe,EUZ,Kosovo,XKX,Built environment,100,50,50,0,50,50,0,100,0,50,50,40,45
+2016,Southern Europe,EUZ,Kosovo,XKX,Environment subscore,80,50,40,10,30,42,0,100,0,50,50,40,41
+2016,Southern Europe,EUZ,Kosovo,XKX,All Categories,64.5,50.3,44.6,6.3,32.3,41,0,86.3,0,54.8,43.2,36.8,38.8
 2016,Eastern Europe,EUE,Moldova,MDA,Population & vital statistics,100,100,100,50,50,80,100,100,50,100,0,70,75
 2016,Eastern Europe,EUE,Moldova,MDA,Education facilities,50,50,50,50,50,50,100,100,50,100,0,70,60
 2016,Eastern Europe,EUE,Moldova,MDA,Education outcomes,50,50,50,0,0,30,100,100,50,100,0,70,50
@@ -2793,6 +3045,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Moldova,MDA,Energy use,100,50,0,0,0,30,100,100,50,100,0,70,50
 2016,Eastern Europe,EUE,Moldova,MDA,Pollution,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Eastern Europe,EUE,Moldova,MDA,Built environment,100,100,100,0,0,60,100,100,50,100,0,70,65
+2016,Eastern Europe,EUE,Moldova,MDA,Environment subscore,80,70,60,10,0,44,100,100,50,100,0,70,57
+2016,Eastern Europe,EUE,Moldova,MDA,All Categories,82.6,77.2,69.1,13.6,8.2,53.4,100,90.5,45.2,88.4,0,64.8,59.4
 2016,Eastern Europe,EUE,Poland,POL,Population & vital statistics,50,50,50,50,50,50,100,100,50,100,100,90,70
 2016,Eastern Europe,EUE,Poland,POL,Education facilities,100,100,50,100,100,90,100,100,50,50,100,80,85
 2016,Eastern Europe,EUE,Poland,POL,Education outcomes,50,50,50,50,50,50,100,100,50,50,100,80,65
@@ -2815,6 +3069,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Poland,POL,Energy use,100,100,50,50,0,60,100,100,50,100,100,90,75
 2016,Eastern Europe,EUE,Poland,POL,Pollution,100,100,100,100,100,100,100,100,50,100,100,90,95
 2016,Eastern Europe,EUE,Poland,POL,Built environment,100,100,100,100,100,100,100,100,50,100,100,90,95
+2016,Eastern Europe,EUE,Poland,POL,Environment subscore,100,90,80,80,50,80,90,100,50,90,90,84,82
+2016,Eastern Europe,EUE,Poland,POL,All Categories,89.6,86.2,80.8,66.9,41.4,74.8,92.5,90.5,43.2,84.2,89.8,80,77.5
 2016,Eastern Europe,EUE,Romania,ROU,Population & vital statistics,100,100,100,50,0,70,100,0,0,100,50,50,60
 2016,Eastern Europe,EUE,Romania,ROU,Education facilities,50,50,50,50,50,50,100,0,0,100,50,50,50
 2016,Eastern Europe,EUE,Romania,ROU,Education outcomes,50,50,50,50,50,50,100,0,0,100,50,50,50
@@ -2837,6 +3093,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Romania,ROU,Energy use,100,100,100,0,0,60,100,0,0,100,50,50,55
 2016,Eastern Europe,EUE,Romania,ROU,Pollution,100,100,100,0,0,60,100,0,0,100,50,50,55
 2016,Eastern Europe,EUE,Romania,ROU,Built environment,50,50,50,50,50,50,100,0,0,100,50,50,50
+2016,Eastern Europe,EUE,Romania,ROU,Environment subscore,80,80,80,40,40,64,100,0,0,100,50,50,57
+2016,Eastern Europe,EUE,Romania,ROU,All Categories,71.9,67.1,67.1,32.6,33.9,56.3,91.7,2.4,2.4,91.7,45.8,46.8,51.3
 2016,Eastern Europe,EUE,Russian Federation,RUS,Population & vital statistics,100,100,100,0,50,70,50,50,50,100,50,60,65
 2016,Eastern Europe,EUE,Russian Federation,RUS,Education facilities,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Eastern Europe,EUE,Russian Federation,RUS,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2859,6 +3117,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Russian Federation,RUS,Energy use,100,100,100,0,0,60,0,100,0,0,50,30,45
 2016,Eastern Europe,EUE,Russian Federation,RUS,Pollution,100,50,50,0,0,40,50,0,0,100,50,40,40
 2016,Eastern Europe,EUE,Russian Federation,RUS,Built environment,100,100,100,50,50,80,50,100,50,100,50,70,75
+2016,Eastern Europe,EUE,Russian Federation,RUS,Environment subscore,100,80,80,30,20,62,40,60,30,80,50,52,57
+2016,Eastern Europe,EUE,Russian Federation,RUS,All Categories,84.8,76.1,74,22.1,14.2,57.3,40.4,56.3,23.4,80.8,50.3,50.2,53.6
 2016,Eastern Europe,EUE,Slovakia,SVK,Population & vital statistics,100,100,100,100,100,100,100,100,50,50,0,60,80
 2016,Eastern Europe,EUE,Slovakia,SVK,Education facilities,50,50,50,50,50,50,100,100,50,50,0,60,55
 2016,Eastern Europe,EUE,Slovakia,SVK,Education outcomes,50,50,50,50,0,40,100,100,50,50,0,60,50
@@ -2881,6 +3141,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Slovakia,SVK,Energy use,100,100,100,0,0,60,0,100,0,100,50,50,55
 2016,Eastern Europe,EUE,Slovakia,SVK,Pollution,100,100,100,50,50,80,100,100,50,50,0,60,70
 2016,Eastern Europe,EUE,Slovakia,SVK,Built environment,100,100,100,100,50,90,100,100,50,50,0,60,75
+2016,Eastern Europe,EUE,Slovakia,SVK,Environment subscore,100,100,100,60,50,82,70,100,40,60,20,58,70
+2016,Eastern Europe,EUE,Slovakia,SVK,All Categories,66.4,66.4,64.3,40.7,35.9,56.1,60.5,77.4,35.4,53.6,13.5,48.1,51.9
 2016,Eastern Europe,EUE,Ukraine,UKR,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,0,70,80
 2016,Eastern Europe,EUE,Ukraine,UKR,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Eastern Europe,EUE,Ukraine,UKR,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2903,6 +3165,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Europe,EUE,Ukraine,UKR,Energy use,100,100,100,0,0,60,100,0,0,100,0,40,50
 2016,Eastern Europe,EUE,Ukraine,UKR,Pollution,100,100,100,0,0,60,50,50,0,100,0,40,50
 2016,Eastern Europe,EUE,Ukraine,UKR,Built environment,50,50,50,0,0,30,0,100,0,0,0,20,25
+2016,Eastern Europe,EUE,Ukraine,UKR,Environment subscore,90,90,90,20,0,58,50,50,0,70,0,34,46
+2016,Eastern Europe,EUE,Ukraine,UKR,All Categories,73.5,73.5,73.5,22.7,2.7,52.4,41.7,45.5,4.2,67.1,0,31.7,41.6
 2016,Northern Europe,EUN,Denmark,DNK,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,100,90,95
 2016,Northern Europe,EUN,Denmark,DNK,Education facilities,50,50,50,50,0,40,100,100,50,100,100,90,65
 2016,Northern Europe,EUN,Denmark,DNK,Education outcomes,50,50,50,50,50,50,100,100,50,100,100,90,70
@@ -2925,6 +3189,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Denmark,DNK,Energy use,100,100,100,0,0,60,100,100,50,100,100,90,75
 2016,Northern Europe,EUN,Denmark,DNK,Pollution,100,100,50,50,50,70,100,100,50,50,100,80,75
 2016,Northern Europe,EUN,Denmark,DNK,Built environment,50,50,50,50,50,50,100,100,50,100,100,90,70
+2016,Northern Europe,EUN,Denmark,DNK,Environment subscore,80,80,60,30,30,56,100,100,50,80,100,86,71
+2016,Northern Europe,EUN,Denmark,DNK,All Categories,80.5,80.5,73.9,31.1,35,62.4,100,100,50,93.3,100,88.7,76.1
 2016,Northern Europe,EUN,Estonia,EST,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,Northern Europe,EUN,Estonia,EST,Education facilities,100,100,100,50,50,80,100,100,50,100,50,80,80
 2016,Northern Europe,EUN,Estonia,EST,Education outcomes,50,50,50,50,50,50,100,100,50,50,50,70,60
@@ -2947,6 +3213,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Estonia,EST,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Northern Europe,EUN,Estonia,EST,Pollution,100,50,100,100,0,70,100,100,50,100,50,80,75
 2016,Northern Europe,EUN,Estonia,EST,Built environment,100,50,50,100,50,70,100,100,50,50,50,70,70
+2016,Northern Europe,EUN,Estonia,EST,Environment subscore,100,80,90,70,30,74,100,100,50,90,50,78,76
+2016,Northern Europe,EUN,Estonia,EST,All Categories,93.7,85,88.3,57.8,26.8,73,100,100,50,92.5,50,78.5,75.8
 2016,Northern Europe,EUN,Finland,FIN,Population & vital statistics,100,100,100,100,100,100,100,100,100,100,100,100,100
 2016,Northern Europe,EUN,Finland,FIN,Education facilities,50,50,50,50,0,40,50,50,0,50,50,40,40
 2016,Northern Europe,EUN,Finland,FIN,Education outcomes,50,50,50,50,0,40,50,100,50,100,100,80,60
@@ -2969,6 +3237,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Finland,FIN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Europe,EUN,Finland,FIN,Pollution,100,100,100,50,0,70,100,100,100,100,100,100,85
 2016,Northern Europe,EUN,Finland,FIN,Built environment,100,50,50,50,50,60,50,100,50,50,100,70,65
+2016,Northern Europe,EUN,Finland,FIN,Environment subscore,70,60,60,40,20,50,70,80,50,60,60,64,57
+2016,Northern Europe,EUN,Finland,FIN,All Categories,85.8,80.4,78.3,51,25.9,66.7,79.6,91.2,66.4,71.8,76,77,72
 2016,Northern Europe,EUN,Iceland,ISL,Population & vital statistics,100,100,100,0,50,70,100,100,50,50,0,60,65
 2016,Northern Europe,EUN,Iceland,ISL,Education facilities,50,50,50,50,0,40,100,100,50,50,0,60,50
 2016,Northern Europe,EUN,Iceland,ISL,Education outcomes,50,50,50,50,0,40,100,100,50,100,0,70,55
@@ -2991,6 +3261,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Iceland,ISL,Energy use,100,100,100,0,0,60,100,100,50,50,0,60,60
 2016,Northern Europe,EUN,Iceland,ISL,Pollution,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Northern Europe,EUN,Iceland,ISL,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Northern Europe,EUN,Iceland,ISL,Environment subscore,60,50,40,0,0,30,60,60,30,40,0,38,34
+2016,Northern Europe,EUN,Iceland,ISL,All Categories,59.9,56.5,53.2,4.9,5.5,38.5,77.1,77.1,38.6,50.5,0,48.7,43.8
 2016,Northern Europe,EUN,Ireland,IRL,Population & vital statistics,100,100,100,100,50,90,100,100,100,100,100,100,95
 2016,Northern Europe,EUN,Ireland,IRL,Education facilities,50,50,50,0,0,30,100,100,100,50,0,70,50
 2016,Northern Europe,EUN,Ireland,IRL,Education outcomes,100,100,100,50,0,70,100,100,100,50,0,70,70
@@ -3013,6 +3285,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Ireland,IRL,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Europe,EUN,Ireland,IRL,Pollution,100,100,100,0,0,60,100,100,100,0,100,80,70
 2016,Northern Europe,EUN,Ireland,IRL,Built environment,100,50,0,50,50,50,100,100,100,100,100,100,75
+2016,Northern Europe,EUN,Ireland,IRL,Environment subscore,60,50,40,10,10,34,50,70,50,50,70,58,46
+2016,Northern Europe,EUN,Ireland,IRL,All Categories,73.9,70.5,67.2,16.4,7.1,50,66.7,85.8,64.6,42.6,79.6,67.8,59.3
 2016,Northern Europe,EUN,Latvia,LVA,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,Northern Europe,EUN,Latvia,LVA,Education facilities,100,50,100,50,50,70,100,100,50,100,50,80,75
 2016,Northern Europe,EUN,Latvia,LVA,Education outcomes,50,50,50,50,50,50,100,100,50,100,50,80,65
@@ -3035,6 +3309,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Latvia,LVA,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Northern Europe,EUN,Latvia,LVA,Pollution,100,100,100,0,0,60,50,50,50,100,50,60,60
 2016,Northern Europe,EUN,Latvia,LVA,Built environment,100,50,50,100,50,70,100,100,50,50,50,70,70
+2016,Northern Europe,EUN,Latvia,LVA,Environment subscore,100,80,80,40,20,64,90,90,50,80,50,72,68
+2016,Northern Europe,EUN,Latvia,LVA,All Categories,93.7,85,87.1,35.7,25.2,68.3,92.5,94.3,47.6,86.8,50,74.2,71.4
 2016,Northern Europe,EUN,Lithuania,LTU,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,Northern Europe,EUN,Lithuania,LTU,Education facilities,100,100,100,50,50,80,100,100,50,100,50,80,80
 2016,Northern Europe,EUN,Lithuania,LTU,Education outcomes,50,50,50,50,50,50,100,100,50,100,50,80,65
@@ -3057,6 +3333,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Lithuania,LTU,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Northern Europe,EUN,Lithuania,LTU,Pollution,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,Northern Europe,EUN,Lithuania,LTU,Built environment,100,50,50,100,100,80,100,100,50,50,50,70,75
+2016,Northern Europe,EUN,Lithuania,LTU,Environment subscore,100,80,80,70,70,80,100,100,50,80,50,76,78
+2016,Northern Europe,EUN,Lithuania,LTU,All Categories,95.8,89.2,87.1,65.8,58.7,80.8,100,100,33.6,79.9,50,72.7,76.6
 2016,Northern Europe,EUN,Norway,NOR,Population & vital statistics,100,100,100,100,100,100,100,100,100,100,50,90,95
 2016,Northern Europe,EUN,Norway,NOR,Education facilities,50,50,50,50,50,50,100,100,50,100,50,80,65
 2016,Northern Europe,EUN,Norway,NOR,Education outcomes,100,100,100,50,0,70,100,100,50,100,50,80,75
@@ -3079,6 +3357,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Norway,NOR,Energy use,100,100,100,0,0,60,100,100,100,100,50,90,75
 2016,Northern Europe,EUN,Norway,NOR,Pollution,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Northern Europe,EUN,Norway,NOR,Built environment,50,50,50,50,50,50,100,100,100,100,50,90,70
+2016,Northern Europe,EUN,Norway,NOR,Environment subscore,90,80,90,40,30,66,100,100,80,100,50,86,76
+2016,Northern Europe,EUN,Norway,NOR,All Categories,88,82.6,86,35,29.5,66.9,100,100,89.2,100,50,87.8,77.8
 2016,Northern Europe,EUN,Sweden,SWE,Population & vital statistics,100,100,100,100,100,100,100,100,100,100,100,100,100
 2016,Northern Europe,EUN,Sweden,SWE,Education facilities,100,100,100,50,100,90,100,50,50,100,0,60,75
 2016,Northern Europe,EUN,Sweden,SWE,Education outcomes,50,50,50,50,50,50,100,0,0,100,0,40,45
@@ -3101,6 +3381,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,Sweden,SWE,Energy use,100,100,100,50,50,80,100,100,100,100,100,100,90
 2016,Northern Europe,EUN,Sweden,SWE,Pollution,100,50,50,0,0,40,100,100,100,100,100,100,70
 2016,Northern Europe,EUN,Sweden,SWE,Built environment,100,50,50,50,50,60,100,100,100,100,100,100,80
+2016,Northern Europe,EUN,Sweden,SWE,Environment subscore,100,70,70,40,30,62,90,100,90,90,100,94,78
+2016,Northern Europe,EUN,Sweden,SWE,All Categories,93.7,81.7,81.7,42.3,37.7,69.7,96.7,91.7,86.2,94.6,87.5,91.3,81
 2016,Northern Europe,EUN,United Kingdom,GBR,Population & vital statistics,100,100,100,100,100,100,100,50,50,100,100,80,90
 2016,Northern Europe,EUN,United Kingdom,GBR,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Northern Europe,EUN,United Kingdom,GBR,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -3123,6 +3405,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Northern Europe,EUN,United Kingdom,GBR,Energy use,100,100,100,0,0,60,100,0,0,100,100,60,60
 2016,Northern Europe,EUN,United Kingdom,GBR,Pollution,100,100,100,0,0,60,100,0,0,100,100,60,60
 2016,Northern Europe,EUN,United Kingdom,GBR,Built environment,50,50,0,50,50,40,100,100,100,100,100,100,70
+2016,Northern Europe,EUN,United Kingdom,GBR,Environment subscore,80,70,60,10,10,46,90,30,20,100,100,68,57
+2016,Northern Europe,EUN,United Kingdom,GBR,All Categories,68,64.7,61.4,8.8,9.8,45.3,75.8,38,11.1,70.2,79.2,54.9,50.3
 2016,Southern Europe,EUZ,Albania,ALB,Population & vital statistics,100,100,100,50,0,70,100,100,50,100,0,70,70
 2016,Southern Europe,EUZ,Albania,ALB,Education facilities,50,50,50,50,0,40,0,100,0,100,0,40,40
 2016,Southern Europe,EUZ,Albania,ALB,Education outcomes,50,50,50,50,0,40,50,100,50,50,0,50,45
@@ -3145,6 +3429,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Albania,ALB,Energy use,50,50,50,0,0,30,100,0,0,0,0,20,25
 2016,Southern Europe,EUZ,Albania,ALB,Pollution,100,100,100,0,0,60,100,100,50,50,0,60,60
 2016,Southern Europe,EUZ,Albania,ALB,Built environment,100,50,50,0,0,40,100,100,50,50,0,60,50
+2016,Southern Europe,EUZ,Albania,ALB,Environment subscore,90,70,70,20,0,50,100,80,40,40,0,52,51
+2016,Southern Europe,EUZ,Albania,ALB,All Categories,86.2,72.7,73,19.9,0,53.9,78,86.5,42.5,64.8,0,54.4,54.2
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Population & vital statistics,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Education facilities,50,50,50,0,0,30,0,100,0,50,0,30,30
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Education outcomes,50,50,50,0,0,30,0,100,0,50,0,30,30
@@ -3167,6 +3453,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Energy use,100,100,50,0,0,50,0,100,0,100,0,40,45
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Pollution,50,50,50,0,0,30,100,0,0,100,0,40,35
 2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Built environment,50,50,0,0,0,20,0,100,0,50,0,30,25
+2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Environment subscore,70,60,40,0,0,34,30,70,0,80,0,36,35
+2016,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,All Categories,65.3,55.7,47,0,0,36.4,10,75.7,2.4,72.8,0,32.2,34.2
 2016,Southern Europe,EUZ,Croatia,HRV,Population & vital statistics,100,100,100,50,50,80,50,100,50,100,50,70,75
 2016,Southern Europe,EUZ,Croatia,HRV,Education facilities,50,50,50,50,0,40,0,100,0,50,50,40,40
 2016,Southern Europe,EUZ,Croatia,HRV,Education outcomes,50,50,50,50,0,40,0,100,0,100,50,50,45
@@ -3189,6 +3477,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Croatia,HRV,Energy use,100,100,100,0,0,60,0,100,0,100,50,50,55
 2016,Southern Europe,EUZ,Croatia,HRV,Pollution,100,100,100,0,0,60,0,100,0,100,50,50,55
 2016,Southern Europe,EUZ,Croatia,HRV,Built environment,100,100,100,50,50,80,50,100,50,100,50,70,75
+2016,Southern Europe,EUZ,Croatia,HRV,Environment subscore,100,100,100,10,10,64,40,100,30,90,50,62,63
+2016,Southern Europe,EUZ,Croatia,HRV,All Categories,87.2,87.2,85.1,16,9.8,60.8,27,97.6,16.5,81.5,50,54.5,57.5
 2016,Southern Europe,EUZ,Greece,GRC,Population & vital statistics,100,50,50,50,50,60,0,100,0,100,100,60,60
 2016,Southern Europe,EUZ,Greece,GRC,Education facilities,50,50,50,0,0,30,100,0,0,50,100,50,40
 2016,Southern Europe,EUZ,Greece,GRC,Education outcomes,50,50,50,50,0,40,50,50,0,100,100,60,50
@@ -3211,6 +3501,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Greece,GRC,Energy use,100,50,50,50,50,60,50,50,0,100,100,60,60
 2016,Southern Europe,EUZ,Greece,GRC,Pollution,100,50,50,0,0,40,100,0,0,0,100,40,40
 2016,Southern Europe,EUZ,Greece,GRC,Built environment,100,50,0,100,100,70,100,0,0,50,100,50,60
+2016,Southern Europe,EUZ,Greece,GRC,Environment subscore,80,40,30,40,30,44,60,40,0,70,100,54,49
+2016,Southern Europe,EUZ,Greece,GRC,All Categories,71.9,49.3,50.8,25.3,18.6,45,39.3,52.3,0,65.6,91.7,49.8,47.5
 2016,Southern Europe,EUZ,Italy,ITA,Population & vital statistics,100,100,50,100,100,90,100,100,100,100,100,100,95
 2016,Southern Europe,EUZ,Italy,ITA,Education facilities,50,50,50,50,50,50,100,100,50,100,100,90,70
 2016,Southern Europe,EUZ,Italy,ITA,Education outcomes,50,50,50,50,50,50,100,0,50,100,100,70,60
@@ -3233,6 +3525,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Italy,ITA,Energy use,50,50,50,50,50,50,100,100,50,100,100,90,70
 2016,Southern Europe,EUZ,Italy,ITA,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Europe,EUZ,Italy,ITA,Built environment,50,50,50,50,50,50,100,100,50,100,100,90,70
+2016,Southern Europe,EUZ,Italy,ITA,Environment subscore,50,40,50,50,40,46,80,80,40,80,80,72,59
+2016,Southern Europe,EUZ,Italy,ITA,All Categories,75,65.4,66.7,54.2,42.1,61.8,93.3,75.5,46.7,93.3,93.3,80.4,71.5
 2016,Southern Europe,EUZ,North Macedonia,MKD,Population & vital statistics,100,100,100,50,0,70,100,100,50,100,0,70,70
 2016,Southern Europe,EUZ,North Macedonia,MKD,Education facilities,50,50,50,50,0,40,50,100,50,100,0,60,50
 2016,Southern Europe,EUZ,North Macedonia,MKD,Education outcomes,50,50,50,50,0,40,100,100,50,100,0,70,55
@@ -3255,6 +3549,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,North Macedonia,MKD,Energy use,100,100,100,0,0,60,100,100,50,100,0,70,65
 2016,Southern Europe,EUZ,North Macedonia,MKD,Pollution,100,100,100,0,0,60,50,100,0,100,0,50,55
 2016,Southern Europe,EUZ,North Macedonia,MKD,Built environment,100,100,100,0,0,60,100,100,0,50,0,50,55
+2016,Southern Europe,EUZ,North Macedonia,MKD,Environment subscore,100,90,90,10,0,58,70,100,30,80,0,56,57
+2016,Southern Europe,EUZ,North Macedonia,MKD,All Categories,87.2,81.8,81.8,13.6,0,56.8,79,95.5,34.1,78.2,0,57.4,57.1
 2016,Southern Europe,EUZ,Malta,MLT,Population & vital statistics,100,50,100,50,0,75,50,100,50,50,100,70,72.2
 2016,Southern Europe,EUZ,Malta,MLT,Education facilities,50,0,0,50,0,25,0,100,0,50,100,50,38.9
 2016,Southern Europe,EUZ,Malta,MLT,Education outcomes,50,0,0,0,0,12.5,0,100,0,50,100,50,33.3
@@ -3277,6 +3573,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Malta,MLT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Europe,EUZ,Malta,MLT,Pollution,100,0,50,0,0,37.5,0,100,0,50,100,50,44.4
 2016,Southern Europe,EUZ,Malta,MLT,Built environment,100,50,0,100,0,62.5,0,0,0,50,50,20,38.9
+2016,Southern Europe,EUZ,Malta,MLT,Environment subscore,60,20,20,40,0,35,0,60,0,40,70,34,34.4
+2016,Southern Europe,EUZ,Malta,MLT,All Categories,59,34.6,36.7,23.2,0,39,33,60.5,23.5,33.6,63.8,42.9,41.2
 2016,Southern Europe,EUZ,Montenegro,MNE,Population & vital statistics,100,100,100,50,50,80,100,0,0,100,0,40,60
 2016,Southern Europe,EUZ,Montenegro,MNE,Education facilities,50,50,50,0,0,30,100,50,0,100,0,50,40
 2016,Southern Europe,EUZ,Montenegro,MNE,Education outcomes,50,50,50,50,0,40,100,0,0,50,0,30,35
@@ -3299,6 +3597,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Montenegro,MNE,Energy use,100,100,100,0,0,60,100,0,0,100,0,40,50
 2016,Southern Europe,EUZ,Montenegro,MNE,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Southern Europe,EUZ,Montenegro,MNE,Built environment,100,50,50,50,50,60,50,50,0,100,0,40,50
+2016,Southern Europe,EUZ,Montenegro,MNE,Environment subscore,60,50,50,10,10,36,60,30,0,80,0,34,35
+2016,Southern Europe,EUZ,Montenegro,MNE,All Categories,67,63.7,61.6,13.6,7.1,45.3,71.5,18.3,0,73.7,7.1,34.1,39.5
 2016,Southern Europe,EUZ,Portugal,PRT,Population & vital statistics,100,100,100,0,100,80,100,100,50,100,50,80,80
 2016,Southern Europe,EUZ,Portugal,PRT,Education facilities,50,50,50,0,50,40,100,100,50,100,50,80,60
 2016,Southern Europe,EUZ,Portugal,PRT,Education outcomes,50,50,50,0,50,40,100,100,0,100,50,70,55
@@ -3321,6 +3621,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Portugal,PRT,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Southern Europe,EUZ,Portugal,PRT,Pollution,100,50,100,0,0,50,100,100,50,100,50,80,65
 2016,Southern Europe,EUZ,Portugal,PRT,Built environment,100,50,50,0,100,60,100,100,50,100,50,80,70
+2016,Southern Europe,EUZ,Portugal,PRT,Environment subscore,100,70,80,0,40,58,100,100,50,100,50,80,69
+2016,Southern Europe,EUZ,Portugal,PRT,All Categories,85.1,75.1,78.5,2.4,36.6,58.2,100,90.5,43.2,95.8,45.2,74.9,66.9
 2016,Southern Europe,EUZ,Serbia,SRB,Population & vital statistics,100,100,100,50,50,80,100,100,0,100,100,80,80
 2016,Southern Europe,EUZ,Serbia,SRB,Education facilities,50,50,50,0,0,30,50,100,0,50,50,50,40
 2016,Southern Europe,EUZ,Serbia,SRB,Education outcomes,50,50,50,0,0,30,100,100,0,50,100,70,50
@@ -3343,6 +3645,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Serbia,SRB,Energy use,100,100,100,0,0,60,0,100,0,100,50,50,55
 2016,Southern Europe,EUZ,Serbia,SRB,Pollution,100,100,100,0,0,60,50,100,0,50,50,50,55
 2016,Southern Europe,EUZ,Serbia,SRB,Built environment,100,50,50,50,50,60,50,100,0,50,50,50,55
+2016,Southern Europe,EUZ,Serbia,SRB,Environment subscore,90,70,70,30,30,58,50,100,0,70,70,58,58
+2016,Southern Europe,EUZ,Serbia,SRB,All Categories,74.6,63.5,63.5,14.1,15.9,48.9,61.9,85.7,0,72.7,65.3,57.1,53.2
 2016,Southern Europe,EUZ,Slovenia,SVN,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,50,80,85
 2016,Southern Europe,EUZ,Slovenia,SVN,Education facilities,100,100,100,50,0,70,100,100,50,50,50,70,70
 2016,Southern Europe,EUZ,Slovenia,SVN,Education outcomes,50,50,50,50,0,40,100,100,50,100,50,80,60
@@ -3365,6 +3669,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Slovenia,SVN,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Southern Europe,EUZ,Slovenia,SVN,Pollution,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Southern Europe,EUZ,Slovenia,SVN,Built environment,100,50,50,100,0,60,100,100,50,100,50,80,70
+2016,Southern Europe,EUZ,Slovenia,SVN,Environment subscore,100,80,80,30,0,58,100,100,50,90,50,78,68
+2016,Southern Europe,EUZ,Slovenia,SVN,All Categories,89.6,82.9,82.9,31.8,2.7,61.6,95.8,95.8,45.5,79.4,50.3,73.4,67.7
 2016,Southern Europe,EUZ,Spain,ESP,Population & vital statistics,100,100,100,100,100,100,100,100,50,100,50,80,90
 2016,Southern Europe,EUZ,Spain,ESP,Education facilities,100,100,100,100,0,80,100,100,0,100,50,70,75
 2016,Southern Europe,EUZ,Spain,ESP,Education outcomes,100,100,100,50,0,70,100,100,0,100,50,70,70
@@ -3387,6 +3693,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Southern Europe,EUZ,Spain,ESP,Energy use,100,50,50,0,0,40,100,100,50,50,50,70,55
 2016,Southern Europe,EUZ,Spain,ESP,Pollution,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Southern Europe,EUZ,Spain,ESP,Built environment,50,50,0,0,0,20,100,100,50,100,50,80,50
+2016,Southern Europe,EUZ,Spain,ESP,Environment subscore,70,60,40,10,0,36,90,100,50,80,50,74,55
+2016,Southern Europe,EUZ,Spain,ESP,All Categories,74.5,71.2,64.5,34.1,8.2,53.2,90.4,97.6,41.7,83.8,50,72.7,63.3
 2016,Western Europe,EUW,Austria,AUT,Population & vital statistics,100,100,100,100,50,90,100,100,50,100,50,80,85
 2016,Western Europe,EUW,Austria,AUT,Education facilities,100,100,100,50,0,70,100,100,50,50,50,70,70
 2016,Western Europe,EUW,Austria,AUT,Education outcomes,50,50,50,50,50,50,100,100,50,50,50,70,60
@@ -3409,6 +3717,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Austria,AUT,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Western Europe,EUW,Austria,AUT,Pollution,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Western Europe,EUW,Austria,AUT,Built environment,50,50,50,50,0,40,100,100,50,50,50,70,55
+2016,Western Europe,EUW,Austria,AUT,Environment subscore,70,70,70,20,0,46,100,100,50,90,50,78,62
+2016,Western Europe,EUW,Austria,AUT,All Categories,77.5,71.2,75.4,27.6,5.5,54.5,95.8,95.8,36.6,86.2,43.2,71.5,63.4
 2016,Western Europe,EUW,Belgium,BEL,Population & vital statistics,100,100,100,50,0,70,100,50,50,100,100,80,75
 2016,Western Europe,EUW,Belgium,BEL,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Europe,EUW,Belgium,BEL,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -3431,6 +3741,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Belgium,BEL,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Europe,EUW,Belgium,BEL,Pollution,100,50,100,0,0,50,0,100,0,0,100,40,45
 2016,Western Europe,EUW,Belgium,BEL,Built environment,50,50,50,50,50,50,50,100,50,50,100,70,60
+2016,Western Europe,EUW,Belgium,BEL,Environment subscore,50,40,50,20,30,38,40,70,20,50,80,52,45
+2016,Western Europe,EUW,Belgium,BEL,All Categories,60.4,57.1,56,18.2,15.9,43.5,63.3,67.1,27.5,66.7,72.5,59.4,51.8
 2016,Western Europe,EUW,France,FRA,Population & vital statistics,50,50,50,50,50,50,100,50,50,100,50,70,60
 2016,Western Europe,EUW,France,FRA,Education facilities,50,50,50,50,50,50,100,100,50,100,50,80,65
 2016,Western Europe,EUW,France,FRA,Education outcomes,50,50,50,50,50,50,100,100,50,50,50,70,60
@@ -3453,6 +3765,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,France,FRA,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Western Europe,EUW,France,FRA,Pollution,100,50,50,0,0,40,100,0,0,100,50,50,45
 2016,Western Europe,EUW,France,FRA,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Europe,EUW,France,FRA,Environment subscore,30,20,20,0,0,14,40,20,0,40,20,24,19
+2016,Western Europe,EUW,France,FRA,All Categories,61.8,54,45.4,20.5,16.8,41.5,69.6,57.9,15.5,69.6,37.9,50.1,45.9
 2016,Western Europe,EUW,Germany,DEU,Population & vital statistics,100,100,100,100,50,90,100,100,50,50,100,80,85
 2016,Western Europe,EUW,Germany,DEU,Education facilities,50,50,50,50,50,50,50,100,50,0,100,60,55
 2016,Western Europe,EUW,Germany,DEU,Education outcomes,50,50,50,50,50,50,100,100,50,0,100,70,60
@@ -3475,6 +3789,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Germany,DEU,Energy use,100,100,100,0,0,60,100,100,50,0,100,70,65
 2016,Western Europe,EUW,Germany,DEU,Pollution,100,50,50,0,0,40,100,100,50,0,100,70,55
 2016,Western Europe,EUW,Germany,DEU,Built environment,100,50,50,50,0,50,100,100,50,0,100,70,60
+2016,Western Europe,EUW,Germany,DEU,Environment subscore,90,60,60,30,0,48,100,100,50,20,100,74,61
+2016,Western Europe,EUW,Germany,DEU,All Categories,81.8,71.8,71.8,31.1,8.2,55.9,86.6,91.1,45.5,45.1,91.7,72,64.3
 2016,Australia and New Zealand,OAZ,Australia,AUS,Population & vital statistics,100,100,100,100,0,80,100,50,50,100,100,80,80
 2016,Australia and New Zealand,OAZ,Australia,AUS,Education facilities,100,100,100,100,0,80,100,0,0,100,100,60,70
 2016,Australia and New Zealand,OAZ,Australia,AUS,Education outcomes,50,50,50,50,0,40,100,0,0,100,100,60,50
@@ -3497,6 +3813,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Australia and New Zealand,OAZ,Australia,AUS,Energy use,100,100,100,0,0,60,100,0,0,100,100,60,60
 2016,Australia and New Zealand,OAZ,Australia,AUS,Pollution,50,50,50,0,0,30,100,0,0,100,100,60,45
 2016,Australia and New Zealand,OAZ,Australia,AUS,Built environment,50,50,0,50,0,30,100,100,50,100,100,90,60
+2016,Australia and New Zealand,OAZ,Australia,AUS,Environment subscore,70,60,40,40,0,42,100,40,10,100,100,70,56
+2016,Australia and New Zealand,OAZ,Australia,AUS,All Categories,75.1,69.4,62.7,46.5,0,53.5,93.5,38.9,17,93.7,95.8,67.8,60.9
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Population & vital statistics,100,100,100,0,0,60,100,100,50,100,100,90,75
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Education facilities,100,100,100,50,0,70,100,50,0,100,100,70,70
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Education outcomes,50,50,50,50,0,40,100,100,0,100,100,80,60
@@ -3519,6 +3837,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Energy use,100,100,100,0,0,60,100,100,0,100,100,80,70
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Pollution,50,50,50,0,0,30,100,100,0,100,100,80,55
 2016,Australia and New Zealand,OAZ,New Zealand,NZL,Built environment,50,50,50,0,0,30,50,0,0,100,100,50,40
+2016,Australia and New Zealand,OAZ,New Zealand,NZL,Environment subscore,70,60,60,10,0,40,90,70,20,90,100,74,57
+2016,Australia and New Zealand,OAZ,New Zealand,NZL,All Categories,83.7,76.2,78.3,16.7,0,54.7,90.4,76.9,29.3,82.4,97.6,75.3,65.4
 2016,Pacific Islands,OPI,Fiji,FJI,Population & vital statistics,50,0,0,50,0,20,0,100,0,0,0,20,20
 2016,Pacific Islands,OPI,Fiji,FJI,Education facilities,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Pacific Islands,OPI,Fiji,FJI,Education outcomes,50,50,50,0,0,30,0,100,0,0,0,20,25
@@ -3541,6 +3861,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Fiji,FJI,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Fiji,FJI,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Fiji,FJI,Built environment,100,0,0,0,0,20,0,100,0,100,0,40,30
+2016,Pacific Islands,OPI,Fiji,FJI,Environment subscore,40,20,20,0,0,16,0,60,0,30,0,18,17
+2016,Pacific Islands,OPI,Fiji,FJI,All Categories,60.4,44.8,35.5,7.3,0,31.8,16.7,72.4,0,17.1,6.3,22.5,27
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Population & vital statistics,50,50,0,50,50,40,0,100,0,50,0,30,35
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Education facilities,50,50,50,50,0,40,0,100,0,50,0,30,35
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Education outcomes,50,50,50,50,0,40,0,100,0,0,0,20,30
@@ -3563,6 +3885,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Papua New Guinea,PNG,Built environment,100,0,0,100,0,40,0,100,0,50,0,30,35
+2016,Pacific Islands,OPI,Papua New Guinea,PNG,Environment subscore,20,0,0,20,0,8,0,20,0,10,0,6,7
+2016,Pacific Islands,OPI,Papua New Guinea,PNG,All Categories,31.1,11,4.2,27.9,2.7,15.6,4.8,37,0,18.2,0,12,13.8
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Population & vital statistics,100,50,50,50,0,50,50,100,0,50,0,40,45
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Education facilities,100,50,100,50,0,60,50,50,0,50,0,30,45
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Education outcomes,100,50,50,50,0,50,50,50,0,100,0,40,45
@@ -3585,6 +3909,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Solomon Islands,SLB,Built environment,100,50,0,100,0,50,0,0,0,50,0,10,30
+2016,Pacific Islands,OPI,Solomon Islands,SLB,Environment subscore,20,10,0,20,0,10,0,0,0,10,0,2,6
+2016,Pacific Islands,OPI,Solomon Islands,SLB,All Categories,57.3,28.3,22.6,30,0,29,6.3,53.6,0,45.6,0,21.1,24.9
 2016,Pacific Islands,OPI,Vanuatu,VUT,Population & vital statistics,50,0,0,50,0,20,0,100,0,50,0,30,25
 2016,Pacific Islands,OPI,Vanuatu,VUT,Education facilities,100,100,100,50,0,70,0,100,0,50,0,30,50
 2016,Pacific Islands,OPI,Vanuatu,VUT,Education outcomes,50,50,50,50,50,50,0,100,0,50,0,30,40
@@ -3607,6 +3933,32 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Vanuatu,VUT,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Vanuatu,VUT,Pollution,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Vanuatu,VUT,Built environment,100,50,0,50,0,40,0,100,0,50,0,30,35
+2016,Pacific Islands,OPI,Vanuatu,VUT,Environment subscore,30,10,0,20,0,12,0,40,0,20,0,12,12
+2016,Pacific Islands,OPI,Vanuatu,VUT,All Categories,54.6,28,25.3,20.3,2.7,27.6,0,75.8,0,35.8,0,22.3,24.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Population & vital statistics,100,0,0,0,0,25,0,100,0,50,0,30,27.8
+2016,Pacific Islands,OPI,Kiribati,KIR,Education facilities,50,0,50,0,0,25,100,0,0,0,0,20,22.2
+2016,Pacific Islands,OPI,Kiribati,KIR,Education outcomes,50,50,50,50,0,50,0,100,0,50,0,30,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Health facilities,100,50,0,0,0,37.5,0,100,0,50,0,30,33.3
+2016,Pacific Islands,OPI,Kiribati,KIR,Health outcomes,50,50,0,0,0,25,0,100,0,50,0,30,27.8
+2016,Pacific Islands,OPI,Kiribati,KIR,Reproductive health,100,50,0,0,0,37.5,0,100,0,100,0,40,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Gender statistics ,100,50,0,0,0,37.5,0,100,0,100,0,40,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Poverty & income,50,0,0,50,0,25,0,100,0,100,0,40,33.3
+2016,Pacific Islands,OPI,Kiribati,KIR,Social statistics subscore,75,31.3,12.5,12.5,0,32.8,12.5,87.5,0,62.5,0,32.5,32.6
+2016,Pacific Islands,OPI,Kiribati,KIR,National accounts,50,50,50,0,0,37.5,100,100,0,0,0,40,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Labor ,100,0,0,0,0,25,0,100,0,50,0,30,27.8
+2016,Pacific Islands,OPI,Kiribati,KIR,Price indexes,50,50,50,0,0,37.5,100,100,0,0,0,40,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Government finance,100,0,50,0,0,37.5,100,100,0,0,0,40,38.9
+2016,Pacific Islands,OPI,Kiribati,KIR,Money & banking,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Pacific Islands,OPI,Kiribati,KIR,International trade,100,0,50,0,0,50,100,100,0,0,0,40,43.8
+2016,Pacific Islands,OPI,Kiribati,KIR,Balance of payments,50,0,50,0,0,33.3,100,100,0,0,0,40,37.5
+2016,Pacific Islands,OPI,Kiribati,KIR,Economic & financial statistics subscore,64.3,14.3,35.7,0,0,32,71.4,85.7,0,7.1,0,32.9,32.5
+2016,Pacific Islands,OPI,Kiribati,KIR,Land use,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Pacific Islands,OPI,Kiribati,KIR,Resource use,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Pacific Islands,OPI,Kiribati,KIR,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Pacific Islands,OPI,Kiribati,KIR,Pollution,50,0,50,0,0,25,0,100,0,0,0,20,22.2
+2016,Pacific Islands,OPI,Kiribati,KIR,Built environment,100,0,0,0,0,25,0,0,0,50,0,10,16.7
+2016,Pacific Islands,OPI,Kiribati,KIR,Environment subscore,30,0,10,0,0,10,0,20,0,10,0,6,7.8
+2016,Pacific Islands,OPI,Kiribati,KIR,All Categories,56.4,15.2,19.4,4.9,0,24.7,28,64.4,0,26.5,0,23.8,24.2
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Population & vital statistics,100,50,0,50,0,50,0,100,0,50,0,30,38.9
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Education facilities,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Education outcomes,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -3629,6 +3981,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Pollution,50,0,0,0,0,12.5,0,100,0,0,0,20,16.7
 2016,Pacific Islands,OPI,Marshall Islands,MHL,Built environment,100,50,0,50,0,50,0,100,0,50,0,30,38.9
+2016,Pacific Islands,OPI,Marshall Islands,MHL,Environment subscore,40,20,10,10,0,20,0,60,0,20,0,16,17.8
+2016,Pacific Islands,OPI,Marshall Islands,MHL,All Categories,47,32,22.1,6.3,0,27.6,0,65.2,0,31.7,0,19.4,23
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Population & vital statistics,50,50,50,50,0,50,50,50,0,0,0,20,33.3
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Education facilities,100,50,50,100,0,75,0,100,0,50,0,30,50
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Education outcomes,50,50,50,50,0,50,50,100,50,50,0,50,50
@@ -3651,6 +4005,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Pollution,50,0,0,0,0,12.5,0,100,0,0,0,20,16.7
 2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Built environment,50,0,0,0,0,12.5,0,100,0,0,0,20,16.7
+2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,Environment subscore,30,10,10,0,0,12.5,10,60,0,0,0,14,13.3
+2016,Pacific Islands,OPI,Micronesia Fed. Sts.,FSM,All Categories,48.1,30.7,28.6,28.1,0,34.1,24.2,78,2.1,17.6,0,24.4,28.6
 2016,Pacific Islands,OPI,Samoa,WSM,Population & vital statistics,50,50,50,50,0,40,50,100,0,50,0,40,40
 2016,Pacific Islands,OPI,Samoa,WSM,Education facilities,50,50,50,0,0,30,0,100,0,50,50,40,35
 2016,Pacific Islands,OPI,Samoa,WSM,Education outcomes,50,50,50,0,0,30,0,100,0,50,100,50,40
@@ -3673,6 +4029,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Pacific Islands,OPI,Samoa,WSM,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Pacific Islands,OPI,Samoa,WSM,Pollution,50,50,50,0,0,30,0,100,0,0,0,20,25
 2016,Pacific Islands,OPI,Samoa,WSM,Built environment,100,50,50,0,0,40,0,100,0,50,0,30,35
+2016,Pacific Islands,OPI,Samoa,WSM,Environment subscore,60,40,30,0,0,26,0,80,0,30,0,22,24
+2016,Pacific Islands,OPI,Samoa,WSM,All Categories,67,52,46.3,4.9,0,36.7,21.1,93.3,0,38.3,13.4,33.2,34.9
 2016,Western Asia,ASW,Palestine,PSE,Population & vital statistics,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Western Asia,ASW,Palestine,PSE,Education facilities,50,50,50,0,0,30,0,100,0,100,0,40,35
 2016,Western Asia,ASW,Palestine,PSE,Education outcomes,50,50,50,0,0,30,0,100,0,100,0,40,35
@@ -3695,6 +4053,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Asia,ASW,Palestine,PSE,Energy use,100,50,0,0,0,30,0,100,0,100,0,40,35
 2016,Western Asia,ASW,Palestine,PSE,Pollution,100,50,100,0,0,50,0,100,0,100,0,40,45
 2016,Western Asia,ASW,Palestine,PSE,Built environment,100,50,50,0,0,40,0,100,0,100,0,40,40
+2016,Western Asia,ASW,Palestine,PSE,Environment subscore,90,50,60,30,0,46,0,100,0,100,0,40,43
+2016,Western Asia,ASW,Palestine,PSE,All Categories,74.9,59.5,56.3,16.9,0,44.4,4.8,95.2,0,95.2,2.4,39.5,41.9
 2016,Western Europe,EUW,Netherlands,NLD,Population & vital statistics,100,100,100,100,100,100,100,100,100,100,100,100,100
 2016,Western Europe,EUW,Netherlands,NLD,Education facilities,50,50,50,0,0,30,100,100,100,100,100,100,65
 2016,Western Europe,EUW,Netherlands,NLD,Education outcomes,50,0,50,0,0,20,100,100,100,100,100,100,60
@@ -3717,6 +4077,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Netherlands,NLD,Energy use,100,100,100,0,0,60,100,100,100,100,100,100,80
 2016,Western Europe,EUW,Netherlands,NLD,Pollution,100,100,100,0,0,60,100,100,100,100,100,100,80
 2016,Western Europe,EUW,Netherlands,NLD,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Europe,EUW,Netherlands,NLD,Environment subscore,80,60,80,30,20,54,80,80,80,80,80,80,67
+2016,Western Europe,EUW,Netherlands,NLD,All Categories,76.7,65.8,76.7,16.5,14.2,52.9,85,85,85,85,85,85,69.6
 2016,Western Europe,EUW,Luxembourg,LUX,Population & vital statistics,100,100,100,0,0,60,100,100,50,50,100,80,70
 2016,Western Europe,EUW,Luxembourg,LUX,Education facilities,50,50,50,50,50,50,100,100,50,50,100,80,65
 2016,Western Europe,EUW,Luxembourg,LUX,Education outcomes,50,50,50,50,50,50,100,100,50,50,100,80,65
@@ -3739,6 +4101,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Luxembourg,LUX,Energy use,100,100,100,0,0,60,0,100,0,50,100,50,55
 2016,Western Europe,EUW,Luxembourg,LUX,Pollution,100,100,100,0,0,60,0,100,0,50,100,50,55
 2016,Western Europe,EUW,Luxembourg,LUX,Built environment,0,0,0,0,0,0,0,0,0,0,0,0,0
+2016,Western Europe,EUW,Luxembourg,LUX,Environment subscore,60,60,60,10,10,40,0,80,0,40,80,40,40
+2016,Western Europe,EUW,Luxembourg,LUX,All Categories,60.2,56,60.2,8.8,9.8,41.4,24.1,80.2,13.1,40.4,78.2,47.2,44.4
 2016,Western Europe,EUW,Switzerland,CHE,Population & vital statistics,100,100,50,100,100,90,100,100,50,50,50,70,80
 2016,Western Europe,EUW,Switzerland,CHE,Education facilities,100,100,50,50,0,60,100,50,50,100,50,70,65
 2016,Western Europe,EUW,Switzerland,CHE,Education outcomes,50,50,50,50,0,40,100,50,50,50,50,60,50
@@ -3761,6 +4125,8 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Western Europe,EUW,Switzerland,CHE,Energy use,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Western Europe,EUW,Switzerland,CHE,Pollution,100,100,100,0,0,60,100,100,50,100,50,80,70
 2016,Western Europe,EUW,Switzerland,CHE,Built environment,50,50,50,50,0,40,100,100,50,100,50,80,60
+2016,Western Europe,EUW,Switzerland,CHE,Environment subscore,90,70,70,40,20,58,90,90,50,90,50,74,66
+2016,Western Europe,EUW,Switzerland,CHE,All Categories,83.6,74.8,70.7,32.9,14.2,58,94.6,52,33.9,74.3,47.6,60.5,59.3
 2016,Eastern Asia,ASF,Taiwan,TWN,Population & vital statistics,50,50,50,50,0,40,100,100,50,50,50,70,55
 2016,Eastern Asia,ASF,Taiwan,TWN,Education facilities,100,100,100,0,0,60,100,100,50,50,50,70,65
 2016,Eastern Asia,ASF,Taiwan,TWN,Education outcomes,50,50,50,0,0,30,100,100,50,50,50,70,50
@@ -3783,7 +4149,9 @@ Year,Region,Region code,Country,Country Code,Data categories,Indicator coverage 
 2016,Eastern Asia,ASF,Taiwan,TWN,Energy use,0,0,0,0,0,0,0,0,0,0,0,0,0
 2016,Eastern Asia,ASF,Taiwan,TWN,Pollution,100,100,100,0,0,60,100,100,50,0,50,60,60
 2016,Eastern Asia,ASF,Taiwan,TWN,Built environment,50,0,0,50,0,20,100,100,50,0,0,50,35
+2016,Eastern Asia,ASF,Taiwan,TWN,Environment subscore,50,30,30,10,0,24,50,50,30,10,20,32,28
+2016,Eastern Asia,ASF,Taiwan,TWN,All Categories,54.8,48.1,46,6.3,0,33.4,70.2,66.1,32.3,27.7,33.5,46,39.9
 ©2020 Open Data Watch - Licensed under a Creative Commons Attribution 4.0 license,,,,,,,,,,,,,,,,,,
 Please cite any uses of these data as: Open Data Watch -- Open Data Inventory http://www.opendatawatch.com,,,,,,,,,,,,,,,,,,
-1/25/2021 4:24:00 PM,,,,,,,,,,,,,,,,,,
+1/25/2021 5:03:00 PM,,,,,,,,,,,,,,,,,,
 Last updated: December 2 2020,,,,,,,,,,,,,,,,,,

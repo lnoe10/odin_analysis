@@ -219,7 +219,8 @@ odin_scores %>%
   geom_col(aes(y = pct_available, fill = "Countries with\npublished data (%)")) +
   geom_point(aes(y = mean_coverage, color = "Average coverage for\ncountries with data (index)")) +
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
-        legend.title = element_blank(), legend.position = "bottom") +
+        legend.title = element_blank(), legend.position = "bottom",
+        legend.margin=margin(t = -1.5, unit='cm')) +
   # Labels
   labs(x = "", y = "", title = "Countries with published data do not necessarily have great coverage") +
   # the labels must match what you specified above

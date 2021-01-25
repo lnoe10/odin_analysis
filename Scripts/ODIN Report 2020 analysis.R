@@ -41,24 +41,94 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
-# Coverage by category, 2018 vs 2020
+### Coverage by category, 2018 vs 2020
+# Make sorting order based on average coverage scores in 2018
+sel_order <- 
+  odin_scores %>% 
+  # Restrict to Coverage subscore and 2018
+  filter(element == "Coverage subscore", year == 2018) %>% 
+  # Make average by data category
+  group_by(data_categories) %>%
+  summarize(value = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # Sort by best coverage in 2018
+  arrange(desc(value)) %>% 
+  # Create label that inherits ordering
+  mutate(labels = factor(data_categories))
+
+# Create graph
 odin_scores %>%
-  filter(element == "Coverage subscore") %>%
+  # Filter for only coverage subscore, filter out subscores that don't
+  # exist in both years or that are main scores.
+  filter(element == "Coverage subscore",
+         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Gender statistics")) %>%
+  # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = data_categories, y = mean_availability, fill = year)) +
-  geom_col(position = "dodge2") +
-  theme(legend.position = "none")
-
-# Average openness by sector
-odin_scores %>%
-  filter(element == "Coverage subscore") %>%
+  # create label variable that inherits ordering from sorting order df
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  # Create ggplot, using new ordered label variable as x axis,
+  # splitting it by year (fill)
+  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  # Calling column geom with dodge position so grouped bar will be side by side
+  geom_col(position = "dodge") +
+  # Rotate x axis labels, remove legend title, position legend inside graph
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
+  # Labels
+  labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
+  # Extend y axis from 0 to 100
+  scale_y_continuous(limits = c(0, 100))
+  
+### Openness by category, 2018 vs 2020
+# Make sorting order based on average coverage scores in 2018
+sel_order <- 
+  odin_scores %>% 
+  # Restrict to Openness subscore and 2018
+  filter(element == "Openness subscore", year == 2018) %>% 
+  # Make average by data category
   group_by(data_categories) %>%
+  summarize(value = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # Sort by best coverage in 2018
+  arrange(desc(value)) %>% 
+  # Create label that inherits ordering
+  mutate(labels = factor(data_categories))
+
+# Create graph
+odin_scores %>%
+  # Filter for only coverage subscore, filter out subscores that don't
+  # exist in both years or that are main scores.
+  filter(element == "Openness subscore",
+         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Gender statistics")) %>%
+  # Make average by data category and year
+  group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  arrange(desc(mean_availability))
-  
+  # create label variable that inherits ordering from sorting order df
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  # Create ggplot, using new ordered label variable as x axis,
+  # splitting it by year (fill)
+  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  # Calling column geom with dodge position so grouped bar will be side by side
+  geom_col(position = "dodge") +
+  # Rotate x axis labels, remove legend title, position legend inside graph
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
+  # Labels
+  labs(x = "", y = "Average score", title = "Openness, ODIN 2018 and 2020") +
+  # Extend y axis from 0 to 100
+  scale_y_continuous(limits = c(0, 100))
+
+# For graphs above, group data_categories by macro-sector?
+# In sel_order, sort by macro_sector and mean score, that should
+# give correct arrangement in graph
+
+# Create Figure 6 on % that published (where indicator and disaggregation element is not 0)
+# And corresponding coverage score.
 
 # Health section- Focus on scores from the 3 health categories, 
 # identify trends or interesting findings from 2020. Bring in Global 

@@ -85,7 +85,8 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Coverage subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -111,7 +112,8 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Coverage subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -153,7 +155,8 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -179,7 +182,8 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%

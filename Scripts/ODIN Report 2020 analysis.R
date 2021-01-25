@@ -190,6 +190,42 @@ odin_scores %>%
 # Create Figure 6 on % that published (where indicator and disaggregation element is not 0)
 # And corresponding coverage score.
 
+odin_scores %>%
+  filter(year == 2020,
+         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         element == "Indicator coverage and disaggregation") %>%
+  mutate(score = case_when(
+    score > 0 ~ 1,
+    TRUE ~ score
+  )) %>%
+  group_by(data_categories) %>%
+  summarize(pct_available = mean(score, na.rm = TRUE)*100) %>%
+  ungroup() %>%
+  left_join(
+    odin_scores %>%
+      filter(year == 2020,
+             !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                     "All Categories", "Environment subscore", "Social statistics subscore"),
+             element %in% c("Coverage subscore", "Indicator coverage and disaggregation")) %>%
+      select(country_code, data_categories, element, score) %>%
+      pivot_wider(id_cols = c(country_code, data_categories), names_from = element, values_from = score) %>%
+      filter(`Indicator coverage and disaggregation` > 0) %>%
+      group_by(data_categories) %>%
+      summarize(mean_coverage = mean(`Coverage subscore`, na.rm = TRUE)) %>%
+      ungroup()
+  ) %>%
+  ggplot(aes(x = reorder(data_categories, -pct_available))) + 
+  geom_col(aes(y = pct_available, fill = "Countries with\npublished data (%)")) +
+  geom_point(aes(y = mean_coverage, color = "Average coverage for\ncountries with data (index)")) +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        legend.title = element_blank(), legend.position = "bottom") +
+  # Labels
+  labs(x = "", y = "", title = "Countries with published data do not necessarily have great coverage") +
+  # the labels must match what you specified above
+  scale_fill_manual(name = "", values = c("Countries with\npublished data (%)" = "grey")) +
+  scale_color_manual(name = "", values = c("Average coverage for\ncountries with data (index)" = "black"))
+
 # Health section- Focus on scores from the 3 health categories, 
 # identify trends or interesting findings from 2020. Bring in Global 
 # Health 50/50 COVID data or other COVID related data (Lorenz) 

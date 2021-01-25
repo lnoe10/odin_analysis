@@ -25,7 +25,17 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
   # Convert to long
   pivot_longer(indicator_coverage_and_disaggregation:overall_score, names_to = "element", values_to = "score") %>%
   # Convert elements back to sentence case for easier reading
-  mutate(element = str_to_sentence(str_replace_all(element, "_", " ")))
+  mutate(element = str_to_sentence(str_replace_all(element, "_", " ")),
+         macro_sector = case_when(
+           data_categories %in% c("Population & vital statistics", "Education facilities",
+                                  "Education outcomes", "Health facilities", "Health outcomes",
+                                  "Reproductive health", "Food security & nutrition", "Gender statistics",
+                                  "Crime & justice", "Poverty & income")  ~ "Social statistics",
+           data_categories %in% c("National accounts", "Labor", "Price indexes", "Government finance",
+                                  "Money & banking", "International trade", "Balance of payments") ~ "Economic and financial statistics",
+           data_categories %in% c("Agriculture & Land Use", "Resource use", "Energy", "Pollution", "Built environment") ~ "Environmental statistics",
+           TRUE ~ NA_character_
+         ))
 
 #### Analysis ####
 # Start with shorter general discussion of scores by categories for 
@@ -62,7 +72,7 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Coverage subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Gender statistics")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -81,6 +91,33 @@ odin_scores %>%
   labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
+
+# Create graph with facets for macro-sectors
+odin_scores %>%
+  # Filter for only coverage subscore, filter out subscores that don't
+  # exist in both years or that are main scores.
+  filter(element == "Coverage subscore",
+         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+  # Make average by data category and year
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # create label variable that inherits ordering from sorting order df
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  # Create ggplot, using new ordered label variable as x axis,
+  # splitting it by year (fill)
+  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  # Calling column geom with dodge position so grouped bar will be side by side
+  geom_col(position = "dodge") +
+  # Rotate x axis labels, remove legend title, position legend inside graph
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        legend.title = element_blank(), legend.position = c(0.95, 0.75)) +
+  # Labels
+  labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
+  # Extend y axis from 0 to 100
+  scale_y_continuous(limits = c(0, 100)) + 
+  facet_wrap(~macro_sector, scales = "free")
   
 ### Openness by category, 2018 vs 2020
 # Make sorting order based on average coverage scores in 2018
@@ -103,7 +140,7 @@ odin_scores %>%
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
-                                 "All Categories", "Environment subscore", "Gender statistics")) %>%
+                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -123,9 +160,32 @@ odin_scores %>%
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
 
-# For graphs above, group data_categories by macro-sector?
-# In sel_order, sort by macro_sector and mean score, that should
-# give correct arrangement in graph
+# Create graph with facets for macro-sectors
+odin_scores %>%
+  # Filter for only coverage subscore, filter out subscores that don't
+  # exist in both years or that are main scores.
+  filter(element == "Openness subscore",
+         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Social statistics subscore")) %>%
+  # Make average by data category and year
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # create label variable that inherits ordering from sorting order df
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  # Create ggplot, using new ordered label variable as x axis,
+  # splitting it by year (fill)
+  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  # Calling column geom with dodge position so grouped bar will be side by side
+  geom_col(position = "dodge") +
+  # Rotate x axis labels, remove legend title, position legend inside graph
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        legend.title = element_blank(), legend.position = c(0.95, 0.75)) +
+  # Labels
+  labs(x = "", y = "Average score", title = "Openness, ODIN 2018 and 2020") +
+  # Extend y axis from 0 to 100
+  scale_y_continuous(limits = c(0, 100)) + 
+  facet_wrap(~macro_sector, scales = "free")
 
 # Create Figure 6 on % that published (where indicator and disaggregation element is not 0)
 # And corresponding coverage score.

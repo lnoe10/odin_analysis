@@ -326,6 +326,68 @@ odin_scores %>%
 # identify trends or interesting findings from 2020. Bring in Global 
 # Health 50/50 COVID data or other COVID related data (Lorenz) 
 
+#### Overall Trends ####
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  group_by(data_categories, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~element) +
+  theme(legend.position = "bottom", legend.title = element_blank()) +
+  labs(x = "", y = "Average score")
+
+#### Examine coverage and openness elements by health categories ####
+# Health Facilities
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(data_categories, macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(data_categories == "Health facilities") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~macro_element) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size = 5)) +
+  guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Health facilities")
+
+# Health Outcomes
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(data_categories, macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(data_categories == "Health outcomes") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~macro_element) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size = 5)) +
+  guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Health outcomes")
+
+# Population & vital statistics
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(data_categories, macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(data_categories == "Population & vital statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~macro_element) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size = 5)) +
+  guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Population & vital statistics")
+
 #### ECONOMIC ####
 # Economic section- Focus on gaps in economic and financial statistics. 
 # What categories are lacking? Are there certain coverage or openness 

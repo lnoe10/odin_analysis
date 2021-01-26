@@ -255,7 +255,7 @@ odin_scores %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line()
 
-### Graph of how coverage of data categories subscores have increased
+### Graph of how overall scores of data categories subscores have increased
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                 "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -267,9 +267,54 @@ odin_scores %>%
   geom_line() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
-  scale_y_continuous(limits = c(15, 65))
+  scale_y_continuous(limits = c(15, 85)) +
+  labs(x = "", y = "Average overall score")
 
-# Investigate Environmental further, Energy has rapidly increased
+### Graph of how Coverage scores of data categories subscores have increased
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Coverage subscore") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  facet_wrap(~macro_sector, scales = "free") +
+  theme(legend.position = "none") +
+  scale_y_continuous(limits = c(15, 85)) +
+  labs(x = "", y = "Average coverage score")
+
+### Graph of how Openness scores of data categories subscores have increased
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Openness subscore") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  facet_wrap(~macro_sector, scales = "free") +
+  theme(legend.position = "none") +
+  scale_y_continuous(limits = c(15, 85)) +
+  labs(x = "", y = "Average openness score")
+
+# Investigate which elements behind energy have most rapidly increased
+# As energy has increased across overall, coverage, and openness
+odin_scores %>%
+  filter(data_categories == "Energy",
+         !element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  group_by(element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(label = case_when(year == max(year) ~ as.character(element), TRUE ~ NA_character_)) %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line() +
+  ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.alpha = 0) +
+  labs(x = "", y = "Average score") +
+  theme(legend.position = "none") +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "2020", "2021", "2022"))
 
 # Health section- Focus on scores from the 3 health categories, 
 # identify trends or interesting findings from 2020. Bring in Global 

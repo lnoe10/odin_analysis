@@ -50,13 +50,13 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
            TRUE ~ NA_character_
          ))
 
-#### Analysis ####
+#### GENERAL ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
 # 2020 and trends since 2016. Are certain coverage or openness lacking 
 # in certain categories more than others? Can do something similar to 
 # previous year’s report. (Lorenz) 
 
-# Replicate 2020 and 2018 part of Figure 2 from ODIN 2020/2021 Executive Summary
+#### Replicate 2020 and 2018 part of Figure 2 from ODIN 2020/2021 Executive Summary ####
 odin_scores %>% 
   filter(data_categories == "All Categories", 
          element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
@@ -64,7 +64,7 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
-### Coverage by category, 2018 vs 2020
+#### Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 
   odin_scores %>% 
@@ -134,7 +134,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(0, 100)) + 
   facet_wrap(~macro_sector, scales = "free")
   
-### Openness by category, 2018 vs 2020
+#### Openness by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 
   odin_scores %>% 
@@ -204,9 +204,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(0, 100)) + 
   facet_wrap(~macro_sector, scales = "free")
 
-# Create Figure 6 on % that published (where indicator and disaggregation element is not 0)
-# And corresponding coverage score.
-
+#### Replicate Figure 6 on % that published data and corresponding coverage score ####
 odin_scores %>%
   filter(year == 2020,
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
@@ -244,7 +242,7 @@ odin_scores %>%
   scale_fill_manual(name = "", values = c("Countries with\npublished data (%)" = "grey")) +
   scale_color_manual(name = "", values = c("Average coverage for\ncountries with data (index)" = "black"))
 
-### Graph of how coverage of category subscores have increased
+#### Graph of how coverage of category subscores have increased ####
 odin_scores %>%
   filter(data_categories %in% c("Economic & financial statistics subscore",
                                 "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -255,7 +253,7 @@ odin_scores %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line()
 
-### Graph of how overall scores of data categories subscores have increased
+#### Graph of how Overall scores of data categories within macro-sectors have changed ####
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                 "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -270,7 +268,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(15, 85)) +
   labs(x = "", y = "Average overall score")
 
-### Graph of how Coverage scores of data categories subscores have increased
+#### Graph of how Coverage scores of data categories within macro-sectors have changed ####
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -285,7 +283,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(15, 85)) +
   labs(x = "", y = "Average coverage score")
 
-### Graph of how Openness scores of data categories subscores have increased
+#### Graph of how Openness scores of data categories within macro-sectors have changed ####
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -300,6 +298,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(15, 85)) +
   labs(x = "", y = "Average openness score")
 
+#### Change in Element scores within Energy data category ####
 # Investigate which elements behind energy have most rapidly increased
 # As energy has increased across overall, coverage, and openness
 odin_scores %>%
@@ -316,10 +315,12 @@ odin_scores %>%
   theme(legend.position = "none") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "2020", "2021", "2022"))
 
+#### HEALTH ####
 # Health section- Focus on scores from the 3 health categories, 
 # identify trends or interesting findings from 2020. Bring in Global 
 # Health 50/50 COVID data or other COVID related data (Lorenz) 
 
+#### ECONOMIC ####
 # Economic section- Focus on gaps in economic and financial statistics. 
 # What categories are lacking? Are there certain coverage or openness 
 # elements that are lower across categories? Do SDDS, SDDS+ countries 

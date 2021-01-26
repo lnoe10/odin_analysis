@@ -48,6 +48,12 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
                                   "Money & banking", "International trade", "Balance of payments") ~ "Economic and financial statistics",
            data_categories %in% c("Agriculture & Land Use", "Resource use", "Energy", "Pollution", "Built environment") ~ "Environmental statistics",
            TRUE ~ NA_character_
+         ),
+         macro_element = case_when(
+           element %in% c("Indicator coverage and disaggregation", "Data available last 5 years",
+                          "Data available last 10 years", "First administrative level", "Second administrative level") ~ "Coverage elements",
+           element %in% c("Non proprietary", "Metadata available", "Machine readable", "Download options", "Terms of use") ~ "Openness elements",
+           TRUE ~ NA_character_
          ))
 
 #### GENERAL ANALYSIS ####

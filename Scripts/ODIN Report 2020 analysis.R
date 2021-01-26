@@ -244,6 +244,33 @@ odin_scores %>%
   scale_fill_manual(name = "", values = c("Countries with\npublished data (%)" = "grey")) +
   scale_color_manual(name = "", values = c("Average coverage for\ncountries with data (index)" = "black"))
 
+### Graph of how coverage of category subscores have increased
+odin_scores %>%
+  filter(data_categories %in% c("Economic & financial statistics subscore",
+                                "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Overall score") %>%
+  group_by(data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line()
+
+### Graph of how coverage of data categories subscores have increased
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Overall score") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  facet_wrap(~macro_sector, scales = "free") +
+  theme(legend.position = "none") +
+  scale_y_continuous(limits = c(15, 65))
+
+# Investigate Environmental further, Energy has rapidly increased
+
 # Health section- Focus on scores from the 3 health categories, 
 # identify trends or interesting findings from 2020. Bring in Global 
 # Health 50/50 COVID data or other COVID related data (Lorenz) 

@@ -49,11 +49,20 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
            data_categories %in% c("Agriculture & Land Use", "Resource use", "Energy", "Pollution", "Built environment") ~ "Environmental statistics",
            TRUE ~ NA_character_
          ),
+         # Create macro element group for use in graphing/analysis
          macro_element = case_when(
            element %in% c("Indicator coverage and disaggregation", "Data available last 5 years",
                           "Data available last 10 years", "First administrative level", "Second administrative level") ~ "Coverage elements",
            element %in% c("Non proprietary", "Metadata available", "Machine readable", "Download options", "Terms of use") ~ "Openness elements",
            TRUE ~ NA_character_
+         ),
+         # Create macro element group for use in graphing/analysis
+         macro_region = case_when(
+           region %in% c("Australia and New Zealand", "Pacific Islands") ~ "Oceania",
+           str_detect(region, "Asia") ~ "Asia",
+           str_detect(region, "Africa") ~ "Africa",
+           str_detect(region, "Europe") ~ "Europe",
+           TRUE ~ "America"
          ))
 
 #### GENERAL ANALYSIS ####

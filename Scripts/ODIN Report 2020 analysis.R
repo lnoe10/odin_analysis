@@ -527,7 +527,31 @@ odin_health_covid %>%
 # elements that are lower across categories? Do SDDS, SDDS+ countries 
 # score higher? (Lorenz) 
 
-# DO SDDS countries score higher?
+#### State of Economic & Financial Statistics ####
+
+odin_scores %>%
+  filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
+         data_categories == "Economic & financial statistics subscore") %>%
+  group_by(year, element) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(element = fct_relevel(element, "Overall score", "Coverage subscore", "Openness subscore")) %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line() +
+  labs(x = "", y = "Average score", color = "")
+
+#### Components of Economic & financial statistics over time ####
+odin_scores %>%
+  filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
+         macro_sector == "Economic and financial statistics") %>%
+  group_by(year, data_categories, element) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  facet_wrap(~element)
+
+#### DO SDDS countries score higher? ####
 odin_scores %>%
   left_join(sdds, by = c("country_code" = "iso3c")) %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 

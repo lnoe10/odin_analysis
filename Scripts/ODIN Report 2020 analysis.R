@@ -479,6 +479,39 @@ odin_scores %>%
   facet_wrap(~macro_region) +
   labs(x = "", y = "Average overall score", title = "Population & vital statistics")
 
+#### Examine country reporting of COVID-19 variables against ODIN health variables####
+# in 2020
+
+# Count of countries reporting each COVID-19 variable (note: total, not sex-disaggregated)
+owid_data_availability %>% 
+  summarize(across(case_data:excess_data, sum)) %>%
+  as.data.frame()
+
+# Join COVID-19 data availability to ODIN data and create averages
+# by whether or not countries report COVID-19 data.
+odin_health_covid <-
+  odin_scores %>%
+  filter(year == 2020, element %in% c("Overall score", "Coverage subscore", "Openness subscore"),
+         data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics")) %>%
+  left_join(owid_data_availability, by = c("country_code" = "iso3c")) %>%
+  mutate(across(case_data:excess_data, ~ case_when(is.na(.x) ~ 0, TRUE ~ .x)))
+
+# Cases  
+odin_health_covid %>%
+  group_by(element, data_categories, case_data) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE))
+
+# Deaths  
+odin_health_covid %>%
+  group_by(element, data_categories, deaths_data) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE))
+
+# Excess Deaths Data 
+odin_health_covid %>%
+  filter(data_categories == "Population & vital statistics") %>%
+  group_by(element, data_categories, excess_data) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE))
+
 #### ECONOMIC ####
 # Economic section- Focus on gaps in economic and financial statistics. 
 # What categories are lacking? Are there certain coverage or openness 

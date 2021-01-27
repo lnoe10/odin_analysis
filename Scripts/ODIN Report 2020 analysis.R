@@ -139,7 +139,9 @@ owid_data_availability <-
 # and https://dsbb.imf.org/sdds-plus/country
 sdds <- read_csv("Input/sdds_countries.csv") %>%
   mutate(iso3c = countrycode::countrycode(country, "country.name", "iso3c")) %>%
-  select(iso3c, sdds, sdds_plus)
+  pivot_longer(cols = sdds:sdds_plus, names_to = "sdds_subscriber", values_to = "membership") %>% 
+  filter(!is.na(membership)) %>%
+  select(iso3c, sdds_subscriber)
 
 #### GENERAL ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
@@ -528,12 +530,12 @@ odin_health_covid %>%
 # DO SDDS countries score higher?
 odin_scores %>%
   left_join(sdds, by = c("country_code" = "iso3c")) %>%
-  mutate(sdds = case_when(
-    is.na(sdds) ~ 0,
-    TRUE ~ sdds
+  mutate(sdds_subscriber = case_when(
+    is.na(sdds_subscriber) ~ "No",
+    TRUE ~ sdds_subscriber
   )) %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), data_categories == "Economic & financial statistics subscore") %>%
-  group_by(year, element, sdds) %>%
+  group_by(year, element, sdds_subscriber) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  print(n = 24)
+  print(n = 36)

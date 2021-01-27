@@ -65,6 +65,75 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
            TRUE ~ "America"
          ))
 
+#### COVID-19 data availability from OWID
+# Download Our World in Data dataset
+owid_raw <- read_csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv", guess_max = 20000)
+
+# Create dataset that marks 1 for a variable if a country has ever had 
+# data for this variable (most variables are continuous, daily observations)
+# and 0 for countries that don't have this information.
+
+owid_data_availability <-
+  # Cases
+  owid_raw %>%
+  filter(!is.na(total_cases), !location %in% c("International", "World")) %>%
+  distinct(location) %>%
+  mutate(case_data = 1) %>%
+  # Deaths
+  left_join(owid_raw %>%
+              filter(!is.na(total_deaths), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(deaths_data = 1)) %>%
+  # ICU Patients
+  left_join(owid_raw %>%
+              filter(!is.na(icu_patients), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(icu_data = 1)) %>%
+  # Hospital Patients
+  left_join(owid_raw %>%
+              filter(!is.na(hosp_patients), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(hosp_data = 1)) %>%
+  # ICU Admissions
+  left_join(owid_raw %>%
+              filter(!is.na(weekly_icu_admissions), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(icu_admit_data = 1)) %>%
+  # Hospital Admissions
+  left_join(owid_raw %>%
+              filter(!is.na(weekly_hosp_admissions), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(hosp_admit_data = 1)) %>%
+  # Tests
+  left_join(owid_raw %>%
+              filter(!is.na(total_tests), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(test_data = 1)) %>%
+  # Vaccinations
+  left_join(owid_raw %>%
+              filter(!is.na(total_vaccinations), !location %in% c("International", "World")) %>%
+              distinct(location) %>%
+              mutate(vacc_data = 1)) %>%
+  # Replace missing counts with 0s and add iso codes
+  mutate(across(case_data:vacc_data, ~ case_when(is.na(.x) ~ 0, TRUE ~ .x)),
+         iso3c = countrycode::countrycode(location, "country.name", "iso3c"),
+         iso3c = case_when(
+           location == "Kosovo" ~ "XKX",
+           location == "Micronesia (country)" ~ "FSM",
+           location == "Timor" ~ "TLS",
+           TRUE ~ iso3c
+         ),
+         # Create binary indicator for whether excess deaths are available
+         # OWID uses https://www.mortality.org/
+         excess_data = case_when(
+           iso3c %in% c("AUT", "AUS", "BEL", "BGR", "CHL", "CAN", "HRV", "CZE", "DNK", "GBR", "EST",
+                        "FIN", "FRA", "DEU", "GRC", "HUN", "ISL", "ISR", "ITA", "LVA", "LTU", "LUX",
+                        "NLD", "NZL", "NOR", "POL", "PRT", "KOR", "RUS", "SVN", "SVK", "ESP", "SWE",
+                        "CHE", "TWN", "USA") ~ 1,
+           TRUE ~ 0
+         )) %>%
+  select(iso3c, case_data:excess_data)
+
 #### GENERAL ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
 # 2020 and trends since 2016. Are certain coverage or openness lacking 

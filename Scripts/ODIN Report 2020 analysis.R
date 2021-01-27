@@ -397,6 +397,19 @@ odin_scores %>%
   guides(shape = guide_legend(override.aes = list(size = 1))) +
   labs(x = "", y = "Average score", title = "Population & vital statistics")
 
+#### Health category change over time by region ####
+odin_scores %>%
+  filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"),
+         data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics")) %>%
+  group_by(macro_region, region, element, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(element == "Overall score", data_categories == "Population & vital statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = region, group = region)) +
+  geom_line() + 
+  facet_wrap(~macro_region) +
+  labs(x = "", y = "Average overall score", title = "Population & vital statistics")
+
 #### ECONOMIC ####
 # Economic section- Focus on gaps in economic and financial statistics. 
 # What categories are lacking? Are there certain coverage or openness 

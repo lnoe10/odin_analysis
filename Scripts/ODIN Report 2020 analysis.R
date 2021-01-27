@@ -134,6 +134,13 @@ owid_data_availability <-
          )) %>%
   select(iso3c, case_data:excess_data)
 
+#### SDDS subscriber countries
+# From https://dsbb.imf.org/sdds/country
+# and https://dsbb.imf.org/sdds-plus/country
+sdds <- read_csv("Input/sdds_countries.csv") %>%
+  mutate(iso3c = countrycode::countrycode(country, "country.name", "iso3c")) %>%
+  select(iso3c, sdds, sdds_plus)
+
 #### GENERAL ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
 # 2020 and trends since 2016. Are certain coverage or openness lacking 
@@ -517,3 +524,16 @@ odin_health_covid %>%
 # What categories are lacking? Are there certain coverage or openness 
 # elements that are lower across categories? Do SDDS, SDDS+ countries 
 # score higher? (Lorenz) 
+
+# DO SDDS countries score higher?
+odin_scores %>%
+  left_join(sdds, by = c("country_code" = "iso3c")) %>%
+  mutate(sdds = case_when(
+    is.na(sdds) ~ 0,
+    TRUE ~ sdds
+  )) %>%
+  filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), data_categories == "Economic & financial statistics subscore") %>%
+  group_by(year, element, sdds) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  print(n = 24)

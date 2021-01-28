@@ -566,6 +566,30 @@ odin_scores %>%
   guides(shape = guide_legend(override.aes = list(size = 1))) +
   labs(x = "", y = "Average score", title = "Economic & financial statistics open data elements")
 
+# How have each categories within Economic & financial statistics fared on each open data element
+# What open data elements for economic and financial statistics have performed best? ####
+econ_fisc <- odin_scores %>%
+  filter(macro_sector == "Economic and financial statistics") %>%
+  count(data_categories) %>%
+  pull(data_categories)
+
+for (i in 1:length(econ_fisc)){
+  odin_scores %>%
+    filter(data_categories == econ_fisc[i],
+           macro_element %in% c("Coverage elements", "Openness elements")) %>%
+    group_by(macro_element, element, year) %>%
+    summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+    ungroup() %>%
+    ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+    geom_line(size = 1.2) + 
+    facet_wrap(~macro_element) +
+    theme(legend.position = "bottom", legend.title = element_blank(),
+          legend.text = element_text(size = 5)) +
+    guides(shape = guide_legend(override.aes = list(size = 1))) +
+    labs(x = "", y = "Average score", title = econ_fisc[i])
+  ggsave(str_c('C:/Users/lnoe/Documents/R/Graphs/', econ_fisc[i], '.png'))
+}
+
 #### DO SDDS countries score higher? ####
 odin_scores %>%
   left_join(sdds, by = c("country_code" = "iso3c")) %>%

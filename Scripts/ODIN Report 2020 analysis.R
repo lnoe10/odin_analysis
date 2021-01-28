@@ -551,6 +551,21 @@ odin_scores %>%
   geom_line() +
   facet_wrap(~element)
 
+# What open data elements for economic and financial statistics have performed best? ####
+odin_scores %>%
+  filter(data_categories == "Economic & financial statistics subscore",
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~macro_element) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size = 5)) +
+  guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Economic & financial statistics open data elements")
+
 #### DO SDDS countries score higher? ####
 odin_scores %>%
   left_join(sdds, by = c("country_code" = "iso3c")) %>%

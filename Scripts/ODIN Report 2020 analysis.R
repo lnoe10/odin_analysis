@@ -415,7 +415,7 @@ odin_scores %>%
 
 #### Overall Trends ####
 odin_scores %>%
-  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
          element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
   group_by(data_categories, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
@@ -429,7 +429,7 @@ odin_scores %>%
 #### Examine coverage and openness elements by health categories ####
 # Health Facilities
 odin_scores %>%
-  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
          macro_element %in% c("Coverage elements", "Openness elements")) %>%
   group_by(data_categories, macro_element, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
@@ -445,7 +445,7 @@ odin_scores %>%
 
 # Health Outcomes
 odin_scores %>%
-  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
          macro_element %in% c("Coverage elements", "Openness elements")) %>%
   group_by(data_categories, macro_element, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
@@ -461,7 +461,7 @@ odin_scores %>%
 
 # Population & vital statistics
 odin_scores %>%
-  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics"),
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
          macro_element %in% c("Coverage elements", "Openness elements")) %>%
   group_by(data_categories, macro_element, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
@@ -475,10 +475,27 @@ odin_scores %>%
   guides(shape = guide_legend(override.aes = list(size = 1))) +
   labs(x = "", y = "Average score", title = "Population & vital statistics")
 
+# Reproductive Health
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(data_categories, macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(data_categories == "Reproductive health") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
+  geom_line(size = 1.2) + 
+  facet_wrap(~macro_element) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size = 5)) +
+  guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Population & vital statistics")
+
+
 #### Health category change over time by region ####
 odin_scores %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"),
-         data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics")) %>%
+         data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health")) %>%
   group_by(macro_region, region, element, data_categories, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%

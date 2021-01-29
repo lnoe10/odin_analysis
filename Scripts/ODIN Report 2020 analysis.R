@@ -432,6 +432,22 @@ odin_scores %>%
   theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score")
 
+#### Overall State in 2020 ####
+odin_scores %>%
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health", "Food security & nutrition"),
+         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  group_by(data_categories, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(year == 2020) %>%
+  mutate(element = fct_relevel(element, "Overall score", "Coverage subscore", "Openness subscore")) %>%
+  ggplot(aes(x = reorder(data_categories, -mean_score), y = mean_score)) +
+  geom_col() +
+  facet_wrap(~element) +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  # theme(legend.position = "bottom", legend.title = element_blank()) +
+  labs(x = "", y = "Average score", title = "Health-related indicators 2020")
+
 #### Examine coverage and openness elements by health categories ####
 # Health Facilities
 odin_scores %>%

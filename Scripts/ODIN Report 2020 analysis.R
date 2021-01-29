@@ -297,6 +297,7 @@ odin_scores %>%
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
   facet_wrap(~macro_sector, scales = "free")
+ggsave("Output/Openness sectors 2018 v 2020.png", dpi = 400)
 
 #### Replicate Figure 6 on % that published data and corresponding coverage score ####
 odin_scores %>%

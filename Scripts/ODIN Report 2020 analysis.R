@@ -451,6 +451,7 @@ odin_scores %>%
   theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
   # theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score", title = "Health-related indicators 2020")
+ggsave("Output/The state of health-related indicators in 2020.png", dpi = 400)
 
 #### Examine coverage and openness elements by health categories ####
 # Health Facilities

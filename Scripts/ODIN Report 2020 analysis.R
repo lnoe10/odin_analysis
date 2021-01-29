@@ -422,6 +422,12 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line(size = 1.2) + 
+  geom_point(data = odin_scores %>%
+               filter(data_categories %in% c("Food security & nutrition"),
+                      element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+               group_by(data_categories, element, year) %>%
+               summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+               ungroup()) +
   facet_wrap(~element) +
   theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score")
@@ -490,6 +496,22 @@ odin_scores %>%
         legend.text = element_text(size = 5)) +
   guides(shape = guide_legend(override.aes = list(size = 1))) +
   labs(x = "", y = "Average score", title = "Population & vital statistics")
+
+# Food Security & Nutrition
+odin_scores %>%
+  filter(data_categories == "Food security & nutrition",
+         macro_element %in% c("Coverage elements", "Openness elements")) %>%
+  group_by(data_categories, macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = element, y = mean_score)) +
+  geom_col() +
+  facet_wrap(~macro_element, scales = "free_x") +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  # theme(legend.position = "bottom", legend.title = element_blank(),
+  #       legend.text = element_text(size = 5)) +
+  # guides(shape = guide_legend(override.aes = list(size = 1))) +
+  labs(x = "", y = "Average score", title = "Food security & nutrition")
 
 
 #### Health category change over time by region ####

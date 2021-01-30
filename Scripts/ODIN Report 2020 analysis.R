@@ -601,6 +601,23 @@ odin_health_covid <-
          (data_categories == "Health facilities" & covid_variable %in% c("Hospital Admissions", "Hospital Patients", "ICU Admissions", "ICU Patients")) |
          (data_categories == "Population & vital statistics" & covid_variable %in% c("Deaths", "Excess Deaths")))
 
+# Create bar graph of difference in scores, also create SD to create error bars
+# [optional] for those countries reporting OWID data.
+odin_health_covid %>%
+  filter(element == "Overall score", covid_variable != "Cases") %>%
+  group_by(data_categories, covid_variable, data_available) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE), sd = sd(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = covid_variable, y = mean_score, fill = as.factor(data_available))) +
+  geom_col(position = "dodge", width = 0.8) +
+  #geom_errorbar(aes(ymin = mean_score - sd, ymax = mean_score + sd),
+  #             width = .2,
+  #             position = position_dodge(0.9)) +
+  facet_grid(cols = vars(data_categories), scales = "free_x", space = "free_x") +
+  labs(x = "", y = "Average score", fill = "Data\nAvailable?") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(limits = c(0,100))
+
 # Cases  
 odin_health_covid %>%
   group_by(element, data_categories, case_data) %>%

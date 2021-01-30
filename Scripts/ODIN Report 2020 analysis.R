@@ -669,3 +669,4 @@ odin_scores %>%
   geom_line(size = 1.1) + 
   labs(x = "", y = "Average score", color = "Subscriber status", title = "ODIN scores for Economic & financial statistics") +
   facet_wrap(~element)
+ggsave("Output/SDDS countries and their scores.png", dpi = 400)

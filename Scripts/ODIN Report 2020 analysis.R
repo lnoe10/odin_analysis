@@ -618,21 +618,19 @@ odin_health_covid %>%
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_y_continuous(limits = c(0,100))
 
-# Cases  
-odin_health_covid %>%
-  group_by(element, data_categories, case_data) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE))
+# Test of conditional density plot to show distribution of scores across
+# whether or not data is available
+odin_health_covid %>% 
+  filter(element == "Overall score", covid_variable == "Excess Deaths") %>% 
+  ggplot(aes(x = score, fill = as.factor(data_available))) + 
+  geom_density(position = "fill", alpha = 0.5)
 
-# Deaths  
-odin_health_covid %>%
-  group_by(element, data_categories, deaths_data) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE))
-
-# Excess Deaths Data 
-odin_health_covid %>%
-  filter(data_categories == "Population & vital statistics") %>%
-  group_by(element, data_categories, excess_data) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE))
+# Test of beanplot
+odin_health_covid %>% 
+  filter(element == "Overall score", covid_variable == "Total Tests") %>% 
+  ggplot(aes(x = as.factor(data_available), y = score)) + 
+  geom_violin() +
+  geom_jitter()
 
 #### ECONOMIC ####
 # Economic section- Focus on gaps in economic and financial statistics. 

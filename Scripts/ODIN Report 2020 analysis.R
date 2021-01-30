@@ -132,7 +132,19 @@ owid_data_availability <-
                         "CHE", "TWN", "USA") ~ 1,
            TRUE ~ 0
          )) %>%
-  select(iso3c, case_data:excess_data)
+  select(iso3c, case_data:excess_data) %>%
+  pivot_longer(case_data:excess_data, names_to = "covid_variable", values_to = "data_available") %>%
+  mutate(covid_variable = case_when(
+    covid_variable == "case_data" ~ "Cases",
+    covid_variable == "deaths_data" ~ "Deaths",
+    covid_variable == "excess_data" ~ "Excess Deaths",
+    covid_variable == "hosp_admit_data" ~ "Hospital Admissions",
+    covid_variable == "hosp_data" ~ "Hospital Patients",
+    covid_variable == "icu_admit_data" ~ "ICU Admissions",
+    covid_variable == "icu_data" ~ "ICU Patients",
+    covid_variable == "test_data" ~ "Total Tests",
+    TRUE ~ "Total vaccinations"
+  ))
 
 #### SDDS subscriber countries
 # From https://dsbb.imf.org/sdds/country
@@ -560,10 +572,34 @@ owid_data_availability %>%
 # by whether or not countries report COVID-19 data.
 odin_health_covid <-
   odin_scores %>%
+  # Filter for just 2020 scores, only Overall, Coverage, and Openness scores
+  # And only for COVID-19 health-related ODIN categories
   filter(year == 2020, element %in% c("Overall score", "Coverage subscore", "Openness subscore"),
          data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics")) %>%
+  # Merge in Data availability, this will merge 1 to many, so filtered
+  # dataset will expand. Will filter again in next step
   left_join(owid_data_availability, by = c("country_code" = "iso3c")) %>%
-  mutate(across(case_data:excess_data, ~ case_when(is.na(.x) ~ 0, TRUE ~ .x)))
+  # Replace all missing instances of data_available with 0, since if they're not
+  # in OWID for anything, they likely don't have data/don't report it to major institutions
+  mutate(data_available = case_when(
+    is.na(data_available) ~ 0,
+    TRUE ~ data_available
+  )) %>%
+  # Filter For just matching instances between data categories and the
+  # covid variables that the data category would capture information for
+  # Health outcomes has the following two indicators: Immunization rate
+  # and Disease prevalence, which matches with Cases of COVID-19, Tests, and Vaccinations
+  # Health Facilities has the following indicators: number of health facilities
+  # number of beds or data on healthcare staff, and health expenditures, which
+  # match COVId-19 hospital and ICU data. Finally, Population & vital statistics
+  # has population counts, birth rates, and death rates, the latter of which
+  # matches number of deaths from COVID-19 and the ability to calculate
+  # Excess deaths.
+  # Note this drops 8 countries that do not overlap between ODIN and OWID:
+  # Andorra, Anguilla, Greenland, Hong Kong, Macao, Palau, Tonga, and Turkmenistan.
+  filter((data_categories == "Health outcomes" & covid_variable %in% c("Cases", "Total Tests", "Total vaccinations")) |
+         (data_categories == "Health facilities" & covid_variable %in% c("Hospital Admissions", "Hospital Patients", "ICU Admissions", "ICU Patients")) |
+         (data_categories == "Population & vital statistics" & covid_variable %in% c("Deaths", "Excess Deaths")))
 
 # Cases  
 odin_health_covid %>%

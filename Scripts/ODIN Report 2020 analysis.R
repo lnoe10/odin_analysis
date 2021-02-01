@@ -709,21 +709,33 @@ for (i in 1:length(econ_fisc)){
 
 #### DO SDDS countries score higher? ####
 odin_scores %>%
-  left_join(sdds, by = c("country_code" = "iso3c")) %>%
+  left_join(dissemination_standards, by = c("country_code" = "iso3c")) %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
          data_categories == "Economic & financial statistics subscore") %>%
-  mutate(sdds_subscriber = case_when(
-    is.na(sdds_subscriber) ~ "None",
-    sdds_subscriber == "sdds" ~ "SDDS",
-    TRUE ~ "SDDS+"
+  mutate(dissemination_subscriber = case_when(
+    is.na(dissemination_subscriber) ~ "None",
+    dissemination_subscriber == "sdds" ~ "SDDS",
+    dissemination_subscriber == "sdds_plus" ~ "SDDS+",
+    TRUE ~ "e-GDDS"
   ),
-  sdds_subscriber = fct_relevel(sdds_subscriber, "SDDS+", "SDDS", "None"),
+  dissemination_subscriber = fct_relevel(dissemination_subscriber, "SDDS+", "SDDS", "e-GDDS", "None"),
   element = fct_relevel(element, "Overall score", "Coverage subscore", "Openness subscore")) %>%
-  group_by(year, element, sdds_subscriber) %>%
+  group_by(year, element, dissemination_subscriber) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = sdds_subscriber, group = sdds_subscriber)) + 
+  ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber)) + 
   geom_line(size = 1.1) + 
   labs(x = "", y = "Average score", color = "Subscriber status", title = "ODIN scores for Economic & financial statistics") +
   facet_wrap(~element)
-ggsave("Output/SDDS countries and their scores.png", dpi = 400)
+ggsave("Output/IMF Dissemination standards countries and their scores.png", dpi = 400)
+# Note that None now includes an odd grouping of countries
+# Andorra, Anguilla Cuba, Greenland, Liechtenstein, New Zealand, Somalia
+# South Sudan, Taiwan, Turkmenistan
+# so scores for places like New Zealand and Taiwan will increase the scores
+# Whereas others for South Sudan will decrease them. Overall, None
+# category is lower.
+# Interesting movement since 2016 for e-GDDS (which was only formalized in 2015)
+# so maybe case of e-GDDS countries complying more and more with e-GDDS
+# over time
+# e-GDDS countries have just about superseded None countries on openness and
+# and have rapidly improved on coverage.

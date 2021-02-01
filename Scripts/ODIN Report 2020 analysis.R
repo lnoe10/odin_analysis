@@ -146,14 +146,20 @@ owid_data_availability <-
     TRUE ~ "Total vaccinations"
   ))
 
-#### SDDS subscriber countries
+#### IMF Dissemination standards subscriber countries
 # From https://dsbb.imf.org/sdds/country
 # and https://dsbb.imf.org/sdds-plus/country
-sdds <- read_csv("Input/sdds_countries.csv") %>%
-  mutate(iso3c = countrycode::countrycode(country, "country.name", "iso3c")) %>%
-  pivot_longer(cols = sdds:sdds_plus, names_to = "sdds_subscriber", values_to = "membership") %>% 
+# and https://dsbb.imf.org/e-gdds/country
+dissemination_standards <- read_csv("Input/imf_dissemination_standards.csv") %>%
+  mutate(iso3c = countrycode::countrycode(country, "country.name", "iso3c"),
+         iso3c = case_when(
+           str_detect(country, "Kosovo") & is.na(iso3c) ~ "XKX",
+           str_detect(country, "Macao") & is.na(iso3c) ~ "MAC",
+           TRUE ~ iso3c
+         )) %>%
+  pivot_longer(cols = e_gdds:sdds_plus, names_to = "dissemination_subscriber", values_to = "membership") %>% 
   filter(!is.na(membership)) %>%
-  select(iso3c, sdds_subscriber)
+  select(iso3c, dissemination_subscriber)
 
 #### GENERAL ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 

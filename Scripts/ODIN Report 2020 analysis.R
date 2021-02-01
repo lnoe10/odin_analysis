@@ -614,7 +614,11 @@ odin_health_covid %>%
   group_by(data_categories, covid_variable, data_available) %>%
   summarize(mean_score = mean(score, na.rm = TRUE), sd = sd(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = covid_variable, y = mean_score, fill = as.factor(data_available))) +
+  mutate(label = case_when(
+    data_available == 0 ~ "No",
+    TRUE ~ "Yes"
+  )) %>%
+  ggplot(aes(x = covid_variable, y = mean_score, fill = as.factor(label))) +
   geom_col(position = "dodge", width = 0.8) +
   #geom_errorbar(aes(ymin = mean_score - sd, ymax = mean_score + sd),
   #             width = .2,
@@ -623,6 +627,7 @@ odin_health_covid %>%
   labs(x = "", y = "Average score", fill = "Data\nAvailable?") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   scale_y_continuous(limits = c(0,100))
+ggsave("Output/COVID-19 variable data availability and ODIN scores.png", dpi = 400)
 
 # Test of conditional density plot to show distribution of scores across
 # whether or not data is available

@@ -243,11 +243,11 @@ odin_scores %>%
   labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
-  facet_wrap(~macro_sector, scales = "free")
+  facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
 ggsave("Output/Coverage sectors 2018 v 2020.png", dpi = 400)
   
 #### Openness by category, 2018 vs 2020 ####
-# Make sorting order based on average coverage scores in 2018
+# Make sorting order based on average openness scores in 2018
 sel_order <- 
   odin_scores %>% 
   # Restrict to Openness subscore and 2018
@@ -314,7 +314,7 @@ odin_scores %>%
   labs(x = "", y = "Average score", title = "Openness, ODIN 2018 and 2020") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
-  facet_wrap(~macro_sector, scales = "free")
+  facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
 ggsave("Output/Openness sectors 2018 v 2020.png", dpi = 400)
 
 #### Replicate Figure 6 on % that published data and corresponding coverage score ####

@@ -263,7 +263,7 @@ sel_order <-
 
 # Create graph
 odin_scores %>%
-  # Filter for only coverage subscore, filter out subscores that don't
+  # Filter for only openness subscore, filter out subscores that don't
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
@@ -672,6 +672,22 @@ odin_scores %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
   facet_wrap(~element)
+
+#### Overall scores of Economic & financial statistics components over time ####
+odin_scores %>%
+  filter(element %in% c("Overall score"), 
+         macro_sector == "Economic and financial statistics") %>%
+  group_by(year, data_categories) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(label = case_when(year == max(year) ~ as.character(data_categories), TRUE ~ NA_character_)) %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.color = "grey") +
+  labs(x = "", y = "Average score") +
+  theme(legend.position = "none") +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "2020", ""))
+ggsave("Output/Economic subsectors over time.png", dpi = 400)
 
 # What open data elements for economic and financial statistics have performed best? ####
 odin_scores %>%

@@ -703,10 +703,11 @@ odin_scores %>%
   mutate(label = case_when(year == max(year) ~ as.character(data_categories), TRUE ~ NA_character_)) %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
+  geom_point() +
   ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.color = "grey") +
   labs(x = "", y = "Average score") +
   theme(legend.position = "none") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "2020", ""))
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", ""))
 ggsave("Output/Economic subsectors over time.png", dpi = 400)
 
 # What open data elements for economic and financial statistics have performed best? ####
@@ -766,7 +767,9 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber)) + 
   geom_line(size = 1.1) + 
-  labs(x = "", y = "Average score", color = "Subscriber status", title = "ODIN scores for Economic & financial statistics") +
+  geom_point() +
+  labs(x = "", y = "Average score", color = "Subscriber\nstatus", title = "ODIN scores for Economic & financial statistics") +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020")) +
   facet_wrap(~element)
 ggsave("Output/IMF Dissemination standards countries and their scores.png", dpi = 400)
 # Note that None now includes an odd grouping of countries

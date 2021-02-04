@@ -358,14 +358,16 @@ odin_scores %>%
 #### Graph of how coverage of category subscores have increased ####
 odin_scores %>%
   filter(data_categories %in% c("Economic & financial statistics subscore",
-                                "Environment subscore", "Social statistics subscore", "All Categories"),
+                                "Environment subscore", "Social statistics subscore"),
          element == "Overall score") %>%
   group_by(data_categories, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
-  labs(x = "", y = "Average score", color = "")
+  geom_point() +
+  labs(x = "", y = "Average score", color = "") +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020"))
 ggsave("Output/Change of rank of sectors over time.png", dpi = 400)
 
 #### Graph of how Overall scores of data categories within macro-sectors have changed ####

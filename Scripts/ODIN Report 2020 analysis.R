@@ -476,18 +476,19 @@ odin_scores %>%
 #### Overall State in 2020 ####
 odin_scores %>%
   filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health", "Food security & nutrition"),
-         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+         element %in% c("Coverage subscore", "Openness subscore"), year == 2020) %>%
   group_by(data_categories, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  filter(year == 2020) %>%
-  mutate(element = fct_relevel(element, "Overall score", "Coverage subscore", "Openness subscore")) %>%
-  ggplot(aes(x = reorder(data_categories, -mean_score), y = mean_score)) +
-  geom_col() +
-  facet_wrap(~element) +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  # theme(legend.position = "bottom", legend.title = element_blank()) +
-  labs(x = "", y = "Average score", title = "Health-related indicators 2020")
+  mutate(text_label = case_when(data_categories == "Population & vital statistics" ~ element, TRUE ~ NA_character_),
+         element = fct_relevel(element, "Openness subscore", "Coverage subscore")) %>%
+  ggplot(aes(x = reorder(data_categories, mean_score), y = mean_score, fill = element, color = element)) +
+  geom_col(position = "dodge") +
+  geom_text(aes(label = text_label), position = position_dodge(0.9), hjust = 0, size = 3.5) +
+  coord_flip() +
+  theme(legend.position = "none") +
+  labs(x = "", y = "Average score", title = "Health-related indicators 2020") +
+  scale_y_continuous(limits = c(0,100))
 ggsave("Output/The state of health-related indicators in 2020.png", dpi = 400)
 
 #### Examine coverage and openness elements by health categories ####

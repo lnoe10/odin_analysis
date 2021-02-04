@@ -390,9 +390,11 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
+  geom_point() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
   scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020")) +
   labs(x = "", y = "Average overall score")
 
 #### Graph of how Coverage scores of data categories within macro-sectors have changed ####
@@ -405,9 +407,11 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
+  geom_point() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
   scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020")) +
   labs(x = "", y = "Average coverage score")
 
 #### Graph of how Openness scores of data categories within macro-sectors have changed ####
@@ -420,9 +424,11 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
   geom_line() +
+  geom_point() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
   scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020")) +
   labs(x = "", y = "Average openness score")
 
 #### Change in Element scores within Energy data category ####

@@ -443,10 +443,11 @@ odin_scores %>%
   mutate(label = case_when(year == max(year) ~ as.character(element), TRUE ~ NA_character_)) %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = element, group = element)) +
   geom_line() +
+  geom_point() +
   ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.alpha = 0) +
   labs(x = "", y = "Average score") +
   theme(legend.position = "none") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "2020", "2021", "2022"))
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", ""))
 
 #### HEALTH ####
 # Health section- Focus on scores from the 3 health categories, 

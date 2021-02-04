@@ -327,6 +327,124 @@ odin_scores %>%
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
 ggsave("Output/Openness sectors 2018 v 2020.png", dpi = 400)
 
+#### Ranking change of data category 2018 to 2020 ####
+# Adapting style here
+# https://www.statology.org/bump-chart-in-r-using-ggplot2/
+
+# Custom theme from link above
+my_theme <- function() {
+  
+  # Colors
+  color.background = "white"
+  color.text = "#22211d"
+  
+  # Begin construction of chart
+  theme_bw(base_size=15) +
+    
+    # Format background colors
+    theme(panel.background = element_rect(fill=color.background,
+                                          color=color.background)) +
+    theme(plot.background  = element_rect(fill=color.background,
+                                          color=color.background)) +
+    theme(panel.border     = element_rect(color=color.background)) +
+    theme(strip.background = element_rect(fill=color.background,
+                                          color=color.background)) +
+    
+    # Format the grid
+    theme(panel.grid.major.y = element_blank()) +
+    theme(panel.grid.minor.y = element_blank()) +
+    theme(axis.ticks       = element_blank()) +
+    
+    # Format the legend
+    theme(legend.position = "none") +
+    
+    # Format title and axis labels
+    theme(plot.title       = element_text(color=color.text, size=12, face = "bold")) +
+    theme(axis.title.x     = element_text(size=10, color="black", face = "bold")) +
+    theme(axis.title.y     = element_text(size=10, color="black", face = "bold",
+                                          vjust=1.25)) +
+    theme(axis.text.x      = element_text(size=10, vjust=0.5, hjust=0.5,
+                                          color = color.text)) +
+    theme(axis.text.y      = element_text(size=10, color = color.text)) +
+    theme(strip.text       = element_text(face = "bold")) +
+    
+    # Plot margins
+    theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm"))
+}
+
+# Create chart
+rank_data <- odin_scores %>%
+  # Filter for only overall subscore, filter out subscores that are main scores.
+  filter(element == "Overall score",
+         !data_categories %in% c("Economic & financial statistics subscore",
+                                 "All Categories", "Environment subscore", "Social statistics subscore"),
+         year %in% c(2018, 2020)) %>%
+  # Make average by data category and year
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  group_by(year, macro_sector) %>%
+  arrange(year, desc(mean_score), data_categories) %>% 
+  mutate(rank = row_number()) %>%
+  ungroup()
+# Chart for Environmental Statistics
+rank_data %>%
+  filter(macro_sector == "Environmental statistics") %>%
+  ggplot(aes(x = as.factor(year), y = rank, group = data_categories)) +
+  geom_line(aes(color = data_categories, alpha = 1), size = 2) +
+  geom_point(aes(color = data_categories, alpha = 1), size = 4) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_reverse(breaks = 1:22) + 
+  scale_x_discrete() +
+  theme(legend.position = 'none') +
+  geom_text(data = rank_data %>% filter(year == 2018, macro_sector == "Environmental statistics"),
+            aes(label = data_categories) , hjust = 1, nudge_x = -0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  geom_text(data = rank_data %>% filter(year == 2020, macro_sector == "Environmental statistics"),
+            aes(label = data_categories) , hjust = 0, nudge_x = 0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  labs(x = 'Year', y = 'Rank', title = 'Overall Score ranking of Environmental Data Categories') +
+  my_theme()
+ggsave("Output/Rank change Environmental statistics.png", dpi = 400)
+# Chart for Social Statistics
+rank_data %>%
+  filter(macro_sector == "Social statistics") %>%
+  ggplot(aes(x = as.factor(year), y = rank, group = data_categories)) +
+  geom_line(aes(color = data_categories, alpha = 1), size = 2) +
+  geom_point(aes(color = data_categories, alpha = 1), size = 4) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_reverse(breaks = 1:22) + 
+  scale_x_discrete() +
+  theme(legend.position = 'none') +
+  geom_text(data = rank_data %>% filter(year == 2018, macro_sector == "Social statistics"),
+            aes(label = data_categories) , hjust = 1, nudge_x = -0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  geom_text(data = rank_data %>% filter(year == 2020, macro_sector == "Social statistics"),
+            aes(label = data_categories) , hjust = 0, nudge_x = 0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  labs(x = 'Year', y = 'Rank', title = 'Overall Score ranking of Social Data Categories') +
+  my_theme()
+ggsave("Output/Rank change Social statistics.png", dpi = 400)
+# Chart for Economic Statistics
+rank_data %>%
+  filter(macro_sector == "Economic and financial statistics") %>%
+  ggplot(aes(x = as.factor(year), y = rank, group = data_categories)) +
+  geom_line(aes(color = data_categories, alpha = 1), size = 2) +
+  geom_point(aes(color = data_categories, alpha = 1), size = 4) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_reverse(breaks = 1:22) + 
+  scale_x_discrete() +
+  theme(legend.position = 'none') +
+  geom_text(data = rank_data %>% filter(year == 2018, macro_sector == "Economic and financial statistics"),
+            aes(label = data_categories) , hjust = 1, nudge_x = -0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  geom_text(data = rank_data %>% filter(year == 2020, macro_sector == "Economic and financial statistics"),
+            aes(label = data_categories) , hjust = 0, nudge_x = 0.05,
+            fontface = "bold", color = "#888888", size = 3) +
+  labs(x = 'Year', y = 'Rank', title = 'Overall Score ranking of Economic and Financial Data Categories') +
+  my_theme()
+ggsave("Output/Rank change Economic and financial statistics.png", dpi = 400)
+
 #### Replicate Figure 6 on % that published data and corresponding coverage score ####
 odin_scores %>%
   filter(year == 2020,

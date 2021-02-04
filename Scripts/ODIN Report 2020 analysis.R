@@ -222,18 +222,23 @@ odin_scores %>%
   # Filter for only coverage subscore, filter out subscores that don't
   # exist in both years or that are main scores.
   filter(element == "Coverage subscore",
-         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+         !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
+  # Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
+  add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
+          year = 2018, mean_score = 0) %>%
   # create label variable that inherits ordering from sorting order df
-  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE),
+         # Replace missing labels factor with name of food security & nutrition so label displays on plot
+         labels = fct_explicit_na(labels, "Food security & nutrition")) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph
@@ -293,18 +298,23 @@ odin_scores %>%
   # Filter for only coverage subscore, filter out subscores that don't
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
-         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+         !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2018, 2020)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
+  # Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
+  add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
+          year = 2018, mean_score = 0) %>%
   # create label variable that inherits ordering from sorting order df
-  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
+  mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE),
+         # Replace missing labels factor with name of food security & nutrition so label displays on plot
+         labels = fct_explicit_na(labels, "Food security & nutrition")) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph

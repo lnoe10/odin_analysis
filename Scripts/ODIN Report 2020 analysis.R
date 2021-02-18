@@ -175,7 +175,7 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
-#### Coverage by category, 2018 vs 2020 ####
+#### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 
   odin_scores %>% 
@@ -251,7 +251,7 @@ odin_scores %>%
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
 ggsave("Output/Coverage sectors 2018 v 2020.png", dpi = 400)
   
-#### Openness by category, 2018 vs 2020 ####
+#### FIGURE 11: Openness by category, 2018 vs 2020 ####
 # Make sorting order based on average openness scores in 2018
 sel_order <- 
   odin_scores %>% 
@@ -327,7 +327,7 @@ odin_scores %>%
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
 ggsave("Output/Openness sectors 2018 v 2020.png", dpi = 400)
 
-#### Ranking change of data category 2018 to 2020 ####
+#### FIGURE 12: Ranking change of data category 2018 to 2020 ####
 # Adapting style here
 # https://www.statology.org/bump-chart-in-r-using-ggplot2/
 
@@ -483,7 +483,7 @@ odin_scores %>%
   scale_fill_manual(name = "", values = c("Countries with\npublished data (%)" = "grey")) +
   scale_color_manual(name = "", values = c("Average coverage for\ncountries with data (index)" = "black"))
 
-#### Graph of how coverage of category subscores have increased ####
+#### FIGURE 10: Graph of how overall scores of category subscores have increased ####
 odin_scores %>%
   filter(data_categories %in% c("Economic & financial statistics subscore",
                                 "Environment subscore", "Social statistics subscore"),
@@ -591,7 +591,7 @@ odin_scores %>%
   theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score")
 
-#### Overall State in 2020 ####
+#### FIGURE 13: Overall State in 2020 ####
 odin_scores %>%
   filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health", "Food security & nutrition"),
          element %in% c("Coverage subscore", "Openness subscore"), year == 2020) %>%
@@ -704,7 +704,7 @@ odin_scores %>%
   facet_wrap(~macro_region) +
   labs(x = "", y = "Average overall score", title = "Population & vital statistics")
 
-#### Examine country reporting of COVID-19 variables against ODIN health variables####
+#### FIGURE 14: Examine country reporting of COVID-19 variables against ODIN health variables####
 # in 2020
 
 # Count of countries reporting each COVID-19 variable (note: total, not sex-disaggregated)
@@ -811,7 +811,7 @@ odin_scores %>%
   geom_line() +
   facet_wrap(~element)
 
-#### Overall scores of Economic & financial statistics components over time ####
+#### FIGURE 15: Overall scores of Economic & financial statistics components over time ####
 odin_scores %>%
   filter(element %in% c("Overall score"), 
          macro_sector == "Economic and financial statistics") %>%
@@ -867,7 +867,7 @@ for (i in 1:length(econ_fisc)){
   ggsave(str_c('C:/Users/lnoe/Documents/R/Graphs/', econ_fisc[i], '.png'))
 }
 
-#### DO SDDS countries score higher? ####
+#### FIGURE 16: DO SDDS countries score higher? ####
 odin_scores %>%
   left_join(dissemination_standards, by = c("country_code" = "iso3c")) %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 

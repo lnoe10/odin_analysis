@@ -598,16 +598,32 @@ odin_scores %>%
   group_by(data_categories, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  mutate(text_label = case_when(data_categories == "Population & vital statistics" ~ element, TRUE ~ NA_character_),
-         element = fct_relevel(element, "Openness subscore", "Coverage subscore")) %>%
+  # Order coverage and openess properly so they show up on graph
+  mutate(element = fct_relevel(element, "Openness subscore", "Coverage subscore")) %>%
   ggplot(aes(x = reorder(data_categories, mean_score), y = mean_score, fill = element, color = element)) +
-  geom_col(position = "dodge") +
-  geom_text(aes(label = text_label), position = position_dodge(0.9), hjust = 0, size = 3.5) +
+  geom_col(position = "dodge", width = 0.5) +
+  # geom_text(aes(label = text_label), position = position_dodge(0.9), hjust = 0, size = 3.5) +
   coord_flip() +
-  theme(legend.position = "none") +
-  labs(x = "", y = "Average score", title = "Health-related indicators 2020") +
-  scale_y_continuous(limits = c(0,100))
-ggsave("Output/The state of health-related indicators in 2020.png", dpi = 400)
+  # Load library(extrafont) to use Open Sans font
+  theme(text = element_text(family = "Open Sans"), 
+        # Make legend without title, change position
+        legend.position = "bottom", legend.title = element_blank(),
+        # Add some padding to right of plot to make 100 show up
+        plot.margin = margin(5,10,5,5),
+        # Create custom theme to remove grey background, add x axis line
+        # back in, add major grid lines and make tick marks same color
+        panel.background = element_rect(fill = "white"),
+        axis.line.y = element_line(color = "black"),
+        panel.grid.major.x = element_line(color = "grey"),
+        axis.ticks.x = element_line(color = "grey")) +
+  # Blank x and y axis labels and no title
+  labs(x = "", y = "") +
+  # Y axis scale with custom limits, breaks and moving it snug to x axis
+  scale_y_continuous(limits = c(0,100), breaks = c(0,20,40,60,80,100), expand = c(0,0)) +
+  # Custom ODIN report colors
+  scale_fill_manual(values = c("#06b2eb", "#fa8e00")) +
+  scale_color_manual(values = c("#06b2eb", "#fa8e00"))
+ggsave("Output/Figure 13 - The state of health-related indicators in 2020.png", dpi = 400)
 
 #### Examine coverage and openness elements by health categories ####
 # Health Facilities

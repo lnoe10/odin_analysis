@@ -39,6 +39,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
   pivot_longer(indicator_coverage_and_disaggregation:overall_score, names_to = "element", values_to = "score") %>%
   # Convert elements back to sentence case for easier reading
   mutate(element = str_to_sentence(str_replace_all(element, "_", " ")),
+         data_categories = str_remove(data_categories, "\r"),
          # Create macro sector group for use in graphing/analysis
          macro_sector = case_when(
            data_categories %in% c("Population & vital statistics", "Education facilities",
@@ -47,7 +48,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
                                   "Crime & justice", "Poverty & income")  ~ "Social statistics",
            data_categories %in% c("National accounts", "Labor", "Price indexes", "Government finance",
                                   "Money & banking", "International trade", "Balance of payments") ~ "Economic and financial statistics",
-           data_categories %in% c("Agriculture & Land Use", "Resource use", "Energy", "Pollution", "Built environment") ~ "Environmental statistics",
+           data_categories %in% c("Agriculture & Land Use", "Land use", "Resource use", "Energy", "Energy use", "Pollution", "Built environment") ~ "Environmental statistics",
            TRUE ~ NA_character_
          ),
          # Create macro element group for use in graphing/analysis

@@ -2,19 +2,34 @@
 
 library(tidyverse)
 
+setwd("C:/Users/loren/Documents/GitHub/odin_analysis")
+
 # Read in and clean data
-odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
+odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   # convert all variable names to snakecase
   janitor::clean_names() %>%
-  # Take out missing observations at bottom of the table, it's just metadata on copyright
-  filter(!is.na(year), str_count(year) <= 4) %>%
+  # Take out missing observations at bottom of the table, it's just metadata on file generation
+  filter(!is.na(region)) %>%
+  # rename variables for appending previous years
+  rename(data_categories = elements, coverage_subscore = coverage_subscores, openness_subscore = openness_subscores, overall_score = overall_subscores) %>%
+  # Remove helper variable
+  select(-helper) %>%
+  # Add 2020 scores
+  bind_rows(read_csv("Input/ODIN_scores_2020.csv") %>%
+              # convert all variable names to snakecase
+              janitor::clean_names() %>%
+              # Take out missing observations at bottom of the table, it's just metadata on copyright
+              filter(!is.na(year), str_count(year) <= 4) %>%
+              # Take out character that means not applicable in second administrative level and convert to numeric
+              mutate(second_administrative_level = as.numeric(str_remove(second_administrative_level, "-")))) %>%
   # Add 2018 scores
   bind_rows(read_csv("Input/ODIN_scores_2018.csv") %>%
               # convert all variable names to snakecase
               janitor::clean_names() %>%
               # Take out missing observations at bottom of the table, it's just metadata on copyright
-              filter(!is.na(year), str_count(year) <= 4)) %>%
-  mutate(second_administrative_level = as.numeric(str_remove(second_administrative_level, "-"))) %>%
+              filter(!is.na(year), str_count(year) <= 4) %>%
+              # Take out character that means not applicable in second administrative level and convert to numeric
+              mutate(second_administrative_level = as.numeric(str_remove(second_administrative_level, "-")))) %>%
   # Add 2017 scores
   bind_rows(read_csv("Input/ODIN_scores_2017.csv") %>%
               # convert all variable names to snakecase
@@ -27,45 +42,52 @@ odin_scores <- read_csv("Input/ODIN_scores_2020.csv") %>%
               janitor::clean_names() %>%
               # Take out missing observations at bottom of the table, it's just metadata on copyright
               filter(!is.na(year), str_count(year) <= 4)) %>%
-  # Clean variables and data categories to be able to compare 2020 to 2018
-  mutate(data_categories = str_remove_all(data_categories, "\\n$|\\s$"),
-         data_categories = case_when(
+  # Clean variables and data categories to be able to compare scores across years
+  mutate(
+    # Remove white space and new lines at the end of data_categories variable. Basically get rid of trailing white space
+    data_categories = str_remove_all(data_categories, "\\n$|\\s$"),
+    # Switch names for older data categories to new (2020)  data category names
+    data_categories = case_when(
            data_categories == "Energy use" ~ "Energy",
            data_categories == "Land use" ~ "Agriculture & Land Use",
            TRUE ~ data_categories
          ),
-         year = as.numeric(year)) %>%
+    # Convert year variable to numeric
+    year = as.numeric(year)) %>%
   # Convert to long
   pivot_longer(indicator_coverage_and_disaggregation:overall_score, names_to = "element", values_to = "score") %>%
-  # Convert elements back to sentence case for easier reading
-  mutate(element = str_to_sentence(str_replace_all(element, "_", " ")),
-         data_categories = str_remove(data_categories, "\r"),
-         # Create macro sector group for use in graphing/analysis
-         macro_sector = case_when(
-           data_categories %in% c("Population & vital statistics", "Education facilities",
+  # Clean and add generate variables of interest
+  mutate(
+    # Convert elements back to sentence case for easier reading
+    element = str_to_sentence(str_replace_all(element, "_", " ")),
+    # Clean out remaining carriage returns in data_category variable
+    data_categories = str_remove(data_categories, "\r"),
+    # Create macro sector group for use in graphing/analysis
+    macro_sector = case_when(
+      data_categories %in% c("Population & vital statistics", "Education facilities",
                                   "Education outcomes", "Health facilities", "Health outcomes",
                                   "Reproductive health", "Food security & nutrition", "Gender statistics",
                                   "Crime & justice", "Poverty & income")  ~ "Social statistics",
-           data_categories %in% c("National accounts", "Labor", "Price indexes", "Government finance",
+      data_categories %in% c("National accounts", "Labor", "Price indexes", "Government finance",
                                   "Money & banking", "International trade", "Balance of payments") ~ "Economic and financial statistics",
-           data_categories %in% c("Agriculture & Land Use", "Land use", "Resource use", "Energy", "Energy use", "Pollution", "Built environment") ~ "Environmental statistics",
-           TRUE ~ NA_character_
-         ),
-         # Create macro element group for use in graphing/analysis
-         macro_element = case_when(
-           element %in% c("Indicator coverage and disaggregation", "Data available last 5 years",
+      data_categories %in% c("Agriculture & Land Use", "Land use", "Resource use", "Energy", "Energy use", "Pollution", "Built environment") ~ "Environmental statistics",
+      TRUE ~ NA_character_
+      ),
+    # Create macro element group for use in graphing/analysis
+    macro_element = case_when(
+      element %in% c("Indicator coverage and disaggregation", "Data available last 5 years",
                           "Data available last 10 years", "First administrative level", "Second administrative level") ~ "Coverage elements",
-           element %in% c("Non proprietary", "Metadata available", "Machine readable", "Download options", "Terms of use") ~ "Openness elements",
-           TRUE ~ NA_character_
-         ),
-         # Create macro element group for use in graphing/analysis
-         macro_region = case_when(
-           region %in% c("Australia and New Zealand", "Pacific Islands") ~ "Oceania",
+      element %in% c("Non proprietary", "Metadata available", "Machine readable", "Download options", "Terms of use") ~ "Openness elements",
+      TRUE ~ NA_character_
+      ),
+    # Create macro element group for use in graphing/analysis
+    macro_region = case_when(
+      region %in% c("Australia and New Zealand", "Pacific Islands") ~ "Oceania",
            str_detect(region, "Asia") ~ "Asia",
            str_detect(region, "Africa") ~ "Africa",
            str_detect(region, "Europe") ~ "Europe",
            TRUE ~ "America"
-         ))
+           ))
 
 #### COVID-19 data availability from OWID
 # Download Our World in Data dataset

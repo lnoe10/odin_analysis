@@ -181,14 +181,14 @@ owid_data_availability <-
 # From https://dsbb.imf.org/sdds/country
 # and https://dsbb.imf.org/sdds-plus/country
 # and https://dsbb.imf.org/e-gdds/country
-dissemination_standards <- read_csv("Input/imf_dissemination_standards.csv") %>%
+dissemination_standards <- read_csv("Input/imf_dissemination_standards_2022.csv") %>%
   mutate(iso3c = countrycode::countrycode(country, "country.name", "iso3c"),
          iso3c = case_when(
            str_detect(country, "Kosovo") & is.na(iso3c) ~ "XKX",
            str_detect(country, "Macao") & is.na(iso3c) ~ "MAC",
            TRUE ~ iso3c
          )) %>%
-  pivot_longer(cols = e_gdds:sdds_plus, names_to = "dissemination_subscriber", values_to = "membership") %>% 
+  pivot_longer(cols = sdds_plus:sdds, names_to = "dissemination_subscriber", values_to = "membership") %>% 
   filter(!is.na(membership)) %>%
   select(iso3c, dissemination_subscriber)
 

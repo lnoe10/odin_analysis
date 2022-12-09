@@ -12,6 +12,11 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   filter(!is.na(region)) %>%
   # rename variables for appending previous years
   rename(data_categories = elements, coverage_subscore = coverage_subscores, openness_subscore = openness_subscores, overall_score = overall_subscores) %>%
+  # Bring spelling of data categories in line with previous years
+  mutate(data_categories = case_when(
+    data_categories == "All categories" ~ "All Categories",
+    TRUE ~ data_categories
+  )) %>%
   # Remove helper variable
   select(-helper) %>%
   # Add 2020 scores

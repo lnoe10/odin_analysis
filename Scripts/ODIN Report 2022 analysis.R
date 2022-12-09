@@ -87,7 +87,14 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
            str_detect(region, "Africa") ~ "Africa",
            str_detect(region, "Europe") ~ "Europe",
            TRUE ~ "America"
-           ))
+           )) %>%
+  # Merge in World Bank income groups and regions
+  # From https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
+  # File "current classification by income in XLSX format"
+  left_join(read_csv("Input/wb_countries_fy23.csv") %>%
+              janitor::clean_names() %>%
+              filter(!is.na(region)) %>%
+              select(code, wb_region = region, income_group, lending_category), by = c("country_code" = "code"))
 
 #### COVID-19 data availability from OWID
 # Download Our World in Data dataset

@@ -625,7 +625,7 @@ odin_scores %>%
   geom_line() +
   geom_point() +
   labs(x = "", y = "Average score", color = "") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020"))
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022"))
 ggsave("Output/Change of rank of sectors over time.png", dpi = 400)
 
 #### Graph of how Overall scores of data categories within macro-sectors have changed ####

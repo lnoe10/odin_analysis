@@ -282,6 +282,29 @@ odin_scores %>%
               mutate(income_group = "Difference between high- and low-income", .before = `Coverage subscore`)
   )
 
+#### Figures 8 and 9 from ODIN 2020/21 report
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", !element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
+  group_by(macro_element, element, income_group) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_element == "Openness elements") %>%
+  ggplot(aes(x = income_group, y = median_score, group = as.factor(element), color = as.factor(element))) +
+  geom_line() +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(title = "Openness Elements by income group")
+
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", !element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
+  group_by(macro_element, element, income_group) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_element == "Coverage elements") %>%
+  ggplot(aes(x = income_group, y = median_score, group = as.factor(element), color = as.factor(element))) +
+  geom_line() +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(title = "Coverage Elements by income group")
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

@@ -211,6 +211,39 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
+# Average over time
+odin_scores %>% 
+  filter(data_categories == "All Categories", 
+         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
+  group_by(element, year) %>% 
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = year, y = mean_score, color = element)) +
+  geom_line()
+
+#### Replicate Figure 3 from ODIN 2020/2021 Report ####
+# ODIN scores by income group, 2016-2022
+odin_scores %>% 
+  filter(data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
+  group_by(income_group, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  ggplot(aes(x = year, y = mean_score, color = income_group)) +
+  geom_line()
+
+#### Replicate Figure 4 from ODIN 2020/2021 Report ####
+# Change in average ODIN scores by region, 2016-2022 (%) 
+odin_scores %>% 
+  filter(data_categories == "All Categories", element == "Overall score", year %in% c(2016, 2022)) %>%
+  group_by(region, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  pivot_wider(id_cols = region, names_from = year, names_prefix = "year", values_from = mean_score) %>%
+  mutate(avg_change = (year2022/year2016 - 1)*100) %>%
+  ggplot(aes(x = fct_reorder(region, avg_change), y = avg_change)) +
+  geom_col() + 
+  coord_flip()
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

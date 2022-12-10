@@ -99,6 +99,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   left_join(read_csv("Input/wb_countries_fy23.csv") %>%
               janitor::clean_names() %>%
               filter(!is.na(region)) %>%
+              mutate(income_group = fct_relevel(income_group, "Low income", "Lower middle income", "Upper middle income", "High income")) %>%
               select(code, wb_region = region, income_group, lending_category), by = c("country_code" = "code"))
 
 #### COVID-19 data availability from OWID

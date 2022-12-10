@@ -244,6 +244,24 @@ odin_scores %>%
   geom_col() + 
   coord_flip()
 
+#### Table 1 from ODIN 2020/2021 Report ####
+# Change in element scores, 2016-2022
+odin_scores %>%
+  # Compute average across all years by element
+  filter(data_categories == "All Categories", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  group_by(macro_element, element) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  left_join(odin_scores %>%
+              # Compute percent change between 2016 and 2022
+              filter(data_categories == "All Categories", !element %in% c("Coverage subscore", "Openness subscore", "Overall score"), year %in% c(2016, 2022)) %>%
+              group_by(macro_element, element, year) %>%
+              summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+              ungroup() %>%
+              pivot_wider(id_cols = c(macro_element, element), names_from = year, names_prefix = "year", values_from = mean_score) %>%
+              mutate(avg_change = (year2022/year2016 - 1)*100) %>%
+              select(macro_element, element, avg_change))
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

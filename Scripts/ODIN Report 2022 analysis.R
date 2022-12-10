@@ -263,6 +263,25 @@ odin_scores %>%
               mutate(avg_change = (year2022/year2016 - 1)*100) %>%
               select(macro_element, element, avg_change))
 
+#### Table 3 Median ODIN Scores by income group, 2022
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
+  group_by(income_group, element) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  pivot_wider(id_cols = income_group, names_from = element, values_from = median_score) %>%
+  bind_rows(odin_scores %>%
+              filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore"), income_group %in% c("High income", "Low income")) %>%
+              group_by(income_group, element) %>%
+              summarize(median_score = median(score, na.rm = TRUE)) %>%
+              ungroup() %>%
+              pivot_wider(id_cols = element, names_from = income_group, values_from = median_score) %>%
+              mutate(diff_low_hi = `High income` - `Low income`) %>%
+              select(element, diff_low_hi) %>%
+              pivot_wider(names_from = element, values_from = diff_low_hi) %>%
+              mutate(income_group = "Difference between high- and low-income", .before = `Coverage subscore`)
+  )
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

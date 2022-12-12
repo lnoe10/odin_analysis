@@ -223,7 +223,7 @@ odin_scores %>%
   ungroup() %>%
   ggplot(aes(x = year, y = mean_score, color = element)) +
   geom_line() +
-  labs(x ="", y = "Average Overall Score") + 
+  labs(x ="", y = "Average Score for All Categories") + 
   scale_y_continuous(limits = c(35,60)) +
   theme(legend.title = element_blank())
 ggsave("Graphs/Average overall score 2016-2022.png", dpi = 400)
@@ -236,7 +236,10 @@ odin_scores %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = year, y = mean_score, color = income_group)) +
-  geom_line()
+  geom_line() +
+  labs(x ="", y = "Average Overall Score for All Categories") + 
+  theme(legend.title = element_blank())
+ggsave("Graphs/Average overall score by income goup 2016-2022.png", dpi = 400)
 
 #### Replicate Figure 4 from ODIN 2020/2021 Report ####
 # Change in average ODIN scores by region, 2016-2022 (%) 

@@ -18,7 +18,8 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
     data_categories == "Economic and Financial Statistics subscores" ~ "Economic & financial statistics subscore",
     data_categories == "Social Statistics subscores" ~ "Social statistics subscore",
     TRUE ~ data_categories
-  )) %>%
+  ),
+  region = str_remove(region, "\n")) %>%
   # Remove helper variable
   select(-helper) %>%
   # Add 2020 scores

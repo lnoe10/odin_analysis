@@ -222,7 +222,10 @@ odin_scores %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = year, y = mean_score, color = element)) +
-  geom_line()
+  geom_line() +
+  labs(x ="", y = "Average Overall Score") + 
+  theme(legend.title = element_blank())
+ggsave("Graphs/Average overall score 2016-2022.png", dpi = 400)
 
 #### Replicate Figure 3 from ODIN 2020/2021 Report ####
 # ODIN scores by income group, 2016-2022

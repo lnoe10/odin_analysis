@@ -321,6 +321,21 @@ odin_scores %>%
   theme(legend.title = element_blank())
 ggsave("Graphs/Coverage elements by income group 2022.png", dpi = 400)
 
+#### ODIN scores by income group 2020
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>%
+  ggplot(aes(x = gni_pc, y = score, color = income_group)) +
+  geom_point() +
+  scale_x_log10(labels = scales::comma) +
+  stat_smooth(method="lm", formula=y~1, se=FALSE) +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups")
+ggsave("Graphs/Country ODIN scores against GNI pc.png", dpi = 400)
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

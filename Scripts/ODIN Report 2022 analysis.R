@@ -52,7 +52,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   # Clean variables and data categories to be able to compare scores across years
   mutate(
     # Remove white space and new lines at the end of data_categories variable. Basically get rid of trailing white space
-    data_categories = str_remove_all(data_categories, "\\n$|\\s$"),
+    data_categories = str_remove_all(data_categories, "\\n|\\s$|\\r"),
     # Switch names for older data categories to new (2020)  data category names
     data_categories = case_when(
            data_categories == "Energy use" ~ "Energy",
@@ -67,8 +67,6 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   mutate(
     # Convert elements back to sentence case for easier reading
     element = str_to_sentence(str_replace_all(element, "_", " ")),
-    # Clean out remaining carriage returns in data_category variable
-    data_categories = str_remove(data_categories, "\r"),
     # Create macro sector group for use in graphing/analysis
     macro_sector = case_when(
       data_categories %in% c("Population & vital statistics", "Education facilities",

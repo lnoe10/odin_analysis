@@ -695,6 +695,7 @@ odin_scores %>%
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average coverage score")
 
+# Economic and financial statistics
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -727,6 +728,7 @@ odin_scores %>%
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average openness score")
 
+# Economic and financial statistics
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),

@@ -303,7 +303,9 @@ odin_scores %>%
   ggplot(aes(x = income_group, y = median_score, group = as.factor(element), color = as.factor(element))) +
   geom_line() +
   scale_y_continuous(limits = c(0,100)) +
-  labs(title = "Openness Elements by income group")
+  labs(x = "", y = "Median Score across All Categories", title = "Openness Elements by income group") +
+  theme(legend.title = element_blank())
+ggsave("Graphs/Openness elements by income group 2022.png", dpi = 400)
 
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", !element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
@@ -314,7 +316,10 @@ odin_scores %>%
   ggplot(aes(x = income_group, y = median_score, group = as.factor(element), color = as.factor(element))) +
   geom_line() +
   scale_y_continuous(limits = c(0,100)) +
-  labs(title = "Coverage Elements by income group")
+  labs(title = "Coverage Elements by income group") +
+  labs(x = "", y = "Median Score across All Categories", title = "Coverage Elements by income group") +
+  theme(legend.title = element_blank())
+ggsave("Graphs/Coverage elements by income group 2022.png", dpi = 400)
 
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018

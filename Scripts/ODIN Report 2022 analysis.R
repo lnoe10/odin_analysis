@@ -661,6 +661,21 @@ odin_scores %>%
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average overall score")
 
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Overall score") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_sector == "Economic and financial statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  labs(x = "", y = "Average overall score", title = "Economic and financial statistics")
+
 #### Graph of how Coverage scores of data categories within macro-sectors have changed ####
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
@@ -678,6 +693,21 @@ odin_scores %>%
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average coverage score")
 
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Coverage subscore") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_sector == "Economic and financial statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  labs(x = "", y = "Average coverage score", title = "Economic and financial statistics")
+
 #### Graph of how Openness scores of data categories within macro-sectors have changed ####
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
@@ -694,6 +724,21 @@ odin_scores %>%
   scale_y_continuous(limits = c(15, 85)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average openness score")
+
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Openness subscore") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_sector == "Economic and financial statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  geom_line() +
+  geom_point() +
+  scale_y_continuous(limits = c(15, 85)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  labs(x = "", y = "Average openness score", title = "Economic and financial statistics")
 
 #### Change in Element scores within Energy data category ####
 # Investigate which elements behind energy have most rapidly increased

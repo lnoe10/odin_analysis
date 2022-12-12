@@ -198,13 +198,13 @@ dissemination_standards <- read_csv("Input/imf_dissemination_standards_2022.csv"
   filter(!is.na(membership)) %>%
   select(iso3c, dissemination_subscriber)
 
-#### GENERAL ANALYSIS ####
+#### EXPLORATORY DATA ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
-# 2020 and trends since 2016. Are certain coverage or openness lacking 
+# 2022 and trends since 2016. Are certain coverage or openness lacking 
 # in certain categories more than others? Can do something similar to 
 # previous year’s report. (Lorenz) 
 
-#### Replicate 2020 and 2018 part of Figure 2 from ODIN 2020/2021 Executive Summary ####
+#### Replicate Figure 2 from ODIN 2020/2021 Executive Summary ####
 odin_scores %>% 
   filter(data_categories == "All Categories", 
          element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
@@ -263,7 +263,7 @@ odin_scores %>%
               mutate(avg_change = (year2022/year2016 - 1)*100) %>%
               select(macro_element, element, avg_change))
 
-#### Table 3 Median ODIN Scores by income group, 2022
+#### Table 3 Median ODIN Scores by income group, 2022 ####
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
   group_by(income_group, element) %>%
@@ -282,7 +282,7 @@ odin_scores %>%
               mutate(income_group = "Difference between high- and low-income", .before = `Coverage subscore`)
   )
 
-#### Figures 8 and 9 from ODIN 2020/21 report
+#### Figures 8 and 9 from ODIN 2020/21 report ####
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", !element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%
   group_by(macro_element, element, income_group) %>%

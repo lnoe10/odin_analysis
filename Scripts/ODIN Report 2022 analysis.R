@@ -224,6 +224,7 @@ odin_scores %>%
   ggplot(aes(x = year, y = mean_score, color = element)) +
   geom_line() +
   labs(x ="", y = "Average Overall Score") + 
+  scale_y_continuous(limits = c(35,60)) +
   theme(legend.title = element_blank())
 ggsave("Graphs/Average overall score 2016-2022.png", dpi = 400)
 

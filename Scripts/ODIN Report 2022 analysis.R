@@ -661,6 +661,7 @@ odin_scores %>%
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average overall score")
 
+# Economic and financial statistics
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
@@ -675,6 +676,7 @@ odin_scores %>%
   scale_y_continuous(limits = c(15, 85)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   labs(x = "", y = "Average overall score", title = "Economic and financial statistics")
+ggsave("Graphs/Economic and financial sub-categories 2016-2022.png",dpi = 400)
 
 #### Graph of how Coverage scores of data categories within macro-sectors have changed ####
 odin_scores %>%

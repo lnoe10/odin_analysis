@@ -252,7 +252,9 @@ odin_scores %>%
   mutate(avg_change = (year2022/year2016 - 1)*100) %>%
   ggplot(aes(x = fct_reorder(region, avg_change), y = avg_change)) +
   geom_col() + 
-  coord_flip()
+  coord_flip() + 
+  labs(x = "", y = "Pct change in Average Overall Score for All Categories, 2016-2022")
+ggsave("Graphs/Pct change in Avg Overall score by region 2016-2022.png", dpi = 400)
 
 #### Table 1 from ODIN 2020/2021 Report ####
 # Change in element scores, 2016-2022

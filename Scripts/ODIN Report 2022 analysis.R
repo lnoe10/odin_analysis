@@ -19,6 +19,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
     data_categories == "Social Statistics subscores" ~ "Social statistics subscore",
     TRUE ~ data_categories
   ),
+  # Fix trailing new line break in region
   region = str_remove(region, "\n")) %>%
   # Remove helper variable
   select(-helper) %>%

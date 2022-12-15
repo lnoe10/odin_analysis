@@ -94,7 +94,12 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
            str_detect(region, "Africa") ~ "Africa",
            str_detect(region, "Europe") ~ "Europe",
            TRUE ~ "America"
-           )) %>%
+           ),
+    # Fix country code for Andorra, which is still in ADO, the old code. Fix before merging in other data sources
+    country_code = case_when(
+      country == "Andorra" ~ "AND",
+      TRUE ~ country_code
+    )) %>%
   # Merge in World Bank income groups and regions
   # From https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
   # File "current classification by income in XLSX format"
@@ -102,7 +107,15 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
               janitor::clean_names() %>%
               filter(!is.na(region)) %>%
               mutate(income_group = fct_relevel(income_group, "Low income", "Lower middle income", "Upper middle income", "High income")) %>%
-              select(code, wb_region = region, income_group, lending_category), by = c("country_code" = "code"))
+              select(code, wb_region = region, income_group, lending_category), by = c("country_code" = "code")) %>%
+  # Merge in UNSD Country Groups for SIDS, LDC, and LLDC
+  # From https://unstats.un.org/unsd/methodology/m49/overview/
+  left_join(read_csv("Input/unsd_country_groups.csv") %>% 
+              janitor::clean_names() %>% 
+              select(country_code = iso_alpha3_code, ldc = least_developed_countries_ldc, lldc = land_locked_developing_countries_lldc, sids = small_island_developing_states_sids)) %>%
+  # Make x and NA to yes and no for three UNSD country groupings
+  mutate(across(ldc:sids, ~case_when(.x == "x" ~ "yes", TRUE ~ "no")))
+  
 
 #### COVID-19 data availability from OWID
 # Download Our World in Data dataset

@@ -287,6 +287,32 @@ odin_scores %>%
               mutate(avg_change = (year2022/year2016 - 1)*100) %>%
               select(macro_element, element, avg_change))
 
+#### Change over time of element scores
+odin_scores %>%
+  # Compute average across all years by element
+  filter(data_categories == "All Categories", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  group_by(macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_element == "Coverage elements") %>%
+  ggplot(aes(x = year, y = mean_score, color = element)) +
+  geom_line() +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(x = "", y = "Average score for all categories", title = "Coverage elements 2016-2022")
+
+odin_scores %>%
+  # Compute average across all years by element
+  filter(data_categories == "All Categories", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  group_by(macro_element, element, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_element == "Openness elements") %>%
+  ggplot(aes(x = year, y = mean_score, color = element)) +
+  geom_line() +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(x = "", y = "Average score for all categories", title = "Openness elements 2016-2022")
+
+
 #### Table 3 Median ODIN Scores by income group, 2022 ####
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore"), !is.na(income_group)) %>%

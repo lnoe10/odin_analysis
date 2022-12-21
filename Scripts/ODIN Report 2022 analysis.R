@@ -294,6 +294,83 @@ odin_scores %>%
   labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups")
 ggsave("Graphs/Country ODIN scores against GNI pc.png", dpi = 400)
 
+# Correlation between GNI pc and scores
+data4reg <- odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>%
+  pivot_wider(id_cols = c(country, country_code, region, region_code, wb_region, income_group, lending_category, ldc, lldc, sids, gni_pc), names_from = element, values_from = score)
+  
+
+lm_model <- linear_reg() %>%
+  set_engine('lm') %>%
+  set_mode('regression')
+
+lm_model
+
+lm_fit <- lm_model %>%
+  fit(`Overall score` ~ log10(gni_pc), data = data4reg)
+
+# Plot all three main scores against gni_pc
+data4reg %>%
+  ggplot() +
+  geom_point(aes(x = gni_pc, y = `Overall score`)) +
+  geom_smooth(method = "lm", aes(x = gni_pc, y = `Overall score`, color = "Overall score")) +
+  geom_smooth(method = "lm", aes(x = gni_pc, y = `Coverage subscore`, color = "Coverage subscore")) +
+  geom_smooth(method = "lm", aes(x = gni_pc, y = `Openness subscore`, color = "Openness subscore")) +
+  scale_x_log10(labels = scales::comma) +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022")
+
+# Test tidy correlations
+# using https://www.tidymodels.org/learn/statistics/tidy-analysis/
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>%
+  filter(!is.na(score), !is.na(gni_pc)) %>%
+  group_by(element) %>%
+  summarize(correlation = cor(score, log10(gni_pc), use = "pairwise.complete.obs"))
+
+data4reg <- odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>%
+  filter(!is.na(score), !is.na(gni_pc)) %>%
+  mutate(log_gni_pc = log10(gni_pc))
+
+ct <- cor.test(data4reg$score, data4reg$log_gni_pc)
+tidy(ct)
+
+nested <-
+  data4reg %>%
+  select(element, score, log_gni_pc) %>%
+  nest(data = c(score, log_gni_pc))
+
+nested %>% 
+  mutate(test = map(data, ~ cor.test(.x$score, .x$log_gni_pc)), # S3 list-col
+         tidied = map(test, tidy)
+         ) %>% 
+  unnest(cols = tidied) %>%
+  select(-c(data, test))
+
+# Multiple regressions
+data4reg %>%
+  select(element, score, log_gni_pc) %>%
+  nest(data = c(-element)) %>%
+  mutate(
+    fit = map(data, ~ lm(score ~ log_gni_pc, data = .x)),
+    tidied = map(fit, tidy)
+  ) %>% 
+  unnest(tidied) %>% 
+  select(-c(data, fit))
+
 #### FIGURE 11: Coverage by category, 2018 vs 2020 ####
 # Make sorting order based on average coverage scores in 2018
 sel_order <- 

@@ -73,3 +73,28 @@ odin_scores %>%
   geom_line() +
   labs(x = "", y = "Average score for Indicator Coverage and Disaggregation", color = "Sex-disaggregation\n for data category?") +
   scale_y_continuous(limits = c(0,100))
+
+# Look at country level score changes for three new requirements for Indicator Coverage and Disaggregation
+# What does this look like just for coverage element "Indicator coverage and disaggregation?"
+odin_scores %>%
+  filter(year %in% c(2020, 2022), element == "Indicator coverage and disaggregation",
+         data_categories %in% c("Education facilities",
+                                "Education outcomes", "Food security & nutrition")) %>%
+  pivot_wider(id_cols = c(country_code, data_categories), names_from = year, names_prefix = "year_", values_from = score) %>%
+  mutate(year_change = year_2022 - year_2020) %>%
+  select(country_code, data_categories, year_2020, year_2022, year_change) %>%
+  arrange(data_categories, year_change) %>%
+  count(data_categories, year_change)
+
+odin_scores %>%
+  filter(year %in% c(2020, 2022), element == "Indicator coverage and disaggregation",
+         data_categories %in% c("Education facilities",
+                                "Education outcomes", "Food security & nutrition")) %>%
+  pivot_wider(id_cols = c(country_code, data_categories), names_from = year, names_prefix = "year_", values_from = score) %>%
+  mutate(year_change = year_2022 - year_2020) %>%
+  select(country_code, data_categories, year_2020, year_2022, year_change) %>%
+  arrange(data_categories, year_change) %>%
+  group_by(country_code) %>%
+  summarize(avg_change = mean(year_change, na.rm = TRUE)) %>%
+  ungroup() %>%
+  arrange(avg_change)

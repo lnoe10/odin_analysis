@@ -90,11 +90,33 @@ odin_scores %>%
   filter(year %in% c(2020, 2022), element == "Indicator coverage and disaggregation",
          data_categories %in% c("Education facilities",
                                 "Education outcomes", "Food security & nutrition")) %>%
-  pivot_wider(id_cols = c(country_code, data_categories), names_from = year, names_prefix = "year_", values_from = score) %>%
+  pivot_wider(id_cols = c(country_code, region, data_categories), names_from = year, names_prefix = "year_", values_from = score) %>%
   mutate(year_change = year_2022 - year_2020) %>%
-  select(country_code, data_categories, year_2020, year_2022, year_change) %>%
+  select(country_code, region, data_categories, year_2020, year_2022, year_change) %>%
   arrange(data_categories, year_change) %>%
-  group_by(country_code) %>%
+  group_by(country_code, region) %>%
   summarize(avg_change = mean(year_change, na.rm = TRUE)) %>%
   ungroup() %>%
+  mutate(country = countrycode::countrycode(country_code, "iso3c", "country.name"),
+         country = case_when(
+           country_code == "XKX" ~ "Kosovo",
+           TRUE ~ country
+         )) %>%
+  select(country, country_code, region, avg_change) %>%
   arrange(avg_change)
+
+odin_scores %>%
+  filter(year %in% c(2020, 2022), element == "Indicator coverage and disaggregation",
+         data_categories %in% c("Education facilities",
+                                "Education outcomes", "Food security & nutrition")) %>%
+  pivot_wider(id_cols = c(country_code, region, data_categories), names_from = year, names_prefix = "year_", values_from = score) %>%
+  mutate(year_change = year_2022 - year_2020) %>%
+  select(country_code, region, data_categories, year_2020, year_2022, year_change) %>%
+  arrange(data_categories, year_change) %>%
+  group_by(country_code, region) %>%
+  summarize(avg_change = mean(year_change, na.rm = TRUE)) %>%
+  ungroup() %>%
+  group_by(region) %>%
+  summarize(region_change = mean(avg_change, na.rm = TRUE)) %>%
+  ungroup() %>%
+  arrange(region_change)

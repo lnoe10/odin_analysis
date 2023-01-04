@@ -1212,6 +1212,43 @@ ggsave("Output/IMF Dissemination standards countries and their scores.png", dpi 
 # e-GDDS countries have just about superseded None countries on openness and
 # and have rapidly improved on coverage.
 
+#### Open Gender Data Index ####
+# Try to replicate OGDI from ODIN 2020 report.
+
+# 1. Average ten data categories with sex-disaggregation or data relevance
+# Crime and Justice, Education Outcomes, Food Security & Nutrition, Gender Statistics,
+# Health Outcomes, Labor, Population & Vital Statistics, Reproductive Health, Built Environment, Poverty & Income
+
+odin_scores %>%
+  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",
+                                                 "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
+                                                 "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
+                          data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
+                          TRUE ~ "non_OGDI")) %>%
+  filter(element == "Overall score", !is.na(ogdi)) %>%
+  # Average by country by year by OGDI status
+  group_by(year, ogdi, country_code) %>%
+  summarize(score_by_ogdi = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # Average by year
+  group_by(year, ogdi) %>%
+  summarize(overall_ogdi = mean(score_by_ogdi, na.rm = TRUE)) %>%
+  ungroup()
+
+# Performance in 2022 of data categories
+odin_scores %>%
+  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",
+                                                 "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
+                                                 "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
+                          data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
+                          TRUE ~ "non_OGDI")) %>%
+  filter(element == "Overall score", ogdi == "OGDI") %>%
+  # Average by country by year by OGDI status
+  group_by(year, data_categories) %>%
+  summarize(score_by_datacat = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(year == 2022)
+
 ## OPTIONAL IMPORT COVID-19 DATA
 ##### COVID-19 data availability from OWID
 ## Download Our World in Data dataset

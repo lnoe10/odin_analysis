@@ -21,8 +21,6 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   ),
   # Fix trailing new line break in region
   region = str_remove(region, "\n")) %>%
-  # Remove helper variable
-  select(-helper) %>%
   # Add 2020 scores
   bind_rows(read_csv("Input/ODIN_scores_2020.csv") %>%
               # convert all variable names to snakecase

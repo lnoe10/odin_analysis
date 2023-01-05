@@ -97,6 +97,16 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
     country_code = case_when(
       country == "Andorra" ~ "AND",
       TRUE ~ country_code
+    ),
+    country = case_when(
+      country_code == "COD" ~ "Congo, Dem. Rep.",
+      country_code == "COG" ~ "Congo, Rep.",
+      country_code == "HKG" ~ "Hong Kong SAR, China",
+      country_code == "IRN" ~ "Iran, Islamic Rep.",
+      country_code == "KOR" ~ "Korea, Rep.",
+      country_code == "MAC" ~ "Macao SAO, China",
+      country_code == "FSM" ~ "Micronesia, Fed. Sts.",
+      TRUE ~ country
     )) %>%
   # Merge in World Bank income groups and regions
   # From https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups

@@ -30,7 +30,7 @@
 2022,Southern Europe,EUZ,Albania,ALB,Pollution,50.0,0.0,50.0,50.0,0.0,37.5,100.0,100.0,100.0,50.0,0.0,70.0,55.6
 2022,Southern Europe,EUZ,Albania,ALB,Built environment,100.0,100.0,50.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,Southern Europe,EUZ,Albania,ALB,Environment subscore,80.0,60.0,60.0,25.0,0.0,52.4,90.0,100.0,80.0,50.0,0.0,64.0,58.7
-2022,Northern Europe,EUN,Finland,FIN,All categories,95.0,91.7,91.7,56.3,53.5,81.6,93.3,100.0,74.5,85.2,93.6,89.3,85.8
+2022,Southern Europe,EUZ,Albania,ALB,All categories,86.7,80.0,73.3,30.4,6.9,62.6,79.3,98.3,68.8,50.0,0.0,59.3,60.8
 2022,Northern Africa,AFN,Algeria,DZA,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,0.0,30.0,50.0
 2022,Northern Africa,AFN,Algeria,DZA,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Northern Africa,AFN,Algeria,DZA,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
@@ -56,7 +56,7 @@
 2022,Northern Africa,AFN,Algeria,DZA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Algeria,DZA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Algeria,DZA,Environment subscore,40.0,20.0,30.0,12.5,0.0,23.8,0.0,60.0,10.0,30.0,0.0,20.0,21.7
-2022,Eastern Europe,EUE,Poland,POL,All categories,96.7,86.7,86.7,65.7,38.1,79.7,100.0,100.0,66.9,89.3,100.0,91.2,85.9
+2022,Northern Africa,AFN,Algeria,DZA,All categories,56.0,44.5,52.6,10.5,0.0,37.8,2.4,71.0,7.4,36.7,0.0,23.5,30.1
 2022,Southern Europe,EUZ,Andorra,ADO,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,100.0,0.0,70.0,77.8
 2022,Southern Europe,EUZ,Andorra,ADO,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,100.0,0.0,70.0,55.6
 2022,Southern Europe,EUZ,Andorra,ADO,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,100.0,0.0,70.0,61.1
@@ -82,7 +82,7 @@
 2022,Southern Europe,EUZ,Andorra,ADO,Pollution,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,100.0,100.0,0.0,80.0,68.8
 2022,Southern Europe,EUZ,Andorra,ADO,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,0.0,80.0,44.4
 2022,Southern Europe,EUZ,Andorra,ADO,Environment subscore,40.0,40.0,40.0,25.0,0.0,38.2,100.0,100.0,100.0,100.0,0.0,80.0,63.1
-2022,South-Eastern Asia,ASE,Singapore,SGP,All categories,91.7,84.3,87.6,0.0,0.0,75.7,100.0,100.0,96.0,100.0,100.0,99.2,89.6
+2022,Southern Europe,EUZ,Andorra,ADO,All categories,56.2,53.8,47.4,17.3,0.0,47.6,93.3,93.3,70.7,79.0,0.0,67.3,59.2
 2022,Middle Africa,AFM,Angola,AGO,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Middle Africa,AFM,Angola,AGO,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Middle Africa,AFM,Angola,AGO,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
@@ -108,7 +108,7 @@
 2022,Middle Africa,AFM,Angola,AGO,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Angola,AGO,Built environment,100.0,50.0,0.0,100.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Middle Africa,AFM,Angola,AGO,Environment subscore,40.0,30.0,20.0,25.0,0.0,26.2,0.0,60.0,30.0,30.0,0.0,24.0,25.0
-2022,Northern Europe,EUN,Denmark,DNK,All categories,88.3,85.0,88.3,44.6,55.0,75.7,100.0,100.0,81.9,98.3,100.0,96.0,86.7
+2022,Middle Africa,AFM,Angola,AGO,All categories,57.6,50.2,43.6,24.1,3.5,40.3,19.0,72.9,29.5,40.0,0.0,32.3,36.0
 2022,Caribbean,AMC,Anguilla,AIA,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,100.0,0.0,70.0,55.6
 2022,Caribbean,AMC,Anguilla,AIA,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Anguilla,AIA,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -134,7 +134,7 @@
 2022,Caribbean,AMC,Anguilla,AIA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Anguilla,AIA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Anguilla,AIA,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,40.0,40.0,20.0,20.0,0.0,24.0,21.4
-2022,North America,AMN,Canada,CAN,All categories,86.7,85.0,85.0,53.3,43.1,74.8,90.0,100.0,61.2,89.3,51.7,78.4,76.8
+2022,Caribbean,AMC,Anguilla,AIA,All categories,26.7,20.2,26.7,0.0,0.0,21.1,26.2,43.8,21.9,21.2,0.0,22.6,22.0
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,100.0,80.0,77.8
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Education facilities,100.0,50.0,50.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,61.1
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
@@ -160,7 +160,7 @@
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Antigua and Barbuda,ATG,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Northern Europe,EUN,Norway,NOR,All categories,91.7,83.3,83.3,49.1,36.1,73.6,98.3,100.0,76.9,81.7,100.0,91.4,83.2
+2022,Caribbean,AMC,Antigua and Barbuda,ATG,All categories,37.9,34.5,31.4,5.0,0.0,30.5,25.7,50.0,10.7,29.8,50.0,33.2,32.1
 2022,South America,AMZ,Argentina,ARG,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,0.0,50.0,0.0,30.0,40.0
 2022,South America,AMZ,Argentina,ARG,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,50.0,50.0,50.0,50.0,45.0
 2022,South America,AMZ,Argentina,ARG,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,50.0,50.0,0.0,40.0,40.0
@@ -186,7 +186,7 @@
 2022,South America,AMZ,Argentina,ARG,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South America,AMZ,Argentina,ARG,Built environment,50.0,50.0,50.0,0.0,0.0,30.0,50.0,50.0,0.0,50.0,0.0,30.0,30.0
 2022,South America,AMZ,Argentina,ARG,Environment subscore,50.0,50.0,50.0,0.0,0.0,35.7,40.0,40.0,0.0,40.0,0.0,24.0,29.3
-2022,Southern Europe,EUZ,Slovenia,SVN,All categories,91.7,90.0,88.3,35.5,25.7,72.7,96.7,100.0,84.3,90.2,100.0,94.2,84.3
+2022,South America,AMZ,Argentina,ARG,All categories,64.3,64.3,62.6,15.7,15.3,49.4,57.1,48.3,21.2,47.4,12.1,37.2,42.8
 2022,Western Asia,ASW,Armenia,ARM,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,0.0,30.0,50.0
 2022,Western Asia,ASW,Armenia,ARM,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,Western Asia,ASW,Armenia,ARM,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
@@ -212,7 +212,7 @@
 2022,Western Asia,ASW,Armenia,ARM,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,100.0,100.0,0.0,80.0,66.7
 2022,Western Asia,ASW,Armenia,ARM,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,Western Asia,ASW,Armenia,ARM,Environment subscore,100.0,80.0,80.0,12.5,0.0,64.3,80.0,100.0,70.0,60.0,0.0,62.0,63.0
-2022,Northern Africa,AFN,Morocco,MAR,All categories,92.6,87.6,84.3,36.4,34.7,72.6,68.8,96.7,41.9,50.0,86.7,68.8,70.5
+2022,Western Asia,ASW,Armenia,ARM,All categories,89.3,74.5,79.3,24.1,3.5,61.8,69.3,92.9,58.8,60.5,0.0,56.3,58.8
 2022,Caribbean,AMC,Aruba,ABW,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,100.0,60.0,65.0
 2022,Caribbean,AMC,Aruba,ABW,Education facilities,50.0,0.0,50.0,0.0,50.0,30.0,0.0,100.0,0.0,100.0,100.0,60.0,45.0
 2022,Caribbean,AMC,Aruba,ABW,Education outcomes,50.0,0.0,50.0,0.0,0.0,20.0,0.0,100.0,0.0,100.0,100.0,60.0,40.0
@@ -238,7 +238,7 @@
 2022,Caribbean,AMC,Aruba,ABW,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Aruba,ABW,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Aruba,ABW,Environment subscore,20.0,20.0,20.0,0.0,0.0,14.3,30.0,40.0,10.0,20.0,40.0,28.0,21.7
-2022,Western Europe,EUW,Germany,DEU,All categories,91.7,86.7,86.7,43.7,20.8,72.5,100.0,100.0,74.5,54.8,93.6,84.6,79.0
+2022,Caribbean,AMC,Aruba,ABW,All categories,48.6,45.2,48.6,2.1,3.5,34.1,26.2,67.6,16.9,43.1,51.0,41.0,37.8
 2022,"Australia and New Zealand
 ",OAZ,Australia,AUS,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,95.0
 2022,"Australia and New Zealand
@@ -289,7 +289,8 @@
 ",OAZ,Australia,AUS,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,100.0,70.0,35.0
 2022,"Australia and New Zealand
 ",OAZ,Australia,AUS,Environment subscore,60.0,50.0,60.0,37.5,50.0,52.4,100.0,40.0,40.0,70.0,100.0,70.0,62.0
-2022,Southern Europe,EUZ,Spain,ESP,All categories,93.3,83.3,83.3,49.1,22.3,72.5,86.7,100.0,60.7,73.6,54.8,75.1,73.9
+2022,"Australia and New Zealand
+",OAZ,Australia,AUS,All categories,71.9,61.2,66.9,35.5,17.3,55.4,95.2,66.2,53.1,83.6,95.2,78.7,67.9
 2022,Western Europe,EUW,Austria,AUT,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,50.0,80.0,90.0
 2022,Western Europe,EUW,Austria,AUT,Education facilities,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,100.0,50.0,50.0,80.0,80.0
 2022,Western Europe,EUW,Austria,AUT,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,100.0,50.0,70.0,55.0
@@ -315,7 +316,7 @@
 2022,Western Europe,EUW,Austria,AUT,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,50.0,90.0,83.3
 2022,Western Europe,EUW,Austria,AUT,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,50.0,100.0,0.0,50.0,50.0,50.0,25.0
 2022,Western Europe,EUW,Austria,AUT,Environment subscore,70.0,60.0,60.0,25.0,0.0,50.0,90.0,100.0,70.0,80.0,50.0,78.0,65.2
-2022,Western Asia,ASW,Palestine,PSE,All categories,91.0,82.6,76.0,45.8,46.5,72.1,90.0,100.0,42.6,52.4,98.3,76.7,74.6
+2022,Western Europe,EUW,Austria,AUT,All categories,68.8,63.8,62.1,30.4,10.4,52.4,87.1,90.5,54.3,65.7,45.2,68.6,61.1
 2022,Western Asia,ASW,Azerbaijan,AZE,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,50.0,50.0,100.0,0.0,60.0,70.0
 2022,Western Asia,ASW,Azerbaijan,AZE,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,0.0,50.0,0.0,40.0,45.0
 2022,Western Asia,ASW,Azerbaijan,AZE,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,50.0,0.0,50.0,50.0
@@ -341,7 +342,7 @@
 2022,Western Asia,ASW,Azerbaijan,AZE,Pollution,100.0,100.0,50.0,0.0,0.0,62.5,100.0,100.0,50.0,100.0,0.0,70.0,66.7
 2022,Western Asia,ASW,Azerbaijan,AZE,Built environment,50.0,50.0,50.0,50.0,0.0,40.0,100.0,50.0,50.0,50.0,0.0,50.0,45.0
 2022,Western Asia,ASW,Azerbaijan,AZE,Environment subscore,70.0,70.0,60.0,25.0,25.0,54.8,100.0,90.0,60.0,60.0,0.0,62.0,58.7
-2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,All categories,81.0,79.3,79.3,17.3,0.0,71.2,96.7,100.0,60.2,67.6,100.0,84.9,79.3
+2022,Western Asia,ASW,Azerbaijan,AZE,All categories,74.3,72.6,69.3,21.1,27.7,57.6,95.0,82.6,49.0,55.7,0.0,56.5,57.0
 2022,Western Asia,ASW,Bahrain,BHR,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,50.0,100.0,80.0,83.3
 2022,Western Asia,ASW,Bahrain,BHR,Education facilities,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Western Asia,ASW,Bahrain,BHR,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
@@ -367,7 +368,7 @@
 2022,Western Asia,ASW,Bahrain,BHR,Pollution,50.0,0.0,50.0,0.0,0.0,33.3,100.0,100.0,100.0,50.0,100.0,90.0,68.8
 2022,Western Asia,ASW,Bahrain,BHR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,90.0,50.0
 2022,Western Asia,ASW,Bahrain,BHR,Environment subscore,30.0,10.0,20.0,0.0,0.0,17.6,60.0,50.0,50.0,30.0,60.0,50.0,36.9
-2022,Northern Europe,EUN,Sweden,SWE,All categories,90.0,83.3,81.7,35.5,41.6,71.0,90.0,96.7,81.7,85.0,86.7,88.0,80.1
+2022,Western Asia,ASW,Bahrain,BHR,All categories,56.9,44.5,47.9,6.9,0.0,43.8,76.7,77.6,57.1,47.4,83.3,68.4,58.3
 2022,Southern Asia,ASZ,Bangladesh,BGD,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,50.0,0.0,40.0,20.0
 2022,Southern Asia,ASZ,Bangladesh,BGD,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,100.0,0.0,40.0,35.0
 2022,Southern Asia,ASZ,Bangladesh,BGD,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,100.0,0.0,50.0,45.0
@@ -393,7 +394,7 @@
 2022,Southern Asia,ASZ,Bangladesh,BGD,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Asia,ASZ,Bangladesh,BGD,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Southern Asia,ASZ,Bangladesh,BGD,Environment subscore,80.0,40.0,50.0,12.5,0.0,42.9,0.0,80.0,40.0,40.0,0.0,32.0,37.0
-2022,Eastern Europe,EUE,Czech Republic,CZE,All categories,88.3,83.3,81.7,47.9,24.3,70.9,95.0,95.0,37.6,56.4,48.3,66.5,68.5
+2022,Southern Asia,ASZ,Bangladesh,BGD,All categories,69.5,38.3,48.8,10.5,6.9,39.4,0.0,90.0,33.6,55.5,0.0,35.8,37.5
 2022,Caribbean,AMC,Barbados,BRB,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Barbados,BRB,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Barbados,BRB,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -419,7 +420,7 @@
 2022,Caribbean,AMC,Barbados,BRB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Barbados,BRB,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Barbados,BRB,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Western Asia,ASW,United Arab Emirates,ARE,All categories,92.6,88.6,88.6,38.0,3.5,70.6,96.7,100.0,77.9,74.5,100.0,89.8,80.9
+2022,Caribbean,AMC,Barbados,BRB,All categories,26.2,23.8,23.8,0.0,0.0,17.3,31.0,33.3,14.3,16.7,33.3,25.7,21.8
 2022,Eastern Europe,EUE,Belarus,BLR,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,0.0,80.0,90.0
 2022,Eastern Europe,EUE,Belarus,BLR,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,Eastern Europe,EUE,Belarus,BLR,Education outcomes,100.0,100.0,50.0,50.0,0.0,60.0,50.0,100.0,50.0,50.0,0.0,50.0,55.0
@@ -445,7 +446,7 @@
 2022,Eastern Europe,EUE,Belarus,BLR,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,100.0,0.0,70.0,77.8
 2022,Eastern Europe,EUE,Belarus,BLR,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Eastern Europe,EUE,Belarus,BLR,Environment subscore,90.0,80.0,80.0,37.5,25.0,69.0,100.0,100.0,50.0,80.0,0.0,66.0,67.4
-2022,Western Europe,EUW,Netherlands,NLD,All categories,88.3,81.0,82.6,31.0,41.1,69.3,93.3,93.3,81.7,91.7,93.3,90.7,80.8
+2022,Eastern Europe,EUE,Belarus,BLR,All categories,78.1,71.4,69.8,41.6,31.2,62.5,79.0,88.1,50.2,63.3,0.0,56.1,59.1
 2022,Western Europe,EUW,Belgium,BEL,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,50.0,50.0,50.0,0.0,50.0,60.0
 2022,Western Europe,EUW,Belgium,BEL,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Europe,EUW,Belgium,BEL,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,0.0,50.0,50.0,0.0,40.0,35.0
@@ -471,7 +472,7 @@
 2022,Western Europe,EUW,Belgium,BEL,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,0.0,60.0,66.7
 2022,Western Europe,EUW,Belgium,BEL,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,0.0,70.0,35.0
 2022,Western Europe,EUW,Belgium,BEL,Environment subscore,60.0,60.0,60.0,25.0,25.0,50.0,100.0,90.0,60.0,50.0,0.0,60.0,55.4
-2022,Eastern Asia,ASF,Mongolia,MNG,All categories,89.3,77.6,74.3,43.7,34.7,68.5,100.0,100.0,81.0,80.0,96.7,91.5,80.9
+2022,Western Europe,EUW,Belgium,BEL,All categories,68.3,66.7,62.6,20.8,22.3,52.6,90.0,76.0,62.6,46.7,28.6,60.8,57.0
 2022,Central America,AMM,Belize,BLZ,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,0.0,40.0,55.0
 2022,Central America,AMM,Belize,BLZ,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Central America,AMM,Belize,BLZ,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
@@ -497,7 +498,7 @@
 2022,Central America,AMM,Belize,BLZ,Pollution,50.0,50.0,0.0,0.0,0.0,25.0,100.0,100.0,50.0,100.0,0.0,70.0,50.0
 2022,Central America,AMM,Belize,BLZ,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,Central America,AMM,Belize,BLZ,Environment subscore,50.0,30.0,20.0,12.5,0.0,26.2,50.0,80.0,30.0,40.0,0.0,40.0,33.7
-2022,Northern Europe,EUN,Lithuania,LTU,All categories,93.3,80.0,80.0,32.2,25.7,68.2,100.0,100.0,81.2,80.0,4.8,73.2,70.9
+2022,Central America,AMM,Belize,BLZ,All categories,70.2,53.6,48.6,19.9,3.5,44.4,49.5,91.7,33.6,44.3,9.5,45.7,45.1
 2022,Western Africa,AFW,Benin,BEN,Population & vital statistics,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,50.0,50.0,50.0,70.0,65.0
 2022,Western Africa,AFW,Benin,BEN,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,50.0,60.0,30.0
 2022,Western Africa,AFW,Benin,BEN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -523,7 +524,7 @@
 2022,Western Africa,AFW,Benin,BEN,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Benin,BEN,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
 2022,Western Africa,AFW,Benin,BEN,Environment subscore,50.0,10.0,30.0,25.0,0.0,26.2,70.0,80.0,70.0,40.0,10.0,54.0,41.3
-2022,Eastern Asia,ASF,Japan,JPN,All categories,87.6,82.6,77.6,33.4,29.2,67.5,100.0,69.8,42.9,46.7,95.2,70.9,69.3
+2022,Western Africa,AFW,Benin,BEN,All categories,65.2,44.5,41.4,21.1,13.9,40.9,66.4,86.9,54.3,48.3,49.5,61.1,51.8
 2022,Southern Asia,ASZ,Bhutan,BTN,Population & vital statistics,100.0,100.0,50.0,50.0,0.0,60.0,0.0,100.0,50.0,100.0,0.0,50.0,55.0
 2022,Southern Asia,ASZ,Bhutan,BTN,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,0.0,50.0,0.0,50.0,40.0
 2022,Southern Asia,ASZ,Bhutan,BTN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,0.0,50.0,0.0,50.0,40.0
@@ -549,7 +550,7 @@
 2022,Southern Asia,ASZ,Bhutan,BTN,Pollution,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,0.0,40.0,27.8
 2022,Southern Asia,ASZ,Bhutan,BTN,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,45.0
 2022,Southern Asia,ASZ,Bhutan,BTN,Environment subscore,60.0,30.0,30.0,37.5,0.0,35.7,40.0,80.0,10.0,40.0,0.0,34.0,34.8
-2022,South America,AMZ,Brazil,BRA,All categories,87.6,76.0,76.0,41.0,31.2,67.2,92.6,100.0,49.3,62.1,4.0,61.6,64.2
+2022,Southern Asia,ASZ,Bhutan,BTN,All categories,70.2,56.9,51.9,25.3,3.5,47.0,46.7,93.3,14.8,54.0,0.0,41.8,44.2
 2022,South America,AMZ,Bolivia,BOL,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.0
 2022,South America,AMZ,Bolivia,BOL,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,0.0,50.0,25.0
 2022,South America,AMZ,Bolivia,BOL,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,50.0,0.0,50.0,45.0
@@ -575,7 +576,7 @@
 2022,South America,AMZ,Bolivia,BOL,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,0.0,50.0,50.0,0.0,40.0,38.9
 2022,South America,AMZ,Bolivia,BOL,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.0
 2022,South America,AMZ,Bolivia,BOL,Environment subscore,80.0,60.0,60.0,37.5,0.0,54.8,100.0,80.0,50.0,50.0,0.0,56.0,55.4
-2022,South-Eastern Asia,ASE,Indonesia,IDN,All categories,82.6,80.2,78.6,40.7,25.7,66.9,72.6,98.3,49.8,56.4,89.5,73.3,70.4
+2022,South America,AMZ,Bolivia,BOL,All categories,71.2,55.5,54.8,31.6,6.9,49.1,87.1,77.9,39.5,49.3,0.0,50.8,50.0
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Population & vital statistics,100.0,50.0,50.0,0.0,0.0,40.0,0.0,100.0,50.0,100.0,0.0,50.0,45.0
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,100.0,0.0,40.0,35.0
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,100.0,0.0,40.0,35.0
@@ -601,7 +602,7 @@
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Built environment,100.0,0.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,Environment subscore,70.0,50.0,50.0,12.5,0.0,42.9,40.0,40.0,40.0,50.0,30.0,40.0,41.3
-2022,Western Europe,EUW,Switzerland,CHE,All categories,85.2,83.6,81.9,36.7,6.9,66.3,95.0,100.0,64.8,64.5,98.3,84.5,76.1
+2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,All categories,76.0,62.6,57.9,20.5,3.5,50.2,31.0,65.5,36.0,58.1,31.4,44.4,47.0
 2022,Southern Africa,AFZ,Botswana,BWA,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,100.0,70.0,70.0
 2022,Southern Africa,AFZ,Botswana,BWA,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Southern Africa,AFZ,Botswana,BWA,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
@@ -627,7 +628,7 @@
 2022,Southern Africa,AFZ,Botswana,BWA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Africa,AFZ,Botswana,BWA,Built environment,100.0,50.0,0.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,Southern Africa,AFZ,Botswana,BWA,Environment subscore,50.0,30.0,20.0,25.0,0.0,28.6,0.0,60.0,30.0,30.0,60.0,36.0,32.6
-2022,Northern Europe,EUN,Estonia,EST,All categories,88.3,81.7,81.7,31.3,6.9,65.5,96.7,96.7,84.3,91.7,83.8,90.6,79.0
+2022,Southern Africa,AFZ,Botswana,BWA,All categories,67.6,51.2,51.9,17.8,6.9,44.0,27.4,86.7,47.1,43.3,77.1,56.3,50.7
 2022,South America,AMZ,Brazil,BRA,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,0.0,70.0,75.0
 2022,South America,AMZ,Brazil,BRA,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.0
 2022,South America,AMZ,Brazil,BRA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,50.0,0.0,50.0,50.0
@@ -653,7 +654,7 @@
 2022,South America,AMZ,Brazil,BRA,Pollution,100.0,50.0,50.0,50.0,0.0,62.5,100.0,100.0,50.0,50.0,0.0,60.0,61.1
 2022,South America,AMZ,Brazil,BRA,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,50.0,0.0,60.0,70.0
 2022,South America,AMZ,Brazil,BRA,Environment subscore,90.0,70.0,70.0,62.5,25.0,69.0,100.0,100.0,60.0,60.0,0.0,64.0,66.3
-2022,Eastern Europe,EUE,Moldova,MDA,All categories,88.3,81.7,81.7,22.0,17.3,64.9,91.0,96.7,68.8,77.9,96.7,86.2,76.4
+2022,South America,AMZ,Brazil,BRA,All categories,87.6,76.0,76.0,41.0,31.2,67.2,92.6,100.0,49.3,62.1,4.0,61.6,64.2
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,100.0,100.0,90.0,80.0
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
@@ -679,7 +680,7 @@
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,100.0,100.0,90.0,66.7
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,50.0,100.0,100.0,90.0,45.0
 2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,Environment subscore,60.0,60.0,60.0,0.0,0.0,42.9,100.0,100.0,40.0,90.0,100.0,86.0,66.3
-2022,Eastern Europe,EUE,Slovakia,SVK,All categories,82.6,79.3,76.0,27.1,24.3,63.4,93.3,93.3,80.0,57.1,93.3,83.4,74.2
+2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,All categories,65.2,63.6,59.5,6.3,0.0,45.3,96.7,96.7,42.6,79.8,96.7,82.5,65.3
 2022,Eastern Europe,EUE,Bulgaria,BGR,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,50.0,90.0,90.0
 2022,Eastern Europe,EUE,Bulgaria,BGR,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,50.0,80.0,60.0
 2022,Eastern Europe,EUE,Bulgaria,BGR,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,100.0,100.0,50.0,90.0,70.0
@@ -705,7 +706,7 @@
 2022,Eastern Europe,EUE,Bulgaria,BGR,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,50.0,50.0,80.0,77.8
 2022,Eastern Europe,EUE,Bulgaria,BGR,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,100.0,50.0,50.0,80.0,65.0
 2022,Eastern Europe,EUE,Bulgaria,BGR,Environment subscore,90.0,80.0,80.0,12.5,0.0,61.9,70.0,100.0,70.0,60.0,50.0,70.0,66.3
-2022,Southern Europe,EUZ,Serbia,SRB,All categories,86.0,76.9,75.2,24.1,27.7,63.3,91.7,95.2,58.1,75.5,52.4,74.6,69.4
+2022,Eastern Europe,EUE,Bulgaria,BGR,All categories,78.6,73.6,73.6,26.2,25.7,60.6,86.7,91.9,71.4,76.2,43.6,74.0,67.8
 2022,Western Africa,AFW,Burkina Faso,BFA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,45.0
 2022,Western Africa,AFW,Burkina Faso,BFA,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,0.0,50.0,60.0
 2022,Western Africa,AFW,Burkina Faso,BFA,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
@@ -731,7 +732,7 @@
 2022,Western Africa,AFW,Burkina Faso,BFA,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,100.0,50.0,0.0,70.0,55.6
 2022,Western Africa,AFW,Burkina Faso,BFA,Built environment,50.0,50.0,0.0,50.0,0.0,30.0,50.0,100.0,50.0,50.0,0.0,50.0,40.0
 2022,Western Africa,AFW,Burkina Faso,BFA,Environment subscore,40.0,40.0,30.0,25.0,0.0,31.0,70.0,80.0,60.0,40.0,0.0,50.0,41.3
-2022,Western Asia,ASW,Georgia,GEO,All categories,90.0,80.0,76.7,26.2,3.5,63.0,80.0,91.9,63.8,59.5,84.0,75.9,69.9
+2022,Western Africa,AFW,Burkina Faso,BFA,All categories,59.5,57.1,49.8,25.3,6.9,44.4,76.0,93.3,62.9,46.7,4.8,56.7,51.1
 2022,Eastern Africa,AFE,Burundi,BDI,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,15.0
 2022,Eastern Africa,AFE,Burundi,BDI,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Eastern Africa,AFE,Burundi,BDI,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
@@ -757,7 +758,7 @@
 2022,Eastern Africa,AFE,Burundi,BDI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Burundi,BDI,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
 2022,Eastern Africa,AFE,Burundi,BDI,Environment subscore,70.0,60.0,60.0,25.0,0.0,50.0,20.0,80.0,40.0,40.0,10.0,38.0,43.5
-2022,Southern Europe,EUZ,North Macedonia,MKD,All categories,86.7,76.7,76.7,19.0,27.7,62.8,85.0,91.9,54.5,76.2,4.8,62.5,62.6
+2022,Eastern Africa,AFE,Burundi,BDI,All categories,63.1,54.8,53.1,19.9,3.5,44.1,19.0,85.2,38.6,44.3,5.7,38.6,41.1
 2022,Western Africa,AFW,Cabo Verde,CPV,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,50.0,0.0,50.0,0.0,40.0,60.0
 2022,Western Africa,AFW,Cabo Verde,CPV,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,100.0,0.0,40.0,35.0
 2022,Western Africa,AFW,Cabo Verde,CPV,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,100.0,0.0,40.0,20.0
@@ -783,7 +784,7 @@
 2022,Western Africa,AFW,Cabo Verde,CPV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Cabo Verde,CPV,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,0.0,30.0,50.0
 2022,Western Africa,AFW,Cabo Verde,CPV,Environment subscore,40.0,40.0,40.0,25.0,0.0,33.3,0.0,60.0,10.0,30.0,0.0,20.0,26.1
-2022,Southern Europe,EUZ,Albania,ALB,All categories,86.7,80.0,73.3,30.4,6.9,62.6,79.3,98.3,68.8,50.0,0.0,59.3,60.8
+2022,Western Africa,AFW,Cabo Verde,CPV,All categories,61.0,54.3,57.6,22.0,3.5,44.9,48.3,74.5,39.5,54.0,0.0,43.3,44.0
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
@@ -809,7 +810,7 @@
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Built environment,100.0,50.0,100.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,South-Eastern Asia,ASE,Cambodia,KHM,Environment subscore,50.0,30.0,40.0,12.5,0.0,31.0,40.0,60.0,40.0,30.0,0.0,34.0,32.6
-2022,Eastern Europe,EUE,Belarus,BLR,All categories,78.1,71.4,69.8,41.6,31.2,62.5,79.0,88.1,50.2,63.3,0.0,56.1,59.1
+2022,South-Eastern Asia,ASE,Cambodia,KHM,All categories,53.3,34.5,42.6,14.8,3.5,33.7,44.3,77.1,44.3,38.6,0.0,40.9,37.5
 2022,Middle Africa,AFM,Cameroon,CMR,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,Middle Africa,AFM,Cameroon,CMR,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Middle Africa,AFM,Cameroon,CMR,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
@@ -835,7 +836,7 @@
 2022,Middle Africa,AFM,Cameroon,CMR,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Cameroon,CMR,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
 2022,Middle Africa,AFM,Cameroon,CMR,Environment subscore,50.0,40.0,40.0,25.0,0.0,35.7,40.0,80.0,30.0,40.0,20.0,42.0,39.1
-2022,South America,AMZ,Ecuador,ECU,All categories,89.3,72.6,76.0,27.4,13.9,62.3,93.3,91.7,37.1,46.7,67.9,67.3,65.0
+2022,Middle Africa,AFM,Cameroon,CMR,All categories,67.9,54.5,45.5,28.3,3.5,44.9,30.2,90.0,29.8,52.4,10.0,42.5,43.6
 2022,North America,AMN,Canada,CAN,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,100.0,50.0,80.0,85.0
 2022,North America,AMN,Canada,CAN,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,50.0,80.0,65.0
 2022,North America,AMN,Canada,CAN,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,100.0,50.0,70.0,55.0
@@ -861,7 +862,7 @@
 2022,North America,AMN,Canada,CAN,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,50.0,100.0,50.0,50.0,50.0,60.0,72.2
 2022,North America,AMN,Canada,CAN,Built environment,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,50.0,80.0,65.0
 2022,North America,AMN,Canada,CAN,Environment subscore,80.0,80.0,80.0,50.0,50.0,71.4,80.0,100.0,50.0,80.0,50.0,72.0,71.7
-2022,Western Asia,ASW,Armenia,ARM,All categories,89.3,74.5,79.3,24.1,3.5,61.8,69.3,92.9,58.8,60.5,0.0,56.3,58.8
+2022,North America,AMN,Canada,CAN,All categories,86.7,85.0,85.0,53.3,43.1,74.8,90.0,100.0,61.2,89.3,51.7,78.4,76.8
 2022,Middle Africa,AFM,Central African Republic,CAF,Population & vital statistics,50.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0
 2022,Middle Africa,AFM,Central African Republic,CAF,Education facilities,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,0.0,50.0,0.0,30.0,25.0
 2022,Middle Africa,AFM,Central African Republic,CAF,Education outcomes,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,0.0,50.0,0.0,30.0,25.0
@@ -887,7 +888,7 @@
 2022,Middle Africa,AFM,Central African Republic,CAF,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Central African Republic,CAF,Built environment,100.0,50.0,0.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Middle Africa,AFM,Central African Republic,CAF,Environment subscore,30.0,20.0,10.0,12.5,0.0,16.7,0.0,40.0,10.0,30.0,0.0,16.0,16.3
-2022,Eastern Europe,EUE,Ukraine,UKR,All categories,84.3,74.3,79.3,27.4,0.0,60.8,71.2,71.9,31.2,50.7,91.7,63.3,62.1
+2022,Middle Africa,AFM,Central African Republic,CAF,All categories,45.0,31.0,19.3,12.7,3.5,25.0,2.4,67.1,22.9,36.9,0.0,25.9,25.5
 2022,Middle Africa,AFM,Chad,TCD,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Middle Africa,AFM,Chad,TCD,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Chad,TCD,Education outcomes,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
@@ -913,7 +914,7 @@
 2022,Middle Africa,AFM,Chad,TCD,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Chad,TCD,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Middle Africa,AFM,Chad,TCD,Environment subscore,20.0,10.0,0.0,12.5,0.0,9.5,0.0,20.0,10.0,10.0,0.0,8.0,8.7
-2022,Southern Europe,EUZ,Portugal,PRT,All categories,76.7,73.3,73.3,26.2,31.2,60.6,96.7,87.1,72.9,86.2,53.1,79.2,70.6
+2022,Middle Africa,AFM,Chad,TCD,All categories,44.0,31.0,16.9,21.1,3.5,25.8,14.3,60.5,30.7,32.6,0.0,27.6,26.8
 2022,South America,AMZ,Chile,CHL,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,South America,AMZ,Chile,CHL,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,South America,AMZ,Chile,CHL,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -939,7 +940,7 @@
 2022,South America,AMZ,Chile,CHL,Pollution,100.0,50.0,100.0,100.0,0.0,87.5,100.0,100.0,0.0,50.0,100.0,70.0,77.8
 2022,South America,AMZ,Chile,CHL,Built environment,50.0,50.0,0.0,50.0,50.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
 2022,South America,AMZ,Chile,CHL,Environment subscore,70.0,50.0,50.0,50.0,25.0,52.4,70.0,100.0,10.0,60.0,100.0,68.0,60.9
-2022,Eastern Europe,EUE,Bulgaria,BGR,All categories,78.6,73.6,73.6,26.2,25.7,60.6,86.7,91.9,71.4,76.2,43.6,74.0,67.8
+2022,South America,AMZ,Chile,CHL,All categories,68.3,61.7,60.0,34.3,13.9,52.4,73.3,77.1,31.7,46.7,72.1,60.2,56.6
 2022,Eastern Asia,ASF,China,CHN,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,0.0,100.0,40.0,35.0
 2022,Eastern Asia,ASF,China,CHN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,0.0,100.0,50.0,45.0
 2022,Eastern Asia,ASF,China,CHN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,0.0,100.0,50.0,40.0
@@ -965,7 +966,7 @@
 2022,Eastern Asia,ASF,China,CHN,Pollution,50.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.6
 2022,Eastern Asia,ASF,China,CHN,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Asia,ASF,China,CHN,Environment subscore,60.0,50.0,60.0,50.0,0.0,50.0,0.0,80.0,40.0,40.0,80.0,48.0,48.9
-2022,Western Asia,ASW,Jordan,JOR,All categories,87.6,71.0,71.9,31.3,6.9,60.5,70.2,98.3,57.4,52.4,86.9,73.0,67.3
+2022,Eastern Asia,ASF,China,CHN,All categories,57.1,51.4,54.8,33.1,0.0,44.4,0.0,86.7,41.7,28.6,86.7,48.7,46.7
 2022,South America,AMZ,Colombia,COL,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,50.0,50.0,50.0,50.0,60.0,75.0
 2022,South America,AMZ,Colombia,COL,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,50.0,50.0,50.0,50.0,60.0,50.0
 2022,South America,AMZ,Colombia,COL,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,0.0,50.0,50.0,100.0,60.0,50.0
@@ -991,7 +992,7 @@
 2022,South America,AMZ,Colombia,COL,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,0.0,0.0,100.0,50.0,50.0,61.1
 2022,South America,AMZ,Colombia,COL,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South America,AMZ,Colombia,COL,Environment subscore,70.0,60.0,60.0,12.5,25.0,50.0,80.0,0.0,10.0,70.0,40.0,40.0,44.6
-2022,Central Asia,ASC,Kyrgyz Republic,KGZ,All categories,85.2,70.5,71.2,37.7,3.5,60.5,66.4,54.0,38.6,50.0,13.1,44.4,51.8
+2022,South America,AMZ,Colombia,COL,All categories,65.2,59.5,57.9,16.9,13.9,47.4,80.0,39.5,16.4,64.5,43.3,48.8,48.2
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Population & vital statistics,100.0,0.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Education facilities,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Education outcomes,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
@@ -1017,7 +1018,7 @@
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,Environment subscore,40.0,0.0,20.0,0.0,0.0,14.3,0.0,60.0,30.0,30.0,0.0,24.0,19.6
-2022,Eastern Europe,EUE,Romania,ROU,All categories,76.7,76.7,76.7,33.4,3.5,60.4,96.7,96.7,86.7,86.9,93.3,92.0,77.5
+2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,All categories,64.5,2.4,31.7,22.0,3.5,27.5,12.9,83.3,42.4,41.7,6.4,37.3,32.8
 2022,Central America,AMM,Costa Rica,CRI,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,50.0,100.0,80.0,90.0
 2022,Central America,AMM,Costa Rica,CRI,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,Central America,AMM,Costa Rica,CRI,Education outcomes,100.0,50.0,100.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,60.0
@@ -1043,7 +1044,7 @@
 2022,Central America,AMM,Costa Rica,CRI,Pollution,100.0,50.0,50.0,50.0,0.0,62.5,100.0,100.0,50.0,50.0,100.0,80.0,72.2
 2022,Central America,AMM,Costa Rica,CRI,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,0.0,50.0,100.0,70.0,70.0
 2022,Central America,AMM,Costa Rica,CRI,Environment subscore,70.0,50.0,50.0,37.5,25.0,50.0,80.0,60.0,20.0,40.0,70.0,54.0,52.2
-2022,North America,AMN,United States,USA,All categories,72.6,69.3,69.3,36.1,37.6,60.4,91.7,93.3,69.3,59.5,90.0,80.8,71.4
+2022,Central America,AMM,Costa Rica,CRI,All categories,75.2,64.5,62.1,27.4,17.3,54.3,86.9,73.1,27.1,46.7,78.3,62.4,58.7
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,50.0,100.0,0.0,50.0,0.0,40.0,20.0
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1069,7 +1070,7 @@
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,0.0,50.0,0.0,30.0,25.0
 2022,Western Africa,AFW,Cote d'Ivoire,CIV,Environment subscore,50.0,0.0,30.0,0.0,0.0,19.0,0.0,80.0,10.0,40.0,0.0,26.0,22.8
-2022,Eastern Europe,EUE,Hungary,HUN,All categories,76.9,75.2,75.2,29.2,13.9,60.2,100.0,91.9,54.8,88.6,95.2,86.1,74.2
+2022,Western Africa,AFW,Cote d'Ivoire,CIV,All categories,43.6,4.8,14.8,4.2,3.5,15.9,6.4,65.7,13.1,30.5,0.0,23.1,19.8
 2022,Southern Europe,EUZ,Croatia,HRV,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,0.0,80.0,80.0
 2022,Southern Europe,EUZ,Croatia,HRV,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Southern Europe,EUZ,Croatia,HRV,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,100.0,0.0,40.0,35.0
@@ -1095,7 +1096,7 @@
 2022,Southern Europe,EUZ,Croatia,HRV,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,0.0,80.0,77.8
 2022,Southern Europe,EUZ,Croatia,HRV,Built environment,50.0,0.0,0.0,0.0,50.0,20.0,100.0,100.0,100.0,50.0,0.0,70.0,45.0
 2022,Southern Europe,EUZ,Croatia,HRV,Environment subscore,90.0,80.0,80.0,0.0,25.0,61.9,70.0,100.0,60.0,60.0,10.0,60.0,60.9
-2022,Eastern Europe,EUE,Russian Federation,RUS,All categories,76.7,76.7,75.0,31.3,6.9,60.0,67.6,78.8,49.8,66.2,52.1,62.9,61.6
+2022,Southern Europe,EUZ,Croatia,HRV,All categories,85.0,79.3,79.3,4.2,17.3,59.8,75.0,96.7,52.4,70.2,17.9,62.4,61.2
 2022,Caribbean,AMC,Cuba,CUB,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,50.0,0.0,50.0,0.0,30.0,55.0
 2022,Caribbean,AMC,Cuba,CUB,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,0.0,50.0,0.0,30.0,40.0
 2022,Caribbean,AMC,Cuba,CUB,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,0.0,50.0,0.0,30.0,40.0
@@ -1121,7 +1122,7 @@
 2022,Caribbean,AMC,Cuba,CUB,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,50.0,100.0,0.0,50.0,0.0,40.0,55.6
 2022,Caribbean,AMC,Cuba,CUB,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,50.0,50.0,0.0,50.0,0.0,30.0,50.0
 2022,Caribbean,AMC,Cuba,CUB,Environment subscore,90.0,90.0,90.0,37.5,25.0,73.8,50.0,60.0,0.0,50.0,0.0,32.0,51.1
-2022,Southern Europe,EUZ,Croatia,HRV,All categories,85.0,79.3,79.3,4.2,17.3,59.8,75.0,96.7,52.4,70.2,17.9,62.4,61.2
+2022,Caribbean,AMC,Cuba,CUB,All categories,66.4,64.8,64.8,33.4,25.7,55.0,42.6,50.7,5.7,45.0,0.0,28.8,40.9
 2022,Western Asia,ASW,Cyprus,CYP,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,100.0,100.0,90.0,80.0
 2022,Western Asia,ASW,Cyprus,CYP,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,100.0,100.0,100.0,65.0
 2022,Western Asia,ASW,Cyprus,CYP,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,50.0,50.0,100.0,70.0,50.0
@@ -1147,7 +1148,7 @@
 2022,Western Asia,ASW,Cyprus,CYP,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,100.0,100.0,50.0,50.0,100.0,80.0,72.2
 2022,Western Asia,ASW,Cyprus,CYP,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Cyprus,CYP,Environment subscore,50.0,30.0,40.0,0.0,0.0,28.6,50.0,60.0,30.0,30.0,60.0,46.0,38.0
-2022,Western Europe,EUW,France,FRA,All categories,81.0,76.9,71.9,15.7,25.7,59.6,81.9,92.6,46.7,71.9,96.7,78.0,69.5
+2022,Western Asia,ASW,Cyprus,CYP,All categories,69.3,61.0,64.3,7.2,3.5,47.3,71.0,68.1,45.0,61.2,86.7,66.4,57.6
 2022,Eastern Europe,EUE,Czech Republic,CZE,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,50.0,50.0,70.0,75.0
 2022,Eastern Europe,EUE,Czech Republic,CZE,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,Eastern Europe,EUE,Czech Republic,CZE,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,50.0,80.0,55.0
@@ -1173,7 +1174,7 @@
 2022,Eastern Europe,EUE,Czech Republic,CZE,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,0.0,50.0,50.0,60.0,72.2
 2022,Eastern Europe,EUE,Czech Republic,CZE,Built environment,50.0,50.0,0.0,50.0,50.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,Eastern Europe,EUE,Czech Republic,CZE,Environment subscore,90.0,90.0,80.0,62.5,50.0,78.6,100.0,100.0,40.0,50.0,50.0,68.0,72.8
-2022,Central Asia,ASC,Kazakhstan,KAZ,All categories,76.0,67.6,67.6,45.8,15.3,59.6,85.0,81.9,45.0,47.4,79.8,67.8,64.0
+2022,Eastern Europe,EUE,Czech Republic,CZE,All categories,88.3,83.3,81.7,47.9,24.3,70.9,95.0,95.0,37.6,56.4,48.3,66.5,68.5
 2022,Northern Europe,EUN,Denmark,DNK,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Northern Europe,EUN,Denmark,DNK,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,100.0,100.0,100.0,100.0,85.0
 2022,Northern Europe,EUN,Denmark,DNK,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,100.0,90.0,85.0
@@ -1199,7 +1200,7 @@
 2022,Northern Europe,EUN,Denmark,DNK,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,100.0,100.0,100.0,100.0,100.0,100.0,83.3
 2022,Northern Europe,EUN,Denmark,DNK,Built environment,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
 2022,Northern Europe,EUN,Denmark,DNK,Environment subscore,80.0,70.0,80.0,37.5,50.0,66.7,100.0,100.0,80.0,100.0,100.0,96.0,82.6
-2022,South-Eastern Asia,ASE,Philippines,PHL,All categories,78.3,62.9,66.0,45.8,13.9,58.5,82.6,93.3,36.0,54.0,93.3,71.9,65.7
+2022,Northern Europe,EUN,Denmark,DNK,All categories,88.3,85.0,88.3,44.6,55.0,75.7,100.0,100.0,81.9,98.3,100.0,96.0,86.7
 2022,Eastern Africa,AFE,Djibouti,DJI,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Eastern Africa,AFE,Djibouti,DJI,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Eastern Africa,AFE,Djibouti,DJI,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
@@ -1225,7 +1226,7 @@
 2022,Eastern Africa,AFE,Djibouti,DJI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Djibouti,DJI,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,40.0
 2022,Eastern Africa,AFE,Djibouti,DJI,Environment subscore,30.0,20.0,20.0,25.0,0.0,21.4,0.0,40.0,0.0,20.0,0.0,12.0,16.3
-2022,Caribbean,AMC,Dominican Republic,DOM,All categories,74.3,69.3,66.9,31.3,27.7,58.2,81.9,96.7,34.5,56.4,96.7,73.2,66.3
+2022,Eastern Africa,AFE,Djibouti,DJI,All categories,45.5,36.4,34.0,14.8,0.0,29.9,9.8,76.7,17.1,38.3,0.0,28.4,29.1
 2022,Caribbean,AMC,Dominica,DMA,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
 2022,Caribbean,AMC,Dominica,DMA,Education facilities,50.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,50.0,50.0,50.0
 2022,Caribbean,AMC,Dominica,DMA,Education outcomes,50.0,0.0,50.0,50.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
@@ -1251,7 +1252,7 @@
 2022,Caribbean,AMC,Dominica,DMA,Pollution,50.0,0.0,0.0,0.0,0.0,16.7,0.0,100.0,50.0,50.0,100.0,60.0,43.8
 2022,Caribbean,AMC,Dominica,DMA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Dominica,DMA,Environment subscore,30.0,0.0,10.0,0.0,0.0,11.8,0.0,60.0,30.0,30.0,60.0,36.0,26.2
-2022,Western Asia,ASW,Turkey,TUR,All categories,85.0,75.0,75.0,8.4,13.9,58.1,93.3,16.2,48.3,60.2,83.8,60.4,59.3
+2022,Caribbean,AMC,Dominica,DMA,All categories,33.3,19.3,26.7,6.9,0.0,23.7,14.5,57.1,22.1,28.6,51.4,34.8,30.2
 2022,Caribbean,AMC,Dominican Republic,DOM,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,50.0,100.0,80.0,90.0
 2022,Caribbean,AMC,Dominican Republic,DOM,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,Caribbean,AMC,Dominican Republic,DOM,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
@@ -1277,7 +1278,7 @@
 2022,Caribbean,AMC,Dominican Republic,DOM,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,0.0,100.0,100.0,80.0,61.1
 2022,Caribbean,AMC,Dominican Republic,DOM,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,0.0,50.0,100.0,50.0,50.0
 2022,Caribbean,AMC,Dominican Republic,DOM,Environment subscore,60.0,50.0,50.0,25.0,0.0,42.9,70.0,100.0,30.0,60.0,100.0,72.0,58.7
-2022,Central America,AMM,Mexico,MEX,All categories,78.3,59.3,61.7,49.1,18.8,57.9,93.3,88.3,70.2,63.1,86.2,80.2,69.9
+2022,Caribbean,AMC,Dominican Republic,DOM,All categories,74.3,69.3,66.9,31.3,27.7,58.2,81.9,96.7,34.5,56.4,96.7,73.2,66.3
 2022,South America,AMZ,Ecuador,ECU,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
 2022,South America,AMZ,Ecuador,ECU,Education facilities,100.0,100.0,100.0,50.0,100.0,90.0,100.0,100.0,50.0,50.0,100.0,80.0,85.0
 2022,South America,AMZ,Ecuador,ECU,Education outcomes,100.0,50.0,100.0,100.0,50.0,80.0,100.0,50.0,50.0,50.0,100.0,70.0,75.0
@@ -1303,7 +1304,7 @@
 2022,South America,AMZ,Ecuador,ECU,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,100.0,100.0,50.0,50.0,100.0,80.0,72.2
 2022,South America,AMZ,Ecuador,ECU,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,South America,AMZ,Ecuador,ECU,Environment subscore,80.0,50.0,60.0,12.5,0.0,47.6,80.0,80.0,40.0,40.0,80.0,64.0,56.5
-2022,Western Asia,ASW,Azerbaijan,AZE,All categories,74.3,72.6,69.3,21.1,27.7,57.6,95.0,82.6,49.0,55.7,0.0,56.5,57.0
+2022,South America,AMZ,Ecuador,ECU,All categories,89.3,72.6,76.0,27.4,13.9,62.3,93.3,91.7,37.1,46.7,67.9,67.3,65.0
 2022,Northern Africa,AFN,Egypt,EGY,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,50.0,50.0,100.0,60.0,70.0
 2022,Northern Africa,AFN,Egypt,EGY,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,100.0,50.0,60.0
 2022,Northern Africa,AFN,Egypt,EGY,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
@@ -1329,7 +1330,7 @@
 2022,Northern Africa,AFN,Egypt,EGY,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Egypt,EGY,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Northern Africa,AFN,Egypt,EGY,Environment subscore,80.0,40.0,40.0,37.5,0.0,45.2,10.0,80.0,30.0,40.0,80.0,48.0,46.7
-2022,South America,AMZ,Peru,PER,All categories,85.0,71.9,71.9,19.0,3.5,57.5,96.7,93.3,58.8,50.0,11.2,62.0,59.9
+2022,Northern Africa,AFN,Egypt,EGY,All categories,71.2,56.2,56.2,31.3,10.4,49.9,3.3,90.0,23.1,40.0,90.0,49.3,49.6
 2022,Central America,AMM,El Salvador,SLV,Population & vital statistics,100.0,50.0,50.0,100.0,50.0,70.0,50.0,100.0,50.0,50.0,0.0,50.0,60.0
 2022,Central America,AMM,El Salvador,SLV,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,15.0
 2022,Central America,AMM,El Salvador,SLV,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1355,7 +1356,7 @@
 2022,Central America,AMM,El Salvador,SLV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central America,AMM,El Salvador,SLV,Built environment,100.0,100.0,100.0,0.0,0.0,60.0,0.0,100.0,50.0,50.0,0.0,40.0,50.0
 2022,Central America,AMM,El Salvador,SLV,Environment subscore,40.0,40.0,40.0,0.0,0.0,28.6,0.0,40.0,10.0,30.0,0.0,16.0,21.7
-2022,Northern Europe,EUN,Latvia,LVA,All categories,81.7,76.7,76.7,6.3,10.4,57.4,96.7,100.0,85.2,85.2,88.8,91.2,75.6
+2022,Central America,AMM,El Salvador,SLV,All categories,59.3,56.0,56.0,13.6,6.9,43.4,37.9,73.3,26.0,44.8,21.4,40.7,41.9
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,0.0,100.0,0.0,40.0,45.0
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,0.0,100.0,0.0,40.0,45.0
@@ -1381,7 +1382,7 @@
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Equatorial Guinea,GNQ,Environment subscore,40.0,30.0,30.0,12.5,0.0,26.2,0.0,60.0,10.0,30.0,0.0,20.0,22.8
-2022,Eastern Asia,ASF,Taiwan,TWN,All categories,74.3,71.0,74.3,29.5,0.0,56.9,86.7,93.3,50.7,46.7,86.7,72.8,65.5
+2022,Middle Africa,AFM,Equatorial Guinea,GNQ,All categories,48.8,40.7,39.0,12.7,13.9,34.0,3.3,76.7,10.7,52.9,0.0,28.7,31.2
 2022,Northern Europe,EUN,Estonia,EST,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,Northern Europe,EUN,Estonia,EST,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
 2022,Northern Europe,EUN,Estonia,EST,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,50.0,80.0,60.0
@@ -1407,7 +1408,7 @@
 2022,Northern Europe,EUN,Estonia,EST,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Northern Europe,EUN,Estonia,EST,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,100.0,100.0,100.0,100.0,75.0
 2022,Northern Europe,EUN,Estonia,EST,Environment subscore,100.0,90.0,90.0,37.5,0.0,73.8,100.0,100.0,90.0,100.0,100.0,98.0,87.0
-2022,Central Asia,ASC,Uzbekistan,UZB,All categories,76.0,72.6,57.9,37.7,10.4,56.5,93.3,93.3,50.0,48.3,86.2,74.2,66.1
+2022,Northern Europe,EUN,Estonia,EST,All categories,88.3,81.7,81.7,31.3,6.9,65.5,96.7,96.7,84.3,91.7,83.8,90.6,79.0
 2022,Southern Africa,AFZ,Eswatini,SWZ,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Southern Africa,AFZ,Eswatini,SWZ,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Africa,AFZ,Eswatini,SWZ,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1433,7 +1434,7 @@
 2022,Southern Africa,AFZ,Eswatini,SWZ,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Africa,AFZ,Eswatini,SWZ,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Southern Africa,AFZ,Eswatini,SWZ,Environment subscore,20.0,0.0,0.0,0.0,0.0,4.8,0.0,20.0,10.0,10.0,0.0,8.0,6.5
-2022,South-Eastern Asia,ASE,Malaysia,MYS,All categories,77.6,63.6,63.6,41.9,6.9,56.5,91.7,91.0,41.0,49.0,91.7,72.9,65.3
+2022,Southern Africa,AFZ,Eswatini,SWZ,All categories,26.9,16.9,8.8,7.2,0.0,13.7,0.0,42.4,21.2,21.2,0.0,17.0,15.4
 2022,Eastern Africa,AFE,Ethiopia,ETH,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,40.0
 2022,Eastern Africa,AFE,Ethiopia,ETH,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,0.0,0.0,60.0,45.0
 2022,Eastern Africa,AFE,Ethiopia,ETH,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,0.0,0.0,50.0,40.0
@@ -1459,7 +1460,7 @@
 2022,Eastern Africa,AFE,Ethiopia,ETH,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Ethiopia,ETH,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Eastern Africa,AFE,Ethiopia,ETH,Environment subscore,40.0,20.0,20.0,12.5,25.0,23.8,20.0,60.0,30.0,20.0,0.0,26.0,25.0
-2022,Southern Asia,ASZ,Sri Lanka,LKA,All categories,80.0,57.6,66.7,12.7,55.0,56.4,46.2,91.0,42.6,47.6,5.0,46.5,51.0
+2022,Eastern Africa,AFE,Ethiopia,ETH,All categories,58.8,33.3,33.3,28.0,23.8,37.2,51.2,86.7,49.0,31.0,0.0,43.6,40.7
 2022,Pacific Islands,OPI,Fiji,FJI,Population & vital statistics,100.0,50.0,100.0,50.0,50.0,70.0,0.0,100.0,50.0,50.0,100.0,60.0,65.0
 2022,Pacific Islands,OPI,Fiji,FJI,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,Pacific Islands,OPI,Fiji,FJI,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
@@ -1485,7 +1486,7 @@
 2022,Pacific Islands,OPI,Fiji,FJI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Fiji,FJI,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Pacific Islands,OPI,Fiji,FJI,Environment subscore,70.0,50.0,40.0,12.5,0.0,40.5,30.0,80.0,30.0,50.0,80.0,54.0,47.8
-2022,Eastern Africa,AFE,Rwanda,RWA,All categories,81.0,61.9,62.6,24.1,27.7,55.7,59.8,94.3,28.1,51.7,75.5,61.9,59.0
+2022,Pacific Islands,OPI,Fiji,FJI,All categories,70.2,56.2,56.2,9.3,6.9,45.3,26.7,90.0,35.0,44.3,68.3,52.9,49.4
 2022,Northern Europe,EUN,Finland,FIN,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,100.0,100.0,90.0,95.0
 2022,Northern Europe,EUN,Finland,FIN,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,Northern Europe,EUN,Finland,FIN,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
@@ -1511,8 +1512,7 @@
 2022,Northern Europe,EUN,Finland,FIN,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,100.0,100.0,100.0,100.0,94.4
 2022,Northern Europe,EUN,Finland,FIN,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,100.0,100.0,80.0,80.0
 2022,Northern Europe,EUN,Finland,FIN,Environment subscore,100.0,90.0,90.0,62.5,50.0,83.3,90.0,100.0,70.0,100.0,100.0,92.0,88.0
-2022,"Australia and New Zealand
-",OAZ,Australia,AUS,All categories,71.9,61.2,66.9,35.5,17.3,55.4,95.2,66.2,53.1,83.6,95.2,78.7,67.9
+2022,Northern Europe,EUN,Finland,FIN,All categories,95.0,91.7,91.7,56.3,53.5,81.6,93.3,100.0,74.5,85.2,93.6,89.3,85.8
 2022,Western Europe,EUW,France,FRA,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,100.0,90.0,85.0
 2022,Western Europe,EUW,France,FRA,Education facilities,50.0,50.0,50.0,0.0,50.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Western Europe,EUW,France,FRA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
@@ -1538,7 +1538,7 @@
 2022,Western Europe,EUW,France,FRA,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,50.0,80.0,77.8
 2022,Western Europe,EUW,France,FRA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,50.0,100.0,100.0,90.0,45.0
 2022,Western Europe,EUW,France,FRA,Environment subscore,70.0,70.0,70.0,0.0,0.0,50.0,80.0,90.0,50.0,70.0,90.0,76.0,64.1
-2022,Southern Europe,EUZ,Italy,ITA,All categories,72.6,61.2,65.2,26.2,31.2,55.0,93.3,78.6,61.7,77.9,93.3,81.0,69.0
+2022,Western Europe,EUW,France,FRA,All categories,81.0,76.9,71.9,15.7,25.7,59.6,81.9,92.6,46.7,71.9,96.7,78.0,69.5
 2022,Middle Africa,AFM,Gabon,GAB,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Middle Africa,AFM,Gabon,GAB,Education facilities,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Middle Africa,AFM,Gabon,GAB,Education outcomes,50.0,0.0,50.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
@@ -1564,7 +1564,7 @@
 2022,Middle Africa,AFM,Gabon,GAB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Gabon,GAB,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Gabon,GAB,Environment subscore,30.0,20.0,10.0,0.0,0.0,14.3,0.0,40.0,20.0,20.0,0.0,16.0,15.2
-2022,Caribbean,AMC,Cuba,CUB,All categories,66.4,64.8,64.8,33.4,25.7,55.0,42.6,50.7,5.7,45.0,0.0,28.8,40.9
+2022,Middle Africa,AFM,Gabon,GAB,All categories,49.8,31.0,21.9,6.3,6.9,26.0,28.1,76.7,49.5,38.3,4.8,39.5,33.3
 2022,Western Asia,ASW,Georgia,GEO,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,100.0,50.0,100.0,90.0,80.0
 2022,Western Asia,ASW,Georgia,GEO,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,100.0,90.0,60.0
 2022,Western Asia,ASW,Georgia,GEO,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,90.0,45.0
@@ -1590,7 +1590,7 @@
 2022,Western Asia,ASW,Georgia,GEO,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
 2022,Western Asia,ASW,Georgia,GEO,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,50.0,50.0,50.0,100.0,70.0,60.0
 2022,Western Asia,ASW,Georgia,GEO,Environment subscore,90.0,80.0,70.0,50.0,0.0,66.7,50.0,90.0,40.0,50.0,100.0,66.0,66.3
-2022,Eastern Asia,ASF,"Korea, Rep.",KOR,All categories,71.9,61.2,62.9,33.4,24.3,54.8,86.9,88.6,74.5,44.3,86.9,76.2,66.4
+2022,Western Asia,ASW,Georgia,GEO,All categories,90.0,80.0,76.7,26.2,3.5,63.0,80.0,91.9,63.8,59.5,84.0,75.9,69.9
 2022,Western Europe,EUW,Germany,DEU,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,50.0,100.0,90.0,85.0
 2022,Western Europe,EUW,Germany,DEU,Education facilities,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,50.0,100.0,80.0,85.0
 2022,Western Europe,EUW,Germany,DEU,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
@@ -1616,7 +1616,7 @@
 2022,Western Europe,EUW,Germany,DEU,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,50.0,100.0,90.0,83.3
 2022,Western Europe,EUW,Germany,DEU,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,50.0,100.0,80.0,75.0
 2022,Western Europe,EUW,Germany,DEU,Environment subscore,100.0,90.0,90.0,37.5,0.0,73.8,100.0,100.0,80.0,50.0,100.0,86.0,80.4
-2022,Western Asia,ASW,Oman,OMN,All categories,75.2,62.9,65.2,31.3,10.4,54.6,95.2,100.0,78.3,80.2,95.2,89.8,73.6
+2022,Western Europe,EUW,Germany,DEU,All categories,91.7,86.7,86.7,43.7,20.8,72.5,100.0,100.0,74.5,54.8,93.6,84.6,79.0
 2022,Western Africa,AFW,Ghana,GHA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Western Africa,AFW,Ghana,GHA,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Western Africa,AFW,Ghana,GHA,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
@@ -1642,7 +1642,7 @@
 2022,Western Africa,AFW,Ghana,GHA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Ghana,GHA,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,0.0,30.0,50.0
 2022,Western Africa,AFW,Ghana,GHA,Environment subscore,50.0,40.0,40.0,12.5,0.0,33.3,20.0,60.0,10.0,30.0,0.0,24.0,28.3
-2022,Western Asia,ASW,Israel,ISR,All categories,83.6,68.6,69.5,10.5,6.9,54.6,100.0,93.6,56.4,68.8,52.4,74.2,65.2
+2022,Western Africa,AFW,Ghana,GHA,All categories,69.3,57.6,55.2,29.2,6.9,48.8,26.7,86.7,25.2,38.6,0.0,35.4,41.6
 2022,Southern Europe,EUZ,Greece,GRC,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,50.0,100.0,50.0,50.0,100.0,70.0,80.0
 2022,Southern Europe,EUZ,Greece,GRC,Education facilities,100.0,50.0,100.0,50.0,0.0,60.0,0.0,100.0,0.0,100.0,100.0,60.0,60.0
 2022,Southern Europe,EUZ,Greece,GRC,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,100.0,100.0,60.0,50.0
@@ -1668,7 +1668,7 @@
 2022,Southern Europe,EUZ,Greece,GRC,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,100.0,80.0,77.8
 2022,Southern Europe,EUZ,Greece,GRC,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Greece,GRC,Environment subscore,60.0,40.0,40.0,25.0,25.0,40.5,80.0,80.0,20.0,50.0,80.0,62.0,52.2
-2022,South America,AMZ,Suriname,SUR,All categories,78.8,65.7,68.1,25.3,0.0,54.5,41.9,91.9,24.5,51.7,91.9,60.4,57.7
+2022,Southern Europe,EUZ,Greece,GRC,All categories,69.5,58.8,58.8,31.3,30.7,53.1,62.4,86.2,28.6,56.0,88.6,64.3,59.1
 2022,North America,AMN,Greenland,GRL,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,North America,AMN,Greenland,GRL,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,90.0,45.0
 2022,North America,AMN,Greenland,GRL,Education outcomes,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
@@ -1694,7 +1694,7 @@
 2022,North America,AMN,Greenland,GRL,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,50.0,100.0,90.0,83.3
 2022,North America,AMN,Greenland,GRL,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,North America,AMN,Greenland,GRL,Environment subscore,40.0,40.0,40.0,12.5,0.0,31.0,60.0,60.0,60.0,30.0,60.0,54.0,43.5
-2022,Central America,AMM,Costa Rica,CRI,All categories,75.2,64.5,62.1,27.4,17.3,54.3,86.9,73.1,27.1,46.7,78.3,62.4,58.7
+2022,North America,AMN,Greenland,GRL,All categories,50.7,50.7,50.7,28.0,22.3,43.3,73.8,73.8,72.1,43.6,73.8,67.4,56.3
 2022,Caribbean,AMC,Grenada,GRD,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Grenada,GRD,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Grenada,GRD,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1720,7 +1720,7 @@
 2022,Caribbean,AMC,Grenada,GRD,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Grenada,GRD,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Grenada,GRD,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Western Africa,AFW,Guinea,GIN,All categories,86.9,57.1,62.9,27.4,6.9,54.3,2.4,100.0,36.9,50.0,2.4,38.3,45.7
+2022,Caribbean,AMC,Grenada,GRD,All categories,19.0,19.0,19.0,0.0,0.0,13.4,23.8,23.8,19.0,14.3,23.8,21.0,17.5
 2022,Central America,AMM,Guatemala,GTM,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,50.0,50.0,50.0,0.0,50.0,65.0
 2022,Central America,AMM,Guatemala,GTM,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,50.0,100.0,0.0,50.0,0.0,40.0,20.0
 2022,Central America,AMM,Guatemala,GTM,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
@@ -1746,8 +1746,7 @@
 2022,Central America,AMM,Guatemala,GTM,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Central America,AMM,Guatemala,GTM,Built environment,100.0,0.0,0.0,50.0,0.0,30.0,50.0,50.0,50.0,50.0,0.0,40.0,35.0
 2022,Central America,AMM,Guatemala,GTM,Environment subscore,90.0,50.0,50.0,37.5,25.0,54.8,70.0,90.0,40.0,50.0,0.0,50.0,52.2
-2022,"Australia and New Zealand
-",OAZ,New Zealand,NZL,All categories,76.0,71.0,67.6,13.6,6.9,53.5,93.3,95.0,55.5,55.0,91.0,78.0,66.7
+2022,Central America,AMM,Guatemala,GTM,All categories,54.5,36.2,37.9,28.3,13.9,36.9,51.9,66.0,22.4,39.5,0.0,36.0,36.4
 2022,Western Africa,AFW,Guinea,GIN,Population & vital statistics,100.0,50.0,50.0,50.0,50.0,60.0,0.0,100.0,50.0,50.0,0.0,40.0,50.0
 2022,Western Africa,AFW,Guinea,GIN,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,0.0,30.0,50.0
 2022,Western Africa,AFW,Guinea,GIN,Education outcomes,100.0,100.0,100.0,100.0,0.0,80.0,0.0,100.0,50.0,50.0,0.0,40.0,60.0
@@ -1773,7 +1772,7 @@
 2022,Western Africa,AFW,Guinea,GIN,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,44.4
 2022,Western Africa,AFW,Guinea,GIN,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Western Africa,AFW,Guinea,GIN,Environment subscore,90.0,40.0,50.0,25.0,0.0,47.6,0.0,100.0,40.0,50.0,0.0,38.0,42.4
-2022,South-Eastern Asia,ASE,Thailand,THA,All categories,78.6,67.9,70.2,12.7,3.5,53.5,41.7,100.0,27.9,50.0,100.0,63.9,59.1
+2022,Western Africa,AFW,Guinea,GIN,All categories,86.9,57.1,62.9,27.4,6.9,54.3,2.4,100.0,36.9,50.0,2.4,38.3,45.7
 2022,South America,AMZ,Guyana,GUY,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,100.0,70.0,55.0
 2022,South America,AMZ,Guyana,GUY,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South America,AMZ,Guyana,GUY,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1799,7 +1798,7 @@
 2022,South America,AMZ,Guyana,GUY,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South America,AMZ,Guyana,GUY,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,100.0,60.0,40.0
 2022,South America,AMZ,Guyana,GUY,Environment subscore,20.0,0.0,0.0,0.0,0.0,4.8,0.0,20.0,10.0,10.0,20.0,12.0,8.7
-2022,Southern Europe,EUZ,Greece,GRC,All categories,69.5,58.8,58.8,31.3,30.7,53.1,62.4,86.2,28.6,56.0,88.6,64.3,59.1
+2022,South America,AMZ,Guyana,GUY,All categories,45.2,36.9,34.5,2.1,0.0,27.7,24.3,63.3,22.9,31.7,49.0,38.2,33.4
 2022,Caribbean,AMC,Haiti,HTI,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,20.0,10.0
 2022,Caribbean,AMC,Haiti,HTI,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Haiti,HTI,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -1825,7 +1824,7 @@
 2022,Caribbean,AMC,Haiti,HTI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Haiti,HTI,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Haiti,HTI,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Western Asia,ASW,Saudi Arabia,SAU,All categories,72.9,69.5,64.5,22.9,0.0,52.7,91.7,100.0,30.7,50.0,50.0,64.5,59.0
+2022,Caribbean,AMC,Haiti,HTI,All categories,4.8,4.8,4.8,0.0,0.0,3.3,0.0,12.9,2.4,4.8,0.0,4.0,3.7
 2022,Central America,AMM,Honduras,HND,Population & vital statistics,100.0,50.0,50.0,100.0,50.0,70.0,50.0,50.0,50.0,50.0,0.0,40.0,55.0
 2022,Central America,AMM,Honduras,HND,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,100.0,0.0,50.0,50.0,0.0,40.0,35.0
 2022,Central America,AMM,Honduras,HND,Education outcomes,50.0,0.0,50.0,50.0,0.0,30.0,100.0,0.0,50.0,50.0,0.0,40.0,35.0
@@ -1851,7 +1850,7 @@
 2022,Central America,AMM,Honduras,HND,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central America,AMM,Honduras,HND,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,0.0,50.0,0.0,50.0,55.0
 2022,Central America,AMM,Honduras,HND,Environment subscore,40.0,30.0,30.0,25.0,25.0,31.0,60.0,20.0,20.0,30.0,0.0,26.0,28.3
-2022,Western Europe,EUW,Belgium,BEL,All categories,68.3,66.7,62.6,20.8,22.3,52.6,90.0,76.0,62.6,46.7,28.6,60.8,57.0
+2022,Central America,AMM,Honduras,HND,All categories,55.7,35.2,41.7,27.4,13.9,37.7,75.2,29.5,33.6,43.3,0.0,36.3,37.0
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,50.0,100.0,80.0,83.3
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Education facilities,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
@@ -1877,7 +1876,7 @@
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Pollution,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,50.0,50.0,100.0,80.0,87.5
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Built environment,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Environment subscore,70.0,70.0,70.0,0.0,0.0,61.8,90.0,100.0,50.0,50.0,100.0,78.0,71.4
-2022,Western Europe,EUW,Austria,AUT,All categories,68.8,63.8,62.1,30.4,10.4,52.4,87.1,90.5,54.3,65.7,45.2,68.6,61.1
+2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,All categories,81.0,79.3,79.3,17.3,0.0,71.2,96.7,100.0,60.2,67.6,100.0,84.9,79.3
 2022,Eastern Europe,EUE,Hungary,HUN,Population & vital statistics,100.0,50.0,100.0,100.0,100.0,90.0,100.0,100.0,50.0,100.0,100.0,90.0,90.0
 2022,Eastern Europe,EUE,Hungary,HUN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
 2022,Eastern Europe,EUE,Hungary,HUN,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
@@ -1903,7 +1902,7 @@
 2022,Eastern Europe,EUE,Hungary,HUN,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,100.0,90.0,83.3
 2022,Eastern Europe,EUE,Hungary,HUN,Built environment,50.0,50.0,50.0,50.0,0.0,40.0,100.0,50.0,50.0,50.0,100.0,70.0,55.0
 2022,Eastern Europe,EUE,Hungary,HUN,Environment subscore,80.0,80.0,80.0,25.0,0.0,61.9,100.0,90.0,50.0,90.0,100.0,86.0,75.0
-2022,South America,AMZ,Chile,CHL,All categories,68.3,61.7,60.0,34.3,13.9,52.4,73.3,77.1,31.7,46.7,72.1,60.2,56.6
+2022,Eastern Europe,EUE,Hungary,HUN,All categories,76.9,75.2,75.2,29.2,13.9,60.2,100.0,91.9,54.8,88.6,95.2,86.1,74.2
 2022,Northern Europe,EUN,Iceland,ISL,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,50.0,0.0,70.0,75.0
 2022,Northern Europe,EUN,Iceland,ISL,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
 2022,Northern Europe,EUN,Iceland,ISL,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
@@ -1929,7 +1928,7 @@
 2022,Northern Europe,EUN,Iceland,ISL,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,50.0,0.0,70.0,72.2
 2022,Northern Europe,EUN,Iceland,ISL,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Europe,EUN,Iceland,ISL,Environment subscore,60.0,50.0,50.0,12.5,0.0,40.5,80.0,80.0,80.0,40.0,0.0,56.0,48.9
-2022,Eastern Africa,AFE,Kenya,KEN,All categories,76.2,61.2,56.2,26.2,17.3,52.1,0.0,93.3,10.0,48.3,0.0,30.3,40.4
+2022,Northern Europe,EUN,Iceland,ISL,All categories,64.5,56.4,58.8,10.5,6.9,44.8,85.2,85.2,79.5,44.3,0.0,58.9,52.4
 2022,Southern Asia,ASZ,India,IND,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,50.0,50.0,100.0,80.0,40.0
 2022,Southern Asia,ASZ,India,IND,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
 2022,Southern Asia,ASZ,India,IND,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
@@ -1955,7 +1954,7 @@
 2022,Southern Asia,ASZ,India,IND,Pollution,50.0,0.0,0.0,0.0,0.0,12.5,100.0,100.0,50.0,50.0,100.0,80.0,50.0
 2022,Southern Asia,ASZ,India,IND,Built environment,100.0,50.0,0.0,100.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Southern Asia,ASZ,India,IND,Environment subscore,70.0,30.0,40.0,50.0,0.0,42.9,80.0,90.0,40.0,70.0,100.0,76.0,60.9
-2022,Southern Asia,ASZ,Pakistan,PAK,All categories,71.9,55.5,56.2,37.7,10.4,51.1,2.4,96.7,28.1,51.7,49.3,45.6,48.2
+2022,Southern Asia,ASZ,India,IND,All categories,69.5,28.6,39.3,34.6,6.9,39.4,81.7,96.7,42.6,61.4,95.0,75.5,58.8
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,50.0,100.0,0.0,50.0,100.0,60.0,30.0
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
@@ -1981,7 +1980,7 @@
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,100.0,60.0,70.0
 2022,South-Eastern Asia,ASE,Indonesia,IDN,Environment subscore,90.0,90.0,90.0,37.5,25.0,73.8,60.0,100.0,40.0,50.0,100.0,70.0,71.7
-2022,Northern Europe,EUN,Ireland,IRL,All categories,78.6,59.5,61.2,14.8,13.9,50.9,95.2,95.2,86.9,73.6,95.2,89.2,71.6
+2022,South-Eastern Asia,ASE,Indonesia,IDN,All categories,82.6,80.2,78.6,40.7,25.7,66.9,72.6,98.3,49.8,56.4,89.5,73.3,70.4
 2022,Western Asia,ASW,Iraq,IRQ,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,100.0,50.0,65.0
 2022,Western Asia,ASW,Iraq,IRQ,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,100.0,50.0,45.0
 2022,Western Asia,ASW,Iraq,IRQ,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,100.0,60.0,50.0
@@ -2007,7 +2006,7 @@
 2022,Western Asia,ASW,Iraq,IRQ,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Iraq,IRQ,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Western Asia,ASW,Iraq,IRQ,Environment subscore,50.0,30.0,20.0,25.0,0.0,28.6,10.0,60.0,20.0,30.0,60.0,36.0,32.6
-2022,South America,AMZ,Paraguay,PRY,All categories,73.8,58.1,58.8,28.3,6.9,50.7,34.8,91.0,24.0,51.7,89.3,58.1,54.7
+2022,Western Asia,ASW,Iraq,IRQ,All categories,58.1,41.0,34.3,22.0,6.9,36.1,21.2,78.6,23.8,32.1,62.4,43.6,40.1
 2022,Northern Europe,EUN,Ireland,IRL,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,95.0
 2022,Northern Europe,EUN,Ireland,IRL,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,100.0,90.0,65.0
 2022,Northern Europe,EUN,Ireland,IRL,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,100.0,90.0,60.0
@@ -2033,7 +2032,7 @@
 2022,Northern Europe,EUN,Ireland,IRL,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,100.0,100.0,100.0,100.0,100.0,100.0,83.3
 2022,Northern Europe,EUN,Ireland,IRL,Built environment,100.0,0.0,0.0,50.0,50.0,40.0,100.0,100.0,100.0,50.0,100.0,90.0,65.0
 2022,Northern Europe,EUN,Ireland,IRL,Environment subscore,90.0,50.0,60.0,12.5,25.0,52.4,100.0,100.0,90.0,70.0,100.0,92.0,73.9
-2022,Western Africa,AFW,Sierra Leone,SLE,All categories,71.9,52.1,42.1,30.4,53.5,50.6,6.4,84.3,21.4,43.3,41.7,39.4,44.6
+2022,Northern Europe,EUN,Ireland,IRL,All categories,78.6,59.5,61.2,14.8,13.9,50.9,95.2,95.2,86.9,73.6,95.2,89.2,71.6
 2022,Western Asia,ASW,Israel,ISR,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,50.0,50.0,50.0,50.0,60.0,70.0
 2022,Western Asia,ASW,Israel,ISR,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,50.0,50.0,70.0,70.0
 2022,Western Asia,ASW,Israel,ISR,Education outcomes,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
@@ -2059,7 +2058,7 @@
 2022,Western Asia,ASW,Israel,ISR,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,50.0,80.0,77.8
 2022,Western Asia,ASW,Israel,ISR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,50.0,50.0,50.0,70.0,35.0
 2022,Western Asia,ASW,Israel,ISR,Environment subscore,70.0,50.0,60.0,12.5,0.0,45.2,100.0,100.0,50.0,80.0,50.0,76.0,62.0
-2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,All categories,76.0,62.6,57.9,20.5,3.5,50.2,31.0,65.5,36.0,58.1,31.4,44.4,47.0
+2022,Western Asia,ASW,Israel,ISR,All categories,83.6,68.6,69.5,10.5,6.9,54.6,100.0,93.6,56.4,68.8,52.4,74.2,65.2
 2022,Southern Europe,EUZ,Italy,ITA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,100.0,100.0,100.0,100.0,75.0
 2022,Southern Europe,EUZ,Italy,ITA,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
 2022,Southern Europe,EUZ,Italy,ITA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
@@ -2085,7 +2084,7 @@
 2022,Southern Europe,EUZ,Italy,ITA,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Southern Europe,EUZ,Italy,ITA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Italy,ITA,Environment subscore,60.0,50.0,50.0,25.0,25.0,45.2,80.0,60.0,60.0,60.0,80.0,68.0,57.6
-2022,South-Eastern Asia,ASE,Vietnam,VNM,All categories,72.9,57.1,56.2,30.4,6.9,50.0,77.6,96.7,76.2,39.3,0.0,58.0,54.3
+2022,Southern Europe,EUZ,Italy,ITA,All categories,72.6,61.2,65.2,26.2,31.2,55.0,93.3,78.6,61.7,77.9,93.3,81.0,69.0
 2022,Caribbean,AMC,Jamaica,JAM,Population & vital statistics,100.0,50.0,100.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,60.0
 2022,Caribbean,AMC,Jamaica,JAM,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Caribbean,AMC,Jamaica,JAM,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -2111,7 +2110,7 @@
 2022,Caribbean,AMC,Jamaica,JAM,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,61.1
 2022,Caribbean,AMC,Jamaica,JAM,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Jamaica,JAM,Environment subscore,60.0,40.0,40.0,0.0,0.0,33.3,40.0,80.0,40.0,40.0,80.0,56.0,45.7
-2022,Northern Africa,AFN,Egypt,EGY,All categories,71.2,56.2,56.2,31.3,10.4,49.9,3.3,90.0,23.1,40.0,90.0,49.3,49.6
+2022,Caribbean,AMC,Jamaica,JAM,All categories,70.2,52.9,56.9,11.4,3.5,44.6,66.9,86.2,50.0,56.2,93.3,70.5,58.6
 2022,Eastern Asia,ASF,Japan,JPN,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,50.0,100.0,90.0,90.0
 2022,Eastern Asia,ASF,Japan,JPN,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,50.0,100.0,90.0,85.0
 2022,Eastern Asia,ASF,Japan,JPN,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,100.0,50.0,100.0,90.0,70.0
@@ -2137,7 +2136,7 @@
 2022,Eastern Asia,ASF,Japan,JPN,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,50.0,0.0,50.0,100.0,60.0,66.7
 2022,Eastern Asia,ASF,Japan,JPN,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,100.0,50.0,50.0,50.0,100.0,70.0,65.0
 2022,Eastern Asia,ASF,Japan,JPN,Environment subscore,100.0,90.0,90.0,37.5,25.0,76.2,100.0,60.0,30.0,40.0,100.0,66.0,70.7
-2022,Western Europe,EUW,Luxembourg,LUX,All categories,71.0,69.3,69.3,0.0,3.5,49.4,91.7,91.0,76.2,49.0,93.3,80.2,66.0
+2022,Eastern Asia,ASF,Japan,JPN,All categories,87.6,82.6,77.6,33.4,29.2,67.5,100.0,69.8,42.9,46.7,95.2,70.9,69.3
 2022,Western Asia,ASW,Jordan,JOR,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,100.0,50.0,100.0,90.0,80.0
 2022,Western Asia,ASW,Jordan,JOR,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,50.0,50.0,0.0,50.0,50.0,40.0,60.0
 2022,Western Asia,ASW,Jordan,JOR,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
@@ -2163,7 +2162,7 @@
 2022,Western Asia,ASW,Jordan,JOR,Pollution,100.0,50.0,100.0,50.0,0.0,75.0,50.0,100.0,50.0,50.0,100.0,70.0,72.2
 2022,Western Asia,ASW,Jordan,JOR,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
 2022,Western Asia,ASW,Jordan,JOR,Environment subscore,90.0,60.0,70.0,37.5,0.0,59.5,70.0,100.0,60.0,50.0,90.0,74.0,67.4
-2022,Western Africa,AFW,Senegal,SEN,All categories,76.0,61.0,61.9,15.7,0.0,49.4,13.6,86.7,15.5,43.3,70.7,46.0,47.6
+2022,Western Asia,ASW,Jordan,JOR,All categories,87.6,71.0,71.9,31.3,6.9,60.5,70.2,98.3,57.4,52.4,86.9,73.0,67.3
 2022,Central Asia,ASC,Kazakhstan,KAZ,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Central Asia,ASC,Kazakhstan,KAZ,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,50.0,50.0,45.0
 2022,Central Asia,ASC,Kazakhstan,KAZ,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -2189,7 +2188,7 @@
 2022,Central Asia,ASC,Kazakhstan,KAZ,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
 2022,Central Asia,ASC,Kazakhstan,KAZ,Built environment,100.0,100.0,100.0,100.0,50.0,90.0,50.0,100.0,50.0,50.0,100.0,70.0,80.0
 2022,Central Asia,ASC,Kazakhstan,KAZ,Environment subscore,70.0,60.0,60.0,50.0,25.0,57.1,70.0,60.0,40.0,40.0,80.0,58.0,57.6
-2022,South America,AMZ,Argentina,ARG,All categories,64.3,64.3,62.6,15.7,15.3,49.4,57.1,48.3,21.2,47.4,12.1,37.2,42.8
+2022,Central Asia,ASC,Kazakhstan,KAZ,All categories,76.0,67.6,67.6,45.8,15.3,59.6,85.0,81.9,45.0,47.4,79.8,67.8,64.0
 2022,Eastern Africa,AFE,Kenya,KEN,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,0.0,30.0,55.0
 2022,Eastern Africa,AFE,Kenya,KEN,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Eastern Africa,AFE,Kenya,KEN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
@@ -2215,7 +2214,7 @@
 2022,Eastern Africa,AFE,Kenya,KEN,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Kenya,KEN,Built environment,100.0,50.0,0.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Eastern Africa,AFE,Kenya,KEN,Environment subscore,70.0,50.0,40.0,37.5,25.0,47.6,0.0,80.0,10.0,40.0,0.0,26.0,35.9
-2022,Middle Africa,AFM,Sao Tome and Principe,STP,All categories,65.5,45.7,43.1,36.1,0.0,49.3,4.8,78.6,27.9,52.1,0.0,32.7,39.5
+2022,Eastern Africa,AFE,Kenya,KEN,All categories,76.2,61.2,56.2,26.2,17.3,52.1,0.0,93.3,10.0,48.3,0.0,30.3,40.4
 2022,Pacific Islands,OPI,Kiribati,KIR,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,44.4
 2022,Pacific Islands,OPI,Kiribati,KIR,Education facilities,50.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,44.4
 2022,Pacific Islands,OPI,Kiribati,KIR,Education outcomes,50.0,0.0,0.0,50.0,0.0,25.0,0.0,100.0,50.0,50.0,0.0,40.0,33.3
@@ -2241,7 +2240,7 @@
 2022,Pacific Islands,OPI,Kiribati,KIR,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Kiribati,KIR,Built environment,100.0,50.0,0.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,44.4
 2022,Pacific Islands,OPI,Kiribati,KIR,Environment subscore,20.0,10.0,0.0,25.0,0.0,11.8,10.0,20.0,0.0,10.0,0.0,8.0,9.5
-2022,South America,AMZ,Bolivia,BOL,All categories,71.2,55.5,54.8,31.6,6.9,49.1,87.1,77.9,39.5,49.3,0.0,50.8,50.0
+2022,Pacific Islands,OPI,Kiribati,KIR,All categories,41.4,33.1,24.0,22.3,0.0,31.4,24.0,57.1,23.6,38.3,6.7,30.0,30.5
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,100.0,90.0,95.0
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -2267,7 +2266,7 @@
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Pollution,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Asia,ASF,"Korea, Rep.",KOR,Environment subscore,60.0,50.0,50.0,37.5,0.0,45.2,80.0,80.0,60.0,40.0,80.0,68.0,57.6
-2022,Northern Europe,EUN,United Kingdom,GBR,All categories,70.2,63.6,65.2,6.3,10.4,48.9,81.9,58.1,39.3,58.3,81.9,63.9,57.0
+2022,Eastern Asia,ASF,"Korea, Rep.",KOR,All categories,71.9,61.2,62.9,33.4,24.3,54.8,86.9,88.6,74.5,44.3,86.9,76.2,66.4
 2022,Southern Europe,EUZ,Kosovo,XKX,Population & vital statistics,100.0,100.0,100.0,0.0,50.0,70.0,50.0,100.0,50.0,50.0,0.0,50.0,60.0
 2022,Southern Europe,EUZ,Kosovo,XKX,Education facilities,50.0,50.0,50.0,0.0,50.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
 2022,Southern Europe,EUZ,Kosovo,XKX,Education outcomes,50.0,50.0,50.0,0.0,50.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
@@ -2293,7 +2292,7 @@
 2022,Southern Europe,EUZ,Kosovo,XKX,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Kosovo,XKX,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Kosovo,XKX,Environment subscore,40.0,30.0,30.0,12.5,25.0,28.6,30.0,60.0,30.0,30.0,10.0,32.0,30.4
-2022,Southern Asia,ASZ,Nepal,NPL,All categories,78.6,53.6,60.2,16.6,6.9,48.9,14.8,96.7,32.9,48.3,0.0,38.5,43.3
+2022,Southern Europe,EUZ,Kosovo,XKX,All categories,66.0,55.2,56.9,6.3,27.7,46.0,51.9,86.7,48.8,46.7,13.3,49.5,47.9
 2022,Western Asia,ASW,Kuwait,KWT,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,0.0,50.0,0.0,50.0,60.0
 2022,Western Asia,ASW,Kuwait,KWT,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
 2022,Western Asia,ASW,Kuwait,KWT,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
@@ -2319,7 +2318,7 @@
 2022,Western Asia,ASW,Kuwait,KWT,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Kuwait,KWT,Built environment,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,0.0,60.0,45.0
 2022,Western Asia,ASW,Kuwait,KWT,Environment subscore,40.0,30.0,30.0,0.0,0.0,23.8,40.0,60.0,20.0,30.0,0.0,30.0,27.2
-2022,Western Africa,AFW,Ghana,GHA,All categories,69.3,57.6,55.2,29.2,6.9,48.8,26.7,86.7,25.2,38.6,0.0,35.4,41.6
+2022,Western Asia,ASW,Kuwait,KWT,All categories,62.6,48.1,55.2,6.3,0.0,40.0,57.9,80.0,17.1,42.4,9.5,41.4,40.8
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,50.0,50.0,50.0,0.0,40.0,55.0
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,50.0,50.0,50.0,50.0,45.0
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,50.0,50.0,0.0,40.0,40.0
@@ -2345,7 +2344,7 @@
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,50.0,50.0,0.0,50.0,50.0,40.0,38.9
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,50.0,50.0,50.0,0.0,50.0,50.0
 2022,Central Asia,ASC,Kyrgyz Republic,KGZ,Environment subscore,90.0,80.0,80.0,37.5,0.0,66.7,60.0,50.0,30.0,50.0,10.0,40.0,52.2
-2022,Western Africa,AFW,Nigeria,NGA,All categories,74.3,49.5,56.2,32.5,3.5,48.6,39.3,86.7,33.6,48.1,86.7,58.9,54.1
+2022,Central Asia,ASC,Kyrgyz Republic,KGZ,All categories,85.2,70.5,71.2,37.7,3.5,60.5,66.4,54.0,38.6,50.0,13.1,44.4,51.8
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,50.0,50.0,0.0,60.0,30.0
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
@@ -2371,7 +2370,7 @@
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Built environment,100.0,50.0,0.0,100.0,0.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,40.0
 2022,South-Eastern Asia,ASE,Lao PDR,LAO,Environment subscore,50.0,30.0,20.0,50.0,0.0,33.3,40.0,60.0,30.0,30.0,0.0,32.0,32.6
-2022,Pacific Islands,OPI,Tonga,TON,All categories,63.6,50.2,33.8,43.1,0.0,48.4,13.8,86.7,27.1,52.4,23.1,40.6,43.8
+2022,South-Eastern Asia,ASE,Lao PDR,LAO,All categories,61.2,47.1,34.0,32.5,3.5,39.7,61.9,83.3,45.7,41.7,0.0,46.5,43.4
 2022,Northern Europe,EUN,Latvia,LVA,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,95.0
 2022,Northern Europe,EUN,Latvia,LVA,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
 2022,Northern Europe,EUN,Latvia,LVA,Education outcomes,100.0,50.0,50.0,0.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
@@ -2397,7 +2396,7 @@
 2022,Northern Europe,EUN,Latvia,LVA,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Northern Europe,EUN,Latvia,LVA,Built environment,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,100.0,90.0,60.0
 2022,Northern Europe,EUN,Latvia,LVA,Environment subscore,80.0,70.0,70.0,0.0,0.0,52.4,100.0,100.0,90.0,90.0,100.0,96.0,76.1
-2022,Western Africa,AFW,Mali,MLI,All categories,70.2,54.8,59.5,26.2,3.5,48.4,4.0,93.3,13.1,46.7,4.0,32.2,39.7
+2022,Northern Europe,EUN,Latvia,LVA,All categories,81.7,76.7,76.7,6.3,10.4,57.4,96.7,100.0,85.2,85.2,88.8,91.2,75.6
 2022,Western Asia,ASW,Lebanon,LBN,Population & vital statistics,100.0,100.0,50.0,50.0,50.0,70.0,100.0,100.0,50.0,50.0,0.0,60.0,65.0
 2022,Western Asia,ASW,Lebanon,LBN,Education facilities,50.0,0.0,0.0,50.0,0.0,20.0,100.0,0.0,0.0,50.0,0.0,30.0,25.0
 2022,Western Asia,ASW,Lebanon,LBN,Education outcomes,50.0,50.0,0.0,50.0,0.0,30.0,100.0,50.0,0.0,50.0,0.0,40.0,35.0
@@ -2423,7 +2422,7 @@
 2022,Western Asia,ASW,Lebanon,LBN,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Lebanon,LBN,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Western Asia,ASW,Lebanon,LBN,Environment subscore,30.0,10.0,0.0,12.5,0.0,11.9,40.0,40.0,20.0,20.0,0.0,24.0,18.5
-2022,Central Asia,ASC,Tajikistan,TJK,All categories,80.2,56.4,58.8,8.4,6.9,48.1,47.9,66.0,29.3,44.3,0.0,37.5,42.4
+2022,Western Asia,ASW,Lebanon,LBN,All categories,51.9,33.8,18.3,22.0,6.9,29.2,63.3,50.2,26.7,33.3,9.5,36.6,33.2
 2022,Southern Africa,AFZ,Lesotho,LSO,Population & vital statistics,100.0,100.0,50.0,100.0,0.0,70.0,0.0,100.0,50.0,50.0,0.0,40.0,55.0
 2022,Southern Africa,AFZ,Lesotho,LSO,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Southern Africa,AFZ,Lesotho,LSO,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
@@ -2449,7 +2448,7 @@
 2022,Southern Africa,AFZ,Lesotho,LSO,Pollution,50.0,50.0,0.0,50.0,0.0,37.5,0.0,100.0,50.0,50.0,0.0,40.0,38.9
 2022,Southern Africa,AFZ,Lesotho,LSO,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,0.0,40.0,55.0
 2022,Southern Africa,AFZ,Lesotho,LSO,Environment subscore,50.0,50.0,40.0,37.5,0.0,40.5,20.0,80.0,10.0,40.0,0.0,30.0,34.8
-2022,Central America,AMM,Nicaragua,NIC,All categories,64.3,56.9,61.0,19.9,13.9,47.9,31.0,76.2,17.6,41.7,23.8,38.0,42.6
+2022,Southern Africa,AFZ,Lesotho,LSO,All categories,52.6,45.2,32.9,36.7,6.9,38.2,31.7,80.5,29.3,44.3,4.8,38.1,38.1
 2022,Western Africa,AFW,Liberia,LBR,Population & vital statistics,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,0.0,100.0,0.0,40.0,30.0
 2022,Western Africa,AFW,Liberia,LBR,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,0.0,70.0,35.0
 2022,Western Africa,AFW,Liberia,LBR,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -2475,7 +2474,7 @@
 2022,Western Africa,AFW,Liberia,LBR,Pollution,50.0,0.0,50.0,0.0,0.0,25.0,100.0,100.0,100.0,50.0,0.0,70.0,50.0
 2022,Western Africa,AFW,Liberia,LBR,Built environment,100.0,100.0,50.0,50.0,0.0,60.0,50.0,100.0,0.0,50.0,0.0,40.0,50.0
 2022,Western Africa,AFW,Liberia,LBR,Environment subscore,50.0,30.0,40.0,12.5,0.0,31.0,70.0,80.0,50.0,50.0,0.0,50.0,41.3
-2022,Southern Europe,EUZ,Andorra,ADO,All categories,56.2,53.8,47.4,17.3,0.0,47.6,93.3,93.3,70.7,79.0,0.0,67.3,59.2
+2022,Western Africa,AFW,Liberia,LBR,All categories,52.4,26.4,35.0,15.7,0.0,29.5,56.2,81.9,44.0,52.6,0.0,47.0,38.9
 2022,Northern Africa,AFN,Libya,LBY,Population & vital statistics,50.0,0.0,50.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Northern Africa,AFN,Libya,LBY,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Libya,LBY,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -2501,7 +2500,7 @@
 2022,Northern Africa,AFN,Libya,LBY,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Libya,LBY,Built environment,50.0,0.0,0.0,0.0,0.0,10.0,0.0,100.0,0.0,50.0,0.0,30.0,20.0
 2022,Northern Africa,AFN,Libya,LBY,Environment subscore,30.0,0.0,10.0,0.0,0.0,9.5,0.0,60.0,20.0,30.0,0.0,22.0,16.3
-2022,Eastern Africa,AFE,Mauritius,MUS,All categories,74.3,60.2,58.6,10.5,3.5,47.5,77.6,61.9,42.6,57.1,43.3,56.5,52.4
+2022,Northern Africa,AFN,Libya,LBY,All categories,45.5,4.8,21.0,7.2,0.0,18.0,0.0,73.3,24.5,36.7,0.0,26.9,22.8
 2022,Western Europe,EUW,Liechtenstein,LIE,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,100.0,100.0,90.0,88.9
 2022,Western Europe,EUW,Liechtenstein,LIE,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
 2022,Western Europe,EUW,Liechtenstein,LIE,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,61.1
@@ -2527,7 +2526,7 @@
 2022,Western Europe,EUW,Liechtenstein,LIE,Pollution,100.0,100.0,100.0,0.0,0.0,100.0,50.0,100.0,50.0,50.0,100.0,70.0,81.3
 2022,Western Europe,EUW,Liechtenstein,LIE,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,90.0,50.0
 2022,Western Europe,EUW,Liechtenstein,LIE,Environment subscore,50.0,50.0,50.0,25.0,0.0,47.1,80.0,100.0,70.0,60.0,100.0,82.0,67.9
-2022,South America,AMZ,Colombia,COL,All categories,65.2,59.5,57.9,16.9,13.9,47.4,80.0,39.5,16.4,64.5,43.3,48.8,48.2
+2022,Western Europe,EUW,Liechtenstein,LIE,All categories,54.0,52.4,49.0,18.8,0.0,47.3,73.6,91.9,56.4,63.8,91.9,75.5,63.9
 2022,Northern Europe,EUN,Lithuania,LTU,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,0.0,80.0,80.0
 2022,Northern Europe,EUN,Lithuania,LTU,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,100.0,0.0,80.0,55.0
 2022,Northern Europe,EUN,Lithuania,LTU,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,0.0,70.0,60.0
@@ -2553,7 +2552,7 @@
 2022,Northern Europe,EUN,Lithuania,LTU,Pollution,100.0,50.0,100.0,50.0,0.0,75.0,100.0,100.0,100.0,50.0,0.0,70.0,72.2
 2022,Northern Europe,EUN,Lithuania,LTU,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,100.0,100.0,100.0,50.0,0.0,70.0,45.0
 2022,Northern Europe,EUN,Lithuania,LTU,Environment subscore,100.0,70.0,80.0,37.5,25.0,69.0,100.0,100.0,90.0,60.0,0.0,70.0,69.6
-2022,Western Europe,EUW,Liechtenstein,LIE,All categories,54.0,52.4,49.0,18.8,0.0,47.3,73.6,91.9,56.4,63.8,91.9,75.5,63.9
+2022,Northern Europe,EUN,Lithuania,LTU,All categories,93.3,80.0,80.0,32.2,25.7,68.2,100.0,100.0,81.2,80.0,4.8,73.2,70.9
 2022,Western Europe,EUW,Luxembourg,LUX,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,100.0,50.0,100.0,90.0,75.0
 2022,Western Europe,EUW,Luxembourg,LUX,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,100.0,90.0,60.0
 2022,Western Europe,EUW,Luxembourg,LUX,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -2579,7 +2578,7 @@
 2022,Western Europe,EUW,Luxembourg,LUX,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,50.0,100.0,90.0,83.3
 2022,Western Europe,EUW,Luxembourg,LUX,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Europe,EUW,Luxembourg,LUX,Environment subscore,60.0,60.0,60.0,0.0,0.0,42.9,80.0,80.0,70.0,40.0,80.0,70.0,57.6
-2022,Western Asia,ASW,Cyprus,CYP,All categories,69.3,61.0,64.3,7.2,3.5,47.3,71.0,68.1,45.0,61.2,86.7,66.4,57.6
+2022,Western Europe,EUW,Luxembourg,LUX,All categories,71.0,69.3,69.3,0.0,3.5,49.4,91.7,91.0,76.2,49.0,93.3,80.2,66.0
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,0.0,50.0,50.0,60.0,66.7
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,50.0,40.0,38.9
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,50.0,50.0,44.4
@@ -2605,7 +2604,7 @@
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Pollution,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,0.0,50.0,50.0,60.0,56.3
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,50.0,60.0,33.3
 2022,Eastern Asia,ASF,"Macao SAR, China",MAC,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,60.0,60.0,10.0,30.0,30.0,38.0,29.8
-2022,Eastern Africa,AFE,Uganda,UGA,All categories,76.0,55.2,58.6,10.5,6.9,47.2,44.5,86.7,39.5,60.2,45.5,55.3,51.5
+2022,Eastern Asia,ASF,"Macao SAR, China",MAC,All categories,47.9,47.9,46.2,0.0,0.0,40.8,70.2,80.0,26.4,35.2,28.1,48.0,45.0
 2022,Eastern Africa,AFE,Madagascar,MDG,Population & vital statistics,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Eastern Africa,AFE,Madagascar,MDG,Education facilities,50.0,0.0,50.0,50.0,50.0,40.0,100.0,100.0,0.0,50.0,0.0,50.0,45.0
 2022,Eastern Africa,AFE,Madagascar,MDG,Education outcomes,100.0,50.0,50.0,50.0,50.0,60.0,50.0,100.0,0.0,50.0,0.0,40.0,50.0
@@ -2631,7 +2630,7 @@
 2022,Eastern Africa,AFE,Madagascar,MDG,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Madagascar,MDG,Built environment,50.0,50.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Eastern Africa,AFE,Madagascar,MDG,Environment subscore,30.0,20.0,20.0,12.5,0.0,19.0,0.0,60.0,30.0,30.0,0.0,24.0,21.7
-2022,Southern Asia,ASZ,Bhutan,BTN,All categories,70.2,56.9,51.9,25.3,3.5,47.0,46.7,93.3,14.8,54.0,0.0,41.8,44.2
+2022,Eastern Africa,AFE,Madagascar,MDG,All categories,53.8,38.1,35.7,19.9,6.9,34.3,9.8,75.2,24.5,48.8,0.0,31.7,32.9
 2022,Eastern Africa,AFE,Malawi,MWI,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
 2022,Eastern Africa,AFE,Malawi,MWI,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,50.0,50.0,40.0
 2022,Eastern Africa,AFE,Malawi,MWI,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,50.0,40.0,35.0
@@ -2657,7 +2656,7 @@
 2022,Eastern Africa,AFE,Malawi,MWI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Malawi,MWI,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,50.0,40.0,60.0
 2022,Eastern Africa,AFE,Malawi,MWI,Environment subscore,40.0,30.0,40.0,12.5,25.0,31.0,0.0,60.0,10.0,30.0,30.0,26.0,28.3
-2022,Eastern Africa,AFE,Tanzania,TZA,All categories,78.6,48.8,47.9,27.4,6.9,46.9,30.0,93.3,45.7,53.8,87.6,62.1,55.1
+2022,Eastern Africa,AFE,Malawi,MWI,All categories,56.2,46.4,40.7,20.8,29.2,40.7,5.7,80.0,14.0,40.0,40.0,36.0,38.1
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,100.0,60.0,70.0
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,50.0,50.0,70.0,70.0
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -2683,7 +2682,7 @@
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Built environment,100.0,50.0,50.0,100.0,0.0,60.0,100.0,100.0,50.0,50.0,100.0,80.0,70.0
 2022,South-Eastern Asia,ASE,Malaysia,MYS,Environment subscore,70.0,50.0,50.0,50.0,0.0,50.0,80.0,80.0,40.0,40.0,80.0,64.0,57.6
-2022,Southern Europe,EUZ,Kosovo,XKX,All categories,66.0,55.2,56.9,6.3,27.7,46.0,51.9,86.7,48.8,46.7,13.3,49.5,47.9
+2022,South-Eastern Asia,ASE,Malaysia,MYS,All categories,77.6,63.6,63.6,41.9,6.9,56.5,91.7,91.0,41.0,49.0,91.7,72.9,65.3
 2022,Southern Asia,ASZ,Maldives,MDV,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,50.0,0.0,60.0,72.2
 2022,Southern Asia,ASZ,Maldives,MDV,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,0.0,50.0,27.8
 2022,Southern Asia,ASZ,Maldives,MDV,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,0.0,50.0,0.0,50.0,50.0
@@ -2709,7 +2708,7 @@
 2022,Southern Asia,ASZ,Maldives,MDV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Asia,ASZ,Maldives,MDV,Built environment,100.0,0.0,0.0,100.0,0.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.6
 2022,Southern Asia,ASZ,Maldives,MDV,Environment subscore,30.0,10.0,10.0,50.0,0.0,20.6,40.0,40.0,10.0,20.0,0.0,22.0,21.4
-2022,South America,AMZ,Uruguay,URY,All categories,63.6,58.8,61.2,13.6,3.5,45.9,86.7,58.1,31.0,50.0,93.3,63.8,55.5
+2022,Southern Asia,ASZ,Maldives,MDV,All categories,56.9,42.9,40.5,27.7,0.0,44.1,68.6,76.7,24.3,38.3,3.3,42.2,43.0
 2022,Western Africa,AFW,Mali,MLI,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,50.0,50.0,45.0
 2022,Western Africa,AFW,Mali,MLI,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Western Africa,AFW,Mali,MLI,Education outcomes,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,50.0,50.0,0.0,40.0,55.0
@@ -2735,7 +2734,7 @@
 2022,Western Africa,AFW,Mali,MLI,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Mali,MLI,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Western Africa,AFW,Mali,MLI,Environment subscore,50.0,40.0,40.0,37.5,0.0,38.1,0.0,80.0,10.0,40.0,0.0,26.0,31.5
-2022,Eastern Africa,AFE,Seychelles,SYC,All categories,56.7,51.0,51.7,0.0,0.0,45.8,16.7,80.0,17.9,41.7,7.1,32.7,38.0
+2022,Western Africa,AFW,Mali,MLI,All categories,70.2,54.8,59.5,26.2,3.5,48.4,4.0,93.3,13.1,46.7,4.0,32.2,39.7
 2022,Southern Europe,EUZ,Malta,MLT,Population & vital statistics,100.0,50.0,50.0,100.0,0.0,75.0,50.0,100.0,50.0,50.0,100.0,70.0,72.2
 2022,Southern Europe,EUZ,Malta,MLT,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,100.0,100.0,90.0,66.7
 2022,Southern Europe,EUZ,Malta,MLT,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,100.0,60.0,55.6
@@ -2761,7 +2760,7 @@
 2022,Southern Europe,EUZ,Malta,MLT,Pollution,50.0,50.0,50.0,0.0,0.0,50.0,100.0,0.0,50.0,50.0,100.0,60.0,56.3
 2022,Southern Europe,EUZ,Malta,MLT,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,100.0,100.0,80.0,44.4
 2022,Southern Europe,EUZ,Malta,MLT,Environment subscore,30.0,30.0,30.0,25.0,0.0,29.4,80.0,60.0,40.0,50.0,80.0,62.0,48.8
-2022,Pacific Islands,OPI,Samoa,WSM,All categories,72.1,57.1,48.8,9.3,18.8,45.5,31.2,95.2,22.4,46.0,0.0,39.0,42.0
+2022,Southern Europe,EUZ,Malta,MLT,All categories,52.6,46.9,49.3,17.3,0.0,45.1,65.2,63.8,34.3,55.5,72.9,58.3,52.9
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Population & vital statistics,50.0,0.0,0.0,0.0,0.0,12.5,0.0,0.0,0.0,0.0,0.0,0.0,5.6
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Education facilities,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,0.0,40.0,27.8
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,0.0,40.0,38.9
@@ -2787,7 +2786,7 @@
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Built environment,100.0,50.0,0.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,44.4
 2022,Pacific Islands,OPI,Marshall Islands,MHL,Environment subscore,30.0,10.0,10.0,25.0,0.0,17.6,0.0,40.0,20.0,20.0,0.0,16.0,16.7
-2022,Western Africa,AFW,The Gambia,GMB,All categories,61.9,48.6,55.2,19.9,25.7,45.4,59.5,83.3,34.8,48.8,6.4,46.6,46.0
+2022,Pacific Islands,OPI,Marshall Islands,MHL,All categories,45.7,26.9,21.9,6.9,0.0,28.1,0.0,63.8,29.5,31.9,0.0,25.0,26.3
 2022,Western Africa,AFW,Mauritania,MRT,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Western Africa,AFW,Mauritania,MRT,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Western Africa,AFW,Mauritania,MRT,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
@@ -2813,7 +2812,7 @@
 2022,Western Africa,AFW,Mauritania,MRT,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Mauritania,MRT,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Western Africa,AFW,Mauritania,MRT,Environment subscore,60.0,40.0,30.0,12.5,0.0,33.3,0.0,80.0,10.0,40.0,0.0,26.0,29.3
-2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,All categories,65.2,63.6,59.5,6.3,0.0,45.3,96.7,96.7,42.6,79.8,96.7,82.5,65.3
+2022,Western Africa,AFW,Mauritania,MRT,All categories,64.5,52.9,46.2,17.8,3.5,42.0,21.4,86.7,34.8,43.3,11.9,39.6,40.7
 2022,Eastern Africa,AFE,Mauritius,MUS,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,50.0,70.0,50.0
 2022,Eastern Africa,AFE,Mauritius,MUS,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,50.0,50.0,60.0,50.0
 2022,Eastern Africa,AFE,Mauritius,MUS,Education outcomes,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,50.0,50.0,50.0,70.0,65.0
@@ -2839,7 +2838,7 @@
 2022,Eastern Africa,AFE,Mauritius,MUS,Pollution,100.0,50.0,50.0,50.0,0.0,62.5,100.0,50.0,50.0,50.0,50.0,60.0,61.1
 2022,Eastern Africa,AFE,Mauritius,MUS,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Mauritius,MUS,Environment subscore,60.0,40.0,40.0,25.0,0.0,38.1,80.0,60.0,40.0,50.0,40.0,54.0,46.7
-2022,Pacific Islands,OPI,Fiji,FJI,All categories,70.2,56.2,56.2,9.3,6.9,45.3,26.7,90.0,35.0,44.3,68.3,52.9,49.4
+2022,Eastern Africa,AFE,Mauritius,MUS,All categories,74.3,60.2,58.6,10.5,3.5,47.5,77.6,61.9,42.6,57.1,43.3,56.5,52.4
 2022,Central America,AMM,Mexico,MEX,Population & vital statistics,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,100.0,100.0,100.0,100.0,75.0
 2022,Central America,AMM,Mexico,MEX,Education facilities,50.0,50.0,0.0,50.0,0.0,30.0,100.0,100.0,100.0,100.0,100.0,100.0,65.0
 2022,Central America,AMM,Mexico,MEX,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
@@ -2865,7 +2864,7 @@
 2022,Central America,AMM,Mexico,MEX,Pollution,50.0,0.0,50.0,0.0,0.0,25.0,100.0,100.0,100.0,100.0,100.0,100.0,66.7
 2022,Central America,AMM,Mexico,MEX,Built environment,100.0,50.0,0.0,100.0,0.0,50.0,100.0,100.0,100.0,50.0,100.0,90.0,70.0
 2022,Central America,AMM,Mexico,MEX,Environment subscore,70.0,30.0,40.0,50.0,25.0,45.2,80.0,70.0,60.0,50.0,80.0,68.0,57.6
-2022,Southern Europe,EUZ,Malta,MLT,All categories,52.6,46.9,49.3,17.3,0.0,45.1,65.2,63.8,34.3,55.5,72.9,58.3,52.9
+2022,Central America,AMM,Mexico,MEX,All categories,78.3,59.3,61.7,49.1,18.8,57.9,93.3,88.3,70.2,63.1,86.2,80.2,69.9
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.6
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,50.0,0.0,40.0,22.2
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -2891,7 +2890,7 @@
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,Environment subscore,20.0,0.0,0.0,0.0,0.0,5.9,0.0,20.0,10.0,20.0,0.0,10.0,8.3
-2022,South-Eastern Asia,ASE,Myanmar,MMR,All categories,66.2,51.2,47.9,31.6,3.5,44.9,68.6,86.7,58.8,46.7,0.0,52.1,48.8
+2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,All categories,35.5,18.3,25.5,15.3,0.0,24.9,38.3,50.0,22.6,26.0,0.0,27.4,26.4
 2022,Eastern Europe,EUE,Moldova,MDA,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,100.0,90.0,85.0
 2022,Eastern Europe,EUE,Moldova,MDA,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,100.0,100.0,100.0,65.0
 2022,Eastern Europe,EUE,Moldova,MDA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
@@ -2917,7 +2916,7 @@
 2022,Eastern Europe,EUE,Moldova,MDA,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Eastern Europe,EUE,Moldova,MDA,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,50.0,100.0,50.0,50.0,100.0,70.0,65.0
 2022,Eastern Europe,EUE,Moldova,MDA,Environment subscore,100.0,80.0,80.0,25.0,25.0,69.0,90.0,100.0,70.0,70.0,100.0,86.0,78.3
-2022,Western Africa,AFW,Cabo Verde,CPV,All categories,61.0,54.3,57.6,22.0,3.5,44.9,48.3,74.5,39.5,54.0,0.0,43.3,44.0
+2022,Eastern Europe,EUE,Moldova,MDA,All categories,88.3,81.7,81.7,22.0,17.3,64.9,91.0,96.7,68.8,77.9,96.7,86.2,76.4
 2022,Western Europe,EUW,Monaco,MCO,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Western Europe,EUW,Monaco,MCO,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
 2022,Western Europe,EUW,Monaco,MCO,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
@@ -2943,7 +2942,7 @@
 2022,Western Europe,EUW,Monaco,MCO,Pollution,50.0,50.0,50.0,0.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,56.3
 2022,Western Europe,EUW,Monaco,MCO,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,50.0,100.0,60.0,33.3
 2022,Western Europe,EUW,Monaco,MCO,Environment subscore,30.0,30.0,30.0,0.0,0.0,26.5,0.0,80.0,20.0,40.0,80.0,44.0,36.9
-2022,Middle Africa,AFM,Cameroon,CMR,All categories,67.9,54.5,45.5,28.3,3.5,44.9,30.2,90.0,29.8,52.4,10.0,42.5,43.6
+2022,Western Europe,EUW,Monaco,MCO,All categories,32.6,30.2,30.2,0.0,0.0,26.7,0.0,69.0,12.4,34.5,69.0,37.0,32.8
 2022,Eastern Asia,ASF,Mongolia,MNG,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,Eastern Asia,ASF,Mongolia,MNG,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
 2022,Eastern Asia,ASF,Mongolia,MNG,Education outcomes,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,100.0,100.0,90.0,80.0
@@ -2969,7 +2968,7 @@
 2022,Eastern Asia,ASF,Mongolia,MNG,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Eastern Asia,ASF,Mongolia,MNG,Built environment,100.0,50.0,0.0,50.0,50.0,50.0,100.0,100.0,100.0,50.0,100.0,90.0,70.0
 2022,Eastern Asia,ASF,Mongolia,MNG,Environment subscore,100.0,70.0,60.0,50.0,50.0,69.0,100.0,100.0,70.0,50.0,100.0,84.0,77.2
-2022,Northern Europe,EUN,Iceland,ISL,All categories,64.5,56.4,58.8,10.5,6.9,44.8,85.2,85.2,79.5,44.3,0.0,58.9,52.4
+2022,Eastern Asia,ASF,Mongolia,MNG,All categories,89.3,77.6,74.3,43.7,34.7,68.5,100.0,100.0,81.0,80.0,96.7,91.5,80.9
 2022,Southern Europe,EUZ,Montenegro,MNE,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,100.0,50.0,100.0,90.0,75.0
 2022,Southern Europe,EUZ,Montenegro,MNE,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,100.0,70.0,35.0
 2022,Southern Europe,EUZ,Montenegro,MNE,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
@@ -2995,7 +2994,7 @@
 2022,Southern Europe,EUZ,Montenegro,MNE,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,Montenegro,MNE,Built environment,100.0,50.0,0.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
 2022,Southern Europe,EUZ,Montenegro,MNE,Environment subscore,80.0,50.0,50.0,0.0,0.0,42.9,60.0,80.0,20.0,50.0,70.0,56.0,50.0
-2022,Caribbean,AMC,Jamaica,JAM,All categories,70.2,52.9,56.9,11.4,3.5,44.6,66.9,86.2,50.0,56.2,93.3,70.5,58.6
+2022,Southern Europe,EUZ,Montenegro,MNE,All categories,63.3,49.3,46.0,2.1,3.5,37.9,62.4,79.0,29.3,51.7,75.7,59.6,49.6
 2022,Northern Africa,AFN,Morocco,MAR,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,50.0,100.0,70.0,60.0
 2022,Northern Africa,AFN,Morocco,MAR,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,50.0,100.0,70.0,75.0
 2022,Northern Africa,AFN,Morocco,MAR,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,50.0,100.0,70.0,75.0
@@ -3021,7 +3020,7 @@
 2022,Northern Africa,AFN,Morocco,MAR,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Northern Africa,AFN,Morocco,MAR,Built environment,100.0,100.0,100.0,0.0,0.0,60.0,50.0,100.0,50.0,50.0,50.0,60.0,60.0
 2022,Northern Africa,AFN,Morocco,MAR,Environment subscore,100.0,90.0,90.0,25.0,25.0,73.8,70.0,90.0,40.0,50.0,90.0,68.0,70.7
-2022,Southern Africa,AFZ,South Africa,ZAF,All categories,70.5,47.1,45.5,30.1,6.9,44.5,34.8,87.1,28.8,51.7,87.1,57.9,51.7
+2022,Northern Africa,AFN,Morocco,MAR,All categories,92.6,87.6,84.3,36.4,34.7,72.6,68.8,96.7,41.9,50.0,86.7,68.8,70.5
 2022,Eastern Africa,AFE,Mozambique,MOZ,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,50.0,50.0,50.0,50.0,50.0,65.0
 2022,Eastern Africa,AFE,Mozambique,MOZ,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Eastern Africa,AFE,Mozambique,MOZ,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
@@ -3047,7 +3046,7 @@
 2022,Eastern Africa,AFE,Mozambique,MOZ,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Mozambique,MOZ,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Eastern Africa,AFE,Mozambique,MOZ,Environment subscore,50.0,30.0,20.0,12.5,0.0,26.2,0.0,60.0,10.0,30.0,0.0,20.0,22.8
-2022,Western Africa,AFW,Burkina Faso,BFA,All categories,59.5,57.1,49.8,25.3,6.9,44.4,76.0,93.3,62.9,46.7,4.8,56.7,51.1
+2022,Eastern Africa,AFE,Mozambique,MOZ,All categories,62.9,46.4,45.5,32.2,6.9,43.0,6.4,82.6,14.0,41.0,1.7,29.1,35.5
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,0.0,70.0,50.0
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
@@ -3073,7 +3072,7 @@
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,South-Eastern Asia,ASE,Myanmar,MMR,Environment subscore,50.0,30.0,20.0,37.5,0.0,31.0,50.0,60.0,40.0,30.0,0.0,36.0,33.7
-2022,Eastern Asia,ASF,China,CHN,All categories,57.1,51.4,54.8,33.1,0.0,44.4,0.0,86.7,41.7,28.6,86.7,48.7,46.7
+2022,South-Eastern Asia,ASE,Myanmar,MMR,All categories,66.2,51.2,47.9,31.6,3.5,44.9,68.6,86.7,58.8,46.7,0.0,52.1,48.8
 2022,Southern Africa,AFZ,Namibia,NAM,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,50.0,60.0,65.0
 2022,Southern Africa,AFZ,Namibia,NAM,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Southern Africa,AFZ,Namibia,NAM,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -3099,7 +3098,7 @@
 2022,Southern Africa,AFZ,Namibia,NAM,Pollution,50.0,0.0,50.0,0.0,0.0,25.0,0.0,100.0,50.0,50.0,0.0,40.0,33.3
 2022,Southern Africa,AFZ,Namibia,NAM,Built environment,100.0,0.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Southern Africa,AFZ,Namibia,NAM,Environment subscore,50.0,20.0,30.0,25.0,0.0,28.6,0.0,80.0,20.0,40.0,0.0,28.0,28.3
-2022,Central America,AMM,Belize,BLZ,All categories,70.2,53.6,48.6,19.9,3.5,44.4,49.5,91.7,33.6,44.3,9.5,45.7,45.1
+2022,Southern Africa,AFZ,Namibia,NAM,All categories,62.1,34.8,41.4,17.8,3.5,36.1,22.4,85.2,31.2,42.6,8.8,38.0,37.1
 2022,Pacific Islands,OPI,Nauru,NRU,Population & vital statistics,50.0,0.0,0.0,0.0,0.0,10.0,0.0,100.0,50.0,50.0,0.0,40.0,25.0
 2022,Pacific Islands,OPI,Nauru,NRU,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,15.0
@@ -3125,7 +3124,7 @@
 2022,Pacific Islands,OPI,Nauru,NRU,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Pacific Islands,OPI,Nauru,NRU,Environment subscore,20.0,0.0,0.0,0.0,0.0,4.8,0.0,20.0,10.0,10.0,0.0,8.0,6.5
-2022,Northern Africa,AFN,Tunisia,TUN,All categories,66.9,51.2,57.9,13.6,3.5,44.1,58.8,90.0,59.8,46.7,86.7,68.4,57.2
+2022,Pacific Islands,OPI,Nauru,NRU,All categories,20.5,0.0,4.8,0.0,3.5,6.3,0.0,34.3,15.5,14.8,0.0,12.9,9.9
 2022,Southern Asia,ASZ,Nepal,NPL,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Southern Asia,ASZ,Nepal,NPL,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Southern Asia,ASZ,Nepal,NPL,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,0.0,30.0,55.0
@@ -3151,7 +3150,7 @@
 2022,Southern Asia,ASZ,Nepal,NPL,Pollution,100.0,0.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,50.0,0.0,40.0,33.3
 2022,Southern Asia,ASZ,Nepal,NPL,Built environment,100.0,0.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Southern Asia,ASZ,Nepal,NPL,Environment subscore,90.0,30.0,50.0,0.0,0.0,40.5,0.0,100.0,40.0,50.0,0.0,38.0,39.1
-2022,Southern Asia,ASZ,Maldives,MDV,All categories,56.9,42.9,40.5,27.7,0.0,44.1,68.6,76.7,24.3,38.3,3.3,42.2,43.0
+2022,Southern Asia,ASZ,Nepal,NPL,All categories,78.6,53.6,60.2,16.6,6.9,48.9,14.8,96.7,32.9,48.3,0.0,38.5,43.3
 2022,Western Europe,EUW,Netherlands,NLD,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Western Europe,EUW,Netherlands,NLD,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,100.0,100.0,100.0,65.0
 2022,Western Europe,EUW,Netherlands,NLD,Education outcomes,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,50.0,100.0,100.0,90.0,75.0
@@ -3177,7 +3176,7 @@
 2022,Western Europe,EUW,Netherlands,NLD,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Western Europe,EUW,Netherlands,NLD,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Europe,EUW,Netherlands,NLD,Environment subscore,80.0,80.0,80.0,12.5,25.0,61.9,80.0,80.0,70.0,80.0,80.0,78.0,70.7
-2022,Eastern Africa,AFE,Burundi,BDI,All categories,63.1,54.8,53.1,19.9,3.5,44.1,19.0,85.2,38.6,44.3,5.7,38.6,41.1
+2022,Western Europe,EUW,Netherlands,NLD,All categories,88.3,81.0,82.6,31.0,41.1,69.3,93.3,93.3,81.7,91.7,93.3,90.7,80.8
 2022,"Australia and New Zealand
 ",OAZ,New Zealand,NZL,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,50.0,100.0,100.0,90.0,75.0
 2022,"Australia and New Zealand
@@ -3228,7 +3227,8 @@
 ",OAZ,New Zealand,NZL,Built environment,50.0,50.0,0.0,50.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
 2022,"Australia and New Zealand
 ",OAZ,New Zealand,NZL,Environment subscore,70.0,60.0,50.0,12.5,0.0,45.2,90.0,100.0,40.0,60.0,90.0,76.0,62.0
-2022,Southern Africa,AFZ,Botswana,BWA,All categories,67.6,51.2,51.9,17.8,6.9,44.0,27.4,86.7,47.1,43.3,77.1,56.3,50.7
+2022,"Australia and New Zealand
+",OAZ,New Zealand,NZL,All categories,76.0,71.0,67.6,13.6,6.9,53.5,93.3,95.0,55.5,55.0,91.0,78.0,66.7
 2022,Central America,AMM,Nicaragua,NIC,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,0.0,100.0,0.0,50.0,0.0,30.0,60.0
 2022,Central America,AMM,Nicaragua,NIC,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Central America,AMM,Nicaragua,NIC,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,40.0
@@ -3254,7 +3254,7 @@
 2022,Central America,AMM,Nicaragua,NIC,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central America,AMM,Nicaragua,NIC,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central America,AMM,Nicaragua,NIC,Environment subscore,50.0,50.0,50.0,12.5,0.0,38.1,0.0,60.0,0.0,30.0,0.0,18.0,27.2
-2022,Caribbean,AMC,St. Lucia,LCA,All categories,61.9,41.4,46.2,6.9,0.0,43.9,55.7,83.3,28.6,43.3,83.3,58.9,52.7
+2022,Central America,AMM,Nicaragua,NIC,All categories,64.3,56.9,61.0,19.9,13.9,47.9,31.0,76.2,17.6,41.7,23.8,38.0,42.6
 2022,Western Africa,AFW,Niger,NER,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
 2022,Western Africa,AFW,Niger,NER,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Western Africa,AFW,Niger,NER,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
@@ -3280,7 +3280,7 @@
 2022,Western Africa,AFW,Niger,NER,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Niger,NER,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Western Africa,AFW,Niger,NER,Environment subscore,60.0,30.0,30.0,25.0,0.0,33.3,0.0,80.0,20.0,40.0,0.0,28.0,30.4
-2022,Western Asia,ASW,Bahrain,BHR,All categories,56.9,44.5,47.9,6.9,0.0,43.8,76.7,77.6,57.1,47.4,83.3,68.4,58.3
+2022,Western Africa,AFW,Niger,NER,All categories,64.8,40.0,38.3,26.2,6.9,39.1,4.0,93.3,17.4,46.7,0.0,32.3,35.4
 2022,Western Africa,AFW,Nigeria,NGA,Population & vital statistics,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Western Africa,AFW,Nigeria,NGA,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,Western Africa,AFW,Nigeria,NGA,Education outcomes,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
@@ -3306,7 +3306,7 @@
 2022,Western Africa,AFW,Nigeria,NGA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Nigeria,NGA,Built environment,100.0,100.0,100.0,50.0,0.0,70.0,0.0,100.0,0.0,50.0,100.0,50.0,60.0
 2022,Western Africa,AFW,Nigeria,NGA,Environment subscore,40.0,30.0,40.0,25.0,0.0,31.0,10.0,60.0,20.0,30.0,60.0,36.0,33.7
-2022,Western Asia,ASW,Qatar,QAT,All categories,62.6,57.6,57.6,8.4,3.5,43.6,53.1,76.2,10.7,41.7,83.3,53.0,48.7
+2022,Western Africa,AFW,Nigeria,NGA,All categories,74.3,49.5,56.2,32.5,3.5,48.6,39.3,86.7,33.6,48.1,86.7,58.9,54.1
 2022,Southern Europe,EUZ,North Macedonia,MKD,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,100.0,0.0,70.0,85.0
 2022,Southern Europe,EUZ,North Macedonia,MKD,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,100.0,0.0,60.0,55.0
 2022,Southern Europe,EUZ,North Macedonia,MKD,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,100.0,0.0,60.0,55.0
@@ -3332,7 +3332,7 @@
 2022,Southern Europe,EUZ,North Macedonia,MKD,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,44.4
 2022,Southern Europe,EUZ,North Macedonia,MKD,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,0.0,100.0,0.0,60.0,50.0
 2022,Southern Europe,EUZ,North Macedonia,MKD,Environment subscore,100.0,70.0,70.0,25.0,25.0,64.3,70.0,100.0,50.0,70.0,0.0,58.0,60.9
-2022,Central America,AMM,Panama,PAN,All categories,62.1,48.8,52.1,23.2,10.4,43.6,66.4,75.5,25.5,68.8,3.3,47.9,45.9
+2022,Southern Europe,EUZ,North Macedonia,MKD,All categories,86.7,76.7,76.7,19.0,27.7,62.8,85.0,91.9,54.5,76.2,4.8,62.5,62.6
 2022,Northern Europe,EUN,Norway,NOR,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,100.0,100.0,90.0,90.0
 2022,Northern Europe,EUN,Norway,NOR,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,60.0
 2022,Northern Europe,EUN,Norway,NOR,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
@@ -3358,7 +3358,7 @@
 2022,Northern Europe,EUN,Norway,NOR,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,100.0,100.0,100.0,100.0,94.4
 2022,Northern Europe,EUN,Norway,NOR,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,50.0,50.0,100.0,80.0,70.0
 2022,Northern Europe,EUN,Norway,NOR,Environment subscore,100.0,80.0,80.0,62.5,50.0,78.6,100.0,100.0,70.0,70.0,100.0,88.0,83.7
-2022,Western Africa,AFW,Togo,TGO,All categories,67.9,47.4,46.7,24.1,10.4,43.5,12.1,100.0,42.6,50.0,0.0,41.0,42.1
+2022,Northern Europe,EUN,Norway,NOR,All categories,91.7,83.3,83.3,49.1,36.1,73.6,98.3,100.0,76.9,81.7,100.0,91.4,83.2
 2022,Western Asia,ASW,Oman,OMN,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,Western Asia,ASW,Oman,OMN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,100.0,100.0,100.0,70.0
 2022,Western Asia,ASW,Oman,OMN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,100.0,100.0,100.0,65.0
@@ -3384,7 +3384,7 @@
 2022,Western Asia,ASW,Oman,OMN,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,100.0,100.0,100.0,100.0,77.8
 2022,Western Asia,ASW,Oman,OMN,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,Western Asia,ASW,Oman,OMN,Environment subscore,70.0,50.0,50.0,37.5,0.0,47.6,100.0,100.0,90.0,70.0,100.0,92.0,71.7
-2022,Central America,AMM,El Salvador,SLV,All categories,59.3,56.0,56.0,13.6,6.9,43.4,37.9,73.3,26.0,44.8,21.4,40.7,41.9
+2022,Western Asia,ASW,Oman,OMN,All categories,75.2,62.9,65.2,31.3,10.4,54.6,95.2,100.0,78.3,80.2,95.2,89.8,73.6
 2022,Southern Asia,ASZ,Pakistan,PAK,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,50.0,40.0,35.0
 2022,Southern Asia,ASZ,Pakistan,PAK,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,50.0,50.0,40.0
 2022,Southern Asia,ASZ,Pakistan,PAK,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
@@ -3410,7 +3410,7 @@
 2022,Southern Asia,ASZ,Pakistan,PAK,Pollution,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,100.0,60.0,38.9
 2022,Southern Asia,ASZ,Pakistan,PAK,Built environment,100.0,100.0,100.0,100.0,50.0,90.0,0.0,100.0,0.0,100.0,50.0,50.0,70.0
 2022,Southern Asia,ASZ,Pakistan,PAK,Environment subscore,80.0,50.0,50.0,62.5,25.0,57.1,0.0,100.0,40.0,60.0,60.0,52.0,54.3
-2022,North America,AMN,Greenland,GRL,All categories,50.7,50.7,50.7,28.0,22.3,43.3,73.8,73.8,72.1,43.6,73.8,67.4,56.3
+2022,Southern Asia,ASZ,Pakistan,PAK,All categories,71.9,55.5,56.2,37.7,10.4,51.1,2.4,96.7,28.1,51.7,49.3,45.6,48.2
 2022,Pacific Islands,OPI,Palau,PLW,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,0.0,100.0,0.0,50.0,0.0,30.0,55.6
 2022,Pacific Islands,OPI,Palau,PLW,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,16.7
 2022,Pacific Islands,OPI,Palau,PLW,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,0.0,40.0,38.9
@@ -3436,7 +3436,7 @@
 2022,Pacific Islands,OPI,Palau,PLW,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Palau,PLW,Built environment,100.0,50.0,50.0,100.0,0.0,75.0,0.0,100.0,50.0,50.0,0.0,40.0,55.6
 2022,Pacific Islands,OPI,Palau,PLW,Environment subscore,50.0,10.0,30.0,50.0,0.0,32.4,0.0,60.0,30.0,30.0,0.0,24.0,27.4
-2022,Eastern Africa,AFE,Mozambique,MOZ,All categories,62.9,46.4,45.5,32.2,6.9,43.0,6.4,82.6,14.0,41.0,1.7,29.1,35.5
+2022,Pacific Islands,OPI,Palau,PLW,All categories,54.5,39.5,43.8,22.3,0.0,42.7,12.9,76.7,15.7,38.3,0.0,28.7,34.4
 2022,Western Asia,ASW,Palestine,PSE,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,50.0,100.0,80.0,85.0
 2022,Western Asia,ASW,Palestine,PSE,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
 2022,Western Asia,ASW,Palestine,PSE,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
@@ -3462,7 +3462,7 @@
 2022,Western Asia,ASW,Palestine,PSE,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Western Asia,ASW,Palestine,PSE,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,50.0,100.0,70.0,75.0
 2022,Western Asia,ASW,Palestine,PSE,Environment subscore,90.0,80.0,70.0,37.5,50.0,69.0,80.0,100.0,40.0,50.0,100.0,74.0,71.7
-2022,Pacific Islands,OPI,Palau,PLW,All categories,54.5,39.5,43.8,22.3,0.0,42.7,12.9,76.7,15.7,38.3,0.0,28.7,34.4
+2022,Western Asia,ASW,Palestine,PSE,All categories,91.0,82.6,76.0,45.8,46.5,72.1,90.0,100.0,42.6,52.4,98.3,76.7,74.6
 2022,Central America,AMM,Panama,PAN,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,50.0,0.0,100.0,0.0,50.0,65.0
 2022,Central America,AMM,Panama,PAN,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,0.0,70.0,50.0
 2022,Central America,AMM,Panama,PAN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,0.0,70.0,50.0
@@ -3488,7 +3488,7 @@
 2022,Central America,AMM,Panama,PAN,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,100.0,0.0,50.0,44.4
 2022,Central America,AMM,Panama,PAN,Built environment,50.0,0.0,0.0,50.0,0.0,20.0,100.0,100.0,50.0,100.0,0.0,70.0,45.0
 2022,Central America,AMM,Panama,PAN,Environment subscore,50.0,30.0,40.0,25.0,0.0,33.3,60.0,60.0,20.0,60.0,0.0,40.0,37.0
-2022,Western Africa,AFW,Mauritania,MRT,All categories,64.5,52.9,46.2,17.8,3.5,42.0,21.4,86.7,34.8,43.3,11.9,39.6,40.7
+2022,Central America,AMM,Panama,PAN,All categories,62.1,48.8,52.1,23.2,10.4,43.6,66.4,75.5,25.5,68.8,3.3,47.9,45.9
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -3514,7 +3514,7 @@
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Built environment,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Pacific Islands,OPI,Papua New Guinea,PNG,Environment subscore,40.0,20.0,10.0,25.0,0.0,21.4,30.0,60.0,30.0,30.0,0.0,30.0,26.1
-2022,Western Africa,AFW,Benin,BEN,All categories,65.2,44.5,41.4,21.1,13.9,40.9,66.4,86.9,54.3,48.3,49.5,61.1,51.8
+2022,Pacific Islands,OPI,Papua New Guinea,PNG,All categories,35.2,24.5,10.5,23.8,0.0,20.8,24.3,55.7,25.5,32.6,0.0,27.6,24.5
 2022,South America,AMZ,Paraguay,PRY,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,0.0,50.0,50.0,60.0,75.0
 2022,South America,AMZ,Paraguay,PRY,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,100.0,70.0,55.0
 2022,South America,AMZ,Paraguay,PRY,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,100.0,70.0,55.0
@@ -3540,7 +3540,7 @@
 2022,South America,AMZ,Paraguay,PRY,Pollution,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,0.0,50.0,100.0,70.0,61.1
 2022,South America,AMZ,Paraguay,PRY,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0
 2022,South America,AMZ,Paraguay,PRY,Environment subscore,70.0,40.0,40.0,25.0,0.0,40.5,30.0,90.0,30.0,50.0,90.0,58.0,50.0
-2022,Eastern Asia,ASF,"Macao SAR, China",MAC,All categories,47.9,47.9,46.2,0.0,0.0,40.8,70.2,80.0,26.4,35.2,28.1,48.0,45.0
+2022,South America,AMZ,Paraguay,PRY,All categories,73.8,58.1,58.8,28.3,6.9,50.7,34.8,91.0,24.0,51.7,89.3,58.1,54.7
 2022,South America,AMZ,Peru,PER,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,50.0,50.0,50.0,0.0,50.0,60.0
 2022,South America,AMZ,Peru,PER,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,South America,AMZ,Peru,PER,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
@@ -3566,7 +3566,7 @@
 2022,South America,AMZ,Peru,PER,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,0.0,60.0,66.7
 2022,South America,AMZ,Peru,PER,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.0
 2022,South America,AMZ,Peru,PER,Environment subscore,80.0,60.0,60.0,12.5,0.0,50.0,100.0,90.0,50.0,50.0,0.0,58.0,54.3
-2022,Eastern Africa,AFE,Malawi,MWI,All categories,56.2,46.4,40.7,20.8,29.2,40.7,5.7,80.0,14.0,40.0,40.0,36.0,38.1
+2022,South America,AMZ,Peru,PER,All categories,85.0,71.9,71.9,19.0,3.5,57.5,96.7,93.3,58.8,50.0,11.2,62.0,59.9
 2022,South-Eastern Asia,ASE,Philippines,PHL,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,100.0,60.0,70.0
 2022,South-Eastern Asia,ASE,Philippines,PHL,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
 2022,South-Eastern Asia,ASE,Philippines,PHL,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,100.0,100.0,80.0,60.0
@@ -3592,7 +3592,7 @@
 2022,South-Eastern Asia,ASE,Philippines,PHL,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South-Eastern Asia,ASE,Philippines,PHL,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,60.0
 2022,South-Eastern Asia,ASE,Philippines,PHL,Environment subscore,60.0,50.0,50.0,37.5,0.0,45.2,70.0,80.0,30.0,40.0,80.0,60.0,53.3
-2022,Western Asia,ASW,Yemen,YEM,All categories,62.9,36.0,50.5,27.4,3.5,40.4,78.3,16.4,30.2,45.0,0.0,34.0,37.0
+2022,South-Eastern Asia,ASE,Philippines,PHL,All categories,78.3,62.9,66.0,45.8,13.9,58.5,82.6,93.3,36.0,54.0,93.3,71.9,65.7
 2022,Eastern Europe,EUE,Poland,POL,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Eastern Europe,EUE,Poland,POL,Education facilities,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,50.0,100.0,80.0,90.0
 2022,Eastern Europe,EUE,Poland,POL,Education outcomes,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,100.0,100.0,90.0,90.0
@@ -3618,7 +3618,7 @@
 2022,Eastern Europe,EUE,Poland,POL,Pollution,100.0,100.0,100.0,100.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Eastern Europe,EUE,Poland,POL,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,50.0,100.0,100.0,90.0,75.0
 2022,Eastern Europe,EUE,Poland,POL,Environment subscore,100.0,80.0,80.0,75.0,50.0,81.0,100.0,100.0,60.0,90.0,100.0,90.0,85.9
-2022,Middle Africa,AFM,Angola,AGO,All categories,57.6,50.2,43.6,24.1,3.5,40.3,19.0,72.9,29.5,40.0,0.0,32.3,36.0
+2022,Eastern Europe,EUE,Poland,POL,All categories,96.7,86.7,86.7,65.7,38.1,79.7,100.0,100.0,66.9,89.3,100.0,91.2,85.9
 2022,Southern Europe,EUZ,Portugal,PRT,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,50.0,50.0,80.0,80.0
 2022,Southern Europe,EUZ,Portugal,PRT,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,50.0,80.0,65.0
 2022,Southern Europe,EUZ,Portugal,PRT,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,50.0,70.0,60.0
@@ -3644,7 +3644,7 @@
 2022,Southern Europe,EUZ,Portugal,PRT,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,50.0,90.0,83.3
 2022,Southern Europe,EUZ,Portugal,PRT,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,50.0,100.0,50.0,80.0,60.0
 2022,Southern Europe,EUZ,Portugal,PRT,Environment subscore,70.0,60.0,60.0,25.0,0.0,50.0,100.0,100.0,80.0,100.0,50.0,86.0,69.6
-2022,Western Asia,ASW,Kuwait,KWT,All categories,62.6,48.1,55.2,6.3,0.0,40.0,57.9,80.0,17.1,42.4,9.5,41.4,40.8
+2022,Southern Europe,EUZ,Portugal,PRT,All categories,76.7,73.3,73.3,26.2,31.2,60.6,96.7,87.1,72.9,86.2,53.1,79.2,70.6
 2022,Western Asia,ASW,Qatar,QAT,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,0.0,50.0,100.0,70.0,70.0
 2022,Western Asia,ASW,Qatar,QAT,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,50.0,100.0,70.0,55.0
 2022,Western Asia,ASW,Qatar,QAT,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,0.0,50.0,100.0,70.0,50.0
@@ -3670,7 +3670,7 @@
 2022,Western Asia,ASW,Qatar,QAT,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Qatar,QAT,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Qatar,QAT,Environment subscore,40.0,40.0,40.0,12.5,0.0,31.0,30.0,60.0,10.0,30.0,60.0,38.0,34.8
-2022,South-Eastern Asia,ASE,Lao PDR,LAO,All categories,61.2,47.1,34.0,32.5,3.5,39.7,61.9,83.3,45.7,41.7,0.0,46.5,43.4
+2022,Western Asia,ASW,Qatar,QAT,All categories,62.6,57.6,57.6,8.4,3.5,43.6,53.1,76.2,10.7,41.7,83.3,53.0,48.7
 2022,Eastern Europe,EUE,Romania,ROU,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,Eastern Europe,EUE,Romania,ROU,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,100.0,100.0,100.0,70.0
 2022,Eastern Europe,EUE,Romania,ROU,Education outcomes,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
@@ -3696,7 +3696,7 @@
 2022,Eastern Europe,EUE,Romania,ROU,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Eastern Europe,EUE,Romania,ROU,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,50.0,90.0,45.0
 2022,Eastern Europe,EUE,Romania,ROU,Environment subscore,70.0,70.0,70.0,25.0,0.0,54.8,100.0,100.0,80.0,90.0,90.0,92.0,75.0
-2022,Southern Asia,ASZ,India,IND,All categories,69.5,28.6,39.3,34.6,6.9,39.4,81.7,96.7,42.6,61.4,95.0,75.5,58.8
+2022,Eastern Europe,EUE,Romania,ROU,All categories,76.7,76.7,76.7,33.4,3.5,60.4,96.7,96.7,86.7,86.9,93.3,92.0,77.5
 2022,Eastern Europe,EUE,Russian Federation,RUS,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,50.0,50.0,60.0,70.0
 2022,Eastern Europe,EUE,Russian Federation,RUS,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
 2022,Eastern Europe,EUE,Russian Federation,RUS,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,0.0,30.0,35.0
@@ -3722,7 +3722,7 @@
 2022,Eastern Europe,EUE,Russian Federation,RUS,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,50.0,50.0,100.0,0.0,60.0,66.7
 2022,Eastern Europe,EUE,Russian Federation,RUS,Built environment,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
 2022,Eastern Europe,EUE,Russian Federation,RUS,Environment subscore,60.0,60.0,60.0,37.5,0.0,50.0,50.0,70.0,40.0,50.0,30.0,48.0,48.9
-2022,Southern Asia,ASZ,Bangladesh,BGD,All categories,69.5,38.3,48.8,10.5,6.9,39.4,0.0,90.0,33.6,55.5,0.0,35.8,37.5
+2022,Eastern Europe,EUE,Russian Federation,RUS,All categories,76.7,76.7,75.0,31.3,6.9,60.0,67.6,78.8,49.8,66.2,52.1,62.9,61.6
 2022,Eastern Africa,AFE,Rwanda,RWA,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,50.0,50.0,50.0,60.0,70.0
 2022,Eastern Africa,AFE,Rwanda,RWA,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,50.0,50.0,50.0,50.0,50.0,50.0,65.0
 2022,Eastern Africa,AFE,Rwanda,RWA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,50.0,70.0,60.0
@@ -3748,7 +3748,7 @@
 2022,Eastern Africa,AFE,Rwanda,RWA,Pollution,50.0,0.0,50.0,0.0,0.0,25.0,100.0,100.0,0.0,50.0,100.0,70.0,50.0
 2022,Eastern Africa,AFE,Rwanda,RWA,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,50.0,100.0,50.0,50.0,50.0,60.0,60.0
 2022,Eastern Africa,AFE,Rwanda,RWA,Environment subscore,70.0,50.0,50.0,12.5,25.0,45.2,70.0,100.0,40.0,50.0,70.0,66.0,56.5
-2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,All categories,55.2,42.9,38.8,0.0,0.0,39.3,58.3,76.7,42.1,36.0,70.0,56.6,49.5
+2022,Eastern Africa,AFE,Rwanda,RWA,All categories,81.0,61.9,62.6,24.1,27.7,55.7,59.8,94.3,28.1,51.7,75.5,61.9,59.0
 2022,Pacific Islands,OPI,Samoa,WSM,Population & vital statistics,100.0,50.0,50.0,50.0,50.0,60.0,50.0,100.0,0.0,50.0,0.0,40.0,50.0
 2022,Pacific Islands,OPI,Samoa,WSM,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Pacific Islands,OPI,Samoa,WSM,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
@@ -3774,7 +3774,7 @@
 2022,Pacific Islands,OPI,Samoa,WSM,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Pacific Islands,OPI,Samoa,WSM,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
 2022,Pacific Islands,OPI,Samoa,WSM,Environment subscore,60.0,50.0,40.0,12.5,25.0,40.5,60.0,100.0,30.0,50.0,0.0,48.0,44.6
-2022,Western Africa,AFW,Niger,NER,All categories,64.8,40.0,38.3,26.2,6.9,39.1,4.0,93.3,17.4,46.7,0.0,32.3,35.4
+2022,Pacific Islands,OPI,Samoa,WSM,All categories,72.1,57.1,48.8,9.3,18.8,45.5,31.2,95.2,22.4,46.0,0.0,39.0,42.0
 2022,Southern Europe,EUZ,San Marino,SMR,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,50.0,100.0,50.0,50.0,0.0,50.0,66.7
 2022,Southern Europe,EUZ,San Marino,SMR,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,0.0,30.0,33.3
 2022,Southern Europe,EUZ,San Marino,SMR,Education outcomes,50.0,0.0,50.0,50.0,0.0,37.5,0.0,100.0,0.0,50.0,0.0,30.0,33.3
@@ -3800,7 +3800,7 @@
 2022,Southern Europe,EUZ,San Marino,SMR,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,San Marino,SMR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Europe,EUZ,San Marino,SMR,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,0.0,40.0,10.0,20.0,0.0,14.0,15.5
-2022,South-Eastern Asia,ASE,Timor-Leste,TLS,All categories,64.5,38.1,32.4,28.3,17.3,38.8,21.2,80.0,21.4,42.4,0.0,33.0,35.7
+2022,Southern Europe,EUZ,San Marino,SMR,All categories,44.5,42.9,42.1,6.9,0.0,38.2,30.2,73.3,23.3,33.6,0.0,32.1,34.6
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,0.0,100.0,50.0,50.0,0.0,40.0,61.1
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Education facilities,100.0,50.0,50.0,50.0,0.0,62.5,0.0,100.0,0.0,50.0,0.0,30.0,44.4
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Education outcomes,50.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,38.9
@@ -3826,7 +3826,7 @@
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Built environment,100.0,50.0,50.0,50.0,0.0,62.5,0.0,100.0,0.0,50.0,0.0,30.0,44.4
 2022,Middle Africa,AFM,Sao Tome and Principe,STP,Environment subscore,40.0,30.0,30.0,25.0,0.0,32.4,0.0,60.0,20.0,30.0,0.0,22.0,26.2
-2022,Southern Africa,AFZ,Lesotho,LSO,All categories,52.6,45.2,32.9,36.7,6.9,38.2,31.7,80.5,29.3,44.3,4.8,38.1,38.1
+2022,Middle Africa,AFM,Sao Tome and Principe,STP,All categories,65.5,45.7,43.1,36.1,0.0,49.3,4.8,78.6,27.9,52.1,0.0,32.7,39.5
 2022,Western Asia,ASW,Saudi Arabia,SAU,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,50.0,70.0,55.0
 2022,Western Asia,ASW,Saudi Arabia,SAU,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,50.0,50.0,50.0,60.0,45.0
 2022,Western Asia,ASW,Saudi Arabia,SAU,Education outcomes,100.0,100.0,100.0,0.0,0.0,60.0,50.0,100.0,50.0,50.0,50.0,60.0,60.0
@@ -3852,7 +3852,7 @@
 2022,Western Asia,ASW,Saudi Arabia,SAU,Pollution,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,50.0,50.0,50.0,70.0,61.1
 2022,Western Asia,ASW,Saudi Arabia,SAU,Built environment,100.0,100.0,50.0,50.0,0.0,60.0,100.0,100.0,50.0,50.0,50.0,70.0,65.0
 2022,Western Asia,ASW,Saudi Arabia,SAU,Environment subscore,70.0,70.0,60.0,25.0,0.0,52.4,90.0,100.0,40.0,50.0,50.0,66.0,59.8
-2022,Southern Europe,EUZ,San Marino,SMR,All categories,44.5,42.9,42.1,6.9,0.0,38.2,30.2,73.3,23.3,33.6,0.0,32.1,34.6
+2022,Western Asia,ASW,Saudi Arabia,SAU,All categories,72.9,69.5,64.5,22.9,0.0,52.7,91.7,100.0,30.7,50.0,50.0,64.5,59.0
 2022,Western Africa,AFW,Senegal,SEN,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,50.0,60.0,65.0
 2022,Western Africa,AFW,Senegal,SEN,Education facilities,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Western Africa,AFW,Senegal,SEN,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,100.0,50.0,45.0
@@ -3878,7 +3878,7 @@
 2022,Western Africa,AFW,Senegal,SEN,Pollution,50.0,0.0,50.0,0.0,0.0,25.0,0.0,100.0,0.0,50.0,100.0,50.0,38.9
 2022,Western Africa,AFW,Senegal,SEN,Built environment,100.0,100.0,100.0,0.0,0.0,60.0,0.0,100.0,0.0,50.0,100.0,50.0,55.0
 2022,Western Africa,AFW,Senegal,SEN,Environment subscore,50.0,30.0,40.0,0.0,0.0,28.6,0.0,60.0,0.0,30.0,60.0,30.0,29.3
-2022,Southern Europe,EUZ,Montenegro,MNE,All categories,63.3,49.3,46.0,2.1,3.5,37.9,62.4,79.0,29.3,51.7,75.7,59.6,49.6
+2022,Western Africa,AFW,Senegal,SEN,All categories,76.0,61.0,61.9,15.7,0.0,49.4,13.6,86.7,15.5,43.3,70.7,46.0,47.6
 2022,Southern Europe,EUZ,Serbia,SRB,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,50.0,80.0,80.0
 2022,Southern Europe,EUZ,Serbia,SRB,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,100.0,100.0,50.0,90.0,70.0
 2022,Southern Europe,EUZ,Serbia,SRB,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,50.0,80.0,65.0
@@ -3904,7 +3904,7 @@
 2022,Southern Europe,EUZ,Serbia,SRB,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,50.0,80.0,77.8
 2022,Southern Europe,EUZ,Serbia,SRB,Built environment,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,50.0,100.0,50.0,70.0,50.0
 2022,Southern Europe,EUZ,Serbia,SRB,Environment subscore,90.0,80.0,80.0,25.0,25.0,66.7,90.0,100.0,50.0,90.0,50.0,76.0,71.7
-2022,Northern Africa,AFN,Algeria,DZA,All categories,56.0,44.5,52.6,10.5,0.0,37.8,2.4,71.0,7.4,36.7,0.0,23.5,30.1
+2022,Southern Europe,EUZ,Serbia,SRB,All categories,86.0,76.9,75.2,24.1,27.7,63.3,91.7,95.2,58.1,75.5,52.4,74.6,69.4
 2022,Eastern Africa,AFE,Seychelles,SYC,Population & vital statistics,100.0,50.0,50.0,0.0,0.0,50.0,0.0,100.0,50.0,100.0,0.0,50.0,50.0
 2022,Eastern Africa,AFE,Seychelles,SYC,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,0.0,30.0,33.3
 2022,Eastern Africa,AFE,Seychelles,SYC,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,0.0,30.0,33.3
@@ -3930,33 +3930,33 @@
 2022,Eastern Africa,AFE,Seychelles,SYC,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Seychelles,SYC,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,50.0,0.0,40.0,22.2
 2022,Eastern Africa,AFE,Seychelles,SYC,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,0.0,60.0,10.0,30.0,0.0,20.0,19.0
-2022,Central America,AMM,Honduras,HND,All categories,55.7,35.2,41.7,27.4,13.9,37.7,75.2,29.5,33.6,43.3,0.0,36.3,37.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Population & vital statistics,100.0,0.0,0.0,50.0,50.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Education facilities,100.0,100.0,100.0,50.0,100.0,90.0,0.0,100.0,0.0,50.0,0.0,30.0,60.0
+2022,Eastern Africa,AFE,Seychelles,SYC,All categories,56.7,51.0,51.7,0.0,0.0,45.8,16.7,80.0,17.9,41.7,7.1,32.7,38.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Population & vital statistics,100.0,0.0,0.0,50.0,50.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Education facilities,100.0,100.0,100.0,50.0,100.0,90.0,0.0,100.0,0.0,50.0,50.0,40.0,65.0
 2022,Western Africa,AFW,Sierra Leone,SLE,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,50.0,40.0,60.0
 2022,Western Africa,AFW,Sierra Leone,SLE,Health facilities,100.0,50.0,0.0,0.0,100.0,50.0,0.0,100.0,50.0,50.0,50.0,50.0,50.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Health outcomes,100.0,100.0,100.0,100.0,50.0,90.0,0.0,100.0,0.0,50.0,50.0,40.0,65.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Reproductive health,100.0,100.0,50.0,50.0,50.0,70.0,0.0,100.0,0.0,50.0,50.0,40.0,55.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Food security & nutrition,100.0,50.0,0.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,50.0,40.0,38.9
+2022,Western Africa,AFW,Sierra Leone,SLE,Health outcomes,100.0,100.0,100.0,100.0,50.0,90.0,0.0,100.0,0.0,50.0,100.0,50.0,70.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Reproductive health,100.0,100.0,50.0,50.0,50.0,70.0,0.0,100.0,0.0,50.0,100.0,50.0,60.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Food security & nutrition,100.0,50.0,0.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
 2022,Western Africa,AFW,Sierra Leone,SLE,Gender statistics,100.0,50.0,0.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Crime & justice,50.0,50.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,50.0,50.0,40.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Poverty & income,50.0,50.0,0.0,50.0,50.0,40.0,0.0,100.0,0.0,50.0,50.0,40.0,40.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Social Statistics subscores,90.0,65.0,35.0,45.0,55.6,58.2,5.0,100.0,20.0,50.0,45.0,44.0,51.0
-2022,Western Africa,AFW,Sierra Leone,SLE,National accounts,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,50.0,40.0,38.9
-2022,Western Africa,AFW,Sierra Leone,SLE,Labor,100.0,50.0,50.0,50.0,50.0,60.0,0.0,100.0,50.0,50.0,50.0,50.0,55.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Price indexes,100.0,100.0,100.0,0.0,0.0,75.0,0.0,100.0,0.0,50.0,50.0,40.0,55.6
-2022,Western Africa,AFW,Sierra Leone,SLE,Government finance,100.0,100.0,100.0,0.0,0.0,75.0,0.0,100.0,0.0,50.0,50.0,40.0,55.6
+2022,Western Africa,AFW,Sierra Leone,SLE,Crime & justice,50.0,50.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Poverty & income,50.0,50.0,0.0,50.0,50.0,40.0,0.0,100.0,0.0,50.0,100.0,50.0,45.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Social Statistics subscores,90.0,65.0,35.0,45.0,55.6,58.2,5.0,100.0,20.0,50.0,80.0,51.0,54.5
+2022,Western Africa,AFW,Sierra Leone,SLE,National accounts,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
+2022,Western Africa,AFW,Sierra Leone,SLE,Labor,100.0,50.0,50.0,50.0,50.0,60.0,0.0,100.0,50.0,50.0,100.0,60.0,60.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Price indexes,100.0,100.0,100.0,0.0,0.0,75.0,0.0,100.0,0.0,50.0,100.0,50.0,61.1
+2022,Western Africa,AFW,Sierra Leone,SLE,Government finance,100.0,100.0,100.0,0.0,0.0,75.0,0.0,100.0,0.0,50.0,100.0,50.0,61.1
 2022,Western Africa,AFW,Sierra Leone,SLE,Money & banking,100.0,100.0,100.0,0.0,0.0,100.0,50.0,50.0,0.0,50.0,50.0,40.0,62.5
-2022,Western Africa,AFW,Sierra Leone,SLE,International trade,50.0,0.0,0.0,0.0,0.0,16.7,0.0,100.0,50.0,50.0,50.0,50.0,37.5
-2022,Western Africa,AFW,Sierra Leone,SLE,Balance of payments,100.0,100.0,100.0,0.0,0.0,100.0,50.0,100.0,0.0,50.0,50.0,50.0,68.8
-2022,Western Africa,AFW,Sierra Leone,SLE,Economic and Financial Statistics subscores,85.7,71.4,71.4,12.5,50.0,65.4,14.3,92.9,14.3,50.0,50.0,44.3,53.3
-2022,Western Africa,AFW,Sierra Leone,SLE,Agriculture & Land Use,50.0,0.0,50.0,50.0,50.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
+2022,Western Africa,AFW,Sierra Leone,SLE,International trade,50.0,0.0,0.0,0.0,0.0,16.7,0.0,100.0,50.0,50.0,100.0,60.0,43.8
+2022,Western Africa,AFW,Sierra Leone,SLE,Balance of payments,100.0,100.0,100.0,0.0,0.0,100.0,50.0,100.0,0.0,50.0,100.0,60.0,75.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Economic and Financial Statistics subscores,85.7,71.4,71.4,12.5,50.0,65.4,14.3,92.9,14.3,50.0,92.9,52.9,58.2
+2022,Western Africa,AFW,Sierra Leone,SLE,Agriculture & Land Use,50.0,0.0,50.0,50.0,50.0,40.0,0.0,100.0,50.0,50.0,100.0,60.0,50.0
 2022,Western Africa,AFW,Sierra Leone,SLE,Resource use,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,50.0,50.0,44.4
 2022,Western Africa,AFW,Sierra Leone,SLE,Energy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,Sierra Leone,SLE,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Built environment,100.0,50.0,0.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,50.0,50.0,50.0
-2022,Western Africa,AFW,Sierra Leone,SLE,Environment subscore,40.0,20.0,20.0,25.0,50.0,28.6,0.0,60.0,30.0,30.0,30.0,30.0,29.3
-2022,Eastern Africa,AFE,Ethiopia,ETH,All categories,58.8,33.3,33.3,28.0,23.8,37.2,51.2,86.7,49.0,31.0,0.0,43.6,40.7
+2022,Western Africa,AFW,Sierra Leone,SLE,Built environment,100.0,50.0,0.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
+2022,Western Africa,AFW,Sierra Leone,SLE,Environment subscore,40.0,20.0,20.0,25.0,50.0,28.6,0.0,60.0,30.0,30.0,50.0,34.0,31.5
+2022,Western Africa,AFW,Sierra Leone,SLE,All categories,71.9,52.1,42.1,30.4,53.5,50.6,6.4,84.3,21.4,43.3,74.3,46.0,48.1
 2022,South-Eastern Asia,ASE,Singapore,SGP,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,South-Eastern Asia,ASE,Singapore,SGP,Education facilities,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,South-Eastern Asia,ASE,Singapore,SGP,Education outcomes,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
@@ -3982,7 +3982,7 @@
 2022,South-Eastern Asia,ASE,Singapore,SGP,Pollution,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,South-Eastern Asia,ASE,Singapore,SGP,Built environment,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,South-Eastern Asia,ASE,Singapore,SGP,Environment subscore,90.0,80.0,90.0,0.0,0.0,76.5,100.0,100.0,100.0,100.0,100.0,100.0,90.5
-2022,Central America,AMM,Guatemala,GTM,All categories,54.5,36.2,37.9,28.3,13.9,36.9,51.9,66.0,22.4,39.5,0.0,36.0,36.4
+2022,South-Eastern Asia,ASE,Singapore,SGP,All categories,91.7,84.3,87.6,0.0,0.0,75.7,100.0,100.0,96.0,100.0,100.0,99.2,89.6
 2022,Eastern Europe,EUE,Slovakia,SVK,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,100.0,90.0,95.0
 2022,Eastern Europe,EUE,Slovakia,SVK,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,Eastern Europe,EUE,Slovakia,SVK,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -4008,7 +4008,7 @@
 2022,Eastern Europe,EUE,Slovakia,SVK,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,100.0,100.0,100.0,100.0,94.4
 2022,Eastern Europe,EUE,Slovakia,SVK,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Europe,EUE,Slovakia,SVK,Environment subscore,80.0,70.0,70.0,12.5,0.0,54.8,80.0,80.0,50.0,50.0,80.0,68.0,62.0
-2022,Western Asia,ASW,Iraq,IRQ,All categories,58.1,41.0,34.3,22.0,6.9,36.1,21.2,78.6,23.8,32.1,62.4,43.6,40.1
+2022,Eastern Europe,EUE,Slovakia,SVK,All categories,82.6,79.3,76.0,27.1,24.3,63.4,93.3,93.3,80.0,57.1,93.3,83.4,74.2
 2022,Southern Europe,EUZ,Slovenia,SVN,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,95.0
 2022,Southern Europe,EUZ,Slovenia,SVN,Education facilities,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,50.0,100.0,100.0,90.0,85.0
 2022,Southern Europe,EUZ,Slovenia,SVN,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
@@ -4034,7 +4034,7 @@
 2022,Southern Europe,EUZ,Slovenia,SVN,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Southern Europe,EUZ,Slovenia,SVN,Built environment,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
 2022,Southern Europe,EUZ,Slovenia,SVN,Environment subscore,90.0,90.0,90.0,25.0,25.0,71.4,100.0,100.0,80.0,100.0,100.0,96.0,84.8
-2022,Southern Africa,AFZ,Namibia,NAM,All categories,62.1,34.8,41.4,17.8,3.5,36.1,22.4,85.2,31.2,42.6,8.8,38.0,37.1
+2022,Southern Europe,EUZ,Slovenia,SVN,All categories,91.7,90.0,88.3,35.5,25.7,72.7,96.7,100.0,84.3,90.2,100.0,94.2,84.3
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,50.0,50.0,0.0,50.0,0.0,30.0,50.0
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,0.0,50.0,0.0,30.0,35.0
@@ -4060,7 +4060,7 @@
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Built environment,100.0,0.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,Pacific Islands,OPI,Solomon Islands,SLB,Environment subscore,30.0,10.0,0.0,12.5,0.0,11.9,0.0,40.0,10.0,20.0,20.0,18.0,15.2
-2022,Eastern Africa,AFE,Zambia,ZMB,All categories,48.6,40.2,34.5,27.1,11.9,35.2,26.4,69.0,17.4,32.9,10.0,31.1,33.0
+2022,Pacific Islands,OPI,Solomon Islands,SLB,All categories,52.1,29.0,25.7,16.9,3.5,28.5,11.4,68.6,20.5,38.3,41.9,36.1,32.6
 2022,Eastern Africa,AFE,Somalia,SOM,Population & vital statistics,50.0,50.0,0.0,0.0,0.0,20.0,50.0,100.0,50.0,50.0,50.0,60.0,40.0
 2022,Eastern Africa,AFE,Somalia,SOM,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,50.0,50.0,60.0,50.0
 2022,Eastern Africa,AFE,Somalia,SOM,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
@@ -4086,7 +4086,7 @@
 2022,Eastern Africa,AFE,Somalia,SOM,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Somalia,SOM,Built environment,100.0,50.0,0.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
 2022,Eastern Africa,AFE,Somalia,SOM,Environment subscore,40.0,30.0,0.0,0.0,0.0,16.7,0.0,60.0,30.0,30.0,60.0,36.0,27.2
-2022,Pacific Islands,OPI,Vanuatu,VUT,All categories,51.9,36.2,32.1,22.9,22.3,34.9,13.3,68.3,14.8,39.8,19.0,31.0,32.8
+2022,Eastern Africa,AFE,Somalia,SOM,All categories,46.7,37.6,12.9,4.2,0.0,23.5,21.0,70.5,40.0,38.6,47.9,43.6,34.3
 2022,Southern Africa,AFZ,South Africa,ZAF,Population & vital statistics,100.0,50.0,100.0,50.0,50.0,70.0,0.0,100.0,50.0,100.0,100.0,70.0,70.0
 2022,Southern Africa,AFZ,South Africa,ZAF,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,50.0,100.0,60.0,30.0
 2022,Southern Africa,AFZ,South Africa,ZAF,Education outcomes,50.0,0.0,0.0,50.0,0.0,20.0,0.0,100.0,50.0,50.0,100.0,60.0,40.0
@@ -4112,7 +4112,7 @@
 2022,Southern Africa,AFZ,South Africa,ZAF,Pollution,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,0.0,100.0,50.0,33.3
 2022,Southern Africa,AFZ,South Africa,ZAF,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Southern Africa,AFZ,South Africa,ZAF,Environment subscore,80.0,40.0,30.0,25.0,0.0,40.5,40.0,100.0,30.0,50.0,100.0,64.0,53.3
-2022,Eastern Africa,AFE,Madagascar,MDG,All categories,53.8,38.1,35.7,19.9,6.9,34.3,9.8,75.2,24.5,48.8,0.0,31.7,32.9
+2022,Southern Africa,AFZ,South Africa,ZAF,All categories,70.5,47.1,45.5,30.1,6.9,44.5,34.8,87.1,28.8,51.7,87.1,57.9,51.7
 2022,Eastern Africa,AFE,South Sudan,SSD,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,0.0,70.0,35.0
 2022,Eastern Africa,AFE,South Sudan,SSD,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,South Sudan,SSD,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -4138,7 +4138,7 @@
 2022,Eastern Africa,AFE,South Sudan,SSD,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,South Sudan,SSD,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,South Sudan,SSD,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Caribbean,AMC,Trinidad and Tobago,TTO,All categories,51.0,44.3,46.0,4.2,3.5,34.2,50.7,66.7,20.5,28.6,66.7,46.6,40.9
+2022,Eastern Africa,AFE,South Sudan,SSD,All categories,7.4,2.4,2.4,0.0,3.5,3.2,18.1,18.1,18.1,9.0,3.3,13.3,8.7
 2022,Southern Europe,EUZ,Spain,ESP,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,50.0,90.0,95.0
 2022,Southern Europe,EUZ,Spain,ESP,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,50.0,80.0,60.0
 2022,Southern Europe,EUZ,Spain,ESP,Education outcomes,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,100.0,50.0,80.0,75.0
@@ -4164,7 +4164,7 @@
 2022,Southern Europe,EUZ,Spain,ESP,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,50.0,90.0,83.3
 2022,Southern Europe,EUZ,Spain,ESP,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.0
 2022,Southern Europe,EUZ,Spain,ESP,Environment subscore,100.0,80.0,80.0,50.0,0.0,71.4,70.0,100.0,60.0,60.0,50.0,68.0,69.6
-2022,Caribbean,AMC,Aruba,ABW,All categories,48.6,45.2,48.6,2.1,3.5,34.1,26.2,67.6,16.9,43.1,51.0,41.0,37.8
+2022,Southern Europe,EUZ,Spain,ESP,All categories,93.3,83.3,83.3,49.1,22.3,72.5,86.7,100.0,60.7,73.6,54.8,75.1,73.9
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Population & vital statistics,100.0,50.0,100.0,50.0,50.0,70.0,50.0,100.0,50.0,50.0,0.0,50.0,60.0
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Education facilities,50.0,50.0,50.0,0.0,50.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Education outcomes,50.0,50.0,50.0,0.0,50.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
@@ -4190,7 +4190,7 @@
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Built environment,100.0,0.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,Southern Asia,ASZ,Sri Lanka,LKA,Environment subscore,60.0,40.0,50.0,12.5,50.0,42.9,20.0,80.0,40.0,40.0,10.0,38.0,40.2
-2022,Middle Africa,AFM,Equatorial Guinea,GNQ,All categories,48.8,40.7,39.0,12.7,13.9,34.0,3.3,76.7,10.7,52.9,0.0,28.7,31.2
+2022,Southern Asia,ASZ,Sri Lanka,LKA,All categories,80.0,57.6,66.7,12.7,55.0,56.4,46.2,91.0,42.6,47.6,5.0,46.5,51.0
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,50.0,100.0,100.0,0.0,50.0,100.0,70.0,61.1
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,0.0,100.0,40.0,22.2
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
@@ -4216,7 +4216,7 @@
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,St. Kitts and Nevis,KNA,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,40.0,40.0,10.0,20.0,40.0,30.0,25.0
-2022,South-Eastern Asia,ASE,Cambodia,KHM,All categories,53.3,34.5,42.6,14.8,3.5,33.7,44.3,77.1,44.3,38.6,0.0,40.9,37.5
+2022,Caribbean,AMC,St. Kitts and Nevis,KNA,All categories,37.1,27.6,30.0,3.5,0.0,27.7,60.0,66.7,26.7,34.8,66.7,51.0,41.4
 2022,Caribbean,AMC,St. Lucia,LCA,Population & vital statistics,100.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,66.7
 2022,Caribbean,AMC,St. Lucia,LCA,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,100.0,60.0,50.0
 2022,Caribbean,AMC,St. Lucia,LCA,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
@@ -4242,7 +4242,7 @@
 2022,Caribbean,AMC,St. Lucia,LCA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,St. Lucia,LCA,Built environment,100.0,0.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,50.0,100.0,60.0,44.4
 2022,Caribbean,AMC,St. Lucia,LCA,Environment subscore,40.0,20.0,20.0,0.0,0.0,23.5,30.0,60.0,30.0,30.0,60.0,42.0,34.5
-2022,Caribbean,AMC,The Bahamas,BHS,All categories,60.2,35.2,40.2,4.2,6.9,33.3,0.0,83.3,31.2,50.7,0.0,33.0,33.2
+2022,Caribbean,AMC,St. Lucia,LCA,All categories,61.9,41.4,46.2,6.9,0.0,43.9,55.7,83.3,28.6,43.3,83.3,58.9,52.7
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Population & vital statistics,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,100.0,80.0,77.8
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Education outcomes,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,100.0,60.0,50.0
@@ -4268,7 +4268,7 @@
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Built environment,100.0,0.0,0.0,0.0,0.0,25.0,100.0,100.0,100.0,50.0,0.0,70.0,50.0
 2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,Environment subscore,40.0,20.0,20.0,0.0,0.0,23.5,30.0,60.0,20.0,30.0,40.0,36.0,31.0
-2022,Eastern Africa,AFE,Zimbabwe,ZWE,All categories,52.9,43.1,33.3,4.2,6.9,31.8,63.6,83.3,45.0,46.0,17.9,51.1,42.2
+2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,All categories,55.2,42.9,38.8,0.0,0.0,39.3,58.3,76.7,42.1,36.0,70.0,56.6,49.5
 2022,South America,AMZ,Suriname,SUR,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,100.0,60.0,65.0
 2022,South America,AMZ,Suriname,SUR,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,50.0,100.0,80.0,75.0
 2022,South America,AMZ,Suriname,SUR,Education outcomes,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,100.0,60.0,65.0
@@ -4294,7 +4294,7 @@
 2022,South America,AMZ,Suriname,SUR,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,100.0,60.0,50.0
 2022,South America,AMZ,Suriname,SUR,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,60.0
 2022,South America,AMZ,Suriname,SUR,Environment subscore,80.0,70.0,70.0,37.5,0.0,59.5,40.0,100.0,10.0,60.0,100.0,62.0,60.9
-2022,Pacific Islands,OPI,Kiribati,KIR,All categories,41.4,33.1,24.0,22.3,0.0,31.4,24.0,57.1,23.6,38.3,6.7,30.0,30.5
+2022,South America,AMZ,Suriname,SUR,All categories,78.8,65.7,68.1,25.3,0.0,54.5,41.9,91.9,24.5,51.7,91.9,60.4,57.7
 2022,Northern Europe,EUN,Sweden,SWE,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Northern Europe,EUN,Sweden,SWE,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,50.0,0.0,50.0,50.0
 2022,Northern Europe,EUN,Sweden,SWE,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,50.0,0.0,50.0,50.0
@@ -4320,7 +4320,7 @@
 2022,Northern Europe,EUN,Sweden,SWE,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Northern Europe,EUN,Sweden,SWE,Built environment,100.0,50.0,50.0,50.0,50.0,60.0,100.0,100.0,100.0,100.0,100.0,100.0,80.0
 2022,Northern Europe,EUN,Sweden,SWE,Environment subscore,100.0,80.0,80.0,37.5,50.0,73.8,80.0,100.0,80.0,90.0,90.0,88.0,81.5
-2022,Caribbean,AMC,Antigua and Barbuda,ATG,All categories,37.9,34.5,31.4,5.0,0.0,30.5,25.7,50.0,10.7,29.8,50.0,33.2,32.1
+2022,Northern Europe,EUN,Sweden,SWE,All categories,90.0,83.3,81.7,35.5,41.6,71.0,90.0,96.7,81.7,85.0,86.7,88.0,80.1
 2022,Western Europe,EUW,Switzerland,CHE,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,100.0,100.0,100.0,50.0,100.0,90.0,85.0
 2022,Western Europe,EUW,Switzerland,CHE,Education facilities,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
 2022,Western Europe,EUW,Switzerland,CHE,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,100.0,50.0,100.0,90.0,65.0
@@ -4346,7 +4346,7 @@
 2022,Western Europe,EUW,Switzerland,CHE,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,100.0,100.0,100.0,100.0,88.9
 2022,Western Europe,EUW,Switzerland,CHE,Built environment,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
 2022,Western Europe,EUW,Switzerland,CHE,Environment subscore,90.0,90.0,90.0,37.5,0.0,71.4,100.0,100.0,70.0,60.0,100.0,86.0,79.3
-2022,Eastern Africa,AFE,Djibouti,DJI,All categories,45.5,36.4,34.0,14.8,0.0,29.9,9.8,76.7,17.1,38.3,0.0,28.4,29.1
+2022,Western Europe,EUW,Switzerland,CHE,All categories,85.2,83.6,81.9,36.7,6.9,66.3,95.0,100.0,64.8,64.5,98.3,84.5,76.1
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0,50.0,0.0,30.0,15.0
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0,50.0,0.0,30.0,15.0
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,50.0,50.0,0.0,40.0,40.0
@@ -4372,7 +4372,7 @@
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Syrian Arab Republic,SYR,Environment subscore,30.0,30.0,30.0,12.5,0.0,23.8,20.0,20.0,0.0,20.0,0.0,12.0,17.4
-2022,Western Africa,AFW,Liberia,LBR,All categories,52.4,26.4,35.0,15.7,0.0,29.5,56.2,81.9,44.0,52.6,0.0,47.0,38.9
+2022,Western Asia,ASW,Syrian Arab Republic,SYR,All categories,30.2,30.2,28.6,16.6,0.0,23.9,26.2,32.9,7.4,29.5,0.0,19.2,21.4
 2022,Eastern Asia,ASF,Taiwan,TWN,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,50.0,100.0,100.0,90.0,85.0
 2022,Eastern Asia,ASF,Taiwan,TWN,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,50.0,50.0,100.0,80.0,75.0
 2022,Eastern Asia,ASF,Taiwan,TWN,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -4398,7 +4398,7 @@
 2022,Eastern Asia,ASF,Taiwan,TWN,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,100.0,100.0,50.0,50.0,100.0,80.0,72.2
 2022,Eastern Asia,ASF,Taiwan,TWN,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,0.0,100.0,50.0,25.0
 2022,Eastern Asia,ASF,Taiwan,TWN,Environment subscore,70.0,60.0,70.0,25.0,0.0,52.4,80.0,90.0,50.0,40.0,90.0,70.0,62.0
-2022,Western Asia,ASW,Lebanon,LBN,All categories,51.9,33.8,18.3,22.0,6.9,29.2,63.3,50.2,26.7,33.3,9.5,36.6,33.2
+2022,Eastern Asia,ASF,Taiwan,TWN,All categories,74.3,71.0,74.3,29.5,0.0,56.9,86.7,93.3,50.7,46.7,86.7,72.8,65.5
 2022,Central Asia,ASC,Tajikistan,TJK,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,40.0
 2022,Central Asia,ASC,Tajikistan,TJK,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,0.0,50.0,0.0,30.0,35.0
 2022,Central Asia,ASC,Tajikistan,TJK,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,50.0,50.0,0.0,50.0,0.0,30.0,35.0
@@ -4424,7 +4424,7 @@
 2022,Central Asia,ASC,Tajikistan,TJK,Pollution,100.0,50.0,100.0,0.0,0.0,62.5,0.0,100.0,50.0,50.0,0.0,40.0,50.0
 2022,Central Asia,ASC,Tajikistan,TJK,Built environment,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Central Asia,ASC,Tajikistan,TJK,Environment subscore,80.0,50.0,50.0,0.0,0.0,42.9,30.0,90.0,30.0,40.0,0.0,38.0,40.2
-2022,Pacific Islands,OPI,Solomon Islands,SLB,All categories,52.1,29.0,25.7,16.9,3.5,28.5,11.4,68.6,20.5,38.3,41.9,36.1,32.6
+2022,Central Asia,ASC,Tajikistan,TJK,All categories,80.2,56.4,58.8,8.4,6.9,48.1,47.9,66.0,29.3,44.3,0.0,37.5,42.4
 2022,Eastern Africa,AFE,Tanzania,TZA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Eastern Africa,AFE,Tanzania,TZA,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,0.0,50.0,50.0,40.0,40.0
 2022,Eastern Africa,AFE,Tanzania,TZA,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
@@ -4450,7 +4450,7 @@
 2022,Eastern Africa,AFE,Tanzania,TZA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Tanzania,TZA,Built environment,100.0,50.0,0.0,100.0,0.0,50.0,0.0,100.0,50.0,50.0,100.0,60.0,55.0
 2022,Eastern Africa,AFE,Tanzania,TZA,Environment subscore,70.0,30.0,30.0,25.0,0.0,35.7,20.0,80.0,40.0,40.0,80.0,52.0,44.6
-2022,Pacific Islands,OPI,Marshall Islands,MHL,All categories,45.7,26.9,21.9,6.9,0.0,28.1,0.0,63.8,29.5,31.9,0.0,25.0,26.3
+2022,Eastern Africa,AFE,Tanzania,TZA,All categories,78.6,48.8,47.9,27.4,6.9,46.9,30.0,93.3,45.7,53.8,87.6,62.1,55.1
 2022,South-Eastern Asia,ASE,Thailand,THA,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
 2022,South-Eastern Asia,ASE,Thailand,THA,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,50.0,50.0,100.0,70.0,50.0
 2022,South-Eastern Asia,ASE,Thailand,THA,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,50.0,100.0,60.0,45.0
@@ -4476,7 +4476,7 @@
 2022,South-Eastern Asia,ASE,Thailand,THA,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
 2022,South-Eastern Asia,ASE,Thailand,THA,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,0.0,100.0,0.0,50.0,100.0,50.0,45.0
 2022,South-Eastern Asia,ASE,Thailand,THA,Environment subscore,80.0,70.0,70.0,25.0,0.0,57.1,40.0,100.0,20.0,50.0,100.0,62.0,59.8
-2022,Caribbean,AMC,St. Kitts and Nevis,KNA,All categories,37.1,27.6,30.0,3.5,0.0,27.7,60.0,66.7,26.7,34.8,66.7,51.0,41.4
+2022,South-Eastern Asia,ASE,Thailand,THA,All categories,78.6,67.9,70.2,12.7,3.5,53.5,41.7,100.0,27.9,50.0,100.0,63.9,59.1
 2022,Caribbean,AMC,The Bahamas,BHS,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,50.0,100.0,0.0,50.0,40.0
 2022,Caribbean,AMC,The Bahamas,BHS,Education facilities,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Caribbean,AMC,The Bahamas,BHS,Education outcomes,50.0,0.0,0.0,0.0,0.0,10.0,0.0,100.0,50.0,50.0,0.0,40.0,25.0
@@ -4502,7 +4502,7 @@
 2022,Caribbean,AMC,The Bahamas,BHS,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,The Bahamas,BHS,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,Caribbean,AMC,The Bahamas,BHS,Environment subscore,40.0,0.0,20.0,0.0,0.0,14.3,0.0,60.0,30.0,40.0,0.0,26.0,20.7
-2022,South America,AMZ,Guyana,GUY,All categories,45.2,36.9,34.5,2.1,0.0,27.7,24.3,63.3,22.9,31.7,49.0,38.2,33.4
+2022,Caribbean,AMC,The Bahamas,BHS,All categories,60.2,35.2,40.2,4.2,6.9,33.3,0.0,83.3,31.2,50.7,0.0,33.0,33.2
 2022,Western Africa,AFW,The Gambia,GMB,Population & vital statistics,100.0,50.0,50.0,50.0,50.0,60.0,50.0,100.0,0.0,50.0,50.0,50.0,55.0
 2022,Western Africa,AFW,The Gambia,GMB,Education facilities,50.0,50.0,50.0,0.0,50.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,Western Africa,AFW,The Gambia,GMB,Education outcomes,50.0,50.0,50.0,0.0,50.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
@@ -4528,7 +4528,7 @@
 2022,Western Africa,AFW,The Gambia,GMB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Africa,AFW,The Gambia,GMB,Built environment,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,0.0,40.0,60.0
 2022,Western Africa,AFW,The Gambia,GMB,Environment subscore,40.0,20.0,40.0,12.5,25.0,28.6,50.0,60.0,10.0,30.0,0.0,30.0,29.3
-2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,All categories,64.5,2.4,31.7,22.0,3.5,27.5,12.9,83.3,42.4,41.7,6.4,37.3,32.8
+2022,Western Africa,AFW,The Gambia,GMB,All categories,61.9,48.6,55.2,19.9,25.7,45.4,59.5,83.3,34.8,48.8,6.4,46.6,46.0
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Population & vital statistics,100.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,45.0
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,50.0,50.0,0.0,50.0,50.0
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,45.0
@@ -4554,7 +4554,7 @@
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
 2022,South-Eastern Asia,ASE,Timor-Leste,TLS,Environment subscore,30.0,10.0,0.0,0.0,0.0,9.5,0.0,40.0,20.0,20.0,0.0,16.0,13.0
-2022,Western Europe,EUW,Monaco,MCO,All categories,32.6,30.2,30.2,0.0,0.0,26.7,0.0,69.0,12.4,34.5,69.0,37.0,32.8
+2022,South-Eastern Asia,ASE,Timor-Leste,TLS,All categories,64.5,38.1,32.4,28.3,17.3,38.8,21.2,80.0,21.4,42.4,0.0,33.0,35.7
 2022,Western Africa,AFW,Togo,TGO,Population & vital statistics,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,0.0,30.0,30.0
 2022,Western Africa,AFW,Togo,TGO,Education facilities,100.0,50.0,100.0,50.0,50.0,70.0,0.0,100.0,50.0,50.0,0.0,40.0,55.0
 2022,Western Africa,AFW,Togo,TGO,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,45.0
@@ -4580,7 +4580,7 @@
 2022,Western Africa,AFW,Togo,TGO,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,0.0,40.0,38.9
 2022,Western Africa,AFW,Togo,TGO,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,0.0,100.0,50.0,50.0,0.0,40.0,40.0
 2022,Western Africa,AFW,Togo,TGO,Environment subscore,60.0,50.0,50.0,12.5,0.0,40.5,10.0,100.0,50.0,50.0,0.0,42.0,41.3
-2022,Middle Africa,AFM,Gabon,GAB,All categories,49.8,31.0,21.9,6.3,6.9,26.0,28.1,76.7,49.5,38.3,4.8,39.5,33.3
+2022,Western Africa,AFW,Togo,TGO,All categories,67.9,47.4,46.7,24.1,10.4,43.5,12.1,100.0,42.6,50.0,0.0,41.0,42.1
 2022,Pacific Islands,OPI,Tonga,TON,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,50.0,50.0,100.0,50.0,50.0,50.0,60.0,55.6
 2022,Pacific Islands,OPI,Tonga,TON,Education facilities,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,0.0,0.0,20.0,27.8
 2022,Pacific Islands,OPI,Tonga,TON,Education outcomes,50.0,50.0,0.0,50.0,0.0,37.5,50.0,100.0,50.0,50.0,50.0,60.0,50.0
@@ -4606,7 +4606,7 @@
 2022,Pacific Islands,OPI,Tonga,TON,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tonga,TON,Built environment,100.0,100.0,0.0,100.0,0.0,75.0,50.0,100.0,0.0,50.0,50.0,50.0,61.1
 2022,Pacific Islands,OPI,Tonga,TON,Environment subscore,40.0,20.0,0.0,75.0,0.0,26.5,10.0,60.0,20.0,50.0,30.0,34.0,31.0
-2022,Middle Africa,AFM,Chad,TCD,All categories,44.0,31.0,16.9,21.1,3.5,25.8,14.3,60.5,30.7,32.6,0.0,27.6,26.8
+2022,Pacific Islands,OPI,Tonga,TON,All categories,63.6,50.2,33.8,43.1,0.0,48.4,13.8,86.7,27.1,52.4,23.1,40.6,43.8
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Population & vital statistics,100.0,50.0,100.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Education facilities,50.0,50.0,0.0,0.0,0.0,20.0,100.0,100.0,50.0,50.0,100.0,80.0,50.0
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Education outcomes,50.0,50.0,0.0,50.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -4632,7 +4632,7 @@
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Trinidad and Tobago,TTO,Environment subscore,20.0,10.0,20.0,0.0,0.0,11.9,40.0,40.0,20.0,20.0,40.0,32.0,22.8
-2022,Pacific Islands,OPI,Tuvalu,TUV,All categories,40.0,34.3,18.6,11.4,10.4,25.0,24.0,57.1,16.4,43.3,12.4,30.7,28.1
+2022,Caribbean,AMC,Trinidad and Tobago,TTO,All categories,51.0,44.3,46.0,4.2,3.5,34.2,50.7,66.7,20.5,28.6,66.7,46.6,40.9
 2022,Northern Africa,AFN,Tunisia,TUN,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,100.0,50.0,100.0,90.0,80.0
 2022,Northern Africa,AFN,Tunisia,TUN,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,100.0,50.0,100.0,90.0,60.0
 2022,Northern Africa,AFN,Tunisia,TUN,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -4658,7 +4658,7 @@
 2022,Northern Africa,AFN,Tunisia,TUN,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Africa,AFN,Tunisia,TUN,Built environment,50.0,50.0,50.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
 2022,Northern Africa,AFN,Tunisia,TUN,Environment subscore,60.0,40.0,60.0,12.5,0.0,40.5,60.0,80.0,70.0,40.0,70.0,64.0,53.3
-2022,Middle Africa,AFM,Central African Republic,CAF,All categories,45.0,31.0,19.3,12.7,3.5,25.0,2.4,67.1,22.9,36.9,0.0,25.9,25.5
+2022,Northern Africa,AFN,Tunisia,TUN,All categories,66.9,51.2,57.9,13.6,3.5,44.1,58.8,90.0,59.8,46.7,86.7,68.4,57.2
 2022,Western Asia,ASW,Turkey,TUR,Population & vital statistics,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,0.0,100.0,80.0,90.0
 2022,Western Asia,ASW,Turkey,TUR,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,0.0,50.0,100.0,100.0,70.0,50.0
 2022,Western Asia,ASW,Turkey,TUR,Education outcomes,100.0,50.0,50.0,0.0,0.0,40.0,100.0,0.0,50.0,50.0,100.0,60.0,50.0
@@ -4684,7 +4684,7 @@
 2022,Western Asia,ASW,Turkey,TUR,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,0.0,50.0,50.0,100.0,60.0,66.7
 2022,Western Asia,ASW,Turkey,TUR,Built environment,50.0,50.0,50.0,0.0,0.0,30.0,100.0,0.0,50.0,50.0,100.0,60.0,45.0
 2022,Western Asia,ASW,Turkey,TUR,Environment subscore,70.0,60.0,60.0,0.0,0.0,45.2,80.0,0.0,40.0,40.0,80.0,48.0,46.7
-2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,All categories,35.5,18.3,25.5,15.3,0.0,24.9,38.3,50.0,22.6,26.0,0.0,27.4,26.4
+2022,Western Asia,ASW,Turkey,TUR,All categories,85.0,75.0,75.0,8.4,13.9,58.1,93.3,16.2,48.3,60.2,83.8,60.4,59.3
 2022,Central Asia,ASC,Turkmenistan,TKM,Population & vital statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -4710,7 +4710,7 @@
 2022,Central Asia,ASC,Turkmenistan,TKM,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Western Asia,ASW,Syrian Arab Republic,SYR,All categories,30.2,30.2,28.6,16.6,0.0,23.9,26.2,32.9,7.4,29.5,0.0,19.2,21.4
+2022,Central Asia,ASC,Turkmenistan,TKM,All categories,2.4,2.4,0.0,0.0,0.0,1.1,0.0,4.8,2.4,0.0,0.0,1.4,1.3
 2022,Pacific Islands,OPI,Tuvalu,TUV,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,50.0,50.0,65.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Education outcomes,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,100.0,0.0,50.0,35.0
@@ -4736,7 +4736,7 @@
 2022,Pacific Islands,OPI,Tuvalu,TUV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Built environment,100.0,100.0,50.0,50.0,50.0,70.0,50.0,100.0,0.0,50.0,50.0,50.0,60.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Environment subscore,20.0,20.0,10.0,12.5,25.0,16.7,10.0,20.0,0.0,10.0,10.0,10.0,13.0
-2022,Caribbean,AMC,Dominica,DMA,All categories,33.3,19.3,26.7,6.9,0.0,23.7,14.5,57.1,22.1,28.6,51.4,34.8,30.2
+2022,Pacific Islands,OPI,Tuvalu,TUV,All categories,40.0,34.3,18.6,11.4,10.4,25.0,24.0,57.1,16.4,43.3,12.4,30.7,28.1
 2022,Eastern Africa,AFE,Uganda,UGA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,50.0,100.0,70.0,60.0
 2022,Eastern Africa,AFE,Uganda,UGA,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
 2022,Eastern Africa,AFE,Uganda,UGA,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
@@ -4762,7 +4762,7 @@
 2022,Eastern Africa,AFE,Uganda,UGA,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Uganda,UGA,Built environment,100.0,0.0,100.0,0.0,0.0,40.0,0.0,100.0,0.0,50.0,100.0,50.0,45.0
 2022,Eastern Africa,AFE,Uganda,UGA,Environment subscore,60.0,30.0,50.0,12.5,0.0,35.7,20.0,60.0,20.0,30.0,40.0,34.0,34.8
-2022,Eastern Africa,AFE,Somalia,SOM,All categories,46.7,37.6,12.9,4.2,0.0,23.5,21.0,70.5,40.0,38.6,47.9,43.6,34.3
+2022,Eastern Africa,AFE,Uganda,UGA,All categories,76.0,55.2,58.6,10.5,6.9,47.2,44.5,86.7,39.5,60.2,45.5,55.3,51.5
 2022,Eastern Europe,EUE,Ukraine,UKR,Population & vital statistics,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,100.0,50.0,100.0,90.0,85.0
 2022,Eastern Europe,EUE,Ukraine,UKR,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,100.0,60.0,50.0
 2022,Eastern Europe,EUE,Ukraine,UKR,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,0.0,50.0,100.0,60.0,45.0
@@ -4788,7 +4788,7 @@
 2022,Eastern Europe,EUE,Ukraine,UKR,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,50.0,50.0,50.0,100.0,70.0,77.8
 2022,Eastern Europe,EUE,Ukraine,UKR,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,0.0,50.0,100.0,50.0,50.0
 2022,Eastern Europe,EUE,Ukraine,UKR,Environment subscore,100.0,80.0,90.0,50.0,0.0,73.8,80.0,50.0,30.0,50.0,100.0,62.0,67.4
-2022,Caribbean,AMC,Anguilla,AIA,All categories,26.7,20.2,26.7,0.0,0.0,21.1,26.2,43.8,21.9,21.2,0.0,22.6,22.0
+2022,Eastern Europe,EUE,Ukraine,UKR,All categories,84.3,74.3,79.3,27.4,0.0,60.8,71.2,71.9,31.2,50.7,91.7,63.3,62.1
 2022,Western Asia,ASW,United Arab Emirates,ARE,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,100.0,100.0,100.0,50.0,100.0,90.0,80.0
 2022,Western Asia,ASW,United Arab Emirates,ARE,Education facilities,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,100.0,70.0,70.0
 2022,Western Asia,ASW,United Arab Emirates,ARE,Education outcomes,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,50.0,50.0,100.0,70.0,70.0
@@ -4814,7 +4814,7 @@
 2022,Western Asia,ASW,United Arab Emirates,ARE,Pollution,100.0,100.0,100.0,50.0,0.0,87.5,100.0,100.0,50.0,100.0,100.0,90.0,88.9
 2022,Western Asia,ASW,United Arab Emirates,ARE,Built environment,100.0,100.0,100.0,100.0,0.0,80.0,100.0,100.0,100.0,100.0,100.0,100.0,90.0
 2022,Western Asia,ASW,United Arab Emirates,ARE,Environment subscore,90.0,90.0,90.0,62.5,0.0,76.2,100.0,100.0,80.0,80.0,100.0,92.0,84.8
-2022,Pacific Islands,OPI,Papua New Guinea,PNG,All categories,35.2,24.5,10.5,23.8,0.0,20.8,24.3,55.7,25.5,32.6,0.0,27.6,24.5
+2022,Western Asia,ASW,United Arab Emirates,ARE,All categories,92.6,88.6,88.6,38.0,3.5,70.6,96.7,100.0,77.9,74.5,100.0,89.8,80.9
 2022,Northern Europe,EUN,United Kingdom,GBR,Population & vital statistics,100.0,50.0,50.0,100.0,100.0,80.0,100.0,50.0,50.0,100.0,100.0,80.0,80.0
 2022,Northern Europe,EUN,United Kingdom,GBR,Education facilities,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,0.0,50.0,100.0,70.0,65.0
 2022,Northern Europe,EUN,United Kingdom,GBR,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,50.0,100.0,80.0,55.0
@@ -4840,7 +4840,7 @@
 2022,Northern Europe,EUN,United Kingdom,GBR,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,100.0,90.0,83.3
 2022,Northern Europe,EUN,United Kingdom,GBR,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Northern Europe,EUN,United Kingdom,GBR,Environment subscore,80.0,70.0,70.0,0.0,0.0,52.4,80.0,60.0,40.0,70.0,80.0,66.0,59.8
-2022,Northern Africa,AFN,Libya,LBY,All categories,45.5,4.8,21.0,7.2,0.0,18.0,0.0,73.3,24.5,36.7,0.0,26.9,22.8
+2022,Northern Europe,EUN,United Kingdom,GBR,All categories,70.2,63.6,65.2,6.3,10.4,48.9,81.9,58.1,39.3,58.3,81.9,63.9,57.0
 2022,North America,AMN,United States,USA,Population & vital statistics,100.0,50.0,50.0,100.0,100.0,80.0,100.0,100.0,50.0,50.0,100.0,80.0,80.0
 2022,North America,AMN,United States,USA,Education facilities,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,50.0,50.0,100.0,80.0,70.0
 2022,North America,AMN,United States,USA,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,65.0
@@ -4866,7 +4866,7 @@
 2022,North America,AMN,United States,USA,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,100.0,50.0,80.0,61.1
 2022,North America,AMN,United States,USA,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,90.0,45.0
 2022,North America,AMN,United States,USA,Environment subscore,40.0,40.0,40.0,0.0,0.0,28.6,80.0,80.0,60.0,50.0,70.0,68.0,50.0
-2022,Caribbean,AMC,Barbados,BRB,All categories,26.2,23.8,23.8,0.0,0.0,17.3,31.0,33.3,14.3,16.7,33.3,25.7,21.8
+2022,North America,AMN,United States,USA,All categories,72.6,69.3,69.3,36.1,37.6,60.4,91.7,93.3,69.3,59.5,90.0,80.8,71.4
 2022,South America,AMZ,Uruguay,URY,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,50.0,50.0,50.0,100.0,70.0,55.0
 2022,South America,AMZ,Uruguay,URY,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,50.0,100.0,100.0,80.0,60.0
 2022,South America,AMZ,Uruguay,URY,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,0.0,100.0,100.0,80.0,60.0
@@ -4892,7 +4892,7 @@
 2022,South America,AMZ,Uruguay,URY,Pollution,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,100.0,80.0,77.8
 2022,South America,AMZ,Uruguay,URY,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,50.0,100.0,70.0,35.0
 2022,South America,AMZ,Uruguay,URY,Environment subscore,60.0,60.0,60.0,0.0,0.0,42.9,100.0,90.0,20.0,50.0,100.0,72.0,58.7
-2022,Western Africa,AFW,Cote d'Ivoire,CIV,All categories,43.6,4.8,14.8,4.2,3.5,15.9,6.4,65.7,13.1,30.5,0.0,23.1,19.8
+2022,South America,AMZ,Uruguay,URY,All categories,63.6,58.8,61.2,13.6,3.5,45.9,86.7,58.1,31.0,50.0,93.3,63.8,55.5
 2022,Central Asia,ASC,Uzbekistan,UZB,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,50.0,50.0,100.0,80.0,85.0
 2022,Central Asia,ASC,Uzbekistan,UZB,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,100.0,100.0,50.0,100.0,100.0,90.0,60.0
 2022,Central Asia,ASC,Uzbekistan,UZB,Education outcomes,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,100.0,80.0,60.0
@@ -4918,7 +4918,7 @@
 2022,Central Asia,ASC,Uzbekistan,UZB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Uzbekistan,UZB,Built environment,100.0,100.0,50.0,50.0,0.0,60.0,100.0,100.0,50.0,50.0,100.0,80.0,70.0
 2022,Central Asia,ASC,Uzbekistan,UZB,Environment subscore,60.0,60.0,30.0,37.5,0.0,42.9,80.0,80.0,40.0,40.0,80.0,64.0,54.3
-2022,Southern Africa,AFZ,Eswatini,SWZ,All categories,26.9,16.9,8.8,7.2,0.0,13.7,0.0,42.4,21.2,21.2,0.0,17.0,15.4
+2022,Central Asia,ASC,Uzbekistan,UZB,All categories,76.0,72.6,57.9,37.7,10.4,56.5,93.3,93.3,50.0,48.3,86.2,74.2,66.1
 2022,Pacific Islands,OPI,Vanuatu,VUT,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,50.0,50.0,0.0,50.0,50.0,40.0,45.0
 2022,Pacific Islands,OPI,Vanuatu,VUT,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Pacific Islands,OPI,Vanuatu,VUT,Education outcomes,50.0,0.0,50.0,50.0,0.0,30.0,50.0,100.0,50.0,50.0,0.0,50.0,40.0
@@ -4944,7 +4944,7 @@
 2022,Pacific Islands,OPI,Vanuatu,VUT,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Vanuatu,VUT,Built environment,100.0,100.0,50.0,50.0,50.0,70.0,50.0,100.0,0.0,50.0,50.0,50.0,60.0
 2022,Pacific Islands,OPI,Vanuatu,VUT,Environment subscore,30.0,20.0,10.0,25.0,50.0,23.8,30.0,40.0,10.0,20.0,10.0,22.0,22.8
-2022,Caribbean,AMC,Grenada,GRD,All categories,19.0,19.0,19.0,0.0,0.0,13.4,23.8,23.8,19.0,14.3,23.8,21.0,17.5
+2022,Pacific Islands,OPI,Vanuatu,VUT,All categories,51.9,36.2,32.1,22.9,22.3,34.9,13.3,68.3,14.8,39.8,19.0,31.0,32.8
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,0.0,40.0,40.0
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,100.0,50.0,0.0,70.0,60.0
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,100.0,50.0,0.0,70.0,35.0
@@ -4970,7 +4970,7 @@
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Pollution,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,100.0,0.0,0.0,60.0,50.0
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Built environment,100.0,50.0,50.0,50.0,0.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,South-Eastern Asia,ASE,Vietnam,VNM,Environment subscore,90.0,60.0,50.0,37.5,0.0,54.8,70.0,100.0,80.0,30.0,0.0,56.0,55.4
-2022,Pacific Islands,OPI,Nauru,NRU,All categories,20.5,0.0,4.8,0.0,3.5,6.3,0.0,34.3,15.5,14.8,0.0,12.9,9.9
+2022,South-Eastern Asia,ASE,Vietnam,VNM,All categories,72.9,57.1,56.2,30.4,6.9,50.0,77.6,96.7,76.2,39.3,0.0,58.0,54.3
 2022,Western Asia,ASW,Yemen,YEM,Population & vital statistics,100.0,50.0,100.0,50.0,0.0,60.0,100.0,50.0,50.0,50.0,0.0,50.0,55.0
 2022,Western Asia,ASW,Yemen,YEM,Education facilities,100.0,50.0,100.0,50.0,0.0,60.0,100.0,0.0,50.0,50.0,0.0,40.0,50.0
 2022,Western Asia,ASW,Yemen,YEM,Education outcomes,50.0,0.0,50.0,50.0,0.0,30.0,100.0,0.0,0.0,50.0,0.0,30.0,30.0
@@ -4996,7 +4996,7 @@
 2022,Western Asia,ASW,Yemen,YEM,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Western Asia,ASW,Yemen,YEM,Built environment,50.0,0.0,0.0,0.0,0.0,10.0,100.0,0.0,50.0,50.0,0.0,40.0,25.0
 2022,Western Asia,ASW,Yemen,YEM,Environment subscore,30.0,20.0,20.0,25.0,0.0,21.4,60.0,0.0,20.0,30.0,0.0,22.0,21.7
-2022,Caribbean,AMC,Haiti,HTI,All categories,4.8,4.8,4.8,0.0,0.0,3.3,0.0,12.9,2.4,4.8,0.0,4.0,3.7
+2022,Western Asia,ASW,Yemen,YEM,All categories,62.9,36.0,50.5,27.4,3.5,40.4,78.3,16.4,30.2,45.0,0.0,34.0,37.0
 2022,Eastern Africa,AFE,Zambia,ZMB,Population & vital statistics,100.0,100.0,50.0,50.0,50.0,70.0,50.0,100.0,50.0,50.0,0.0,50.0,60.0
 2022,Eastern Africa,AFE,Zambia,ZMB,Education facilities,50.0,0.0,50.0,50.0,0.0,30.0,100.0,100.0,100.0,50.0,0.0,70.0,50.0
 2022,Eastern Africa,AFE,Zambia,ZMB,Education outcomes,50.0,0.0,50.0,0.0,0.0,20.0,50.0,100.0,0.0,50.0,0.0,40.0,30.0
@@ -5022,7 +5022,7 @@
 2022,Eastern Africa,AFE,Zambia,ZMB,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Zambia,ZMB,Built environment,100.0,100.0,50.0,50.0,0.0,60.0,50.0,100.0,0.0,50.0,50.0,50.0,55.0
 2022,Eastern Africa,AFE,Zambia,ZMB,Environment subscore,40.0,40.0,30.0,25.0,0.0,31.0,30.0,60.0,20.0,30.0,20.0,32.0,31.5
-2022,Eastern Africa,AFE,South Sudan,SSD,All categories,7.4,2.4,2.4,0.0,3.5,3.2,18.1,18.1,18.1,9.0,3.3,13.3,8.7
+2022,Eastern Africa,AFE,Zambia,ZMB,All categories,48.6,40.2,34.5,27.1,11.9,35.2,26.4,69.0,17.4,32.9,10.0,31.1,33.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,50.0,0.0,60.0,55.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Education facilities,50.0,50.0,0.0,0.0,0.0,20.0,50.0,100.0,50.0,50.0,0.0,50.0,35.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
@@ -5048,5 +5048,5 @@
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Environment subscore,40.0,30.0,30.0,0.0,0.0,23.8,30.0,60.0,20.0,30.0,20.0,32.0,28.3
-2022,Central Asia,ASC,Turkmenistan,TKM,All categories,2.4,2.4,0.0,0.0,0.0,1.1,0.0,4.8,2.4,0.0,0.0,1.4,1.3
-5.1.2023 10:12,,,,,,,,,,,,,,,,,,
+2022,Eastern Africa,AFE,Zimbabwe,ZWE,All categories,52.9,43.1,33.3,4.2,6.9,31.8,63.6,83.3,45.0,46.0,17.9,51.1,42.2
+5.1.2023 15:12,,,,,,,,,,,,,,,,,,

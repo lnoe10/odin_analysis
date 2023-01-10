@@ -122,7 +122,13 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
               janitor::clean_names() %>% 
               select(country_code = iso_alpha3_code, ldc = least_developed_countries_ldc, lldc = land_locked_developing_countries_lldc, sids = small_island_developing_states_sids)) %>%
   # Make x and NA to yes and no for three UNSD country groupings
-  mutate(across(ldc:sids, ~case_when(.x == "x" ~ "yes", TRUE ~ "no")))
+  mutate(across(ldc:sids, ~case_when(.x == "x" ~ "yes", TRUE ~ "no")),
+  # Add small/large country designation
+         country_size_status = case_when(
+           country_code %in% c("AND", "AIA", "ATG", "ABW", "BHR", "BRB", "DMA", "GRD", "HKG", "KIR", "LIE", "MAC", "MDV", "MLT", "MHL", "FSM", "MCO", "NRU", 	"PLW", 
+                               "STP", "SMR", "SYC", "SGP", "KNA", "LCA", "VCT", "TON", "TUV") ~ "Small country",
+           TRUE ~ "Large country"
+         ))
   
 
 #### IMF Dissemination standards subscriber countries

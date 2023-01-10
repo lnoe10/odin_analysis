@@ -104,7 +104,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
       country_code == "HKG" ~ "Hong Kong SAR, China",
       country_code == "IRN" ~ "Iran, Islamic Rep.",
       country_code == "KOR" ~ "Korea, Rep.",
-      country_code == "MAC" ~ "Macao SAO, China",
+      country_code == "MAC" ~ "Macao SAR, China",
       country_code == "FSM" ~ "Micronesia, Fed. Sts.",
       TRUE ~ country
     )) %>%

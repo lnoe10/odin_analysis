@@ -132,7 +132,7 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   score = case_when(
     (element == "Second administrative level" & country_size_status == "Small country") ~ NA_real_,
     (element == "First administrative level" & country_size_status == "Small country" & data_categories %in% c("National accounts", "Price indexes", "Government finance", "Money & banking", 
-                                                                                                            "International trade", "Balance of payments", "Resource use", "Energy", "Pollution")) ~ NA_real_,
+                                                                                                            "International trade", "Balance of payments", "Resource use", "Energy", "Pollution", "Food security & nutrition")) ~ NA_real_,
     (element == "Second administrative level" & country_size_status == "Large country" & data_categories %in% c("National accounts", "Price indexes", "Government finance", "Money & banking", 
                                                                                                               "International trade", "Balance of payments", "Resource use", "Energy", "Pollution")) ~ NA_real_,
     (element == "First administrative level" & country_size_status == "Large country" & data_categories %in% c("Money & banking", "International trade", "Balance of payments", "Energy")) ~ NA_real_,

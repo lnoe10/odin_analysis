@@ -128,7 +128,16 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
            country_code %in% c("AND", "AIA", "ATG", "ABW", "BHR", "BRB", "DMA", "GRD", "HKG", "KIR", "LIE", "MAC", "MDV", "MLT", "MHL", "FSM", "MCO", "NRU", 	"PLW", 
                                "STP", "SMR", "SYC", "SGP", "KNA", "LCA", "VCT", "TON", "TUV") ~ "Small country",
            TRUE ~ "Large country"
-         ))
+         ),
+  score = case_when(
+    (element == "Second administrative level" & country_size_status == "Small country") ~ NA_real_,
+    (element == "First administrative level" & country_size_status == "Small country" & data_categories %in% c("National accounts", "Price indexes", "Government finance", "Money & banking", 
+                                                                                                            "International trade", "Balance of payments", "Resource use", "Energy", "Pollution")) ~ NA_real_,
+    (element == "Second administrative level" & country_size_status == "Large country" & data_categories %in% c("National accounts", "Price indexes", "Government finance", "Money & banking", 
+                                                                                                              "International trade", "Balance of payments", "Resource use", "Energy", "Pollution")) ~ NA_real_,
+    (element == "First administrative level" & country_size_status == "Large country" & data_categories %in% c("Money & banking", "International trade", "Balance of payments", "Energy")) ~ NA_real_,
+    TRUE ~ score
+  ))
   
 
 #### IMF Dissemination standards subscriber countries

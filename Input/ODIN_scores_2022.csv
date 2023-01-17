@@ -213,32 +213,32 @@
 2022,Western Asia,ASW,Armenia,ARM,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,50.0,100.0,50.0,50.0,0.0,50.0,45.0
 2022,Western Asia,ASW,Armenia,ARM,Environment subscore,100.0,80.0,80.0,12.5,0.0,64.3,80.0,100.0,70.0,60.0,0.0,62.0,63.0
 2022,Western Asia,ASW,Armenia,ARM,All categories,89.3,74.5,79.3,24.1,3.5,61.8,69.3,92.9,58.8,60.5,0.0,56.3,58.8
-2022,Caribbean,AMC,Aruba,ABW,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,70.0,50.0,100.0,0.0,50.0,100.0,60.0,65.0
-2022,Caribbean,AMC,Aruba,ABW,Education facilities,50.0,0.0,50.0,0.0,50.0,30.0,0.0,100.0,0.0,100.0,100.0,60.0,45.0
-2022,Caribbean,AMC,Aruba,ABW,Education outcomes,50.0,0.0,50.0,0.0,0.0,20.0,0.0,100.0,0.0,100.0,100.0,60.0,40.0
-2022,Caribbean,AMC,Aruba,ABW,Health facilities,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,0.0,50.0,100.0,60.0,45.0
-2022,Caribbean,AMC,Aruba,ABW,Health outcomes,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,0.0,50.0,100.0,60.0,45.0
-2022,Caribbean,AMC,Aruba,ABW,Reproductive health,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
+2022,Caribbean,AMC,Aruba,ABW,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,50.0,100.0,0.0,50.0,100.0,60.0,72.2
+2022,Caribbean,AMC,Aruba,ABW,Education facilities,50.0,0.0,50.0,0.0,0.0,25.0,0.0,100.0,0.0,100.0,100.0,60.0,44.4
+2022,Caribbean,AMC,Aruba,ABW,Education outcomes,50.0,0.0,50.0,0.0,0.0,25.0,0.0,100.0,0.0,100.0,100.0,60.0,44.4
+2022,Caribbean,AMC,Aruba,ABW,Health facilities,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,100.0,60.0,50.0
+2022,Caribbean,AMC,Aruba,ABW,Health outcomes,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,100.0,60.0,50.0
+2022,Caribbean,AMC,Aruba,ABW,Reproductive health,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,100.0,50.0,44.4
 2022,Caribbean,AMC,Aruba,ABW,Food security & nutrition,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Caribbean,AMC,Aruba,ABW,Gender statistics,50.0,50.0,50.0,0.0,0.0,30.0,50.0,100.0,50.0,50.0,100.0,70.0,50.0
+2022,Caribbean,AMC,Aruba,ABW,Gender statistics,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
 2022,Caribbean,AMC,Aruba,ABW,Crime & justice,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Aruba,ABW,Poverty & income,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Caribbean,AMC,Aruba,ABW,Social Statistics subscores,40.0,30.0,40.0,5.0,5.6,24.5,20.0,70.0,5.0,45.0,70.0,42.0,33.3
-2022,Caribbean,AMC,Aruba,ABW,National accounts,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,50.0,50.0,100.0,70.0,55.6
-2022,Caribbean,AMC,Aruba,ABW,Labor,100.0,100.0,100.0,0.0,0.0,60.0,100.0,100.0,0.0,50.0,100.0,70.0,65.0
-2022,Caribbean,AMC,Aruba,ABW,Price indexes,50.0,50.0,50.0,0.0,0.0,37.5,0.0,100.0,0.0,50.0,0.0,30.0,33.3
-2022,Caribbean,AMC,Aruba,ABW,Government finance,100.0,100.0,100.0,0.0,0.0,75.0,0.0,100.0,50.0,100.0,0.0,50.0,61.1
+2022,Caribbean,AMC,Aruba,ABW,Social Statistics subscores,40.0,30.0,40.0,5.6,0.0,29.5,20.0,70.0,5.0,45.0,70.0,42.0,36.5
+2022,Caribbean,AMC,Aruba,ABW,National accounts,50.0,50.0,50.0,0.0,0.0,50.0,50.0,100.0,50.0,50.0,100.0,70.0,62.5
+2022,Caribbean,AMC,Aruba,ABW,Labor,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,0.0,50.0,100.0,70.0,72.2
+2022,Caribbean,AMC,Aruba,ABW,Price indexes,50.0,50.0,50.0,0.0,0.0,50.0,0.0,100.0,0.0,50.0,0.0,30.0,37.5
+2022,Caribbean,AMC,Aruba,ABW,Government finance,100.0,100.0,100.0,0.0,0.0,100.0,0.0,100.0,50.0,100.0,0.0,50.0,68.8
 2022,Caribbean,AMC,Aruba,ABW,Money & banking,100.0,100.0,100.0,0.0,0.0,100.0,0.0,100.0,50.0,50.0,0.0,40.0,62.5
 2022,Caribbean,AMC,Aruba,ABW,International trade,100.0,100.0,100.0,0.0,0.0,100.0,50.0,50.0,50.0,50.0,100.0,60.0,75.0
 2022,Caribbean,AMC,Aruba,ABW,Balance of payments,100.0,100.0,100.0,0.0,0.0,100.0,0.0,100.0,50.0,100.0,0.0,50.0,68.8
-2022,Caribbean,AMC,Aruba,ABW,Economic and Financial Statistics subscores,85.7,85.7,85.7,0.0,0.0,69.2,28.6,92.9,35.7,64.3,42.9,52.9,59.8
+2022,Caribbean,AMC,Aruba,ABW,Economic and Financial Statistics subscores,85.7,85.7,85.7,0.0,0.0,81.8,28.6,92.9,35.7,64.3,42.9,52.9,64.0
 2022,Caribbean,AMC,Aruba,ABW,Agriculture & Land Use,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Caribbean,AMC,Aruba,ABW,Resource use,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,100.0,60.0,50.0
+2022,Caribbean,AMC,Aruba,ABW,Resource use,50.0,50.0,50.0,0.0,0.0,50.0,50.0,100.0,0.0,50.0,100.0,60.0,56.3
 2022,Caribbean,AMC,Aruba,ABW,Energy,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,68.8
 2022,Caribbean,AMC,Aruba,ABW,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Caribbean,AMC,Aruba,ABW,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Caribbean,AMC,Aruba,ABW,Environment subscore,20.0,20.0,20.0,0.0,0.0,14.3,30.0,40.0,10.0,20.0,40.0,28.0,21.7
-2022,Caribbean,AMC,Aruba,ABW,All categories,48.6,45.2,48.6,2.1,3.5,34.1,26.2,67.6,16.9,43.1,51.0,41.0,37.8
+2022,Caribbean,AMC,Aruba,ABW,Environment subscore,20.0,20.0,20.0,0.0,0.0,17.6,30.0,40.0,10.0,20.0,40.0,28.0,23.8
+2022,Caribbean,AMC,Aruba,ABW,All categories,48.6,45.2,48.6,3.5,0.0,41.4,26.2,67.6,16.9,43.1,51.0,41.0,41.1
 2022,"Australia and New Zealand
 ",OAZ,Australia,AUS,Population & vital statistics,100.0,100.0,100.0,100.0,50.0,90.0,100.0,100.0,100.0,100.0,100.0,100.0,95.0
 2022,"Australia and New Zealand
@@ -1862,21 +1862,21 @@
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Crime & justice,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,50.0,100.0,80.0,77.8
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Poverty & income,100.0,100.0,100.0,100.0,0.0,100.0,100.0,100.0,50.0,100.0,100.0,90.0,94.4
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Social Statistics subscores,80.0,75.0,75.0,27.8,0.0,65.4,100.0,100.0,45.0,60.0,100.0,81.0,74.2
-2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,National accounts,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,100.0,100.0,100.0,100.0,81.3
+2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,National accounts,100.0,50.0,50.0,0.0,0.0,66.7,100.0,100.0,100.0,100.0,100.0,100.0,87.5
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Labor,100.0,100.0,100.0,0.0,0.0,75.0,100.0,100.0,50.0,100.0,100.0,90.0,83.3
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Price indexes,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Government finance,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,50.0,100.0,90.0,93.8
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Money & banking,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,100.0,90.0,93.8
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,International trade,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Balance of payments,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
-2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Economic and Financial Statistics subscores,92.9,92.9,92.9,0.0,0.0,88.6,100.0,100.0,85.7,92.9,100.0,95.7,93.0
+2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Economic and Financial Statistics subscores,100.0,92.9,92.9,0.0,0.0,90.9,100.0,100.0,85.7,92.9,100.0,95.7,93.9
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Agriculture & Land Use,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Resource use,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,50.0,100.0,80.0,68.8
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Energy,100.0,100.0,100.0,0.0,0.0,100.0,50.0,100.0,50.0,50.0,100.0,70.0,81.3
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Pollution,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,50.0,50.0,100.0,80.0,87.5
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Built environment,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,50.0,50.0,100.0,80.0,61.1
 2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,Environment subscore,70.0,70.0,70.0,0.0,0.0,61.8,90.0,100.0,50.0,50.0,100.0,78.0,71.4
-2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,All categories,81.0,79.3,79.3,17.3,0.0,71.2,96.7,100.0,60.2,67.6,100.0,84.9,79.3
+2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,All categories,83.3,79.3,79.3,17.3,0.0,71.9,96.7,100.0,60.2,67.6,100.0,84.9,79.6
 2022,Eastern Europe,EUE,Hungary,HUN,Population & vital statistics,100.0,50.0,100.0,100.0,100.0,90.0,100.0,100.0,50.0,100.0,100.0,90.0,90.0
 2022,Eastern Europe,EUE,Hungary,HUN,Education facilities,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,100.0,100.0,90.0,65.0
 2022,Eastern Europe,EUE,Hungary,HUN,Education outcomes,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,50.0,100.0,100.0,90.0,70.0
@@ -3099,32 +3099,32 @@
 2022,Southern Africa,AFZ,Namibia,NAM,Built environment,100.0,0.0,0.0,50.0,0.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
 2022,Southern Africa,AFZ,Namibia,NAM,Environment subscore,50.0,20.0,30.0,25.0,0.0,28.6,0.0,80.0,20.0,40.0,0.0,28.0,28.3
 2022,Southern Africa,AFZ,Namibia,NAM,All categories,62.1,34.8,41.4,17.8,3.5,36.1,22.4,85.2,31.2,42.6,8.8,38.0,37.1
-2022,Pacific Islands,OPI,Nauru,NRU,Population & vital statistics,50.0,0.0,0.0,0.0,0.0,10.0,0.0,100.0,50.0,50.0,0.0,40.0,25.0
+2022,Pacific Islands,OPI,Nauru,NRU,Population & vital statistics,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,0.0,40.0,27.8
 2022,Pacific Islands,OPI,Nauru,NRU,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,15.0
+2022,Pacific Islands,OPI,Nauru,NRU,Education outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,50.0,0.0,30.0,16.7
 2022,Pacific Islands,OPI,Nauru,NRU,Health facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Health outcomes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Reproductive health,50.0,0.0,0.0,0.0,0.0,10.0,0.0,100.0,50.0,50.0,0.0,40.0,25.0
+2022,Pacific Islands,OPI,Nauru,NRU,Reproductive health,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,0.0,40.0,27.8
 2022,Pacific Islands,OPI,Nauru,NRU,Food security & nutrition,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Gender statistics,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Crime & justice,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Poverty & income,100.0,0.0,0.0,0.0,50.0,30.0,0.0,100.0,50.0,50.0,0.0,40.0,35.0
-2022,Pacific Islands,OPI,Nauru,NRU,Social Statistics subscores,20.0,0.0,0.0,0.0,5.6,5.1,0.0,40.0,15.0,20.0,0.0,15.0,10.1
-2022,Pacific Islands,OPI,Nauru,NRU,National accounts,50.0,0.0,50.0,0.0,0.0,25.0,0.0,100.0,50.0,0.0,0.0,30.0,27.8
+2022,Pacific Islands,OPI,Nauru,NRU,Poverty & income,100.0,0.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,50.0,0.0,40.0,33.3
+2022,Pacific Islands,OPI,Nauru,NRU,Social Statistics subscores,20.0,0.0,0.0,0.0,0.0,5.1,0.0,40.0,15.0,20.0,0.0,15.0,10.7
+2022,Pacific Islands,OPI,Nauru,NRU,National accounts,50.0,0.0,50.0,0.0,0.0,33.3,0.0,100.0,50.0,0.0,0.0,30.0,31.3
 2022,Pacific Islands,OPI,Nauru,NRU,Labor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Price indexes,50.0,0.0,0.0,0.0,0.0,12.5,0.0,100.0,50.0,50.0,0.0,40.0,27.8
+2022,Pacific Islands,OPI,Nauru,NRU,Price indexes,50.0,0.0,0.0,0.0,0.0,16.7,0.0,100.0,50.0,50.0,0.0,40.0,31.3
 2022,Pacific Islands,OPI,Nauru,NRU,Government finance,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Money & banking,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,International trade,50.0,0.0,50.0,0.0,0.0,33.3,0.0,100.0,50.0,50.0,0.0,40.0,37.5
 2022,Pacific Islands,OPI,Nauru,NRU,Balance of payments,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Economic and Financial Statistics subscores,21.4,0.0,14.3,0.0,0.0,9.6,0.0,42.9,21.4,14.3,0.0,15.7,13.1
+2022,Pacific Islands,OPI,Nauru,NRU,Economic and Financial Statistics subscores,21.4,0.0,14.3,0.0,0.0,11.4,0.0,42.9,21.4,14.3,0.0,15.7,14.0
 2022,Pacific Islands,OPI,Nauru,NRU,Agriculture & Land Use,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Resource use,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Energy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Nauru,NRU,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Nauru,NRU,Built environment,100.0,0.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,50.0,0.0,40.0,30.0
-2022,Pacific Islands,OPI,Nauru,NRU,Environment subscore,20.0,0.0,0.0,0.0,0.0,4.8,0.0,20.0,10.0,10.0,0.0,8.0,6.5
-2022,Pacific Islands,OPI,Nauru,NRU,All categories,20.5,0.0,4.8,0.0,3.5,6.3,0.0,34.3,15.5,14.8,0.0,12.9,9.9
+2022,Pacific Islands,OPI,Nauru,NRU,Built environment,100.0,0.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,50.0,0.0,40.0,33.3
+2022,Pacific Islands,OPI,Nauru,NRU,Environment subscore,20.0,0.0,0.0,0.0,0.0,5.9,0.0,20.0,10.0,10.0,0.0,8.0,7.1
+2022,Pacific Islands,OPI,Nauru,NRU,All categories,20.5,0.0,4.8,0.0,0.0,7.3,0.0,34.3,15.5,14.8,0.0,12.9,10.6
 2022,Southern Asia,ASZ,Nepal,NPL,Population & vital statistics,50.0,50.0,50.0,50.0,0.0,40.0,100.0,100.0,50.0,50.0,0.0,60.0,50.0
 2022,Southern Asia,ASZ,Nepal,NPL,Education facilities,50.0,50.0,50.0,50.0,50.0,50.0,0.0,100.0,50.0,50.0,0.0,40.0,45.0
 2022,Southern Asia,ASZ,Nepal,NPL,Education outcomes,100.0,100.0,100.0,50.0,50.0,80.0,0.0,100.0,0.0,50.0,0.0,30.0,55.0
@@ -4711,32 +4711,32 @@
 2022,Central Asia,ASC,Turkmenistan,TKM,Built environment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,Environment subscore,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Central Asia,ASC,Turkmenistan,TKM,All categories,2.4,2.4,0.0,0.0,0.0,1.1,0.0,4.8,2.4,0.0,0.0,1.4,1.3
-2022,Pacific Islands,OPI,Tuvalu,TUV,Population & vital statistics,100.0,100.0,100.0,50.0,50.0,80.0,50.0,100.0,0.0,50.0,50.0,50.0,65.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Population & vital statistics,100.0,100.0,100.0,50.0,0.0,87.5,50.0,100.0,0.0,50.0,50.0,50.0,66.7
 2022,Pacific Islands,OPI,Tuvalu,TUV,Education facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Education outcomes,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,100.0,0.0,50.0,35.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Education outcomes,50.0,50.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,100.0,0.0,50.0,38.9
 2022,Pacific Islands,OPI,Tuvalu,TUV,Health facilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Health outcomes,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,100.0,0.0,50.0,35.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Reproductive health,100.0,50.0,0.0,50.0,0.0,40.0,0.0,100.0,50.0,50.0,50.0,50.0,45.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Food security & nutrition,100.0,50.0,0.0,0.0,0.0,37.5,0.0,100.0,50.0,100.0,0.0,50.0,44.4
-2022,Pacific Islands,OPI,Tuvalu,TUV,Gender statistics,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,100.0,0.0,50.0,35.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Crime & justice,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,100.0,0.0,50.0,25.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Poverty & income,50.0,50.0,0.0,0.0,0.0,20.0,0.0,100.0,50.0,100.0,100.0,70.0,45.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Social Statistics subscores,50.0,40.0,10.0,10.0,5.6,23.5,5.0,80.0,35.0,70.0,20.0,42.0,32.8
-2022,Pacific Islands,OPI,Tuvalu,TUV,National accounts,50.0,50.0,50.0,0.0,0.0,37.5,100.0,100.0,0.0,50.0,0.0,50.0,44.4
-2022,Pacific Islands,OPI,Tuvalu,TUV,Labor,100.0,50.0,0.0,50.0,0.0,40.0,50.0,100.0,0.0,50.0,50.0,50.0,45.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Price indexes,50.0,50.0,50.0,0.0,0.0,37.5,50.0,100.0,0.0,50.0,0.0,40.0,38.9
+2022,Pacific Islands,OPI,Tuvalu,TUV,Health outcomes,50.0,50.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,100.0,0.0,50.0,38.9
+2022,Pacific Islands,OPI,Tuvalu,TUV,Reproductive health,100.0,50.0,0.0,0.0,0.0,37.5,0.0,100.0,50.0,50.0,50.0,50.0,44.4
+2022,Pacific Islands,OPI,Tuvalu,TUV,Food security & nutrition,100.0,50.0,0.0,0.0,0.0,50.0,0.0,100.0,50.0,100.0,0.0,50.0,50.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Gender statistics,50.0,50.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,100.0,0.0,50.0,38.9
+2022,Pacific Islands,OPI,Tuvalu,TUV,Crime & justice,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,50.0,100.0,0.0,50.0,27.8
+2022,Pacific Islands,OPI,Tuvalu,TUV,Poverty & income,50.0,50.0,0.0,0.0,0.0,25.0,0.0,100.0,50.0,100.0,100.0,70.0,50.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Social Statistics subscores,50.0,40.0,10.0,5.6,0.0,26.9,5.0,80.0,35.0,70.0,20.0,42.0,35.4
+2022,Pacific Islands,OPI,Tuvalu,TUV,National accounts,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,0.0,50.0,0.0,50.0,50.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Labor,100.0,50.0,0.0,50.0,0.0,50.0,50.0,100.0,0.0,50.0,50.0,50.0,50.0
+2022,Pacific Islands,OPI,Tuvalu,TUV,Price indexes,50.0,50.0,50.0,0.0,0.0,50.0,50.0,100.0,0.0,50.0,0.0,40.0,43.8
 2022,Pacific Islands,OPI,Tuvalu,TUV,Government finance,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Money & banking,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,International trade,50.0,50.0,50.0,0.0,0.0,50.0,100.0,100.0,50.0,100.0,0.0,70.0,62.5
 2022,Pacific Islands,OPI,Tuvalu,TUV,Balance of payments,100.0,100.0,100.0,0.0,0.0,100.0,100.0,100.0,50.0,100.0,0.0,70.0,81.3
-2022,Pacific Islands,OPI,Tuvalu,TUV,Economic and Financial Statistics subscores,50.0,42.9,35.7,12.5,0.0,36.5,57.1,71.4,14.3,50.0,7.1,40.0,38.5
+2022,Pacific Islands,OPI,Tuvalu,TUV,Economic and Financial Statistics subscores,50.0,42.9,35.7,50.0,0.0,43.2,57.1,71.4,14.3,50.0,7.1,40.0,41.2
 2022,Pacific Islands,OPI,Tuvalu,TUV,Agriculture & Land Use,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Resource use,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Energy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 2022,Pacific Islands,OPI,Tuvalu,TUV,Pollution,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Built environment,100.0,100.0,50.0,50.0,50.0,70.0,50.0,100.0,0.0,50.0,50.0,50.0,60.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,Environment subscore,20.0,20.0,10.0,12.5,25.0,16.7,10.0,20.0,0.0,10.0,10.0,10.0,13.0
-2022,Pacific Islands,OPI,Tuvalu,TUV,All categories,40.0,34.3,18.6,11.4,10.4,25.0,24.0,57.1,16.4,43.3,12.4,30.7,28.1
+2022,Pacific Islands,OPI,Tuvalu,TUV,Built environment,100.0,100.0,50.0,50.0,0.0,75.0,50.0,100.0,0.0,50.0,50.0,50.0,61.1
+2022,Pacific Islands,OPI,Tuvalu,TUV,Environment subscore,20.0,20.0,10.0,25.0,0.0,17.6,10.0,20.0,0.0,10.0,10.0,10.0,13.1
+2022,Pacific Islands,OPI,Tuvalu,TUV,All categories,40.0,34.3,18.6,15.3,0.0,28.8,24.0,57.1,16.4,43.3,12.4,30.7,29.9
 2022,Eastern Africa,AFE,Uganda,UGA,Population & vital statistics,50.0,50.0,50.0,50.0,50.0,50.0,100.0,100.0,0.0,50.0,100.0,70.0,60.0
 2022,Eastern Africa,AFE,Uganda,UGA,Education facilities,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
 2022,Eastern Africa,AFE,Uganda,UGA,Education outcomes,50.0,50.0,50.0,0.0,0.0,30.0,0.0,100.0,0.0,50.0,100.0,50.0,40.0
@@ -5049,4 +5049,4 @@
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Built environment,100.0,50.0,50.0,0.0,0.0,40.0,100.0,100.0,100.0,50.0,0.0,70.0,55.0
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,Environment subscore,40.0,30.0,30.0,0.0,0.0,23.8,30.0,60.0,20.0,30.0,20.0,32.0,28.3
 2022,Eastern Africa,AFE,Zimbabwe,ZWE,All categories,52.9,43.1,33.3,4.2,6.9,31.8,63.6,83.3,45.0,46.0,17.9,51.1,42.2
-5.1.2023 15:12,,,,,,,,,,,,,,,,,,
+13.1.2023 23:33,,,,,,,,,,,,,,,,,,

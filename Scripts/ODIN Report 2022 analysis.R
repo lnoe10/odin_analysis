@@ -711,9 +711,9 @@ odin_scores %>%
   group_by(data_categories, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
   geom_line() +
-  geom_point() +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE) +
   labs(x = "", y = "Average Overall score", color = "") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022"))
 ggsave("Graphs/Change of rank of sectors over time.png", dpi = 400)

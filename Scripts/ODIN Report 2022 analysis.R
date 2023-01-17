@@ -176,8 +176,9 @@ odin_scores %>%
   group_by(element, year) %>% 
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = year, y = mean_score, color = element)) +
+  ggplot(aes(x = year, y = mean_score, color = element, label = round(mean_score, 1))) +
   geom_line() +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE) +
   labs(x ="", y = "Average Score for All Categories") + 
   scale_y_continuous(limits = c(35,60)) +
   theme(legend.title = element_blank())

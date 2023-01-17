@@ -191,8 +191,9 @@ odin_scores %>%
   group_by(income_group, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = year, y = mean_score, color = income_group)) +
+  ggplot(aes(x = year, y = mean_score, color = income_group, label = round(mean_score, 1))) +
   geom_line() +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE) +
   labs(x ="", y = "Average Overall Score for All Categories") + 
   theme(legend.title = element_blank())
 ggsave("Graphs/Average overall score by income goup 2016-2022.png", dpi = 400)

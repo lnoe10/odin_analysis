@@ -207,8 +207,13 @@ odin_scores %>%
   ungroup() %>%
   pivot_wider(id_cols = region, names_from = year, names_prefix = "year", values_from = mean_score) %>%
   mutate(avg_change = (year2022/year2016 - 1)*100) %>%
-  ggplot(aes(x = fct_reorder(region, avg_change), y = avg_change)) +
+  ggplot(aes(x = fct_reorder(region, avg_change), y = avg_change, label = round(avg_change, 1))) +
   geom_col() + 
+  geom_text(
+    aes(y = avg_change + 2),
+    position = position_dodge(0.9),
+    hjust = 0
+  ) +
   coord_flip() + 
   labs(x = "", y = "Pct change in Average Overall Score for All Categories, 2016-2022")
 ggsave("Graphs/Pct change in Avg Overall score by region 2016-2022.png", dpi = 400)

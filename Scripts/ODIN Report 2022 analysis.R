@@ -951,7 +951,8 @@ ggsave("Graphs/OPENNESS Social statistics sub-categories 2016-2022.png",dpi = 40
 
 #### Change in Element scores within Energy data category ####
 # Investigate which elements behind energy have most rapidly increased
-# As energy has increased across overall, coverage, and openness
+# As energy has increased across overall, coverage, and openness to 2020 and then decreased
+# again in 2022
 odin_scores %>%
   filter(data_categories == "Energy",
          !element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
@@ -963,9 +964,11 @@ odin_scores %>%
   geom_line() +
   geom_point() +
   ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.alpha = 0) +
-  labs(x = "", y = "Average score") +
+  labs(x = "", y = "Average score", title = "Element scores for Energy category") +
   theme(legend.position = "none") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", ""))
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022", "", "", ""))
+ggsave("Graphs/Energy coverage and openness elements 2016-2022.png",dpi = 400)
+
 
 #### HEALTH ####
 # Health section- Focus on scores from the 3 health categories, 

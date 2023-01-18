@@ -401,12 +401,12 @@ data4reg %>%
   unnest(tidied) %>% 
   select(-c(data, fit))
 
-#### FIGURE 11: Coverage by category, 2018 vs 2020 ####
-# Make sorting order based on average coverage scores in 2018
+#### FIGURE 11: Coverage by category, 2020 vs 2022 ####
+# Make sorting order based on average coverage scores in 2020
 sel_order <- 
   odin_scores %>% 
-  # Restrict to Coverage subscore and 2018
-  filter(element == "Coverage subscore", year == 2018) %>% 
+  # Restrict to Coverage subscore and 2020
+  filter(element == "Coverage subscore", year == 2020) %>% 
   # Make average by data category
   group_by(data_categories) %>%
   summarize(value = mean(score, na.rm = TRUE)) %>%
@@ -423,7 +423,7 @@ odin_scores %>%
   filter(element == "Coverage subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
-         year %in% c(2018, 2020)) %>%
+         year %in% c(2020, 2022)) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -439,7 +439,7 @@ odin_scores %>%
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
+  labs(x = "", y = "Average score", title = "Coverage, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
 
@@ -450,18 +450,19 @@ odin_scores %>%
   filter(element == "Coverage subscore",
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
-         year %in% c(2018, 2020)) %>%
+         year %in% c(2020, 2022)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  # Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
-  add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
-          year = 2018, mean_score = 0) %>%
+  ## Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
+  #add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
+  #        year = 2018, mean_score = 0) %>%
   # create label variable that inherits ordering from sorting order df
   mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE),
          # Replace missing labels factor with name of food security & nutrition so label displays on plot
-         labels = fct_explicit_na(labels, "Food security & nutrition")) %>%
+         # labels = fct_explicit_na(labels, "Food security & nutrition")
+         ) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
   ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
@@ -471,23 +472,23 @@ odin_scores %>%
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.95, 0.75)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Coverage, ODIN 2018 and 2020") +
+  labs(x = "", y = "Average score", title = "Coverage, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
-ggsave("Output/Coverage sectors 2018 v 2020.png", dpi = 400)
+ggsave("Output/Coverage sectors 2020 v 2022.png", dpi = 400)
   
-#### FIGURE 11: Openness by category, 2018 vs 2020 ####
-# Make sorting order based on average openness scores in 2018
+#### FIGURE 11: Openness by category, 2020 vs 2022 ####
+# Make sorting order based on average openness scores in 2020
 sel_order <- 
   odin_scores %>% 
-  # Restrict to Openness subscore and 2018
-  filter(element == "Openness subscore", year == 2018) %>% 
+  # Restrict to Openness subscore and 2020
+  filter(element == "Openness subscore", year == 2020) %>% 
   # Make average by data category
   group_by(data_categories) %>%
   summarize(value = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  # Sort by best coverage in 2018
+  # Sort by best coverage in 2020
   arrange(desc(value)) %>% 
   # Create label that inherits ordering
   mutate(labels = factor(data_categories))
@@ -499,7 +500,7 @@ odin_scores %>%
   filter(element == "Openness subscore",
          !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
-         year %in% c(2018, 2020)) %>%
+         year %in% c(2020, 2022)) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
   summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
@@ -515,7 +516,7 @@ odin_scores %>%
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Openness, ODIN 2018 and 2020") +
+  labs(x = "", y = "Average score", title = "Openness, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
 
@@ -526,18 +527,19 @@ odin_scores %>%
   filter(element == "Openness subscore",
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
-         year %in% c(2018, 2020)) %>%
+         year %in% c(2020, 2022)) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  # Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
-  add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
-          year = 2018, mean_score = 0) %>%
+  ## Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
+  #add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
+  #        year = 2018, mean_score = 0) %>%
   # create label variable that inherits ordering from sorting order df
   mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE),
          # Replace missing labels factor with name of food security & nutrition so label displays on plot
-         labels = fct_explicit_na(labels, "Food security & nutrition")) %>%
+  #       labels = fct_explicit_na(labels, "Food security & nutrition")
+  ) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
   ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
@@ -551,7 +553,7 @@ odin_scores %>%
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
-ggsave("Output/Openness sectors 2018 v 2020.png", dpi = 400)
+ggsave("Output/Openness sectors 2020 v 2022.png", dpi = 400)
 
 #### FIGURE 12: Ranking change of data category 2018 to 2020 ####
 # Adapting style here

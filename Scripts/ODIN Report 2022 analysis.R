@@ -1244,7 +1244,7 @@ odin_scores %>%
   ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.color = "grey") +
   labs(x = "", y = "Average score") +
   theme(legend.position = "none") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", ""))
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022"))
 ggsave("Output/Economic subsectors over time.png", dpi = 400)
 
 # What open data elements for economic and financial statistics have performed best? ####
@@ -1302,13 +1302,14 @@ odin_scores %>%
   group_by(year, element, dissemination_subscriber) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber)) + 
+  ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber, label = round(mean_score, 1))) + 
   geom_line(size = 1.1) + 
   geom_point() +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   labs(x = "", y = "Average score", color = "Subscriber\nstatus", title = "ODIN scores for Economic & financial statistics") +
-  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020")) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   facet_wrap(~element)
-ggsave("Output/IMF Dissemination standards countries and their scores.png", dpi = 400)
+ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022.png", dpi = 600)
 # Note that None now includes an odd grouping of countries
 # Andorra, Anguilla Cuba, Greenland, Liechtenstein, New Zealand, Somalia
 # South Sudan, Taiwan, Turkmenistan

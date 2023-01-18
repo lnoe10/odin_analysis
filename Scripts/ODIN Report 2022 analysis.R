@@ -900,12 +900,15 @@ odin_scores %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Economic and financial statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(15, 85)) +
+  scale_y_continuous(limits = c(35, 70)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
+  theme(legend.title = element_blank())+ 
   labs(x = "", y = "Average openness score", title = "Economic and financial statistics")
+ggsave("Graphs/OPENNESS Economic and financial statistics sub-categories 2016-2022.png",dpi = 400)
 
 # Environmental
 odin_scores %>%
@@ -916,12 +919,35 @@ odin_scores %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Environmental statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(15, 85)) +
+  scale_y_continuous(limits = c(20, 60)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
+  theme(legend.title = element_blank())+ 
   labs(x = "", y = "Average openness score", title = "Environmental statistics")
+ggsave("Graphs/OPENNESS Environmental statistics sub-categories 2016-2022.png",dpi = 400)
+
+# Social
+odin_scores %>%
+  filter(!data_categories %in% c("Economic & financial statistics subscore",
+                                 "Environment subscore", "Social statistics subscore", "All Categories"),
+         element == "Openness subscore") %>%
+  group_by(macro_sector, data_categories, year) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(macro_sector == "Social statistics") %>%
+  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  geom_line() +
+  geom_point() +
+  #scale_y_continuous(limits = c(20, 60)) +
+  scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
+  geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
+  theme(legend.title = element_blank())+ 
+  labs(x = "", y = "Average openness score", title = "Social statistics")
+ggsave("Graphs/OPENNESS Social statistics sub-categories 2016-2022.png",dpi = 400)
+
 
 #### Change in Element scores within Energy data category ####
 # Investigate which elements behind energy have most rapidly increased

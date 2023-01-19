@@ -1329,12 +1329,26 @@ ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022.
 # Crime and Justice, Education Outcomes, Food Security & Nutrition, Gender Statistics,
 # Health Outcomes, Labor, Population & Vital Statistics, Reproductive Health, Built Environment, Poverty & Income
 
-odin_scores %>%
-  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",
+ogdi_mark <- odin_scores %>%
+  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education outcomes", "Food security & nutrition",
                                                  "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
                                                  "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
                           data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
-                          TRUE ~ "non_OGDI")) %>%
+                          TRUE ~ "non_OGDI"))
+
+ogdi_mark %>%
+  filter(year == 2020, ogdi == "OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  mutate(ogdi_weight = case_when(
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" ~ 9/99,
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" ~ 8/89,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" ~ 9/89,
+    TRUE ~ 10/99
+  )) %>%
+  group_by(country, country_code, element) %>%
+  summarize(ogdi_overall = weighted.mean(score, ogdi_weight, na.rm = TRUE)) %>%
+  ungroup()
+
+
   filter(element == "Overall score", !is.na(ogdi)) %>%
   # Average by country by year by OGDI status
   group_by(year, ogdi, country_code) %>%

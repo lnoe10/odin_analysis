@@ -1354,16 +1354,6 @@ ogdi_mark %>%
   ungroup()
 
 
-  filter(element == "Overall score", !is.na(ogdi)) %>%
-  # Average by country by year by OGDI status
-  group_by(year, ogdi, country_code) %>%
-  summarize(score_by_ogdi = mean(score, na.rm = TRUE)) %>%
-  ungroup() %>%
-  # Average by year
-  group_by(year, ogdi) %>%
-  summarize(overall_ogdi = mean(score_by_ogdi, na.rm = TRUE)) %>%
-  ungroup()
-
 # Performance in 2022 of data categories
 odin_scores %>%
   mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",

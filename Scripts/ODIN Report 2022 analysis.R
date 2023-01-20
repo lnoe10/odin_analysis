@@ -1329,14 +1329,14 @@ ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022.
 # Crime and Justice, Education Outcomes, Food Security & Nutrition, Gender Statistics,
 # Health Outcomes, Labor, Population & Vital Statistics, Reproductive Health, Built Environment, Poverty & Income
 
-ogdi_mark <- odin_scores %>%
+ogdi_2020 <- odin_scores %>%
   mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education outcomes", "Food security & nutrition",
                                                  "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
                                                  "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
                           data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
                           TRUE ~ "non_OGDI"))
 
-ogdi_mark %>%
+ogdi_2020 %>%
   filter(year == 2020, ogdi == "OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   mutate(ogdi_weight = case_when(
     data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 9/99,
@@ -1348,6 +1348,31 @@ ogdi_mark %>%
     data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 3/39,
     data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 4/39,
     TRUE ~ 5/50
+  )) %>%
+  group_by(country, country_code, element) %>%
+  summarize(ogdi_overall = weighted.mean(score, ogdi_weight, na.rm = TRUE)) %>%
+  ungroup()
+
+# 2. Replicate 2020 methodology for 2022 by including Education Facilities on top of 10 categories from last time
+ogdi_2022 <- odin_scores %>%
+  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",
+                                                 "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
+                                                 "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
+                          data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
+                          TRUE ~ "non_OGDI"))
+
+ogdi_2022 %>%
+  filter(year == 2022, ogdi == "OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  mutate(ogdi_weight = case_when(
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 9/109,
+    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 10/109,
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 8/98,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 9/98,
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 4/54,
+    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 5/54,
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 3/43,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 4/43,
+    TRUE ~ 5/55
   )) %>%
   group_by(country, country_code, element) %>%
   summarize(ogdi_overall = weighted.mean(score, ogdi_weight, na.rm = TRUE)) %>%

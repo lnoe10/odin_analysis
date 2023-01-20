@@ -1339,10 +1339,15 @@ ogdi_mark <- odin_scores %>%
 ogdi_mark %>%
   filter(year == 2020, ogdi == "OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   mutate(ogdi_weight = case_when(
-    data_categories == "Food security & nutrition" & country_size_status == "Large country" ~ 9/99,
-    data_categories == "Food security & nutrition" & country_size_status == "Small country" ~ 8/89,
-    data_categories != "Food security & nutrition" & country_size_status == "Small country" ~ 9/89,
-    TRUE ~ 10/99
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 9/99,
+    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 10/99,
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 8/89,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 9/89,
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 4/49,
+    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 5/49,
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 3/39,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 4/39,
+    TRUE ~ 5/50
   )) %>%
   group_by(country, country_code, element) %>%
   summarize(ogdi_overall = weighted.mean(score, ogdi_weight, na.rm = TRUE)) %>%

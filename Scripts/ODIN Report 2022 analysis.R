@@ -15,8 +15,8 @@ odin_scores <- read_csv("Input/ODIN_scores_2022.csv") %>%
   # Bring spelling of data categories in line with previous years
   mutate(data_categories = case_when(
     data_categories == "All categories" ~ "All Categories",
-    data_categories == "Economic and Financial Statistics subscores" ~ "Economic & financial statistics subscore",
-    data_categories == "Social Statistics subscores" ~ "Social statistics subscore",
+    data_categories == "Economic & Financial Statistics subscores" ~ "Economic & financial statistics subscore",
+    data_categories == "Social Statistics subscore" ~ "Social statistics subscore",
     TRUE ~ data_categories
   ),
   # Fix trailing new line break in region

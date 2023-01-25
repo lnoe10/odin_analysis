@@ -726,6 +726,7 @@ odin_scores %>%
 
 #### FIGURE 10: Graph of how overall scores of category subscores have increased ####
 odin_scores %>%
+  semi_join(odin_always) %>%
   filter(data_categories %in% c("Economic & financial statistics subscore",
                                 "Environment subscore", "Social statistics subscore"),
          element == "Overall score") %>%

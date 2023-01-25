@@ -213,6 +213,7 @@ ggsave("Graphs/Average overall score by income goup 2016-2022.png", dpi = 400)
 #### Replicate Figure 4 from ODIN 2020/2021 Report ####
 # Change in average ODIN scores by region, 2016-2022 (%) 
 odin_scores %>% 
+  semi_join(odin_always) %>%
   filter(data_categories == "All Categories", element == "Overall score", year %in% c(2016, 2022)) %>%
   group_by(region, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%

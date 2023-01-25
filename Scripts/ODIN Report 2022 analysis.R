@@ -169,11 +169,22 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
+# Create consistent set of countries over time. 165 as of 2022 data
+odin_always <- odin_scores %>%
+  filter(element == "Overall score", data_categories == "All Categories") %>%
+  group_by(country_code) %>%
+  summarize(num_obs = n()) %>%
+  ungroup() %>%
+  filter(num_obs == 5) %>%
+  mutate(consistent_sample = "Yes") %>%
+  select(country_code, consistent_sample)
+
 # Average over time
-odin_scores %>% 
-  filter(data_categories == "All Categories", 
-         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
-  group_by(element, year) %>% 
+odin_scores %>%
+  semi_join(odin_always) %>%
+  filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
+         data_categories == "All Categories") %>%
+  group_by(year, element) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = year, y = mean_score, color = element, label = round(mean_score, 1))) +

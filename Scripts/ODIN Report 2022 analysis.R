@@ -201,14 +201,14 @@ odin_scores %>%
   semi_join(odin_always) %>%
   filter(data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
   group_by(income_group, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(med_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = year, y = mean_score, color = income_group, label = round(mean_score, 1))) +
+  ggplot(aes(x = year, y = med_score, color = income_group, label = round(med_score, 1))) +
   geom_line() +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE) +
-  labs(x ="", y = "Average Overall Score for All Categories") + 
+  labs(x ="", y = "Median Overall Score for All Categories") + 
   theme(legend.title = element_blank())
-ggsave("Graphs/Average overall score by income goup 2016-2022.png", dpi = 400)
+ggsave("Graphs/Median overall score by income goup 2016-2022.png", dpi = 400)
 
 #### Replicate Figure 4 from ODIN 2020/2021 Report ####
 # Change in average ODIN scores by region, 2016-2022 (%) 

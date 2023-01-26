@@ -185,15 +185,15 @@ odin_scores %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
          data_categories == "All Categories") %>%
   group_by(year, element) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(med_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = year, y = mean_score, color = element, label = round(mean_score, 1))) +
+  ggplot(aes(x = year, y = med_score, color = element, label = round(med_score, 1))) +
   geom_line() +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE) +
-  labs(x ="", y = "Average Score for All Categories") + 
+  labs(x ="", y = "Median Score for All Categories") + 
   scale_y_continuous(limits = c(35,60)) +
   theme(legend.title = element_blank())
-ggsave("Graphs/Average overall score 2016-2022.png", dpi = 400)
+ggsave("Graphs/Median overall score 2016-2022.png", dpi = 400)
 
 #### Replicate Figure 3 from ODIN 2020/2021 Report ####
 # ODIN scores by income group, 2016-2022

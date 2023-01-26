@@ -238,20 +238,41 @@ odin_scores %>%
   semi_join(odin_always) %>%
   filter(data_categories == "All Categories", element == "Overall score", year %in% c(2016, 2022)) %>%
   group_by(region, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(med_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  pivot_wider(id_cols = region, names_from = year, names_prefix = "year", values_from = mean_score) %>%
-  mutate(avg_change = (year2022/year2016 - 1)*100) %>%
-  ggplot(aes(x = fct_reorder(region, avg_change), y = avg_change, label = round(avg_change, 1))) +
+  pivot_wider(id_cols = region, names_from = year, names_prefix = "year", values_from = med_score) %>%
+  mutate(med_pct_change = (year2022/year2016 - 1)*100) %>%
+  ggplot(aes(x = fct_reorder(region, med_pct_change), y = med_pct_change, label = round(med_pct_change, 1))) +
   geom_col() + 
   geom_text(
-    aes(y = avg_change + 2),
+    aes(y = med_pct_change + 2),
     position = position_dodge(0.9),
     hjust = 0
   ) +
   coord_flip() + 
-  labs(x = "", y = "Pct change in Average Overall Score for All Categories, 2016-2022")
-ggsave("Graphs/Pct change in Avg Overall score by region 2016-2022.png", dpi = 400)
+  labs(x = "", y = "Pct change in Median Overall Score for All Categories, 2016-2022")
+ggsave("Graphs/Pct change in Med Overall score by region 2016-2022.png", dpi = 400)
+
+# Level change in median scores
+odin_scores %>% 
+  semi_join(odin_always) %>%
+  filter(data_categories == "All Categories", element == "Overall score", year %in% c(2016, 2022)) %>%
+  group_by(region, year) %>%
+  summarize(med_score = median(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  pivot_wider(id_cols = region, names_from = year, names_prefix = "year", values_from = med_score) %>%
+  mutate(med_change = year2022 -year2016) %>%
+  ggplot(aes(x = fct_reorder(region, med_change), y = med_change, label = round(med_change, 1))) +
+  geom_col() + 
+  geom_text(
+    aes(y = med_change + 1),
+    position = position_dodge(0.9),
+    hjust = 0
+  ) +
+  coord_flip() + 
+  scale_y_continuous(limits = c(-3, 25)) +
+  labs(x = "", y = "Level change in Median Overall Score for All Categories, 2016-2022")
+ggsave("Graphs/Level change in Med Overall score by region 2016-2022.png", dpi = 400)
 
 #### Table 1 from ODIN 2020/2021 Report ####
 # Change in element scores, 2016-2022
@@ -344,7 +365,7 @@ odin_scores %>%
   theme(legend.title = element_blank())
 ggsave("Graphs/Coverage elements by income group 2022.png", dpi = 400)
 
-#### ODIN scores by income group 2020
+#### ODIN scores by income group 2022
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
   left_join(
@@ -358,6 +379,22 @@ odin_scores %>%
   scale_y_continuous(limits = c(0,100)) +
   labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups")
 ggsave("Graphs/Country ODIN scores against GNI pc.png", dpi = 400)
+
+# ODIN scores and income better or worse than average
+odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>%
+  ggplot(aes(x = gni_pc, y = score)) +
+  geom_point() +
+  scale_x_log10(labels = scales::comma) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_y_continuous(limits = c(0,100)) +
+  labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups")
+ggsave("Graphs/Country ODIN scores against GNI pc elasticity.png", dpi = 400)
+
 
 # Correlation between GNI pc and scores
 data4reg <- odin_scores %>%

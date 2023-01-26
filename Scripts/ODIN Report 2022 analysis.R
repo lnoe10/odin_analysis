@@ -155,6 +155,28 @@ dissemination_standards <- read_csv("Input/imf_dissemination_standards_2022.csv"
   filter(!is.na(membership)) %>%
   select(iso3c, dissemination_subscriber)
 
+# Historical WB income groupings
+# From https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
+wb_historical <- read_csv("Input/wb_countries_historical.csv", skip = 5) %>% 
+  select(country_code = `...1`, country = `Data for calendar year :`, `1987`:`2021`) %>% 
+  filter(!is.na(`2016`), !is.na(country_code)) %>% 
+  # Using most recent calendar year info (2021) income status for 2022 data
+  mutate(`2022` = `2021`) %>% 
+  pivot_longer(cols = `1987`:`2022`, names_to = "year", values_to = "inc_grp_hist") %>% 
+  mutate(year = as.numeric(year),
+         inc_grp_hist = case_when(
+           country_code == "VEN" & year>2019 ~ "UM",
+           TRUE ~ inc_grp_hist
+         ),
+         inc_grp_hist = case_when(
+           inc_grp_hist == "L" ~ "Low income",
+           str_detect(inc_grp_hist, "LM") ~ "Lower middle income", #Accounting for Yemen asterisk 1987 1988
+           inc_grp_hist == "UM" ~ "Upper middle income",
+           inc_grp_hist == "H" ~ "High income",
+           TRUE ~ NA_character_
+         ),
+         inc_grp_hist = fct_relevel(inc_grp_hist, "Low income", "Lower middle income", "Upper middle income", "High income"))
+
 #### EXPLORATORY DATA ANALYSIS ####
 # Start with shorter general discussion of scores by categories for 
 # 2022 and trends since 2016. Are certain coverage or openness lacking 

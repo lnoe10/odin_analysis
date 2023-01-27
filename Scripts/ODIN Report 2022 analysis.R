@@ -516,7 +516,7 @@ odin_scores %>%
   # Filter for only coverage subscore, filter out subscores that don't
   # exist in both years or that are main scores.
   filter(element == "Coverage subscore",
-         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+         !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
   # Make average by data category and year
@@ -593,7 +593,7 @@ odin_scores %>%
   # Filter for only openness subscore, filter out subscores that don't
   # exist in both years or that are main scores.
   filter(element == "Openness subscore",
-         !data_categories %in% c("Food security & nutrition", "Economic & financial statistics subscore",
+         !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
   # Make average by data category and year
@@ -1073,13 +1073,14 @@ ggsave("Graphs/Energy coverage and openness elements 2016-2022.png",dpi = 400)
 
 #### Overall Trends ####
 odin_scores %>%
+  semi_join(odin_always) %>%
   filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health", "Food security & nutrition"),
          element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
   group_by(data_categories, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
-  geom_line() + 
+  geom_line(size = 1) + 
   facet_wrap(~element) +
   theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score")

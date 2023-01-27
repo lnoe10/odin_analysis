@@ -1073,19 +1073,13 @@ ggsave("Graphs/Energy coverage and openness elements 2016-2022.png",dpi = 400)
 
 #### Overall Trends ####
 odin_scores %>%
-  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health"),
+  filter(data_categories %in% c("Health facilities", "Health outcomes", "Population & vital statistics", "Reproductive health", "Food security & nutrition"),
          element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
   group_by(data_categories, element, year) %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
-  geom_line(size = 1.2) + 
-  geom_point(data = odin_scores %>%
-               filter(data_categories %in% c("Food security & nutrition"),
-                      element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
-               group_by(data_categories, element, year) %>%
-               summarize(mean_score = mean(score, na.rm = TRUE)) %>%
-               ungroup()) +
+  geom_line() + 
   facet_wrap(~element) +
   theme(legend.position = "bottom", legend.title = element_blank()) +
   labs(x = "", y = "Average score")

@@ -365,7 +365,19 @@ odin_scores %>%
   theme(legend.title = element_blank())
 ggsave("Graphs/Coverage elements by income group 2022.png", dpi = 400)
 
-#### ODIN scores by income group 2022
+#### Average or Median ODIN scores by income group 2022
+# Compute aggregate stats
+aggregate_stats <- odin_scores %>%
+  filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
+  left_join(
+    # World Bank GNI per capita
+    wbstats::wb_data(c("gni_pc" = "NY.GNP.PCAP.CD"), mrnev = 1) %>%
+      select(iso3c, gni_pc), by = c("country_code" = "iso3c")) %>% 
+  group_by(income_group) %>%
+  summarize(score = median(score, na.rm = TRUE), min_gni = min(gni_pc, na.rm = TRUE), max_gni = max(gni_pc, na.rm = TRUE)) %>% 
+  ungroup()
+
+# Draw graph
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
   left_join(
@@ -375,10 +387,21 @@ odin_scores %>%
   ggplot(aes(x = gni_pc, y = score, color = income_group)) +
   geom_point() +
   scale_x_log10(labels = scales::comma) +
-  stat_smooth(method="lm", formula=y~1, se=FALSE) +
+  # Aggregate line per income group +
+  geom_segment(data = aggregate_stats %>% filter(income_group == "Low income"),
+               aes(x = min_gni, y = score, xend = max_gni, yend = score), size = 1) +
+  geom_segment(data = aggregate_stats %>% filter(income_group == "Lower middle income"),
+               aes(x = min_gni, y = score, xend = max_gni, yend = score), size = 1) +
+  geom_segment(data = aggregate_stats %>% filter(income_group == "Upper middle income"),
+               aes(x = min_gni, y = score, xend = max_gni, yend = score), size = 1) +
+  geom_segment(data = aggregate_stats %>% filter(income_group == "High income"),
+               aes(x = min_gni, y = score, xend = max_gni, yend = score), size = 1) +
+  # Draw aggregate stat lines across the graph inheriting same color
+  geom_hline(aes(yintercept = score, color = income_group), data = aggregate_stats, linetype = "dashed") +
   scale_y_continuous(limits = c(0,100)) +
-  labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups")
-ggsave("Graphs/Country ODIN scores against GNI pc.png", dpi = 400)
+  labs(x = "GNI per capita (logged)", y = "ODIN Overall Score 2022", color = "WB FY2023\nIncome Groups",
+       title = "Many countries overperform given their income", subtitle = "Bars = Median scores by income group")
+ggsave("Graphs/Country ODIN scores against GNI pc median.png", dpi = 400)
 
 # ODIN scores and income better or worse than average
 odin_scores %>%

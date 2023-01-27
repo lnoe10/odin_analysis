@@ -191,13 +191,23 @@ odin_scores %>%
   summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup()
 
-# Create consistent set of countries over time. 165 as of 2022 data
+# Create consistent set of countries since 2016. 165 as of 2022 data
 odin_always <- odin_scores %>%
   filter(element == "Overall score", data_categories == "All Categories") %>%
   group_by(country_code) %>%
   summarize(num_obs = n()) %>%
   ungroup() %>%
   filter(num_obs == 5) %>%
+  mutate(consistent_sample = "Yes") %>%
+  select(country_code, consistent_sample)
+
+# Create consistent set of countries since 2020. 183 as of 2022 data
+odin_20_22 <- odin_scores %>%
+  filter(element == "Overall score", data_categories == "All Categories", year %in% c(2020, 2022)) %>%
+  group_by(country_code) %>%
+  summarize(num_obs = n()) %>%
+  ungroup() %>%
+  filter(num_obs == 2) %>%
   mutate(consistent_sample = "Yes") %>%
   select(country_code, consistent_sample)
 

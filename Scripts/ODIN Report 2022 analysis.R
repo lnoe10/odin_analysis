@@ -514,7 +514,7 @@ sel_order <-
   filter(element == "Coverage subscore", year == 2020) %>% 
   # Make average by data category
   group_by(data_categories) %>%
-  summarize(value = mean(score, na.rm = TRUE)) %>%
+  summarize(value = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   # Sort by best coverage in 2018
   arrange(desc(value)) %>% 
@@ -529,22 +529,23 @@ odin_scores %>%
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
+  semi_join(odin_20_22) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
-  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  summarize(median_availability = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   # create label variable that inherits ordering from sorting order df
   mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = median_availability, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Coverage, ODIN 2020 and 2022") +
+  labs(x = "", y = "Median score", title = "Coverage, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
 
@@ -556,9 +557,10 @@ odin_scores %>%
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
+  semi_join(odin_20_22) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ## Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
   #add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
@@ -570,18 +572,18 @@ odin_scores %>%
          ) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = median_score, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.95, 0.75)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Coverage, ODIN 2020 and 2022") +
+  labs(x = "", y = "Median score", title = "Coverage, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
-ggsave("Output/Coverage sectors 2020 v 2022.png", dpi = 400)
+ggsave("Output/Median coverage sectors 2020 v 2022.png", dpi = 400)
   
 #### FIGURE 11: Openness by category, 2020 vs 2022 ####
 # Make sorting order based on average openness scores in 2020
@@ -591,7 +593,7 @@ sel_order <-
   filter(element == "Openness subscore", year == 2020) %>% 
   # Make average by data category
   group_by(data_categories) %>%
-  summarize(value = mean(score, na.rm = TRUE)) %>%
+  summarize(value = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   # Sort by best coverage in 2020
   arrange(desc(value)) %>% 
@@ -606,22 +608,23 @@ odin_scores %>%
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
+  semi_join(odin_20_22) %>%
   # Make average by data category and year
   group_by(data_categories, year) %>%
-  summarize(mean_availability = mean(score, na.rm = TRUE)) %>%
+  summarize(median_availability = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   # create label variable that inherits ordering from sorting order df
   mutate(labels = factor(data_categories, levels = sel_order$labels, ordered = TRUE)) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_availability, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = median_availability, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.9, 0.8)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Openness, ODIN 2020 and 2022") +
+  labs(x = "", y = "Median score", title = "Openness, ODIN 2020 and 2022") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100))
 
@@ -633,9 +636,10 @@ odin_scores %>%
          !data_categories %in% c("Economic & financial statistics subscore",
                                  "All Categories", "Environment subscore", "Social statistics subscore"),
          year %in% c(2020, 2022)) %>%
+  semi_join(odin_20_22) %>%
   # Make average by data category and year
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ## Fill in row for Food security and nutrition so bar shows up for 2018. Value will be 0 so it doesn't display
   #add_row(macro_sector = "Social statistics", data_categories = "Food security & nutrition",
@@ -647,18 +651,18 @@ odin_scores %>%
   ) %>%
   # Create ggplot, using new ordered label variable as x axis,
   # splitting it by year (fill)
-  ggplot(aes(x = labels, y = mean_score, fill = as.factor(year))) +
+  ggplot(aes(x = labels, y = median_score, fill = as.factor(year))) +
   # Calling column geom with dodge position so grouped bar will be side by side
   geom_col(position = "dodge") +
   # Rotate x axis labels, remove legend title, position legend inside graph
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         legend.title = element_blank(), legend.position = c(0.95, 0.75)) +
   # Labels
-  labs(x = "", y = "Average score", title = "Openness, ODIN 2018 and 2020") +
+  labs(x = "", y = "Median score", title = "Openness, ODIN 2018 and 2020") +
   # Extend y axis from 0 to 100
   scale_y_continuous(limits = c(0, 100)) + 
   facet_grid(cols = vars(macro_sector), scales = "free_x", space = "free_x")
-ggsave("Output/Openness sectors 2020 v 2022.png", dpi = 400)
+ggsave("Output/Median openness sectors 2020 v 2022.png", dpi = 400)
 
 #### FIGURE 12: Ranking change of data category 2018 to 2020 ####
 # Adapting style here

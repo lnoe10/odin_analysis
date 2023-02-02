@@ -915,35 +915,36 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Coverage subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories)) +
   geom_line() +
   geom_point() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
-  scale_y_continuous(limits = c(15, 85)) +
+  scale_y_continuous(limits = c(0, 105)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
-  labs(x = "", y = "Average coverage score")
+  labs(x = "", y = "Median coverage score")
 
 # Economic and financial statistics
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Coverage subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Economic and financial statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(35, 85)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average coverage score", title = "Economic and financial statistics")
+  labs(x = "", y = "Median coverage score", title = "Economic and financial statistics")
 ggsave("Graphs/COVERAGE Economic and Financial statistics sub-categories 2016-2022.png",dpi = 400)
 
 # Environmental statistics
@@ -951,18 +952,18 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Coverage subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Environmental statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(15, 60)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average coverage score", title = "Environmental statistics")
+  labs(x = "", y = "Median coverage score", title = "Environmental statistics")
 ggsave("Graphs/COVERAGE Environmental statistics sub-categories 2016-2022.png",dpi = 400)
 
 # Social statistics
@@ -970,18 +971,19 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Coverage subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Social statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
   #scale_y_continuous(limits = c(15, 60)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average coverage score", title = "Social statistics")
+  labs(x = "", y = "Median coverage score", title = "Social statistics")
 ggsave("Graphs/COVERAGE Social statistics sub-categories 2016-2022.png",dpi = 400)
 
 #### Graph of how Openness scores of data categories within macro-sectors have changed ####
@@ -989,35 +991,37 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Openness subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories)) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories)) +
   geom_line() +
   geom_point() +
   facet_wrap(~macro_sector, scales = "free") +
   theme(legend.position = "none") +
-  scale_y_continuous(limits = c(15, 85)) +
+  scale_y_continuous(limits = c(0, 75)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
-  labs(x = "", y = "Average openness score")
+  labs(x = "", y = "Median openness score")
 
 # Economic and financial statistics
 odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Openness subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Economic and financial statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(35, 70)) +
+  #scale_y_continuous(limits = c(35, 70)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average openness score", title = "Economic and financial statistics")
+  labs(x = "", y = "Median openness score", title = "Economic and financial statistics")
 ggsave("Graphs/OPENNESS Economic and financial statistics sub-categories 2016-2022.png",dpi = 400)
 
 # Environmental
@@ -1025,18 +1029,19 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Openness subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Environmental statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
-  scale_y_continuous(limits = c(20, 60)) +
+  #scale_y_continuous(limits = c(20, 60)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average openness score", title = "Environmental statistics")
+  labs(x = "", y = "Median openness score", title = "Environmental statistics")
 ggsave("Graphs/OPENNESS Environmental statistics sub-categories 2016-2022.png",dpi = 400)
 
 # Social
@@ -1044,18 +1049,19 @@ odin_scores %>%
   filter(!data_categories %in% c("Economic & financial statistics subscore",
                                  "Environment subscore", "Social statistics subscore", "All Categories"),
          element == "Openness subscore") %>%
+  semi_join(odin_always) %>%
   group_by(macro_sector, data_categories, year) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
   filter(macro_sector == "Social statistics") %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = data_categories, group = data_categories, label = round(mean_score, 1))) +
+  ggplot(aes(x = as.factor(year), y = median_score, color = data_categories, group = data_categories, label = round(median_score, 1))) +
   geom_line() +
   geom_point() +
   #scale_y_continuous(limits = c(20, 60)) +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   theme(legend.title = element_blank())+ 
-  labs(x = "", y = "Average openness score", title = "Social statistics")
+  labs(x = "", y = "Median openness score", title = "Social statistics")
 ggsave("Graphs/OPENNESS Social statistics sub-categories 2016-2022.png",dpi = 400)
 
 

@@ -1413,16 +1413,16 @@ odin_scores %>%
   dissemination_subscriber = fct_relevel(dissemination_subscriber, "SDDS+", "SDDS", "e-GDDS", "None"),
   element = fct_relevel(element, "Overall score", "Coverage subscore", "Openness subscore")) %>%
   group_by(year, element, dissemination_subscriber) %>%
-  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
   ungroup() %>%
-  ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber, label = round(mean_score, 1))) + 
+  ggplot(aes(x = as.factor(year), y = median_score, color = dissemination_subscriber, group = dissemination_subscriber, label = round(median_score, 1))) + 
   geom_line(linewidth = 1.1) + 
   geom_point() +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
-  labs(x = "", y = "Average score", color = "Subscriber\nstatus", title = "ODIN scores for Economic & financial statistics") +
+  labs(x = "", y = "Median score", color = "Subscriber\nstatus", title = "ODIN scores for Economic & financial statistics") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   facet_wrap(~element)
-ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022.png", dpi = 600)
+ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022 median.png", dpi = 600)
 # Note that None includes an odd grouping of countries
 # Anguilla, Cuba, New Zealand, South Sudan, Taiwan, Turkmenistan
 # so scores for places like New Zealand and Taiwan will increase the scores

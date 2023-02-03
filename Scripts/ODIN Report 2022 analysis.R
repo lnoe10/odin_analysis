@@ -177,20 +177,6 @@ wb_historical <- read_csv("Input/wb_countries_historical.csv", skip = 5) %>%
          ),
          inc_grp_hist = fct_relevel(inc_grp_hist, "Low income", "Lower middle income", "Upper middle income", "High income"))
 
-#### EXPLORATORY DATA ANALYSIS ####
-# Start with shorter general discussion of scores by categories for 
-# 2022 and trends since 2016. Are certain coverage or openness lacking 
-# in certain categories more than others? Can do something similar to 
-# previous year’s report. (Lorenz) 
-
-#### Replicate Figure 2 from ODIN 2020/2021 Executive Summary ####
-odin_scores %>% 
-  filter(data_categories == "All Categories", 
-         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
-  group_by(element, year) %>% 
-  summarize(median_score = median(score, na.rm = TRUE)) %>%
-  ungroup()
-
 # Create consistent set of countries since 2016. 165 as of 2022 data
 odin_always <- odin_scores %>%
   filter(element == "Overall score", data_categories == "All Categories") %>%
@@ -210,6 +196,21 @@ odin_20_22 <- odin_scores %>%
   filter(num_obs == 2) %>%
   mutate(consistent_sample = "Yes") %>%
   select(country_code, consistent_sample)
+
+
+#### EXPLORATORY DATA ANALYSIS ####
+# Start with shorter general discussion of scores by categories for 
+# 2022 and trends since 2016. Are certain coverage or openness lacking 
+# in certain categories more than others? Can do something similar to 
+# previous year’s report. (Lorenz) 
+
+#### Replicate Figure 2 from ODIN 2020/2021 Executive Summary ####
+odin_scores %>% 
+  filter(data_categories == "All Categories", 
+         element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>% 
+  group_by(element, year) %>% 
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  ungroup()
 
 # Average over time
 odin_scores %>%

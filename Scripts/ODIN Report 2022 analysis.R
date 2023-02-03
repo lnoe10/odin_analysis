@@ -1401,6 +1401,7 @@ for (i in 1:length(econ_fisc)){
 #### FIGURE 16: DO SDDS countries score higher? ####
 odin_scores %>%
   left_join(dissemination_standards, by = c("country_code" = "iso3c")) %>%
+  semi_join(odin_always) %>%
   filter(element %in% c("Overall score", "Coverage subscore", "Openness subscore"), 
          data_categories == "Economic & financial statistics subscore") %>%
   mutate(dissemination_subscriber = case_when(
@@ -1415,16 +1416,15 @@ odin_scores %>%
   summarize(mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup() %>%
   ggplot(aes(x = as.factor(year), y = mean_score, color = dissemination_subscriber, group = dissemination_subscriber, label = round(mean_score, 1))) + 
-  geom_line(size = 1.1) + 
+  geom_line(linewidth = 1.1) + 
   geom_point() +
   geom_text(vjust = 0, nudge_y = 0.5, show.legend = FALSE, size = 3) +
   labs(x = "", y = "Average score", color = "Subscriber\nstatus", title = "ODIN scores for Economic & financial statistics") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022")) +
   facet_wrap(~element)
 ggsave("Output/IMF Dissemination standards countries and their scores 2016-2022.png", dpi = 600)
-# Note that None now includes an odd grouping of countries
-# Andorra, Anguilla Cuba, Greenland, Liechtenstein, New Zealand, Somalia
-# South Sudan, Taiwan, Turkmenistan
+# Note that None includes an odd grouping of countries
+# Anguilla, Cuba, New Zealand, South Sudan, Taiwan, Turkmenistan
 # so scores for places like New Zealand and Taiwan will increase the scores
 # Whereas others for South Sudan will decrease them. Overall, None
 # category is lower.

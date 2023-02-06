@@ -388,7 +388,16 @@ aggregate_stats <- odin_scores %>%
   summarize(score = median(score, na.rm = TRUE), min_gni = min(gni_pc, na.rm = TRUE), max_gni = max(gni_pc, na.rm = TRUE)) %>% 
   ungroup()
 
-# Draw graph
+# Graph 1 on scores by income group
+aggregate_stats %>%
+  ggplot(aes(x = income_group, y = score, fill = income_group)) +
+  geom_col(width = 0.6) +
+  scale_y_continuous(limits = c(0,100)) + 
+  labs(x = "", y = "ODIN Median Overall Score 2022", caption = "World Bank FY23 Income Groups") +
+  theme(legend.position = "off")
+ggsave("Graphs/Country ODIN scores against World Bank income group.png", dpi = 400)
+
+# Graph 2 on scores against GNI pc colored by income group
 odin_scores %>%
   filter(year == 2022, data_categories == "All Categories", element == "Overall score", !is.na(income_group)) %>%
   left_join(

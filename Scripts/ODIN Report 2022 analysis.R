@@ -1458,22 +1458,35 @@ ogdi_2020 <- odin_scores %>%
                           TRUE ~ "non_OGDI"))
 
 ogdi_2020 %>%
-  filter(year == 2020, ogdi == "OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
-  mutate(ogdi_weight = case_when(
-    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 9/99,
-    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Overall score" ~ 10/99,
-    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 8/89,
-    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Overall score" ~ 9/89,
-    data_categories == "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 4/49,
-    data_categories != "Food security & nutrition" & country_size_status == "Large country" & element == "Coverage subscore" ~ 5/49,
-    data_categories == "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 3/39,
-    data_categories != "Food security & nutrition" & country_size_status == "Small country" & element == "Coverage subscore" ~ 4/39,
-    TRUE ~ 5/50
+  filter(year == 2020, ogdi == "OGDI", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  pivot_wider(id_cols = c(country_code, country, country_size_status, data_categories), names_from = element, values_from = score) %>%
+  mutate(ogdi_coverage_weight = case_when(
+    data_categories == "Food security & nutrition" & country_size_status == "Small country"~ 3/39,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country"~ 4/39,
+    data_categories == "Food security & nutrition" & country_size_status == "Large country"~ 4/49,
+    TRUE ~ 5/49
+  ),
+  ogdi_openness_weight = 5/50,
+  ogdi_overall_weight = case_when(
+    data_categories == "Food security & nutrition" & country_size_status == "Small country" ~ 8/89,
+    data_categories != "Food security & nutrition" & country_size_status == "Small country" ~ 9/89,
+    data_categories == "Food security & nutrition" & country_size_status == "Large country" ~ 9/99,
+    TRUE ~ 10/99
   )) %>%
-  group_by(country, country_code, element) %>%
-  summarize(ogdi_overall = weighted.mean(score, ogdi_weight, na.rm = TRUE)) %>%
+  rowwise() %>%
+  mutate(coverage_score = mean(c(`Indicator coverage and disaggregation`, `Data available last 5 years`,
+                                 `Data available last 10 years`, `First administrative level`, `Second administrative level`), na.rm = TRUE)*ogdi_coverage_weight,
+         openness_score = mean(c(`Machine readable`,`Non proprietary`, `Download options`, `Metadata available`, `Terms of use`), na.rm = TRUE)*ogdi_openness_weight,
+         overall_score = mean(c(`Indicator coverage and disaggregation`, `Data available last 5 years`,
+                                `Data available last 10 years`, `First administrative level`, `Second administrative level`,
+                                `Machine readable`,`Non proprietary`, `Download options`, `Metadata available`, `Terms of use`), na.rm = TRUE)*ogdi_overall_weight) %>%
+  ungroup() %>%
+  group_by(country, country_code) %>%
+  summarize(total_coverage_score = sum(coverage_score, na.rm = TRUE),
+            total_openness_score = sum(openness_score, na.rm = TRUE),
+            total_overall_score = sum(overall_score, na.rm = TRUE)) %>%
   ungroup()
-
+  
 # 2. Replicate 2020 methodology for 2022 by including Education Facilities on top of 10 categories from last time
 ogdi_2022 <- odin_scores %>%
   mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",

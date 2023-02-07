@@ -1080,6 +1080,7 @@ ggsave("Graphs/OPENNESS Social statistics sub-categories 2016-2022.png",dpi = 40
 # As energy has increased across overall, coverage, and openness to 2020 and then decreased
 # again in 2022
 odin_scores %>%
+  semi_join(odin_always) %>%
   filter(data_categories == "Energy",
          !element %in% c("Overall score", "Coverage subscore", "Openness subscore")) %>%
   group_by(element, year) %>%
@@ -1093,7 +1094,7 @@ odin_scores %>%
   labs(x = "", y = "Average score", title = "Element scores for Energy category") +
   theme(legend.position = "none") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022", "", "", ""))
-ggsave("Graphs/Energy coverage and openness elements 2016-2022.png",dpi = 400)
+ggsave("Graphs/Energy coverage and openness elements 2016-2022 average.png",dpi = 400)
 
 
 #### HEALTH ####

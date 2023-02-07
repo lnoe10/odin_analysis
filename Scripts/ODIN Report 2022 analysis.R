@@ -1487,6 +1487,20 @@ ogdi_2020 %>%
             total_openness_score = sum(openness_score, na.rm = TRUE),
             total_overall_score = sum(overall_score, na.rm = TRUE)) %>%
   ungroup()
+
+# Non-gender 2020 scores.
+ogdi_2020 %>%
+  filter(year == 2020, ogdi == "non_OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
+  # Simply average of non-OGDI scores for each country
+  group_by(country, country_code, element) %>%
+  summarize(non_gender_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  # Total across all countries
+  group_by(element) %>%
+  summarize(total_non_gender_median = median(non_gender_score, na.rm = TRUE),
+            total_non_gender_mean = mean(non_gender_score, na.rm = TRUE)) %>%
+  ungroup()
+  
   
 # 2. Replicate 2020 methodology for 2022 by including Education Facilities on top of 10 categories from last time
 ogdi_2022 <- odin_scores %>%

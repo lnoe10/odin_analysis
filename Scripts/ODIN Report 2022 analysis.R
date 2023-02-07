@@ -1567,6 +1567,27 @@ odin_scores %>%
   ungroup() %>%
   filter(year == 2022)
 
+# Performance in 2022 of gender vs non-gender data_categories by element
+ogdi_2022 %>%
+  filter(year == 2022) %>%
+  group_by(country, country_code, macro_element, element, ogdi) %>%
+  summarize(mean_country_element_score = mean(score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  group_by(macro_element, element, ogdi) %>%
+  summarize(mean_world_element_score = mean(mean_country_element_score, na.rm = TRUE)) %>%
+  ungroup() %>%
+  filter(!is.na(ogdi), !is.na(macro_element)) %>%
+  group_by(ogdi) %>%
+  mutate(rank = rank(mean_world_element_score),
+         rank = case_when(ogdi == "non_OGDI" ~ NA_real_, TRUE ~ rank)) %>%
+  ggplot(aes(x = fct_reorder(element, rank), y = mean_world_element_score, fill = ogdi)) +
+  geom_col(position = position_dodge()) +
+  coord_flip() +
+  facet_grid(macro_element~., scales = "free_y") +
+  labs(x = "Average score", y = "")
+# doing this with the median actually shows that Indicator and coverage and machine-readable 
+# are the most different between the two sets of categories.
+
 ## OPTIONAL IMPORT COVID-19 DATA
 ##### COVID-19 data availability from OWID
 ## Download Our World in Data dataset

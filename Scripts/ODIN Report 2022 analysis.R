@@ -1510,11 +1510,12 @@ ogdi_2022 <- odin_scores %>%
                           data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
                           TRUE ~ "non_OGDI"))
 
-# Category scores for OGDI categories:
+# Category scores for OGDI categories Median:
 ogdi_2022 %>%
   filter(ogdi == "OGDI", year == 2022, element == "Overall score") %>%
   group_by(data_categories) %>%
-  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  summarize(median_score = median(score, na.rm = TRUE),
+            mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup()
 
 # Compute Coverage and Openness scores for OGDI
@@ -1560,20 +1561,6 @@ ogdi_2022 %>%
   summarize(total_non_gender_median = median(non_gender_score, na.rm = TRUE),
             total_non_gender_mean = mean(non_gender_score, na.rm = TRUE)) %>%
   ungroup()
-
-# Performance in 2022 of data categories
-odin_scores %>%
-  mutate(ogdi = case_when(data_categories %in% c("Crime & justice", "Education facilities", "Education outcomes", "Food security & nutrition",
-                                                 "Gender statistics", "Health outcomes", "Labor", "Population & vital statistics",
-                                                 "Reproductive health", "Built environment", "Poverty & income") ~ "OGDI",
-                          data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
-                          TRUE ~ "non_OGDI")) %>%
-  filter(element == "Overall score", ogdi == "OGDI") %>%
-  # Average by country by year by OGDI status
-  group_by(year, data_categories) %>%
-  summarize(score_by_datacat = mean(score, na.rm = TRUE)) %>%
-  ungroup() %>%
-  filter(year == 2022)
 
 # Performance in 2022 of gender vs non-gender data_categories by element
 ogdi_2022 %>%

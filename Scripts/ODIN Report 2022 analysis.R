@@ -1600,7 +1600,9 @@ ogdi_2022 %>%
   geom_col(position = position_dodge()) +
   coord_flip() +
   facet_grid(macro_element~., scales = "free_y") +
-  labs(x = "Average score", y = "")
+  labs(x = "Average score", y = "") +
+  theme(legend.title = element_blank())
+ggsave("Graphs/Element comparison OGDI vs non-OGDI.png", dpi = 400)
 # doing this with the median actually shows that Indicator and coverage and machine-readable 
 # are the most different between the two sets of categories.
 

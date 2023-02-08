@@ -1510,6 +1510,14 @@ ogdi_2022 <- odin_scores %>%
                           data_categories %in% c("All Categories", "Economic & financial statistics subscore", "Environment subscore", "Social statistics subscore") ~ NA_character_,
                           TRUE ~ "non_OGDI"))
 
+# Category scores for OGDI categories:
+ogdi_2022 %>%
+  filter(ogdi == "OGDI", year == 2022, element == "Overall score") %>%
+  group_by(data_categories) %>%
+  summarize(median_score = median(score, na.rm = TRUE)) %>%
+  ungroup()
+
+# Compute Coverage and Openness scores for OGDI
 ogdi_2022 %>%
   filter(year == 2022, ogdi == "OGDI", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   pivot_wider(id_cols = c(country_code, country, country_size_status, data_categories), names_from = element, values_from = score) %>%

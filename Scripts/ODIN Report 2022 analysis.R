@@ -1518,8 +1518,8 @@ ogdi_2022 %>%
             mean_score = mean(score, na.rm = TRUE)) %>%
   ungroup()
 
-# Compute Coverage and Openness scores for OGDI
-ogdi_2022 %>%
+# Compute Coverage and Openness scores for OGDI per country
+(ogdi_country <- ogdi_2022 %>%
   filter(year == 2022, ogdi == "OGDI", !element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   pivot_wider(id_cols = c(country_code, country, country_size_status, data_categories), names_from = element, values_from = score) %>%
   mutate(ogdi_coverage_weight = case_when(
@@ -1544,13 +1544,22 @@ ogdi_2022 %>%
                                 `Machine readable`,`Non proprietary`, `Download options`, `Metadata available`, `Terms of use`), na.rm = TRUE)*ogdi_overall_weight) %>%
   ungroup() %>%
   group_by(country, country_code) %>%
-  summarize(total_coverage_score = sum(coverage_score, na.rm = TRUE),
-            total_openness_score = sum(openness_score, na.rm = TRUE),
+  summarize(total_coverage_subscore = sum(coverage_score, na.rm = TRUE),
+            total_openness_subscore = sum(openness_score, na.rm = TRUE),
             total_overall_score = sum(overall_score, na.rm = TRUE)) %>%
-  ungroup()
+  ungroup())
+
+# Compute total coverage and openness and overall scores
+(ogdi_totals <- ogdi_country %>%
+  summarize(across(starts_with("total"), list(mean = mean, median = median))) %>%
+    pivot_longer(cols = starts_with("total"), names_to = "element", values_to = "total_score") %>%
+    mutate(score_type = case_when(str_detect(element, "mean") ~ "mean", TRUE ~ "median"),
+           element = str_to_sentence(str_replace(str_remove_all(element, "total_|_mean|_median"), "_", " ")),
+           ogdi = "OGDI") %>%
+    pivot_wider(id_cols = c(element, ogdi), names_from = score_type, names_prefix = "total_", values_from = total_score))
 
 # Non-gender 2022 scores.
-ogdi_2022 %>%
+(non_ogdi_totals <- ogdi_2022 %>%
   filter(year == 2022, ogdi == "non_OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   # Simply average of non-OGDI scores for each country
   group_by(country, country_code, element) %>%
@@ -1560,7 +1569,19 @@ ogdi_2022 %>%
   group_by(element) %>%
   summarize(total_non_gender_median = median(non_gender_score, na.rm = TRUE),
             total_non_gender_mean = mean(non_gender_score, na.rm = TRUE)) %>%
-  ungroup()
+  ungroup() %>%
+  mutate(ogdi = "non-OGDI") %>%
+  select(ogdi, element, total_mean = total_non_gender_mean, total_median = total_non_gender_median))
+
+# Total coverage, openness, and overall by OGDI status
+ogdi_totals %>%
+  bind_rows(non_ogdi_totals) %>%
+  ggplot(aes(x = element, y = total_median, fill = ogdi)) +
+  geom_col(position = position_dodge()) +
+  geom_point(aes(y = total_mean), position = position_dodge(width = 0.9), show.legend = FALSE) +
+  labs(x = "", y = "Median score (dots represent averages)") +
+  theme(legend.title = element_blank())
+ggsave("Graphs/OGDI vs non_OGDI scores.png", dpi = 400)
 
 # Performance in 2022 of gender vs non-gender data_categories by element
 ogdi_2022 %>%

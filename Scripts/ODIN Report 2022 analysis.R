@@ -1586,6 +1586,13 @@ ogdi_totals %>%
   theme(legend.title = element_blank())
 ggsave("Graphs/OGDI vs non_OGDI scores.png", dpi = 400)
 
+# Export country level ogdi and non-ogdi scores
+ogdi_country %>%
+  full_join(non_ogdi_country %>% pivot_wider(id_cols = c(country, country_code), names_from = element, values_from = non_gender_score)) %>%
+  rename(ogdi_coverage = total_coverage_subscore, ogdi_openness = total_openness_subscore, ogdi_overall = total_overall_score,
+         non_ogdi_coverage = `Coverage subscore`, non_ogdi_openness = `Openness subscore`, non_ogdi_overall = `Overall score`) %>%
+  writexl::write_xlsx("Output/OGDI vs. non-OGDI country scores.xlsx", format_headers = FALSE)
+
 # Performance in 2022 of gender vs non-gender data_categories by element
 ogdi_2022 %>%
   filter(year == 2022) %>%

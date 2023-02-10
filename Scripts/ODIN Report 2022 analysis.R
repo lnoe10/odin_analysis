@@ -1091,7 +1091,7 @@ odin_scores %>%
   geom_line() +
   geom_point() +
   ggrepel::geom_text_repel(aes(label = label), nudge_x = 0.1, direction = "y", hjust = 0, na.rm = TRUE, size = 3.5, segment.alpha = 0) +
-  labs(x = "", y = "Average score", title = "Element scores for Energy category") +
+  labs(x = "", y = "Arithmetic average score", title = "Element scores for Energy category") +
   theme(legend.position = "none") +
   scale_x_discrete(limits = c("2016", "2017", "2018", "", "2020", "", "2022", "", "", ""))
 ggsave("Graphs/Energy coverage and openness elements 2016-2022 average.png",dpi = 400)

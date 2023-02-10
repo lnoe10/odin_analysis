@@ -1559,12 +1559,15 @@ ogdi_2022 %>%
     pivot_wider(id_cols = c(element, ogdi), names_from = score_type, names_prefix = "total_", values_from = total_score))
 
 # Non-gender 2022 scores.
-(non_ogdi_totals <- ogdi_2022 %>%
+(non_ogdi_country <- ogdi_2022 %>%
   filter(year == 2022, ogdi == "non_OGDI", element %in% c("Coverage subscore", "Openness subscore", "Overall score")) %>%
   # Simply average of non-OGDI scores for each country
   group_by(country, country_code, element) %>%
   summarize(non_gender_score = mean(score, na.rm = TRUE)) %>%
-  ungroup() %>%
+  ungroup())
+
+# Totals by overall, coverage, and openness scores
+(non_ogdi_totals <-  non_ogdi_country %>%
   # Total across all countries
   group_by(element) %>%
   summarize(total_non_gender_median = median(non_gender_score, na.rm = TRUE),

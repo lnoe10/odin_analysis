@@ -1,0 +1,186 @@
+country,country_code,region,macro_region,2022,2020,score_change
+Ethiopia,ETH,Eastern Africa,Africa,40.7,20.1,20.6
+Mozambique,MOZ,Eastern Africa,Africa,36.8,26.6,10.199999999999996
+Somalia,SOM,Eastern Africa,Africa,34.3,24.5,9.799999999999997
+Kenya,KEN,Eastern Africa,Africa,45.5,42.6,2.8999999999999986
+Burundi,BDI,Eastern Africa,Africa,40.7,40,0.7000000000000028
+Djibouti,DJI,Eastern Africa,Africa,29.4,29.3,0.09999999999999787
+Tanzania,TZA,Eastern Africa,Africa,54.2,56.1,-1.8999999999999986
+Malawi,MWI,Eastern Africa,Africa,38.3,40.4,-2.1000000000000014
+Seychelles,SYC,Eastern Africa,Africa,38,40.8,-2.799999999999997
+Uganda,UGA,Eastern Africa,Africa,45.6,48.9,-3.299999999999997
+Rwanda,RWA,Eastern Africa,Africa,59.4,64.6,-5.199999999999996
+Mauritius,MUS,Eastern Africa,Africa,51.9,57.2,-5.300000000000004
+Zimbabwe,ZWE,Eastern Africa,Africa,42.3,48.1,-5.800000000000004
+Madagascar,MDG,Eastern Africa,Africa,33.1,39.8,-6.699999999999996
+South Sudan,SSD,Eastern Africa,Africa,8.5,20.1,-11.600000000000001
+Zambia,ZMB,Eastern Africa,Africa,33.1,46.3,-13.199999999999996
+Gabon,GAB,Middle Africa,Africa,33.3,24.3,8.999999999999996
+Chad,TCD,Middle Africa,Africa,26.6,19.2,7.400000000000002
+Sao Tome and Principe,STP,Middle Africa,Africa,38.7,37.8,0.9000000000000057
+Equatorial Guinea,GNQ,Middle Africa,Africa,30.8,30.1,0.6999999999999993
+Cameroon,CMR,Middle Africa,Africa,43.8,44.6,-0.8000000000000043
+Angola,AGO,Middle Africa,Africa,34.8,41.4,-6.600000000000001
+"Congo, Dem. Rep.",COD,Middle Africa,Africa,32.9,47.6,-14.700000000000003
+Morocco,MAR,Northern Africa,Africa,68.7,64.7,4
+Libya,LBY,Northern Africa,Africa,22.6,20,2.6000000000000014
+Tunisia,TUN,Northern Africa,Africa,57,54.9,2.1000000000000014
+Egypt,EGY,Northern Africa,Africa,41,41.6,-0.6000000000000014
+Algeria,DZA,Northern Africa,Africa,29.7,31.9,-2.1999999999999993
+Eswatini,SWZ,Southern Africa,Africa,15.4,9.5,5.9
+Botswana,BWA,Southern Africa,Africa,51.2,47,4.200000000000003
+South Africa,ZAF,Southern Africa,Africa,52.6,52,0.6000000000000014
+Namibia,NAM,Southern Africa,Africa,37.6,41,-3.3999999999999986
+Lesotho,LSO,Southern Africa,Africa,38.4,47.4,-9
+Togo,TGO,Western Africa,Africa,42.1,33.4,8.700000000000003
+Mauritania,MRT,Western Africa,Africa,41.1,33.5,7.600000000000001
+Sierra Leone,SLE,Western Africa,Africa,46.1,41.3,4.800000000000004
+Niger,NER,Western Africa,Africa,35.7,33.1,2.6000000000000014
+Guinea,GIN,Western Africa,Africa,45.5,43.1,2.3999999999999986
+Ghana,GHA,Western Africa,Africa,40.9,39.1,1.7999999999999972
+Liberia,LBR,Western Africa,Africa,39.5,38.2,1.2999999999999972
+The Gambia,GMB,Western Africa,Africa,45.5,46.1,-0.6000000000000014
+Benin,BEN,Western Africa,Africa,51.1,52.3,-1.1999999999999957
+Senegal,SEN,Western Africa,Africa,47.4,49.3,-1.8999999999999986
+Cabo Verde,CPV,Western Africa,Africa,44.6,46.7,-2.1000000000000014
+Burkina Faso,BFA,Western Africa,Africa,47.8,50.9,-3.1000000000000014
+Mali,MLI,Western Africa,Africa,39.5,43.3,-3.799999999999997
+Nigeria,NGA,Western Africa,Africa,44.5,49.8,-5.299999999999997
+Cote d'Ivoire,CIV,Western Africa,Africa,20.3,39.7,-19.400000000000002
+Anguilla,AIA,Caribbean,America,22,12.2,9.8
+St. Kitts and Nevis,KNA,Caribbean,America,41.4,34.1,7.299999999999997
+Trinidad and Tobago,TTO,Caribbean,America,34.3,27.2,7.099999999999998
+Haiti,HTI,Caribbean,America,3.7,3.6,0.10000000000000009
+Jamaica,JAM,Caribbean,America,60.7,61.6,-0.8999999999999986
+St. Vincent & Grenadines,VCT,Caribbean,America,46.8,49.1,-2.3000000000000043
+The Bahamas,BHS,Caribbean,America,32.8,35.5,-2.700000000000003
+Dominican Republic,DOM,Caribbean,America,55,58.6,-3.6000000000000014
+Antigua and Barbuda,ATG,Caribbean,America,30.3,35.8,-5.4999999999999964
+Cuba,CUB,Caribbean,America,40.4,48.3,-7.899999999999999
+St. Lucia,LCA,Caribbean,America,52.3,61.9,-9.600000000000001
+Dominica,DMA,Caribbean,America,30.4,40.6,-10.200000000000003
+Belize,BLZ,Central America,America,44.5,39.7,4.799999999999997
+Honduras,HND,Central America,America,40.7,37.6,3.1000000000000014
+El Salvador,SLV,Central America,America,43,40.8,2.200000000000003
+Mexico,MEX,Central America,America,70.1,69.3,0.7999999999999972
+Nicaragua,NIC,Central America,America,39.8,39.5,0.29999999999999716
+Guatemala,GTM,Central America,America,36.1,35.9,0.20000000000000284
+Panama,PAN,Central America,America,44.8,46.5,-1.7000000000000028
+Costa Rica,CRI,Central America,America,56,58.2,-2.200000000000003
+Greenland,GRL,North America,America,56.1,52.7,3.3999999999999986
+United States,USA,North America,America,72.2,70.4,1.7999999999999972
+Canada,CAN,North America,America,77.2,76,1.2000000000000028
+Chile,CHL,South America,America,56.3,36.3,20
+Paraguay,PRY,South America,America,52.3,41.4,10.899999999999999
+Bolivia,BOL,South America,America,53,47.5,5.5
+Guyana,GUY,South America,America,33.2,27.8,5.400000000000002
+Colombia,COL,South America,America,57.7,52.7,5
+Uruguay,URY,South America,America,57.5,54.1,3.3999999999999986
+Brazil,BRA,South America,America,64,62.3,1.7000000000000028
+Peru,PER,South America,America,60.8,59.8,1
+Ecuador,ECU,South America,America,65,66.5,-1.5
+Argentina,ARG,South America,America,45.2,46.8,-1.5999999999999943
+Suriname,SUR,South America,America,49.6,56.6,-7
+Uzbekistan,UZB,Central Asia,Asia,70.2,62.9,7.300000000000004
+Kyrgyz Republic,KGZ,Central Asia,Asia,51,48.4,2.6000000000000014
+Kazakhstan,KAZ,Central Asia,Asia,63.1,61.5,1.6000000000000014
+Tajikistan,TJK,Central Asia,Asia,41.8,41.2,0.5999999999999943
+Turkmenistan,TKM,Central Asia,Asia,1.3,1.3,0
+Taiwan,TWN,Eastern Asia,Asia,66,60.3,5.700000000000003
+"Hong Kong SAR, China",HKG,Eastern Asia,Asia,82.4,77.7,4.700000000000003
+Mongolia,MNG,Eastern Asia,Asia,81.6,78.3,3.299999999999997
+China,CHN,Eastern Asia,Asia,37.4,35.1,2.299999999999997
+"Korea, Rep.",KOR,Eastern Asia,Asia,71.4,70.4,1
+Japan,JPN,Eastern Asia,Asia,68.3,68.2,0.09999999999999432
+"Macao SAR, China",MAC,Eastern Asia,Asia,45,47.6,-2.6000000000000014
+Malaysia,MYS,South-Eastern Asia,Asia,58.7,52.9,5.800000000000004
+Lao PDR,LAO,South-Eastern Asia,Asia,44.9,39.1,5.799999999999997
+Vietnam,VNM,South-Eastern Asia,Asia,54.6,49.2,5.399999999999999
+Cambodia,KHM,South-Eastern Asia,Asia,37.2,32.7,4.5
+Thailand,THA,South-Eastern Asia,Asia,47.6,43.5,4.100000000000001
+Indonesia,IDN,South-Eastern Asia,Asia,71.3,67.8,3.5
+Brunei Darussalam,BRN,South-Eastern Asia,Asia,54.9,53.2,1.6999999999999957
+Singapore,SGP,South-Eastern Asia,Asia,90.4,92,-1.5999999999999943
+Myanmar,MMR,South-Eastern Asia,Asia,49.1,50.7,-1.6000000000000014
+Timor-Leste,TLS,South-Eastern Asia,Asia,35.6,39,-3.3999999999999986
+Philippines,PHL,South-Eastern Asia,Asia,68.6,72.7,-4.1000000000000085
+Bhutan,BTN,Southern Asia,Asia,44.9,39.3,5.600000000000001
+Bangladesh,BGD,Southern Asia,Asia,39.6,37.9,1.7000000000000028
+Nepal,NPL,Southern Asia,Asia,44.4,43.8,0.6000000000000014
+Afghanistan,AFG,Southern Asia,Asia,31.9,31.4,0.5
+Pakistan,PAK,Southern Asia,Asia,43,43.1,-0.10000000000000142
+"Iran, Islamic Rep.",IRN,Southern Asia,Asia,40.3,40.8,-0.5
+Sri Lanka,LKA,Southern Asia,Asia,49.5,50.3,-0.7999999999999972
+India,IND,Southern Asia,Asia,53.8,58.1,-4.300000000000004
+Maldives,MDV,Southern Asia,Asia,43.4,52,-8.600000000000001
+Jordan,JOR,Western Asia,Asia,66.3,52.6,13.699999999999996
+Saudi Arabia,SAU,Western Asia,Asia,58.1,47.9,10.200000000000003
+Israel,ISR,Western Asia,Asia,64.8,58.2,6.599999999999994
+United Arab Emirates,ARE,Western Asia,Asia,79.5,74.6,4.900000000000006
+Turkey,TUR,Western Asia,Asia,59,55.4,3.6000000000000014
+Georgia,GEO,Western Asia,Asia,71.2,68.5,2.700000000000003
+Bahrain,BHR,Western Asia,Asia,62.9,60.6,2.299999999999997
+Armenia,ARM,Western Asia,Asia,58.2,56.5,1.7000000000000028
+Azerbaijan,AZE,Western Asia,Asia,56.9,56.3,0.6000000000000014
+Yemen,YEM,Western Asia,Asia,36.6,36.4,0.20000000000000284
+Cyprus,CYP,Western Asia,Asia,61.7,62.3,-0.5999999999999943
+Palestine,PSE,Western Asia,Asia,71.3,72,-0.7000000000000028
+Qatar,QAT,Western Asia,Asia,43.1,45.2,-2.1000000000000014
+Oman,OMN,Western Asia,Asia,73.9,78,-4.099999999999994
+Kuwait,KWT,Western Asia,Asia,40.2,46.8,-6.599999999999994
+Iraq,IRQ,Western Asia,Asia,40.3,48.1,-7.800000000000004
+Syrian Arab Republic,SYR,Western Asia,Asia,21.1,29.8,-8.7
+Lebanon,LBN,Western Asia,Asia,31.7,42,-10.3
+Belarus,BLR,Eastern Europe,Europe,64.5,57,7.5
+Romania,ROU,Eastern Europe,Europe,71.5,66.2,5.299999999999997
+Moldova,MDA,Eastern Europe,Europe,76.2,72.6,3.6000000000000085
+Russian Federation,RUS,Eastern Europe,Europe,61.5,59,2.5
+Poland,POL,Eastern Europe,Europe,87,85.3,1.7000000000000028
+Czech Republic,CZE,Eastern Europe,Europe,69.5,69.8,-0.29999999999999716
+Bulgaria,BGR,Eastern Europe,Europe,68.9,69.9,-1
+Hungary,HUN,Eastern Europe,Europe,63.7,65.3,-1.5999999999999943
+Ukraine,UKR,Eastern Europe,Europe,60.6,62.9,-2.299999999999997
+Slovakia,SVK,Eastern Europe,Europe,75.3,78.2,-2.9000000000000057
+Latvia,LVA,Northern Europe,Europe,76.9,58.2,18.700000000000003
+Estonia,EST,Northern Europe,Europe,79.6,70.2,9.399999999999991
+Norway,NOR,Northern Europe,Europe,85.2,79.1,6.1000000000000085
+United Kingdom,GBR,Northern Europe,Europe,62.5,57.8,4.700000000000003
+Denmark,DNK,Northern Europe,Europe,86.7,84.4,2.299999999999997
+Finland,FIN,Northern Europe,Europe,85.8,84.8,1
+Iceland,ISL,Northern Europe,Europe,53.5,52.8,0.7000000000000028
+Lithuania,LTU,Northern Europe,Europe,70.9,73.8,-2.8999999999999915
+Sweden,SWE,Northern Europe,Europe,81,83.9,-2.9000000000000057
+Ireland,IRL,Northern Europe,Europe,72.8,77.1,-4.299999999999997
+Andorra,AND,Southern Europe,Europe,59.2,31.8,27.400000000000002
+Portugal,PRT,Southern Europe,Europe,77.9,66.5,11.400000000000006
+San Marino,SMR,Southern Europe,Europe,34.6,25.7,8.900000000000002
+Serbia,SRB,Southern Europe,Europe,69.5,62.6,6.899999999999999
+Albania,ALB,Southern Europe,Europe,60.2,53.5,6.700000000000003
+Malta,MLT,Southern Europe,Europe,52.3,47.2,5.099999999999994
+Bosnia and Herzegovina,BIH,Southern Europe,Europe,44.8,41.8,3
+Slovenia,SVN,Southern Europe,Europe,82.9,79.9,3
+Italy,ITA,Southern Europe,Europe,67.6,65.9,1.6999999999999886
+Spain,ESP,Southern Europe,Europe,72.9,71.3,1.6000000000000085
+North Macedonia,MKD,Southern Europe,Europe,62.9,62,0.8999999999999986
+Greece,GRC,Southern Europe,Europe,59.5,60.1,-0.6000000000000014
+Croatia,HRV,Southern Europe,Europe,62.6,63.8,-1.1999999999999957
+Kosovo,XKX,Southern Europe,Europe,48.4,53.3,-4.899999999999999
+Montenegro,MNE,Southern Europe,Europe,51,57.4,-6.399999999999999
+Liechtenstein,LIE,Western Europe,Europe,63.3,48.8,14.5
+Belgium,BEL,Western Europe,Europe,57,45.5,11.5
+France,FRA,Western Europe,Europe,68.4,62,6.400000000000006
+Germany,DEU,Western Europe,Europe,78.9,77.3,1.6000000000000085
+Luxembourg,LUX,Western Europe,Europe,64.8,65.1,-0.29999999999999716
+Netherlands,NLD,Western Europe,Europe,79.7,81.5,-1.7999999999999972
+Switzerland,CHE,Western Europe,Europe,65.5,69.4,-3.9000000000000057
+Austria,AUT,Western Europe,Europe,61.4,68.7,-7.300000000000004
+Australia,AUS,Australia and New Zealand,Oceania,72,63.1,8.899999999999999
+New Zealand,NZL,Australia and New Zealand,Oceania,66.9,69.9,-3
+Palau,PLW,Pacific Islands,Oceania,34.4,29.5,4.899999999999999
+Papua New Guinea,PNG,Pacific Islands,Oceania,24.5,20.7,3.8000000000000007
+Tonga,TON,Pacific Islands,Oceania,44.7,41.4,3.3000000000000043
+Fiji,FJI,Pacific Islands,Oceania,42.3,39.2,3.0999999999999943
+Solomon Islands,SLB,Pacific Islands,Oceania,28.1,29,-0.8999999999999986
+Samoa,WSM,Pacific Islands,Oceania,41.5,46.6,-5.100000000000001
+Marshall Islands,MHL,Pacific Islands,Oceania,26.7,32.9,-6.199999999999999
+"Micronesia, Fed. Sts.",FSM,Pacific Islands,Oceania,26.6,33.7,-7.100000000000001

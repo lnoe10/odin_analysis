@@ -1,0 +1,41 @@
+macro_region,region,year,med_score
+Africa,Eastern Africa,2016,29.7
+Africa,Eastern Africa,2022,40.75
+Africa,Middle Africa,2016,23.7
+Africa,Middle Africa,2022,35.1
+Africa,Northern Africa,2016,28
+Africa,Northern Africa,2022,40.8
+Africa,Southern Africa,2016,31.3
+Africa,Southern Africa,2022,39.4
+Africa,Western Africa,2016,31.5
+Africa,Western Africa,2022,43.9
+America,Caribbean,2016,23
+America,Caribbean,2022,37.3
+America,Central America,2016,28.55
+America,Central America,2022,42
+America,North America,2016,74.8
+America,North America,2022,73
+America,South America,2016,37.8
+America,South America,2022,54.8
+Asia,Central Asia,2016,40.3
+Asia,Central Asia,2022,50.9
+Asia,Eastern Asia,2016,48
+Asia,Eastern Asia,2022,68.05
+Asia,South-Eastern Asia,2016,35.7
+Asia,South-Eastern Asia,2022,52.3
+Asia,Southern Asia,2016,36.7
+Asia,Southern Asia,2022,43.2
+Asia,Western Asia,2016,41.9
+Asia,Western Asia,2022,58.1
+Europe,Eastern Europe,2016,55.650000000000006
+Europe,Eastern Europe,2022,68.3
+Europe,Northern Europe,2016,73.9
+Europe,Northern Europe,2022,77.65
+Europe,Southern Europe,2016,54.2
+Europe,Southern Europe,2022,61.5
+Europe,Western Europe,2016,59.3
+Europe,Western Europe,2022,65.7
+Oceania,Australia and New Zealand,2016,63.150000000000006
+Oceania,Australia and New Zealand,2022,67.2
+Oceania,Pacific Islands,2016,25.95
+Oceania,Pacific Islands,2022,27.9

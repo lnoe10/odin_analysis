@@ -1,0 +1,21 @@
+macro_element,element,ogdi,mean_world_element_score
+Coverage elements,Data available last 10 years,OGDI,45.97537878787879
+Coverage elements,Data available last 10 years,non_OGDI,60.62973484848485
+Coverage elements,Data available last 5 years,OGDI,46.30681818181818
+Coverage elements,Data available last 5 years,non_OGDI,60.29829545454545
+Coverage elements,First administrative level,OGDI,28.259943181818183
+Coverage elements,First administrative level,non_OGDI,15.959821428571429
+Coverage elements,Indicator coverage and disaggregation,OGDI,64.10984848484848
+Coverage elements,Indicator coverage and disaggregation,non_OGDI,68.96306818181819
+Coverage elements,Second administrative level,OGDI,10.945121951219512
+Coverage elements,Second administrative level,non_OGDI,10.670731707317072
+Openness elements,Download options,OGDI,42.140151515151516
+Openness elements,Download options,non_OGDI,42.89772727272727
+Openness elements,Machine readable,OGDI,50.75757575757576
+Openness elements,Machine readable,non_OGDI,59.39867424242424
+Openness elements,Metadata available,OGDI,52.65151515151515
+Openness elements,Metadata available,non_OGDI,51.42045454545455
+Openness elements,Non proprietary,OGDI,83.45170454545455
+Openness elements,Non proprietary,non_OGDI,79.02462121212122
+Openness elements,Terms of use,OGDI,35.81912878787879
+Openness elements,Terms of use,non_OGDI,34.49337121212121

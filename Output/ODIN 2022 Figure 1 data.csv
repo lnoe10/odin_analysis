@@ -1,0 +1,193 @@
+Year,Region,Region Code,Country,Country Code,Overall score
+2022,Southern Europe,EUZ,Albania,ALB,59.7
+2022,Northern Africa,AFN,Algeria,DZA,29.7
+2022,Southern Europe,EUZ,Andorra,AND,60
+2022,Middle Africa,AFM,Angola,AGO,35.1
+2022,Caribbean,AMC,Anguilla,AIA,21.3
+2022,Caribbean,AMC,Antigua and Barbuda,ATG,30.1
+2022,South America,AMZ,Argentina,ARG,42.8
+2022,Western Asia,ASW,Armenia,ARM,57.2
+2022,Caribbean,AMC,Aruba,ABW,33.8
+2022,Australia and New Zealand,OAZ,Australia,AUS,68.2
+2022,Western Europe,EUW,Austria,AUT,61.6
+2022,Western Asia,ASW,Azerbaijan,AZE,56.9
+2022,Western Asia,ASW,Bahrain,BHR,58.2
+2022,Southern Asia,ASZ,Bangladesh,BGD,38.2
+2022,Caribbean,AMC,Barbados,BRB,21.6
+2022,Eastern Europe,EUE,Belarus,BLR,58.7
+2022,Western Europe,EUW,Belgium,BEL,57.4
+2022,Central America,AMM,Belize,BLZ,45.4
+2022,Western Africa,AFW,Benin,BEN,51.1
+2022,Southern Asia,ASZ,Bhutan,BTN,43.6
+2022,South America,AMZ,Bolivia,BOL,52.4
+2022,Southern Europe,EUZ,Bosnia and Herzegovina,BIH,45.3
+2022,Southern Africa,AFZ,Botswana,BWA,50.8
+2022,South America,AMZ,Brazil,BRA,64.4
+2022,South-Eastern Asia,ASE,Brunei Darussalam,BRN,55.3
+2022,Eastern Europe,EUE,Bulgaria,BGR,68.1
+2022,Western Africa,AFW,Burkina Faso,BFA,51.1
+2022,Eastern Africa,AFE,Burundi,BDI,40.8
+2022,Western Africa,AFW,Cabo Verde,CPV,44
+2022,South-Eastern Asia,ASE,Cambodia,KHM,36.3
+2022,Middle Africa,AFM,Cameroon,CMR,44
+2022,North America,AMN,Canada,CAN,75.3
+2022,Middle Africa,AFM,Central African Republic,CAF,26.8
+2022,Middle Africa,AFM,Chad,TCD,28.3
+2022,South America,AMZ,Chile,CHL,55.2
+2022,Eastern Asia,ASF,China,CHN,37
+2022,South America,AMZ,Colombia,COL,49.6
+2022,Middle Africa,AFM,"Congo, Dem. Rep.",COD,30.7
+2022,Central America,AMM,Costa Rica,CRI,56.8
+2022,Western Africa,AFW,Cote d'Ivoire,CIV,19
+2022,Southern Europe,EUZ,Croatia,HRV,61.5
+2022,Caribbean,AMC,Cuba,CUB,37.3
+2022,Western Asia,ASW,Cyprus,CYP,57
+2022,Eastern Europe,EUE,Czech Republic,CZE,68.5
+2022,Northern Europe,EUN,Denmark,DNK,86.3
+2022,Eastern Africa,AFE,Djibouti,DJI,29.7
+2022,Caribbean,AMC,Dominica,DMA,29.8
+2022,Caribbean,AMC,Dominican Republic,DOM,56.3
+2022,South America,AMZ,Ecuador,ECU,64.8
+2022,Northern Africa,AFN,Egypt,EGY,40.8
+2022,Central America,AMM,El Salvador,SLV,40
+2022,Middle Africa,AFM,Equatorial Guinea,GNQ,30.8
+2022,Northern Europe,EUN,Estonia,EST,78.4
+2022,Southern Africa,AFZ,Eswatini,SWZ,16.3
+2022,Eastern Africa,AFE,Ethiopia,ETH,40.7
+2022,Pacific Islands,OPI,Fiji,FJI,41.8
+2022,Northern Europe,EUN,Finland,FIN,85.2
+2022,Western Europe,EUW,France,FRA,68.4
+2022,Middle Africa,AFM,Gabon,GAB,34.4
+2022,Western Asia,ASW,Georgia,GEO,71.2
+2022,Western Europe,EUW,Germany,DEU,78.1
+2022,Western Africa,AFW,Ghana,GHA,40.1
+2022,Southern Europe,EUZ,Greece,GRC,59.1
+2022,North America,AMN,Greenland,GRL,56.9
+2022,Caribbean,AMC,Grenada,GRD,16.3
+2022,Central America,AMM,Guatemala,GTM,35.5
+2022,Western Africa,AFW,Guinea,GIN,45.1
+2022,South America,AMZ,Guyana,GUY,33.6
+2022,Caribbean,AMC,Haiti,HTI,3.7
+2022,Central America,AMM,Honduras,HND,35.7
+2022,Eastern Asia,ASF,"Hong Kong SAR, China",HKG,82.4
+2022,Eastern Europe,EUE,Hungary,HUN,63
+2022,Northern Europe,EUN,Iceland,ISL,52.1
+2022,Southern Asia,ASZ,India,IND,52.8
+2022,South-Eastern Asia,ASE,Indonesia,IDN,70.7
+2022,Western Asia,ASW,Iraq,IRQ,41.1
+2022,Northern Europe,EUN,Ireland,IRL,72.3
+2022,Western Asia,ASW,Israel,ISR,65.5
+2022,Southern Europe,EUZ,Italy,ITA,66.7
+2022,Caribbean,AMC,Jamaica,JAM,56.4
+2022,Eastern Asia,ASF,Japan,JPN,69
+2022,Western Asia,ASW,Jordan,JOR,67.2
+2022,Central Asia,ASC,Kazakhstan,KAZ,63.6
+2022,Eastern Africa,AFE,Kenya,KEN,41.4
+2022,Pacific Islands,OPI,Kiribati,KIR,31.4
+2022,Eastern Asia,ASF,"Korea, Rep.",KOR,67.1
+2022,Southern Europe,EUZ,Kosovo,XKX,48.2
+2022,Western Asia,ASW,Kuwait,KWT,39.3
+2022,Central Asia,ASC,Kyrgyz Republic,KGZ,50.9
+2022,South-Eastern Asia,ASE,Lao PDR,LAO,46
+2022,Northern Europe,EUN,Latvia,LVA,76.9
+2022,Western Asia,ASW,Lebanon,LBN,32.4
+2022,Southern Africa,AFZ,Lesotho,LSO,39.4
+2022,Western Africa,AFW,Liberia,LBR,38.5
+2022,Northern Africa,AFN,Libya,LBY,21.3
+2022,Western Europe,EUW,Liechtenstein,LIE,64.7
+2022,Northern Europe,EUN,Lithuania,LTU,70.5
+2022,Western Europe,EUW,Luxembourg,LUX,65.4
+2022,Eastern Asia,ASF,"Macao SAR, China",MAC,45.2
+2022,Eastern Africa,AFE,Madagascar,MDG,33.3
+2022,Eastern Africa,AFE,Malawi,MWI,38.5
+2022,South-Eastern Asia,ASE,Malaysia,MYS,59
+2022,Southern Asia,ASZ,Maldives,MDV,43.2
+2022,Western Africa,AFW,Mali,MLI,38.6
+2022,Southern Europe,EUZ,Malta,MLT,52.8
+2022,Pacific Islands,OPI,Marshall Islands,MHL,27.7
+2022,Western Africa,AFW,Mauritania,MRT,41.4
+2022,Eastern Africa,AFE,Mauritius,MUS,52.2
+2022,Central America,AMM,Mexico,MEX,69.9
+2022,Pacific Islands,OPI,"Micronesia, Fed. Sts.",FSM,25.7
+2022,Eastern Europe,EUE,Moldova,MDA,76.1
+2022,Western Europe,EUW,Monaco,MCO,24.6
+2022,Eastern Asia,ASF,Mongolia,MNG,82.3
+2022,Southern Europe,EUZ,Montenegro,MNE,50.7
+2022,Northern Africa,AFN,Morocco,MAR,67
+2022,Eastern Africa,AFE,Mozambique,MOZ,36.2
+2022,South-Eastern Asia,ASE,Myanmar,MMR,50.2
+2022,Southern Africa,AFZ,Namibia,NAM,36.5
+2022,Pacific Islands,OPI,Nauru,NRU,10
+2022,Southern Asia,ASZ,Nepal,NPL,42.6
+2022,Western Europe,EUW,Netherlands,NLD,79.6
+2022,Australia and New Zealand,OAZ,New Zealand,NZL,66.2
+2022,Central America,AMM,Nicaragua,NIC,39.4
+2022,Western Africa,AFW,Niger,NER,35.7
+2022,Western Africa,AFW,Nigeria,NGA,43.9
+2022,Southern Europe,EUZ,North Macedonia,MKD,62.8
+2022,Northern Europe,EUN,Norway,NOR,85.2
+2022,Western Asia,ASW,Oman,OMN,72.5
+2022,Southern Asia,ASZ,Pakistan,PAK,42.1
+2022,Pacific Islands,OPI,Palau,PLW,33.8
+2022,Western Asia,ASW,Palestine,PSE,72.7
+2022,Central America,AMM,Panama,PAN,44
+2022,Pacific Islands,OPI,Papua New Guinea,PNG,26
+2022,South America,AMZ,Paraguay,PRY,54.8
+2022,South America,AMZ,Peru,PER,60.6
+2022,South-Eastern Asia,ASE,Philippines,PHL,63.6
+2022,Eastern Europe,EUE,Poland,POL,87
+2022,Southern Europe,EUZ,Portugal,PRT,71.2
+2022,Western Asia,ASW,Qatar,QAT,39.7
+2022,Eastern Europe,EUE,Romania,ROU,71.5
+2022,Eastern Europe,EUE,Russian Federation,RUS,61.8
+2022,Eastern Africa,AFE,Rwanda,RWA,58
+2022,Pacific Islands,OPI,Samoa,WSM,42
+2022,Southern Europe,EUZ,San Marino,SMR,34.9
+2022,Middle Africa,AFM,Sao Tome and Principe,STP,39.7
+2022,Western Asia,ASW,Saudi Arabia,SAU,58.1
+2022,Western Africa,AFW,Senegal,SEN,46.6
+2022,Southern Europe,EUZ,Serbia,SRB,68.9
+2022,Eastern Africa,AFE,Seychelles,SYC,38
+2022,Western Africa,AFW,Sierra Leone,SLE,47
+2022,South-Eastern Asia,ASE,Singapore,SGP,90
+2022,Eastern Europe,EUE,Slovakia,SVK,75.7
+2022,Southern Europe,EUZ,Slovenia,SVN,82.4
+2022,Pacific Islands,OPI,Solomon Islands,SLB,28.1
+2022,Eastern Africa,AFE,Somalia,SOM,37
+2022,Southern Africa,AFZ,South Africa,ZAF,52.8
+2022,Eastern Africa,AFE,South Sudan,SSD,8.5
+2022,Southern Europe,EUZ,Spain,ESP,73.1
+2022,Southern Asia,ASZ,Sri Lanka,LKA,50.1
+2022,Caribbean,AMC,St. Kitts and Nevis,KNA,41.2
+2022,Caribbean,AMC,St. Lucia,LCA,52.9
+2022,Caribbean,AMC,St. Vincent & Grenadines,VCT,47.3
+2022,South America,AMZ,Suriname,SUR,53.6
+2022,Northern Europe,EUN,Sweden,SWE,81
+2022,Western Europe,EUW,Switzerland,CHE,65.7
+2022,Western Asia,ASW,Syrian Arab Republic,SYR,21.6
+2022,Eastern Asia,ASF,Taiwan,TWN,65.6
+2022,Central Asia,ASC,Tajikistan,TJK,41.8
+2022,Eastern Africa,AFE,Tanzania,TZA,54.5
+2022,South-Eastern Asia,ASE,Thailand,THA,47.4
+2022,Caribbean,AMC,The Bahamas,BHS,33
+2022,Western Africa,AFW,The Gambia,GMB,45.1
+2022,South-Eastern Asia,ASE,Timor-Leste,TLS,36.4
+2022,Western Africa,AFW,Togo,TGO,42.7
+2022,Pacific Islands,OPI,Tonga,TON,44.1
+2022,Caribbean,AMC,Trinidad and Tobago,TTO,33.7
+2022,Northern Africa,AFN,Tunisia,TUN,56.7
+2022,Western Asia,ASW,Turkey,TUR,59.2
+2022,Central Asia,ASC,Turkmenistan,TKM,1.5
+2022,Pacific Islands,OPI,Tuvalu,TUV,29.7
+2022,Eastern Africa,AFE,Uganda,UGA,45.6
+2022,Eastern Europe,EUE,Ukraine,UKR,60.6
+2022,Western Asia,ASW,United Arab Emirates,ARE,79.1
+2022,Northern Europe,EUN,United Kingdom,GBR,56.4
+2022,North America,AMN,United States,USA,70.7
+2022,South America,AMZ,Uruguay,URY,55.6
+2022,Central Asia,ASC,Uzbekistan,UZB,66.7
+2022,Pacific Islands,OPI,Vanuatu,VUT,30.4
+2022,South-Eastern Asia,ASE,Vietnam,VNM,54.4
+2022,Western Asia,ASW,Yemen,YEM,35.3
+2022,Eastern Africa,AFE,Zambia,ZMB,33.3
+2022,Eastern Africa,AFE,Zimbabwe,ZWE,42.7

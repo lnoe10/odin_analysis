@@ -1,0 +1,133 @@
+element,macro_sector,data_categories,year,med_score
+Coverage score,Economic and financial statistics,Balance of payments,2020,100
+Coverage score,Economic and financial statistics,Balance of payments,2022,100
+Coverage score,Economic and financial statistics,Government finance,2020,75
+Coverage score,Economic and financial statistics,Government finance,2022,75
+Coverage score,Economic and financial statistics,International trade,2020,83.3
+Coverage score,Economic and financial statistics,International trade,2022,50
+Coverage score,Economic and financial statistics,Labor,2020,60
+Coverage score,Economic and financial statistics,Labor,2022,60
+Coverage score,Economic and financial statistics,Money & banking,2020,100
+Coverage score,Economic and financial statistics,Money & banking,2022,100
+Coverage score,Economic and financial statistics,National accounts,2020,37.5
+Coverage score,Economic and financial statistics,National accounts,2022,50
+Coverage score,Economic and financial statistics,Price indexes,2020,75
+Coverage score,Economic and financial statistics,Price indexes,2022,75
+Coverage score,Environmental statistics,Agriculture & Land Use,2020,40
+Coverage score,Environmental statistics,Agriculture & Land Use,2022,40
+Coverage score,Environmental statistics,Built environment,2020,40
+Coverage score,Environmental statistics,Built environment,2022,40
+Coverage score,Environmental statistics,Energy,2020,50
+Coverage score,Environmental statistics,Energy,2022,50
+Coverage score,Environmental statistics,Pollution,2020,37.5
+Coverage score,Environmental statistics,Pollution,2022,37.5
+Coverage score,Environmental statistics,Resource use,2020,50
+Coverage score,Environmental statistics,Resource use,2022,50
+Coverage score,Social statistics,Crime & justice,2020,30
+Coverage score,Social statistics,Crime & justice,2022,30
+Coverage score,Social statistics,Education facilities,2020,40
+Coverage score,Social statistics,Education facilities,2022,40
+Coverage score,Social statistics,Education outcomes,2020,40
+Coverage score,Social statistics,Education outcomes,2022,40
+Coverage score,Social statistics,Food security & nutrition,2020,37.5
+Coverage score,Social statistics,Food security & nutrition,2022,37.5
+Coverage score,Social statistics,Gender statistics,2020,37.5
+Coverage score,Social statistics,Gender statistics,2022,40
+Coverage score,Social statistics,Health facilities,2020,40
+Coverage score,Social statistics,Health facilities,2022,40
+Coverage score,Social statistics,Health outcomes,2020,30
+Coverage score,Social statistics,Health outcomes,2022,37.5
+Coverage score,Social statistics,Population & vital statistics,2020,62.5
+Coverage score,Social statistics,Population & vital statistics,2022,60
+Coverage score,Social statistics,Poverty & income,2020,40
+Coverage score,Social statistics,Poverty & income,2022,40
+Coverage score,Social statistics,Reproductive health,2020,40
+Coverage score,Social statistics,Reproductive health,2022,40
+Openness score,Economic and financial statistics,Balance of payments,2020,60
+Openness score,Economic and financial statistics,Balance of payments,2022,60
+Openness score,Economic and financial statistics,Government finance,2020,60
+Openness score,Economic and financial statistics,Government finance,2022,60
+Openness score,Economic and financial statistics,International trade,2020,60
+Openness score,Economic and financial statistics,International trade,2022,60
+Openness score,Economic and financial statistics,Labor,2020,60
+Openness score,Economic and financial statistics,Labor,2022,60
+Openness score,Economic and financial statistics,Money & banking,2020,50
+Openness score,Economic and financial statistics,Money & banking,2022,60
+Openness score,Economic and financial statistics,National accounts,2020,60
+Openness score,Economic and financial statistics,National accounts,2022,60
+Openness score,Economic and financial statistics,Price indexes,2020,70
+Openness score,Economic and financial statistics,Price indexes,2022,70
+Openness score,Environmental statistics,Agriculture & Land Use,2020,60
+Openness score,Environmental statistics,Agriculture & Land Use,2022,60
+Openness score,Environmental statistics,Built environment,2020,50
+Openness score,Environmental statistics,Built environment,2022,50
+Openness score,Environmental statistics,Energy,2020,60
+Openness score,Environmental statistics,Energy,2022,40
+Openness score,Environmental statistics,Pollution,2020,50
+Openness score,Environmental statistics,Pollution,2022,50
+Openness score,Environmental statistics,Resource use,2020,60
+Openness score,Environmental statistics,Resource use,2022,60
+Openness score,Social statistics,Crime & justice,2020,40
+Openness score,Social statistics,Crime & justice,2022,50
+Openness score,Social statistics,Education facilities,2020,50
+Openness score,Social statistics,Education facilities,2022,60
+Openness score,Social statistics,Education outcomes,2020,50
+Openness score,Social statistics,Education outcomes,2022,60
+Openness score,Social statistics,Food security & nutrition,2020,50
+Openness score,Social statistics,Food security & nutrition,2022,50
+Openness score,Social statistics,Gender statistics,2020,60
+Openness score,Social statistics,Gender statistics,2022,60
+Openness score,Social statistics,Health facilities,2020,60
+Openness score,Social statistics,Health facilities,2022,50
+Openness score,Social statistics,Health outcomes,2020,50
+Openness score,Social statistics,Health outcomes,2022,50
+Openness score,Social statistics,Population & vital statistics,2020,60
+Openness score,Social statistics,Population & vital statistics,2022,60
+Openness score,Social statistics,Poverty & income,2020,60
+Openness score,Social statistics,Poverty & income,2022,60
+Openness score,Social statistics,Reproductive health,2020,50
+Openness score,Social statistics,Reproductive health,2022,60
+Overall score,Economic and financial statistics,Balance of payments,2020,75
+Overall score,Economic and financial statistics,Balance of payments,2022,75
+Overall score,Economic and financial statistics,Government finance,2020,61.1
+Overall score,Economic and financial statistics,Government finance,2022,61.1
+Overall score,Economic and financial statistics,International trade,2020,68.8
+Overall score,Economic and financial statistics,International trade,2022,68.8
+Overall score,Economic and financial statistics,Labor,2020,55.6
+Overall score,Economic and financial statistics,Labor,2022,60
+Overall score,Economic and financial statistics,Money & banking,2020,62.5
+Overall score,Economic and financial statistics,Money & banking,2022,68.8
+Overall score,Economic and financial statistics,National accounts,2020,55.6
+Overall score,Economic and financial statistics,National accounts,2022,56.3
+Overall score,Economic and financial statistics,Price indexes,2020,66.7
+Overall score,Economic and financial statistics,Price indexes,2022,66.7
+Overall score,Environmental statistics,Agriculture & Land Use,2020,50
+Overall score,Environmental statistics,Agriculture & Land Use,2022,50
+Overall score,Environmental statistics,Built environment,2020,50
+Overall score,Environmental statistics,Built environment,2022,45
+Overall score,Environmental statistics,Energy,2020,56.3
+Overall score,Environmental statistics,Energy,2022,50
+Overall score,Environmental statistics,Pollution,2020,44.4
+Overall score,Environmental statistics,Pollution,2022,44.4
+Overall score,Environmental statistics,Resource use,2020,61.1
+Overall score,Environmental statistics,Resource use,2022,56.3
+Overall score,Social statistics,Crime & justice,2020,40
+Overall score,Social statistics,Crime & justice,2022,45
+Overall score,Social statistics,Education facilities,2020,45
+Overall score,Social statistics,Education facilities,2022,50
+Overall score,Social statistics,Education outcomes,2020,45
+Overall score,Social statistics,Education outcomes,2022,50
+Overall score,Social statistics,Food security & nutrition,2020,44.4
+Overall score,Social statistics,Food security & nutrition,2022,50
+Overall score,Social statistics,Gender statistics,2020,50
+Overall score,Social statistics,Gender statistics,2022,45
+Overall score,Social statistics,Health facilities,2020,50
+Overall score,Social statistics,Health facilities,2022,50
+Overall score,Social statistics,Health outcomes,2020,45
+Overall score,Social statistics,Health outcomes,2022,45
+Overall score,Social statistics,Population & vital statistics,2020,60
+Overall score,Social statistics,Population & vital statistics,2022,60
+Overall score,Social statistics,Poverty & income,2020,50
+Overall score,Social statistics,Poverty & income,2022,50
+Overall score,Social statistics,Reproductive health,2020,50
+Overall score,Social statistics,Reproductive health,2022,50
